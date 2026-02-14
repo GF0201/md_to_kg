@@ -1,0 +1,209 @@
+[
+    [
+        {
+            "head": "NFS",
+            "relation": "允许应用进程打开文件",
+            "tail": "远地文件"
+        },
+        {
+            "head": "NFS",
+            "relation": "使用户复制片段",
+            "tail": "大文件的一部分"
+        },
+        {
+            "head": "计算机A",
+            "relation": "传送数据到",
+            "tail": "计算机B"
+        },
+        {
+            "head": "TFTP",
+            "relation": "使用UDP数据报",
+            "tail": "需要差错改正措施"
+        },
+        {
+            "head": "TFTP",
+            "relation": "支持文件传输",
+            "tail": "不支持交互"
+        }
+    ],
+    [
+        {
+            "head": "TFTP",
+            "relation": "使用于",
+            "tail": "UDP环境"
+        },
+        {
+            "head": "TFTP",
+            "relation": "优点",
+            "tail": "内存较小"
+        },
+        {
+            "head": "TFTP",
+            "relation": "支持",
+            "tail": "ASCII码或二进制传送"
+        },
+        {
+            "head": "TFTP",
+            "relation": "数据块大小",
+            "tail": "512字节"
+        },
+        {
+            "head": "TFTP",
+            "relation": "工作方式",
+            "tail": "停止等待协议"
+        }
+    ],
+    [
+        {
+            "head": "TFTP客户进程",
+            "relation": "发送",
+            "tail": "读请求报文"
+        },
+        {
+            "head": "TFTP客户进程",
+            "relation": "发送",
+            "tail": "写请求报文"
+        },
+        {
+            "head": "TFTP服务器进程",
+            "relation": "选择",
+            "tail": "新端口"
+        },
+        {
+            "head": "文件块",
+            "relation": "确认",
+            "tail": "PDU"
+        },
+        {
+            "head": "数据报文",
+            "relation": "包含",
+            "tail": "首部和数据"
+        },
+        {
+            "head": "文件长度",
+            "relation": "整数倍于",
+            "tail": "512字节"
+        },
+        {
+            "head": "TFTP客户进程",
+            "relation": "登录",
+            "tail": "远地主机"
+        },
+        {
+            "head": "TELNET",
+            "relation": "基于",
+            "tail": "TCP连接注册"
+        }
+    ],
+    [
+        {
+            "head": "TELNET",
+            "relation": "使用",
+            "tail": "TCP连接"
+        },
+        {
+            "head": "TELNET",
+            "relation": "提供",
+            "tail": "终端仿真协议服务"
+        },
+        {
+            "head": "TELNET",
+            "relation": "采用",
+            "tail": "客户服务器方式"
+        },
+        {
+            "head": "TELNET",
+            "relation": "处理",
+            "tail": "新的请求并产生从属进程"
+        },
+        {
+            "head": "TELNET",
+            "relation": "适应",
+            "tail": "计算机和操作系统的差异"
+        }
+    ],
+    [
+        {
+            "head": "NVT",
+            "relation": "定义为",
+            "tail": "网络虚拟终端"
+        },
+        {
+            "head": "NVT",
+            "relation": "用于",
+            "tail": "TELNET通信"
+        },
+        {
+            "head": "NVT",
+            "relation": "传输格式",
+            "tail": "8位一个字节"
+        },
+        {
+            "head": "NVT",
+            "relation": "使用",
+            "tail": "7位ASCII码"
+        },
+        {
+            "head": "NVT",
+            "relation": "控制命令",
+            "tail": "高位置1时"
+        },
+        {
+            "head": "NVT",
+            "relation": "包含",
+            "tail": "95个可打印字符"
+        },
+        {
+            "head": "NVT",
+            "relation": "定义了",
+            "tail": "两字符控制命令"
+        }
+    ],
+    [
+        {
+            "head": "TELNET",
+            "relation": "使用",
+            "tail": "ASCII码的控制字符"
+        },
+        {
+            "head": "TELNET",
+            "relation": "定义",
+            "tail": "CR-LF为标准行结束控制符"
+        },
+        {
+            "head": "TELNET客户",
+            "relation": "转换",
+            "tail": "回车按键为CR-LF"
+        },
+        {
+            "head": "TELNET服务器",
+            "relation": "转换",
+            "tail": "CR-LF为远地机器的行结束字符"
+        },
+        {
+            "head": "TELNET",
+            "relation": "支持",
+            "tail": "选项协商"
+        },
+        {
+            "head": "选项协商",
+            "relation": "使",
+            "tail": "客户和服务器商定使用更多终端功能"
+        },
+        {
+            "head": "万维网",
+            "relation": "简称为",
+            "tail": "Web"
+        },
+        {
+            "head": "万维网",
+            "relation": "是一个",
+            "tail": "大规模的信息储藏所"
+        },
+        {
+            "head": "万维网",
+            "relation": "通过链接方法",
+            "tail": "方便地访问另一个站点"
+        }
+    ]
+]

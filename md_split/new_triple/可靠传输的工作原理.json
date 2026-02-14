@@ -1,0 +1,347 @@
+[
+    {
+        "head": "socket",
+        "relation": "表示",
+        "tail": "API接口"
+    },
+    {
+        "head": "socket",
+        "relation": "包含",
+        "tail": "函数名"
+    },
+    {
+        "head": "socket",
+        "relation": "作为端点",
+        "tail": "调用函数"
+    },
+    {
+        "head": "socket",
+        "relation": "返回值",
+        "tail": "描述符"
+    },
+    {
+        "head": "socket实现",
+        "relation": "称为",
+        "tail": "Berkeley内核"
+    },
+    {
+        "head": "TCP",
+        "relation": "发送",
+        "tail": "报文段"
+    },
+    {
+        "head": "IP层",
+        "relation": "提供",
+        "tail": "尽力服务"
+    },
+    {
+        "head": "传输信道",
+        "relation": "特点之一",
+        "tail": "不产生差错"
+    },
+    {
+        "head": "TCP",
+        "relation": "确保",
+        "tail": "通信可靠性"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "传输信道"
+    },
+    {
+        "head": "可靠传输",
+        "relation": "依赖于",
+        "tail": "理想传输条件"
+    },
+    {
+        "head": "理想传输条件",
+        "relation": "包括",
+        "tail": "不产生差错的传输信道"
+    },
+    {
+        "head": "理想传输条件",
+        "relation": "包括",
+        "tail": "接收方能够及时处理收到的数据"
+    },
+    {
+        "head": "实际网络",
+        "relation": "不具备",
+        "tail": "理想传输条件"
+    },
+    {
+        "head": "可靠传输协议",
+        "relation": "实现方式",
+        "tail": "发送方重传出现差错的数据"
+    },
+    {
+        "head": "可靠传输协议",
+        "relation": "实现方式",
+        "tail": "接收方通知发送方降低数据发送速率"
+    },
+    {
+        "head": "停止等待协议",
+        "relation": "属于",
+        "tail": "可靠传输协议"
+    },
+    {
+        "head": "全双工通信",
+        "relation": "双方角色",
+        "tail": "发送方和接收方"
+    },
+    {
+        "head": "分组",
+        "relation": "在",
+        "tail": "数据单元中"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "链路层"
+    },
+    {
+        "head": "链路层",
+        "relation": "使用",
+        "tail": "可靠的通信协议"
+    },
+    {
+        "head": "运输层",
+        "relation": "传送",
+        "tail": "报文段"
+    },
+    {
+        "head": "网络层",
+        "relation": "传送",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "可靠传输",
+        "relation": "使用",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "差错检测",
+        "relation": "用于",
+        "tail": "分组在传输过程中"
+    },
+    {
+        "head": "超时重传",
+        "relation": "处理",
+        "tail": "差错"
+    },
+    {
+        "head": "可靠传输协议",
+        "relation": "包含机制",
+        "tail": "超时重传"
+    },
+    {
+        "head": "发送方A",
+        "relation": "执行操作",
+        "tail": "设置超时计时器"
+    },
+    {
+        "head": "确认分组",
+        "relation": "需要进行",
+        "tail": "编号"
+    },
+    {
+        "head": "已发送的分组副本",
+        "relation": "保留状态",
+        "tail": "暂时保留"
+    },
+    {
+        "head": "超时计时器",
+        "relation": "设置重传时间",
+        "tail": "平均往返时间更长"
+    },
+    {
+        "head": "否认报文",
+        "relation": "不使用于",
+        "tail": "可靠传输协议"
+    },
+    {
+        "head": "分组编号",
+        "relation": "重复使用",
+        "tail": "有限位数"
+    },
+    {
+        "head": "帧",
+        "relation": "采用停止等待协议",
+        "tail": "1位编号"
+    },
+    {
+        "head": "编号方法",
+        "relation": "影响",
+        "tail": "可靠传输"
+    },
+    {
+        "head": "重传时间",
+        "relation": "影响",
+        "tail": "网络资源利用"
+    },
+    {
+        "head": "运输层",
+        "relation": "处理",
+        "tail": "分组丢失和确认"
+    },
+    {
+        "head": "往返时间",
+        "relation": "假设为固定值",
+        "tail": "简化原理说明"
+    },
+    {
+        "head": "超时重传",
+        "relation": "触发",
+        "tail": "分组重传"
+    },
+    {
+        "head": "确认",
+        "relation": "用于",
+        "tail": "传输过程中的可靠性"
+    },
+    {
+        "head": "超时重传",
+        "relation": "实现",
+        "tail": "可靠通信"
+    },
+    {
+        "head": "自动重传请求ARQ",
+        "relation": "简称",
+        "tail": "确认和重传机制"
+    },
+    {
+        "head": "发送方",
+        "relation": "处理重复确认",
+        "tail": "丢弃并忽略"
+    },
+    {
+        "head": "停止等待协议",
+        "relation": "优点",
+        "tail": "简单"
+    },
+    {
+        "head": "停止等待协议",
+        "relation": "缺点",
+        "tail": "信道利用率低"
+    },
+    {
+        "head": "信道利用率",
+        "relation": "计算公式",
+        "tail": "TD/(L+RTT+TA)"
+    },
+    {
+        "head": "往返时间",
+        "relation": "示例值",
+        "tail": "20ms"
+    },
+    {
+        "head": "分组长度",
+        "relation": "示例值",
+        "tail": "1200bit"
+    },
+    {
+        "head": "发送速率",
+        "relation": "示例值",
+        "tail": "1Mbit/s"
+    },
+    {
+        "head": "信道利用率",
+        "relation": "等于",
+        "tail": "5.66%"
+    },
+    {
+        "head": "发送速率提高到10Mbit/s",
+        "relation": "导致",
+        "tail": "信道利用率降低至5.96×10^-3"
+    },
+    {
+        "head": "往返时间RTT远大于分组发送时间",
+        "relation": "导致",
+        "tail": "信道利用率低"
+    },
+    {
+        "head": "停止等待协议",
+        "relation": "不使用",
+        "tail": "提高传输效率"
+    },
+    {
+        "head": "流水线传输",
+        "relation": "采用",
+        "tail": "连续发送多个分组"
+    },
+    {
+        "head": "连续ARQ协议",
+        "relation": "用于",
+        "tail": "流水线传输"
+    },
+    {
+        "head": "滑动窗口协议",
+        "relation": "用于",
+        "tail": "流水线传输"
+    },
+    {
+        "head": "连续ARQ协议",
+        "relation": "提高",
+        "tail": "信道利用率"
+    },
+    {
+        "head": "发送窗口",
+        "relation": "维持",
+        "tail": "发送方"
+    },
+    {
+        "head": "分组序号",
+        "relation": "从小到大",
+        "tail": "发送"
+    },
+    {
+        "head": "确认",
+        "relation": "使发送窗口向前滑动",
+        "tail": "收到一个"
+    },
+    {
+        "head": "发送窗口",
+        "relation": "表示",
+        "tail": "分组的位置"
+    },
+    {
+        "head": "累积确认",
+        "relation": "方式",
+        "tail": "接收方采用"
+    },
+    {
+        "head": "Go-back-N协议",
+        "relation": "表示",
+        "tail": "需要再退回来重传已发送过的N个分组"
+    },
+    {
+        "head": "ARQ协议",
+        "relation": "包括",
+        "tail": "Go-back-N"
+    },
+    {
+        "head": "TCP",
+        "relation": "包含",
+        "tail": "报文段首部"
+    },
+    {
+        "head": "TCP报文段首部",
+        "relation": "由",
+        "tail": "固定部分和选项组成"
+    },
+    {
+        "head": "TCP报文段首部固定部分",
+        "relation": "包含",
+        "tail": "源端口和目的端口字段"
+    },
+    {
+        "head": "TCP报文段首部固定部分",
+        "relation": "包含",
+        "tail": "序号字段"
+    },
+    {
+        "head": "TCP",
+        "relation": "属于",
+        "tail": "计算机网络"
+    }
+]

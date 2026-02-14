@@ -1,0 +1,546 @@
+[
+    [
+        {
+            "head": "SCTP",
+            "relation": "是",
+            "tail": "流控制传输协议"
+        },
+        {
+            "head": "SCTP",
+            "relation": "结合了",
+            "tail": "UDP和TCP的优点"
+        },
+        {
+            "head": "SCTP",
+            "relation": "用于",
+            "tail": "信令传送"
+        },
+        {
+            "head": "SCTP",
+            "relation": "是",
+            "tail": "面向报文的可靠传输协议"
+        },
+        {
+            "head": "LTE",
+            "relation": "涉及",
+            "tail": "控制层面和用户层面的数据传送"
+        },
+        {
+            "head": "WiMAX",
+            "relation": "缩写为",
+            "tail": "Worldwide Interoperability for Microwave Access"
+        },
+        {
+            "head": "WiMAX",
+            "relation": "标准",
+            "tail": "IEEE802.16"
+        }
+    ],
+    [
+        {
+            "head": "移动IP",
+            "relation": "属于",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "笔记本电脑",
+            "relation": "出现于",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "5G标准",
+            "relation": "发布于",
+            "tail": "3GPP R15/16"
+        },
+        {
+            "head": "LTE-A",
+            "relation": "达到",
+            "tail": "4G标准"
+        },
+        {
+            "head": "LTE-APro",
+            "relation": "吞吐量超过",
+            "tail": "3Gbit/s"
+        }
+    ],
+    [
+        {
+            "head": "动态主机配置协议",
+            "relation": "用于",
+            "tail": "自动获取IP地址"
+        },
+        {
+            "head": "移动站",
+            "relation": "需要保持",
+            "tail": "IP地址不变"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "在漫游时应保持",
+            "tail": "不中断"
+        },
+        {
+            "head": "移动IP",
+            "relation": "研究问题",
+            "tail": "使计算机在移动中使用原有IP地址"
+        }
+    ],
+    [
+        {
+            "head": "移动IP",
+            "relation": "提出时间",
+            "tail": "1996年"
+        },
+        {
+            "head": "RFC2002",
+            "relation": "描述",
+            "tail": "移动IP"
+        },
+        {
+            "head": "Perkins",
+            "relation": "改进",
+            "tail": "移动IP"
+        },
+        {
+            "head": "RFC5944,6275",
+            "relation": "标准状态",
+            "tail": "建议标准"
+        },
+        {
+            "head": "移动站A",
+            "relation": "拥有",
+            "tail": "永久地址/归属地址"
+        }
+    ],
+    [
+        {
+            "head": "移动站",
+            "relation": "属于",
+            "tail": "归属网络"
+        },
+        {
+            "head": "永久地址",
+            "relation": "关联",
+            "tail": "归属网络"
+        },
+        {
+            "head": "归属代理",
+            "relation": "是",
+            "tail": "路由器和主机"
+        },
+        {
+            "head": "归属代理",
+            "relation": "完成功能",
+            "tail": "应用层"
+        },
+        {
+            "head": "移动站A",
+            "relation": "接入",
+            "tail": "被访网络"
+        },
+        {
+            "head": "被访网络",
+            "relation": "使用",
+            "tail": "外地代理"
+        }
+    ],
+    [
+        {
+            "head": "外地代理",
+            "relation": "创建",
+            "tail": "转交地址"
+        },
+        {
+            "head": "转交地址",
+            "relation": "网络号",
+            "tail": "15.0.0.0/8"
+        },
+        {
+            "head": "移动站A",
+            "relation": "到达",
+            "tail": "被访网络15.0.0.0/8"
+        },
+        {
+            "head": "外地代理",
+            "relation": "通知",
+            "tail": "归属代理"
+        },
+        {
+            "head": "转交地址",
+            "relation": "用途",
+            "tail": "移动站、归属代理以及外地代理"
+        },
+        {
+            "head": "外地代理",
+            "relation": "使用",
+            "tail": "MAC地址"
+        },
+        {
+            "head": "外地代理",
+            "关系": "记录",
+            "tail": "移动站的MAC地址"
+        },
+        {
+            "head": "转交地址",
+            "relation": "叫作",
+            "tail": "同址转交地址"
+        }
+    ],
+    [
+        {
+            "head": "移动站",
+            "relation": "使用",
+            "tail": "转交地址"
+        },
+        {
+            "head": "同址转交地址",
+            "relation": "使能",
+            "tail": "移动站无需关注外地代理的可用性"
+        },
+        {
+            "head": "移动站",
+            "relation": "需要",
+            "tail": "额外软件充当自己的外地代理"
+        },
+        {
+            "head": "归属代理",
+            "relation": "截获",
+            "tail": "发给移动站的数据报"
+        },
+        {
+            "head": "数据报",
+            "relation": "目的地址是",
+            "tail": "131.8.6.7"
+        },
+        {
+            "head": "归属代理",
+            "relation": "知道",
+            "tail": "移动站的转交地址"
+        },
+        {
+            "head": "封装的数据报",
+            "relation": "发送到",
+            "tail": "被访网络的外地代理"
+        },
+        {
+            "head": "隧道技术",
+            "relation": "实现",
+            "tail": "IP-in-IP"
+        }
+    ],
+    [
+        {
+            "head": "隧道技术",
+            "relation": "包含",
+            "tail": "IP-in-IP"
+        },
+        {
+            "head": "数据报",
+            "relation": "经过",
+            "tail": "拆封"
+        },
+        {
+            "head": "永久地址",
+            "relation": "目的地址",
+            "tail": "131.8.6.7"
+        },
+        {
+            "head": "归属代理",
+            "relation": "管理",
+            "tail": "移动站的转交地址"
+        },
+        {
+            "head": "外地代理",
+            "relation": "向",
+            "tail": "归属代理登记"
+        },
+        {
+            "head": "移动站",
+            "relation": "使用",
+            "tail": "永久地址"
+        },
+        {
+            "head": "协议",
+            "relation": "支持",
+            "tail": "移动性"
+        },
+        {
+            "head": "移动站",
+            "relation": "接入",
+            "tail": "被访网络"
+        },
+        {
+            "head": "登记",
+            "relation": "获得",
+            "tail": "临时的转交地址"
+        }
+    ],
+    [
+        {
+            "head": "移动站",
+            "relation": "接入",
+            "tail": "归属网络"
+        },
+        {
+            "head": "外地代理",
+            "relation": "登记",
+            "tail": "转交地址"
+        },
+        {
+            "head": "归属代理",
+            "relation": "封装",
+            "tail": "数据报"
+        },
+        {
+            "head": "外地代理",
+            "relation": "拆封",
+            "tail": "数据报"
+        },
+        {
+            "head": "移动站",
+            "relation": "从网络移动到",
+            "tail": "被访网络"
+        },
+        {
+            "head": "归属代理",
+            "relation": "转发",
+            "tail": "数据报"
+        }
+    ],
+    [
+        {
+            "head": "间接路由选择",
+            "relation": "引起",
+            "tail": "数据报转发的低效"
+        },
+        {
+            "head": "三角形路由选择问题",
+            "relation": "描述",
+            "tail": "数据报从B发送到A的归属代理，再转发给漫游到被访网络的A"
+        },
+        {
+            "head": "归属代理",
+            "relation": "询问",
+            "tail": "移动站在被访网络的转交地址"
+        },
+        {
+            "head": "通信者代理",
+            "relation": "发送数据报",
+            "tail": "通过隧道技术到被访网络的外地代理"
+        },
+        {
+            "head": "外地代理",
+            "relation": "拆封并转发",
+            "tail": "数据报给移动站"
+        }
+    ],
+    [
+        {
+            "head": "移动用户定位协议",
+            "relation": "用于实现",
+            "tail": "通信者代理向归属代理查询转交地址"
+        },
+        {
+            "head": "外地代理",
+            "relation": "由",
+            "tail": "被访网络提供"
+        },
+        {
+            "head": "锚定外地代理",
+            "relation": "首次漫游时",
+            "tail": "被定义为外地代理"
+        },
+        {
+            "head": "数据报",
+            "relation": "通过",
+            "tail": "外地代理进行转发"
+        }
+    ],
+    [
+        {
+            "head": "移动站",
+            "relation": "使用",
+            "tail": "IP地址"
+        },
+        {
+            "head": "外地代理",
+            "relation": "处理",
+            "tail": "封装数据报"
+        },
+        {
+            "head": "移动性管理",
+            "relation": "涉及",
+            "tail": "协议"
+        },
+        {
+            "head": "移动站",
+            "relation": "漫游到",
+            "tail": "另一个网络"
+        },
+        {
+            "head": "移动性管理",
+            "relation": "包括",
+            "tail": "安全问题"
+        }
+    ],
+    [
+        {
+            "head": "移动IP",
+            "relation": "依赖于",
+            "tail": "永久IP地址"
+        },
+        {
+            "head": "运营商",
+            "relation": "分配",
+            "tail": "永久IP地址"
+        },
+        {
+            "head": "无线网络",
+            "relation": "影响",
+            "tail": "高层协议"
+        },
+        {
+            "head": "移动用户",
+            "relation": "更换连接点",
+            "tail": "基站"
+        },
+        {
+            "head": "网络连接",
+            "relation": "发生中断",
+            "tail": "短时间"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "处理",
+            "tail": "报段丢失"
+        },
+        {
+            "head": "TCP",
+            "relation": "采取措施",
+            "tail": "减小拥塞窗口"
+        },
+        {
+            "head": "移动用户",
+            "relation": "导致",
+            "tail": "报段丢失"
+        },
+        {
+            "head": "基站切换",
+            "relation": "引起",
+            "tail": "报段丢失"
+        },
+        {
+            "head": "网络拥塞",
+            "relation": "造成",
+            "tail": "报段丢失"
+        },
+        {
+            "head": "比特差错",
+            "relation": "影响",
+            "tail": "网络性能"
+        },
+        {
+            "head": "切换",
+            "relation": "产生",
+            "tail": "报段丢失"
+        }
+    ],
+    [
+        {
+            "head": "自动请求重传ARQ协议",
+            "relation": "属于",
+            "tail": "本地恢复"
+        },
+        {
+            "head": "TCP",
+            "relation": "需要知道",
+            "tail": "链路使用情况"
+        },
+        {
+            "head": "TCP",
+            "relation": "采用",
+            "tail": "拥塞控制策略"
+        },
+        {
+            "head": "报段丢失",
+            "relation": "区分",
+            "tail": "有线网段和无线网段"
+        }
+    ],
+    [
+        {
+            "head": "端到端TCP连接",
+            "relation": "被拆分",
+            "tail": "两个互相串接的TCP连接"
+        },
+        {
+            "head": "移动用户",
+            "relation": "发起",
+            "tail": "从cid:4877线接入点到有线网段连接"
+        },
+        {
+            "head": "tcp连接",
+            "relation": "使用",
+            "tail": "标准的TCP协议"
+        },
+        {
+            "head": "tcp连接",
+            "relation": "使用",
+            "tail": "有选择确认的TCP协议"
+        },
+        {
+            "head": "tcp连接",
+            "relation": "使用",
+            "tail": "专用的、有差错恢复的UDP协议"
+        },
+        {
+            "head": "拆分TCP连接的方法",
+            "relation": "改善",
+            "tail": "蜂窝cid:4874线通信网性能"
+        },
+        {
+            "head": "移动通信",
+            "relation": "发展规律",
+            "tail": "十年一代"
+        },
+        {
+            "head": "lG",
+            "relation": "演进到",
+            "tail": "2G"
+        },
+        {
+            "head": "2G",
+            "relation": "演进到",
+            "tail": "3G"
+        },
+        {
+            "head": "3G",
+            "relation": "演进到",
+            "tail": "4G"
+        }
+    ],
+    [
+        {
+            "head": "5G",
+            "relation": "替代",
+            "tail": "4G"
+        },
+        {
+            "head": "5G",
+            "relation": "提出时间",
+            "tail": "2019年10月31日"
+        },
+        {
+            "head": "5G",
+            "relation": "技术特点",
+            "tail": "高速率移动互联网业务"
+        },
+        {
+            "head": "6G",
+            "relation": "概念",
+            "tail": "相继被提出"
+        }
+    ]
+]

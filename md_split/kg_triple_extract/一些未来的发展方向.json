@@ -1,0 +1,147 @@
+[
+    [
+        {
+            "head": "入侵检测方法",
+            "relation": "分为",
+            "tail": "基于特征和基于异常"
+        },
+        {
+            "head": "基于特征的IDS",
+            "relation": "维护",
+            "tail": "攻击标志性特征数据库"
+        },
+        {
+            "head": "规则集",
+            "relation": "关联",
+            "tail": "入侵活动"
+        },
+        {
+            "head": "网络安全专家",
+            "relation": "生成",
+            "tail": "特征和规则"
+        },
+        {
+            "head": "网络管理员",
+            "relation": "定制并加入",
+            "tail": "数据库"
+        },
+        {
+            "head": "基于特征的IDS",
+            "relation": "只能检测",
+            "tail": "已知攻击"
+        },
+        {
+            "head": "基于异常的IDS",
+            "relation": "通过观察",
+            "tail": "正常运行的网络流量"
+        },
+        {
+            "head": "统计特性",
+            "relation": "学习",
+            "tail": "正常流量"
+        },
+        {
+            "head": "统计规律",
+            "relation": "不符合",
+            "tail": "正常情况"
+        },
+        {
+            "head": "ICMPping报文",
+            "relation": "突然增加",
+            "tail": "可能入侵行为"
+        },
+        {
+            "head": "基于特征的IDS",
+            "relation": "主要针对",
+            "tail": "已知攻击"
+        },
+        {
+            "head": "某些IDS",
+            "relation": "包括",
+            "tail": "基于异常特性"
+        }
+    ],
+    [
+        {
+            "head": "IDS",
+            "relation": "降低",
+            "tail": "漏报率"
+        },
+        {
+            "head": "IDS",
+            "relation": "增加",
+            "tail": "误报率"
+        },
+        {
+            "head": "误报率",
+            "relation": "导致",
+            "tail": "虚假警报"
+        },
+        {
+            "head": "网络管理员",
+            "relation": "花费时间分析",
+            "tail": "报警信息"
+        },
+        {
+            "head": "椭圆曲线密码ECC",
+            "relation": "在TLS1.3中占据重要地位"
+        },
+        {
+            "head": "椭圆曲线密码系统",
+            "relation": "应用于",
+            "tail": "电子护照"
+        },
+        {
+            "head": "椭圆曲线密码系统",
+            "relation": "应用于",
+            "tail": "金融系统"
+        },
+        {
+            "head": "移动安全",
+            "relation": "提出更高要求",
+            "tail": "网络安全"
+        },
+        {
+            "head": "移动支付",
+            "relation": "向",
+            "tail": "网络安全提出更高要求"
+        }
+    ],
+    [
+        {
+            "head": "量子密码",
+            "relation": "属于",
+            "tail": "后量子密码学"
+        },
+        {
+            "head": "商密九号算法SM9",
+            "relation": "基于",
+            "tail": "标识密码"
+        },
+        {
+            "head": "商密九号算法SM9",
+            "relation": "用于",
+            "tail": "互联网应用安全保障"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "包括",
+            "tail": "更改报文流"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "包括",
+            "tail": "拒绝服务"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "包括",
+            "tail": "伪造初始化"
+        },
+        {
+            "head": "主动攻击",
+            "关系": "包括",
+            "tail": "恶意程序"
+        }
+    ]
+]

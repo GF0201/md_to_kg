@@ -1,0 +1,273 @@
+[
+    [
+        {
+            "head": "动态主机配置协议DHCP",
+            "relation": "用于",
+            "tail": "分配IP地址"
+        },
+        {
+            "head": "IP地址",
+            "relation": "包含",
+            "tail": "网络号和主机号"
+        },
+        {
+            "head": "计算机",
+            "relation": "需要配置",
+            "tail": "IP地址、子网掩码、默认路由器的IP地址、域名服务器的IP地址"
+        }
+    ],
+    [
+        {
+            "head": "IP地址",
+            "relation": "指出了",
+            "tail": "个网络"
+        },
+        {
+            "head": "协议配置",
+            "relation": "需要进行",
+            "tail": "手工"
+        },
+        {
+            "head": "DHCP",
+            "relation": "提供",
+            "tail": "动态主机配置"
+        },
+        {
+            "head": "DHCP",
+            "relation": "允许",
+            "tail": "即插即用连网"
+        },
+        {
+            "head": "计算机",
+            "relation": "使用",
+            "tail": "DHCP获取配置信息"
+        },
+        {
+            "head": "DHCP服务器",
+            "relation": "给",
+            "tail": "固定位置的计算机指派永久地址"
+        },
+        {
+            "head": "DHCP",
+            "relation": "采用",
+            "tail": "客户服务器方式"
+        }
+    ],
+    [
+        {
+            "head": "DHCP",
+            "relation": "使用",
+            "tail": "客户服务器方式"
+        },
+        {
+            "head": "主机",
+            "relation": "发送",
+            "tail": "DHCPDISCOVER报文"
+        },
+        {
+            "head": "DHCPDISCOVER报文",
+            "relation": "目的IP地址",
+            "tail": "255.255.255.255"
+        },
+        {
+            "head": "主机",
+            "relation": "广播发送",
+            "tail": "DHCPDISCOVER报文"
+        },
+        {
+            "head": "DHCP服务器",
+            "relation": "查找",
+            "tail": "计算机配置信息"
+        },
+        {
+            "head": "DHCP服务器",
+            "relation": "分配",
+            "tail": "IP地址池中的地址"
+        },
+        {
+            "head": "DHCP服务器",
+            "relation": "回答",
+            "tail": "DHCPOFFER报文"
+        },
+        {
+            "head": "DHCPOFFER报文",
+            "relation": "提供",
+            "tail": "IP地址等配置信息"
+        },
+        {
+            "head": "路由器",
+            "relation": "配置",
+            "tail": "DHCP服务器的IP地址信息"
+        }
+    ],
+    [
+        {
+            "head": "DHCP中继代理",
+            "relation": "转发",
+            "tail": "发现报文"
+        },
+        {
+            "head": "DHCP中继代理",
+            "relation": "单播",
+            "tail": "提供报文"
+        },
+        {
+            "head": "发现报文",
+            "relation": "广播",
+            "tail": "主机A"
+        },
+        {
+            "head": "租用期",
+            "relation": "由DHCP服务器决定",
+            "tail": "时间长度"
+        },
+        {
+            "head": "IP地址",
+            "relation": "分配给",
+            "tail": "DHCP客户"
+        }
+    ],
+    [
+        {
+            "head": "DHCP",
+            "relation": "使用",
+            "tail": "UDP端口68"
+        },
+        {
+            "head": "DHCP",
+            "relation": "使用",
+            "tail": "UDP端口67"
+        },
+        {
+            "head": "租用期",
+            "relation": "由",
+            "tail": "4字节二进制数字表示"
+        },
+        {
+            "head": "租用期",
+            "relation": "单位",
+            "tail": "秒"
+        },
+        {
+            "head": "租用期范围",
+            "relation": "从",
+            "tail": "1秒到136年"
+        },
+        {
+            "head": "DHCP客户",
+            "relation": "发送",
+            "tail": "发现报文"
+        },
+        {
+            "head": "DHCP服务器",
+            "relation": "发出",
+            "tail": "提供报文"
+        }
+    ],
+    [
+        {
+            "head": "DHCP客户",
+            "relation": "从多个选择",
+            "tail": "DHCP服务器"
+        },
+        {
+            "head": "被选择的DHCP服务器",
+            "relation": "发送确认报文",
+            "tail": "DHCPACK"
+        },
+        {
+            "head": "DHCP客户",
+            "relation": "进入状态",
+            "tail": "已绑定状态"
+        },
+        {
+            "head": "DHCP客户",
+            "relation": "设置计时器",
+            "tail": "T1和T2"
+        },
+        {
+            "head": "T1时间到",
+            "relation": "触发请求报文发送",
+            "tail": "DHCPREQUEST"
+        },
+        {
+            "head": "DHCP服务器",
+            "relation": "回应确认报文",
+            "tail": "DHCPACK"
+        },
+        {
+            "head": "DHCP服务器",
+            "relation": "回应否认报文",
+            "tail": "DHCPNACK"
+        }
+    ],
+    [
+        {
+            "head": "DHCP",
+            "relation": "响应",
+            "tail": "DHCPREQUEST"
+        },
+        {
+            "head": "DHCP客户",
+            "relation": "发送",
+            "tail": "DHCPRELEASE"
+        },
+        {
+            "head": "Windows操作系统",
+            "relation": "使用",
+            "tail": "DHCP协议"
+        },
+        {
+            "head": "TCP/IP",
+            "relation": "属性",
+            "tail": "自动获得IP地址"
+        },
+        {
+            "head": "SNMP",
+            "relation": "网络管理",
+            "tail": "基本概念"
+        }
+    ],
+    [
+        {
+            "head": "网络",
+            "relation": "是",
+            "tail": "分布式系统"
+        },
+        {
+            "head": "网络节点",
+            "relation": "包含",
+            "tail": "路由器"
+        },
+        {
+            "head": "网络管理模型",
+            "relation": "包括",
+            "tail": "管理站"
+        },
+        {
+            "head": "管理站",
+            "relation": "称为",
+            "tail": "管理器"
+        },
+        {
+            "head": "管理站",
+            "relation": "是",
+            "tail": "高性能工作站"
+        },
+        {
+            "head": "管理站",
+            "relation": "由",
+            "tail": "网络管理员操作和控制"
+        },
+        {
+            "head": "管理站",
+            "relation": "发送命令给",
+            "tail": "被管设备"
+        },
+        {
+            "head": "管理站所在部门",
+            "relation": "称为",
+            "tail": "NOC"
+        }
+    ]
+]

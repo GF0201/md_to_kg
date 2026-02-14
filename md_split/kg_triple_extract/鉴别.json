@@ -1,0 +1,627 @@
+[
+    [
+        {
+            "head": "报文鉴别",
+            "relation": "包含",
+            "tail": "实体鉴别"
+        },
+        {
+            "head": "报文鉴别",
+            "relation": "包含",
+            "tail": "报文完整性"
+        },
+        {
+            "head": "鉴别",
+            "relation": "与",
+            "tail": "授权不同"
+        },
+        {
+            "head": "数字签名",
+            "relation": "用于",
+            "tail": "报文鉴别"
+        }
+    ],
+    [
+        {
+            "head": "私钥",
+            "relation": "用于",
+            "tail": "签名"
+        },
+        {
+            "head": "公钥",
+            "relation": "验证",
+            "tail": "签名"
+        },
+        {
+            "head": "D运算",
+            "relation": "实现",
+            "tail": "解密"
+        },
+        {
+            "head": "E运算",
+            "relation": "实现",
+            "tail": "加密"
+        },
+        {
+            "head": "报文X",
+            "relation": "通过",
+            "tail": "私钥SK签名"
+        },
+        {
+            "head": "公钥PKA",
+            "relation": "用于",
+            "tail": "验证签名"
+        },
+        {
+            "head": "篡改",
+            "relation": "影响",
+            "tail": "签名验证"
+        }
+    ],
+    [
+        {
+            "head": "数字签名",
+            "relation": "包含功能",
+            "tail": "完整性"
+        },
+        {
+            "head": "数字签名",
+            "relation": "包含功能",
+            "tail": "不可否认"
+        },
+        {
+            "head": "私钥SKA",
+            "relation": "用于",
+            "tail": "签名报文X"
+        },
+        {
+            "head": "公钥PKA",
+            "relation": "验证",
+            "tail": "数字签名DSKA(X)"
+        },
+        {
+            "head": "D运算",
+            "relation": "对应于",
+            "tail": "私钥SKA的签名操作"
+        },
+        {
+            "head": "E运算",
+            "relation": "对应于",
+            "tail": "公钥PKA的验证操作"
+        },
+        {
+            "head": "公证的第三者",
+            "relation": "用于",
+            "tail": "证实报文发送者身份"
+        }
+    ],
+    [
+        {
+            "head": "数字签名",
+            "relation": "使用",
+            "tail": "公钥密码"
+        },
+        {
+            "head": "对称密钥加密",
+            "relation": "用于",
+            "tail": "减小开销"
+        },
+        {
+            "head": "散列函数",
+            "relation": "又称为",
+            "tail": "杂凑函数"
+        },
+        {
+            "head": "散列函数",
+            "relation": "又称为",
+            "tail": "哈希函数"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "符合要求",
+            "tail": "密码学要求"
+        }
+    ],
+    [
+        {
+            "head": "密码散列函数",
+            "relation": "属于",
+            "tail": "散列函数"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "具有",
+            "tail": "固定长度输出"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "输入",
+            "tail": "任意长度的明文X"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "输出",
+            "tail": "H(X)"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "特性",
+            "tail": "抗碰撞性"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "特性",
+            "tail": "单向函数"
+        }
+    ],
+    [
+        {
+            "head": "密码散列函数",
+            "relation": "具有特性",
+            "tail": "单向性"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "输出长度",
+            "tail": "固定长度的散列值H(X)"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "输入修改影响",
+            "tail": "哪怕仅改动输入的一个比特，输出也会相差极大"
+        },
+        {
+            "head": "密码散列函数",
+            "relation": "包含运算",
+            "tail": "非线性运算"
+        },
+        {
+            "head": "MD5",
+            "relation": "是",
+            "tail": "报文摘要的第5个版本"
+        },
+        {
+            "head": "MD5",
+            "relation": "设计者",
+            "tail": "Rivest"
+        },
+        {
+            "head": "SHA-1",
+            "relation": "与",
+            "tail": "MD5同为实用的密码散列函数"
+        }
+    ],
+    [
+        {
+            "head": "MD5",
+            "relation": "提出者",
+            "tail": "Rivest"
+        },
+        {
+            "head": "MD5",
+            "relation": "公布于",
+            "tail": "RFC1321"
+        },
+        {
+            "head": "MD5",
+            "relation": "安全性被动摇时间",
+            "tail": "2004年"
+        },
+        {
+            "head": "王小云",
+            "relation": "证明方法",
+            "tail": "系统方法找出一对报文具有相同MD5报文摘要"
+        },
+        {
+            "head": "MD5",
+            "relation": "被取代标准",
+            "tail": "SHA(SecureHashAlgorithm)"
+        },
+        {
+            "head": "MD5算法",
+            "relation": "过程步骤",
+            "tail": "追加64位余数"
+        },
+        {
+            "head": "MD5算法",
+            "relation": "过程步骤",
+            "tail": "填充1~512位"
+        }
+    ],
+    [
+        {
+            "head": "MD5",
+            "relation": "属于",
+            "tail": "散列函数"
+        },
+        {
+            "head": "MD5",
+            "relation": "产生",
+            "tail": "128位报文摘要"
+        },
+        {
+            "head": "SHA-1",
+            "relation": "属于",
+            "tail": "散列算法系列"
+        },
+        {
+            "head": "SHA-1",
+            "relation": "产生",
+            "tail": "160位散列值"
+        },
+        {
+            "head": "MD5",
+            "relation": "与",
+            "tail": "SHA-1相比更简单但速度更快"
+        }
+    ],
+    [
+        {
+            "head": "SHA-I",
+            "relation": "被攻破",
+            "tail": "王小云教授的研究团队"
+        },
+        {
+            "head": "SHA-2",
+            "relation": "替代",
+            "tail": "SHA-I"
+        },
+        {
+            "head": "SHA-3",
+            "relation": "替代",
+            "tail": "SHA-I"
+        },
+        {
+            "head": "SHA-2",
+            "relation": "包含变型",
+            "tail": "SHA-224, SHA-256, SHA-384, SHA-512"
+        },
+        {
+            "head": "SHA-3",
+            "relation": "包含变型",
+            "tail": "SHA3-224, SHA3-256, SHA3-384, SHA3-512"
+        },
+        {
+            "head": "微软",
+            "relation": "停止支持",
+            "tail": "SHA-I证书"
+        }
+    ],
+    [
+        {
+            "head": "散列函数",
+            "relation": "用于计算",
+            "tail": "报文鉴别码"
+        },
+        {
+            "head": "MD5",
+            "relation": "是一种",
+            "tail": "散列函数"
+        },
+        {
+            "head": "入侵者",
+            "relation": "可能伪造",
+            "tail": "报文"
+        },
+        {
+            "head": "用户A",
+            "relation": "计算并发送",
+            "tail": "扩展的报文(X,H)"
+        },
+        {
+            "head": "用户B",
+            "relation": "验证",
+            "tail": "收到的报文是否为A发送"
+        }
+    ],
+    [
+        {
+            "head": "报文X",
+            "relation": "包含",
+            "tail": "共享密钥K"
+        },
+        {
+            "head": "局域网",
+            "relation": "使用",
+            "tail": "媒体接入控制MAC"
+        },
+        {
+            "head": "扩展的报文",
+            "relation": "由",
+            "tail": "报文X和MAC组成"
+        },
+        {
+            "head": "B",
+            "relation": "验证",
+            "tail": "报文X的真实性"
+        },
+        {
+            "head": "入侵者",
+            "relation": "无法伪造",
+            "tail": "A发送的报文"
+        },
+        {
+            "head": "数字签名",
+            "relation": "等同于",
+            "tail": "报文鉴别码MAC"
+        },
+        {
+            "head": "数字指纹",
+            "relation": "等同于",
+            "tail": "报文鉴别码MAC"
+        }
+    ],
+    [
+        {
+            "head": "报文鉴别码MAC",
+            "relation": "用于",
+            "tail": "鉴别报文完整性"
+        },
+        {
+            "head": "HMAC",
+            "relation": "是",
+            "tail": "一种MAC"
+        },
+        {
+            "head": "HMAC",
+            "relation": "通过",
+            "tail": "在明文中拼接密钥K进行散列计算"
+        },
+        {
+            "head": "MAC",
+            "relation": "不一定",
+            "tail": "需要拼接密钥K在明文后"
+        },
+        {
+            "head": "RFC2104",
+            "relation": "规定了",
+            "tail": "HMAC的计算方法"
+        }
+    ],
+    [
+        {
+            "head": "报文X",
+            "relation": "被发送",
+            "tail": "用户A"
+        },
+        {
+            "head": "公钥系统",
+            "relation": "用于解决",
+            "tail": "密钥K分发问题"
+        },
+        {
+            "head": "已签名的非固定长度的报文鉴别码MAC",
+            "relation": "由",
+            "tail": "用户A生成"
+        },
+        {
+            "head": "扩展的报文",
+            "relation": "包含",
+            "tail": "报文X和MAC"
+        },
+        {
+            "head": "B",
+            "relation": "接收",
+            "tail": "扩展的报文"
+        },
+        {
+            "head": "散列函数运算",
+            "relation": "应用于",
+            "tail": "报文X"
+        },
+        {
+            "head": "E运算",
+            "relation": "使用",
+            "tail": "A的公钥"
+        }
+    ],
+    [
+        {
+            "head": "散列函数",
+            "relation": "用于计算",
+            "tail": "报文摘要"
+        },
+        {
+            "head": "公钥",
+            "relation": "进行",
+            "tail": "E运算"
+        },
+        {
+            "head": "私钥",
+            "relation": "用于生成",
+            "tail": "签名"
+        },
+        {
+            "head": "报文鉴别码MAC",
+            "relation": "通过",
+            "tail": "公钥验证"
+        },
+        {
+            "head": "扩展的报文",
+            "relation": "具有",
+            "tail": "不可伪造性"
+        },
+        {
+            "head": "扩展的报文",
+            "relation": "具有",
+            "tail": "不可否认性"
+        },
+        {
+            "head": "实体鉴别",
+            "relation": "使用",
+            "tail": "私钥签名"
+        },
+        {
+            "head": "实体鉴别",
+            "relation": "使用",
+            "tail": "公钥验证"
+        },
+        {
+            "head": "报文鉴别",
+            "relation": "对每个收到的报文进行",
+            "tail": "发送者鉴别"
+        },
+        {
+            "head": "实体鉴别",
+            "relation": "只需验证一次",
+            "tail": "通信对方身份"
+        },
+        {
+            "head": "共享对称密钥K",
+            "relation": "用于",
+            "tail": "报文解密"
+        }
+    ],
+    [
+        {
+            "head": "解密",
+            "relation": "用于",
+            "tail": "鉴别实体A的身份"
+        },
+        {
+            "head": "共享对称密钥KAB",
+            "relation": "传送",
+            "tail": "鉴别实体身份的报文"
+        },
+        {
+            "head": "入侵者C",
+            "relation": "实施",
+            "tail": "重放攻击(replayattack)"
+        },
+        {
+            "head": "不重复使用的大随机数",
+            "relation": "定义为",
+            "tail": "不重数(nonce)"
+        }
+    ],
+    [
+        {
+            "head": "不重数",
+            "relation": "用于",
+            "tail": "鉴别请求"
+        },
+        {
+            "head": "共享密钥KAB",
+            "relation": "加密",
+            "tail": "鉴别信息"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "避免",
+            "tail": "共享密钥分配"
+        },
+        {
+            "head": "不重数RA",
+            "relation": "发送给",
+            "tail": "B"
+        },
+        {
+            "head": "私钥签名",
+            "relation": "验证",
+            "tail": "身份"
+        },
+        {
+            "head": "C",
+            "relation": "冒充",
+            "tail": "A"
+        },
+        {
+            "head": "不重数RB",
+            "relation": "被截获",
+            "tail": "C"
+        }
+    ],
+    [
+        {
+            "head": "中间人攻击",
+            "relation": "涉及技术",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "私钥",
+            "relation": "用于",
+            "tail": "加密"
+        },
+        {
+            "head": "公钥",
+            "relation": "用于",
+            "tail": "解密"
+        },
+        {
+            "head": "报文",
+            "relation": "被截获",
+            "tail": "中间人C"
+        }
+    ],
+    [
+        {
+            "head": "中间人",
+            "relation": "使用",
+            "tail": "私钥SKc"
+        },
+        {
+            "head": "B",
+            "relation": "收到",
+            "tail": "加密数据DATA"
+        },
+        {
+            "head": "C",
+            "relation": "冒充",
+            "tail": "A的公钥PKA"
+        },
+        {
+            "head": "密钥分配",
+            "relation": "是",
+            "tail": "密钥管理的重要分支"
+        },
+        {
+            "head": "网络安全性",
+            "relation": "基于",
+            "tail": "密钥的安全保护"
+        }
+    ],
+    [
+        {
+            "head": "密钥分配",
+            "relation": "是问题",
+            "tail": "矿问题"
+        },
+        {
+            "head": "对称密钥分配",
+            "relation": "存在问题",
+            "tail": "需要大量密钥和安全传输密钥"
+        },
+        {
+            "head": "KDC",
+            "relation": "是",
+            "tail": "密钥分配中心"
+        },
+        {
+            "head": "会话密钥",
+            "relation": "由KDC生成",
+            "tail": "用于临时通信"
+        }
+    ],
+    [
+        {
+            "head": "密钥分配",
+            "relation": "分为步骤",
+            "tail": "三个"
+        },
+        {
+            "head": "主密钥",
+            "relation": "在KDC上安装了",
+            "tail": "各自和KDC进行通信的主密钥(masterkey)"
+        },
+        {
+            "head": "用户A",
+            "relation": "向KDC发送",
+            "tail": "明文"
+        },
+        {
+            "head": "会话密钥",
+            "relation": "由KDC分配",
+            "tail": "给用户A和B"
+        }
+    ]
+]

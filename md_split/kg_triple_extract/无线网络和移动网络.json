@@ -1,0 +1,133 @@
+[
+    [
+        {
+            "head": "无线蜂窝电话通信技术",
+            "relation": "发展速度",
+            "tail": "飞速"
+        },
+        {
+            "head": "移动电话用户数",
+            "relation": "超过",
+            "tail": "固定电话用户数"
+        },
+        {
+            "head": "全球移动电话普及率",
+            "relation": "达到",
+            "tail": "96.8%"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "反映",
+            "tail": "移动通信需求"
+        },
+        {
+            "head": "互联网",
+            "relation": "过去是",
+            "tail": "PC互联网"
+        },
+        {
+            "head": "现在互联网",
+            "relation": "应是",
+            "tail": "移动互联网"
+        },
+        {
+            "head": "无线局域网WLAN",
+            "relation": "重点讨论",
+            "tail": "MAC层协议CSMA/CA原理"
+        },
+        {
+            "head": "WPAN",
+            "relation": "简述",
+            "tail": ""
+        },
+        {
+            "head": "WMAN",
+            "relation": "简述",
+            "tail": ""
+        },
+        {
+            "head": "蜂窝移动通信网",
+            "relation": "属于",
+            "tail": "通信领域内容"
+        },
+        {
+            "head": "技术发展",
+            "relation": "改变",
+            "tail": "蜂窝移动通信网与计算机网络关联"
+        }
+    ],
+    [
+        {
+            "head": "无线局域网WLAN",
+            "relation": "包含",
+            "tail": "移动接入功能"
+        },
+        {
+            "head": "智能手机",
+            "relation": "成为",
+            "tail": "计算机网络主机"
+        },
+        {
+            "head": "蜂窝移动通信网",
+            "relation": "使用",
+            "tail": "IP技术"
+        },
+        {
+            "head": "无线局域网WLAN",
+            "relation": "使用",
+            "tail": "CSMA/CA协议"
+        },
+        {
+            "head": "CSMA/CA协议",
+            "relation": "区别于",
+            "tail": "CSMA/CD"
+        },
+        {
+            "head": "无线局域网MAC帧",
+            "relation": "包含",
+            "tail": "地址类型"
+        },
+        {
+            "head": "蜂窝移动通信网",
+            "relation": "与",
+            "tail": "互联网互连"
+        },
+        {
+            "head": "无线局域网WLAN",
+            "relation": "发展历史",
+            "tail": "价格贵、数据传输速率低、安全性较差、使用登记手续复杂"
+        },
+        {
+            "head": "无线局域网WLAN",
+            "relation": "进入市场时间",
+            "tail": "20世纪80年代末"
+        }
+    ],
+    [
+        {
+            "head": "无线局域网",
+            "relation": "简写为",
+            "tail": "WLAN"
+        },
+        {
+            "head": "无线局域网",
+            "relation": "提供",
+            "tail": "移动接入功能"
+        },
+        {
+            "head": "无线局域网",
+            "relation": "节省",
+            "tail": "投资"
+        },
+        {
+            "head": "无线局域网",
+            "relation": "便于",
+            "tail": "大量持有便携式计算机的用户上网"
+        },
+        {
+            "head": "无线局域网",
+            "relation": "通过",
+            "tail": "手机接入互联网"
+        }
+    ]
+]

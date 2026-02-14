@@ -1,0 +1,1066 @@
+[
+    [
+        {
+            "head": "故障",
+            "relation": "导致",
+            "tail": "质量不好"
+        },
+        {
+            "head": "标准化设计",
+            "relation": "采用",
+            "tail": "国际标准"
+        },
+        {
+            "head": "可靠性",
+            "relation": "与",
+            "tail": "网络质量和性能相关"
+        },
+        {
+            "head": "高速网络",
+            "relation": "需要",
+            "tail": "更高费用和难度"
+        },
+        {
+            "head": "可扩展性和升级性",
+            "relation": "考虑",
+            "tail": "未来需求"
+        },
+        {
+            "head": "良好管理与维护",
+            "relation": "有助于",
+            "tail": "保持性能"
+        },
+        {
+            "head": "计算机网络体系结构",
+            "relation": "基于",
+            "tail": "分层次架构"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "信令"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "需要",
+            "tail": "文件管理程序"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "涉及",
+            "tail": "格式转换功能"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "处理",
+            "tail": "差错和意外事故"
+        },
+        {
+            "head": "分层方法",
+            "relation": "用于设计",
+            "tail": "复杂计算机网络"
+        }
+    ],
+    [
+        {
+            "head": "分层",
+            "relation": "用于解决",
+            "tail": "复杂问题"
+        },
+        {
+            "head": "SNA",
+            "relation": "是",
+            "tail": "IBM公司提出的网络标准"
+        },
+        {
+            "head": "OSI/RM",
+            "relation": "由",
+            "tail": "ISO提出"
+        },
+        {
+            "head": "OSI/RM",
+            "relation": "旨在实现",
+            "tail": "不同体系结构计算机互连"
+        }
+    ],
+    [
+        {
+            "head": "OSI",
+            "relation": "定义为",
+            "tail": "开放系统"
+        },
+        {
+            "head": "OSI/RM",
+            "relation": "包含",
+            "tail": "七层协议体系结构"
+        },
+        {
+            "head": "ISO7498",
+            "relation": "形成",
+            "tail": "正式文件"
+        },
+        {
+            "head": "全球计算机网络",
+            "relation": "目标实现",
+            "tail": "互连和交换数据"
+        }
+    ],
+    [
+        {
+            "head": "OSI",
+            "relation": "支持",
+            "tail": "府机构"
+        },
+        {
+            "head": "OSI",
+            "relation": "标准",
+            "tail": "理论研究"
+        },
+        {
+            "head": "TCP/IP",
+            "relation": "成功运行",
+            "tail": "互联网"
+        },
+        {
+            "head": "OSI",
+            "relation": "缺乏",
+            "tail": "商业驱动力"
+        },
+        {
+            "head": "OSI协议",
+            "relation": "实现复杂",
+            "tail": "运行效率低"
+        },
+        {
+            "head": "OSI标准",
+            "relation": "制定周期长",
+            "tail": "设备进入市场慢"
+        },
+        {
+            "head": "OSI层次划分",
+            "relation": "不合理",
+            "tail": "功能重复"
+        }
+    ],
+    [
+        {
+            "head": "网络技术",
+            "relation": "遵循",
+            "tail": "国际标准"
+        },
+        {
+            "head": "TCP/IP",
+            "relation": "被称为",
+            "tail": "事实上的国际标准"
+        },
+        {
+            "head": "标准化组织",
+            "relation": "参与制定",
+            "tail": "OSI标准"
+        },
+        {
+            "head": "标准化组织",
+            "relation": "参与制定",
+            "tail": "CCITT建议书X.200"
+        },
+        {
+            "head": "ISO",
+            "relation": "与",
+            "tail": "CCITT联合制定标准"
+        },
+        {
+            "head": "技术标准",
+            "relation": "具有",
+            "tail": "商业气息"
+        },
+        {
+            "head": "新标准出现",
+            "relation": "不一定反映",
+            "tail": "技术水平最先进"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "协议"
+        },
+        {
+            "head": "协议",
+            "relation": "由",
+            "tail": "规则、标准或约定组成"
+        },
+        {
+            "head": "协议",
+            "relation": "包括",
+            "tail": "语法"
+        },
+        {
+            "head": "协议",
+            "relation": "包括",
+            "tail": "语义"
+        },
+        {
+            "head": "协议",
+            "relation": "包括",
+            "tail": "同步"
+        },
+        {
+            "head": "协议",
+            "relation": "定义",
+            "tail": "数据与控制信息的结构或格式"
+        },
+        {
+            "head": "协议",
+            "relation": "定义",
+            "tail": "需要发出何种控制信息，完成何种动作以及做出何种响应"
+        },
+        {
+            "head": "协议",
+            "relation": "定义",
+            "tail": "事件实现顺序的详细说明"
+        }
+    ],
+    [
+        {
+            "head": "协议",
+            "relation": "分为",
+            "tail": "文字描述和程序代码"
+        },
+        {
+            "head": "ARPANET",
+            "relation": "表明",
+            "tail": "复杂网络协议应为层次式结构"
+        },
+        {
+            "head": "文件传送模块",
+            "relation": "用于完成",
+            "tail": "文件传输和格式转换"
+        }
+    ],
+    [
+        {
+            "head": "电信标准化部门",
+            "relation": "合并为",
+            "tail": "TSS"
+        },
+        {
+            "head": "CCITT和CCIR",
+            "relation": "合并为",
+            "tail": "电信标准化部门"
+        },
+        {
+            "head": "电信标准化部门",
+            "relation": "由",
+            "tail": "ITU颁布标准"
+        },
+        {
+            "head": "建议书",
+            "relation": "前缀加",
+            "tail": "ITU-T"
+        },
+        {
+            "head": "文件传送模块",
+            "relation": "不完成",
+            "tail": "全部工作的细节"
+        },
+        {
+            "head": "通信服务模块",
+            "relation": "保证",
+            "tail": "文件和文件传送命令可靠传输"
+        },
+        {
+            "head": "通信服务模块",
+            "relation": "与",
+            "tail": "文件传送模块并存"
+        },
+        {
+            "head": "网络接入模块",
+            "relation": "属于",
+            "tail": "通信服务模块的一部分"
+        }
+    ],
+    [
+        {
+            "head": "通信服务模块",
+            "relation": "提供",
+            "tail": "文件传送命令"
+        },
+        {
+            "head": "文件传送模块",
+            "relation": "利用",
+            "tail": "通信服务模块"
+        },
+        {
+            "head": "电子邮件模块",
+            "relation": "利用",
+            "tail": "通信服务模块"
+        },
+        {
+            "head": "网络接入模块",
+            "relation": "负责",
+            "tail": "网络接口细节"
+        },
+        {
+            "head": "分层架构",
+            "relation": "分解",
+            "tail": "复杂问题"
+        },
+        {
+            "head": "各层之间",
+            "relation": "独立",
+            "tail": "不需要知道下一层实现方式"
+        },
+        {
+            "head": "技术变化",
+            "relation": "影响",
+            "tail": "仅限于该层以上或以下各层不受影响"
+        }
+    ],
+    [
+        {
+            "head": "分层",
+            "relation": "包含功能",
+            "tail": "差错控制"
+        },
+        {
+            "head": "分层",
+            "relation": "包含功能",
+            "tail": "流量控制"
+        },
+        {
+            "head": "分层",
+            "relation": "包含功能",
+            "tail": "分段和重装"
+        },
+        {
+            "head": "分层",
+            "relation": "包含功能",
+            "tail": "复用和分用"
+        },
+        {
+            "head": "分层",
+            "relation": "包含功能",
+            "tail": "连接建立和释放"
+        }
+    ],
+    [
+        {
+            "head": "交换数据",
+            "relation": "发生在",
+            "tail": "逻辑连接之前"
+        },
+        {
+            "head": "连接建立",
+            "relation": "在",
+            "tail": "数据传送开始前"
+        },
+        {
+            "head": "释放连接",
+            "relation": "在",
+            "tail": "数据传送结束后"
+        },
+        {
+            "head": "分层",
+            "relation": "可能导致",
+            "tail": "额外开销"
+        },
+        {
+            "head": "体系结构",
+            "relation": "定义了",
+            "tail": "网络功能"
+        },
+        {
+            "head": "实现",
+            "relation": "是",
+            "tail": "具体的"
+        }
+    ],
+    [
+        {
+            "head": "TCP/IP",
+            "relation": "包含",
+            "tail": "应用层"
+        },
+        {
+            "head": "TCP/IP",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "TCP/IP",
+            "relation": "包含",
+            "tail": "网际层"
+        },
+        {
+            "head": "TCP/IP",
+            "relation": "包含",
+            "tail": "链路层"
+        },
+        {
+            "head": "OSI",
+            "relation": "有",
+            "tail": "七层协议体系结构"
+        },
+        {
+            "head": "TCP/IP",
+            "relation": "有",
+            "tail": "四层体系结构"
+        },
+        {
+            "head": "网际层",
+            "relation": "强调",
+            "tail": "解决不同视图的互连问题"
+        },
+        {
+            "head": "链路层",
+            "relation": "由",
+            "tail": "IEEE 802委员会制定标准"
+        },
+        {
+            "head": "五层协议体系结构",
+            "relation": "用于",
+            "tail": "阐述计算机网络原理"
+        }
+    ],
+    [
+        {
+            "head": "OSI体系结构",
+            "relation": "包含",
+            "tail": "应用层"
+        },
+        {
+            "head": "OSI体系结构",
+            "relation": "包含",
+            "tail": "会话层"
+        },
+        {
+            "head": "OSI体系结构",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "OSI体系结构",
+            "relation": "包含",
+            "tail": "网际层"
+        },
+        {
+            "head": "OSI体系结构",
+            "relation": "包含",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "OSI体系结构",
+            "relation": "包含",
+            "tail": "物理层"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "应用层"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "网际层"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "应用层",
+            "relation": "协议",
+            "tail": "DNS"
+        },
+        {
+            "head": "应用层",
+            "relation": "协议",
+            "tail": "HTTP"
+        },
+        {
+            "head": "应用层",
+            "relation": "协议",
+            "tail": "SMTP"
+        }
+    ],
+    [
+        {
+            "head": "域名系统DNS",
+            "relation": "属于",
+            "tail": "应用层"
+        },
+        {
+            "head": "HTTP协议",
+            "relation": "支持",
+            "tail": "万维网应用"
+        },
+        {
+            "head": "SMTP协议",
+            "relation": "支持",
+            "tail": "电子邮件"
+        },
+        {
+            "head": "报文(message)",
+            "relation": "是",
+            "tail": "应用层交互的数据单元"
+        },
+        {
+            "head": "运输层(transportlayer)",
+            "relation": "负责",
+            "tail": "两台主机中进程之间的通信"
+        },
+        {
+            "head": "传输控制协议TCP",
+            "relation": "提供",
+            "tail": "面向连接的、可靠的数据传输服务"
+        },
+        {
+            "head": "用户数据报协议UDP",
+            "relation": "提供",
+            "tail": "无连接的尽最大努力(best-effort)的数据传输服务"
+        },
+        {
+            "head": "运输层",
+            "relation": "使用",
+            "tail": "传输控制协议TCP"
+        },
+        {
+            "head": "运输层",
+            "relation": "使用",
+            "tail": "用户数据报协议UDP"
+        }
+    ],
+    [
+        {
+            "head": "运输层",
+            "relation": "称为",
+            "tail": "传输层"
+        },
+        {
+            "head": "运输层",
+            "relation": "使用协议",
+            "tail": "TCP"
+        },
+        {
+            "head": "网络层",
+            "relation": "负责提供通信服务",
+            "tail": "分组交换网上的不同主机"
+        },
+        {
+            "head": "网络层",
+            "relation": "封装数据段",
+            "tail": "运输层产生的报文段或用户数据报"
+        },
+        {
+            "head": "网络层",
+            "relation": "使用协议",
+            "tail": "IP"
+        },
+        {
+            "head": "分组",
+            "relation": "等同于",
+            "tail": "数据报"
+        },
+        {
+            "head": "路由器",
+            "relation": "生成转发表",
+            "tail": "转发分组"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "执行任务",
+            "tail": "生成转发表"
+        },
+        {
+            "head": "路由器",
+            "relation": "转发分组",
+            "tail": "依据转发表"
+        },
+        {
+            "head": "网络层",
+            "relation": "名称",
+            "tail": "第三层"
+        },
+        {
+            "head": "互联网",
+            "relation": "由组成",
+            "tail": "大量异构网络通过路由器相互连接"
+        },
+        {
+            "head": "网络层协议",
+            "relation": "使用",
+            "tail": "无连接的网际协议IP和路由选择协议"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "简称为",
+            "tail": "链路层"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "作用",
+            "tail": "将网络层交下来的IP数据报组装成帧"
+        }
+    ],
+    [
+        {
+            "head": "链路层",
+            "relation": "处理",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "链路层",
+            "relation": "组装成帧",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "链路层",
+            "relation": "在",
+            "tail": "两个相邻节点间的链路上传送帧"
+        },
+        {
+            "head": "帧(frame)",
+            "relation": "包含",
+            "tail": "数据和必要的控制信息"
+        },
+        {
+            "head": "控制信息",
+            "relation": "使接收端知道",
+            "tail": "一个帧从哪个比特开始和到哪个比特结束"
+        },
+        {
+            "head": "链路层",
+            "relation": "从中提取出",
+            "tail": "数据部分，上交给网络层"
+        },
+        {
+            "head": "控制信息",
+            "relation": "检测到所收到的帧中有无差错",
+            "tail": "接收端"
+        },
+        {
+            "head": "链路层",
+            "relation": "丢弃",
+            "tail": "出了差错的帧"
+        },
+        {
+            "head": "可靠传输协议",
+            "relation": "用于",
+            "tail": "改正数据在数据链路层传输时出现的差错"
+        },
+        {
+            "head": "物理层",
+            "relation": "传输单位是",
+            "tail": "比特"
+        },
+        {
+            "head": "物理层",
+            "relation": "考虑用多大的电压代表",
+            "tail": "0或1"
+        },
+        {
+            "head": "物理层",
+            "relation": "确定",
+            "tail": "连接电缆的插头应当有多少根引脚以及各引脚应如何连接"
+        }
+    ],
+    [
+        {
+            "head": "物理层",
+            "relation": "包含",
+            "tail": "比特代表"
+        },
+        {
+            "head": "物理层",
+            "relation": "不处理",
+            "tail": "传递信息的物理传输媒体"
+        },
+        {
+            "head": "物理传输媒体",
+            "relation": "包括",
+            "tail": "双绞线"
+        },
+        {
+            "head": "物理传输媒体",
+            "relation": "包括",
+            "tail": "同轴电缆"
+        },
+        {
+            "head": "物理传输媒体",
+            "relation": "包括",
+            "tail": "光缆"
+        },
+        {
+            "head": "物理传输媒体",
+            "relation": "包括",
+            "tail": "无线信道"
+        },
+        {
+            "head": "TCP/IP协议族",
+            "relation": "包含",
+            "tail": "TCP和IP"
+        },
+        {
+            "head": "应用进程AP1",
+            "relation": "向",
+            "tail": "主机2的应用进程AP2传送数据"
+        },
+        {
+            "head": "第5层",
+            "relation": "对应",
+            "tail": "应用层"
+        },
+        {
+            "head": "第4层",
+            "relation": "对应",
+            "tail": "运输层"
+        },
+        {
+            "head": "第3层",
+            "relation": "对应",
+            "tail": "网络层"
+        },
+        {
+            "head": "第2层",
+            "relation": "对应",
+            "tail": "数据链路层"
+        }
+    ],
+    [
+        {
+            "head": "数据单元",
+            "relation": "属于",
+            "tail": "OSI参考模型"
+        },
+        {
+            "head": "控制信息",
+            "relation": "被分成",
+            "tail": "两部分"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "分为",
+            "tail": "首部和尾部"
+        },
+        {
+            "head": "物理层",
+            "relation": "传送",
+            "tail": "比特流"
+        },
+        {
+            "head": "PDU(ProtocolDataUnit)",
+            "relation": "是",
+            "tail": "对等层次之间传送的数据单位"
+        },
+        {
+            "head": "分组",
+            "relation": "经过",
+            "tail": "路由器的第1层到第3层"
+        },
+        {
+            "head": "网络层",
+            "relation": "根据",
+            "tail": "首部中的目的地址查找转发表"
+        },
+        {
+            "head": "路由器",
+            "relation": "转发",
+            "tail": "分组"
+        },
+        {
+            "head": "比特流",
+            "relation": "离开",
+            "tail": "主机1经物理传输媒体传送到路由器"
+        },
+        {
+            "head": "比特流",
+            "relation": "从",
+            "tail": "第1层按照上面讲到的顺序传送"
+        }
+    ],
+    [
+        {
+            "head": "比特流",
+            "relation": "经过",
+            "tail": "路由器"
+        },
+        {
+            "head": "数据",
+            "relation": "从第1层到第5层",
+            "tail": "上升"
+        },
+        {
+            "head": "应用进程AP1",
+            "relation": "发送给",
+            "tail": "应用进程AP2"
+        },
+        {
+            "head": "信件",
+            "relation": "经过多层处理",
+            "tail": "到达目的站"
+        },
+        {
+            "head": "每层",
+            "relation": "包上新的信封",
+            "tail": "写地址信息"
+        },
+        {
+            "head": "拆开信封",
+            "relation": "传递给上一层",
+            "tail": "最高层"
+        },
+        {
+            "head": "数据单元",
+            "relation": "加上控制信息",
+            "tail": "通过虚线传递"
+        },
+        {
+            "head": "对等层",
+            "relation": "在各系统之间",
+            "tail": "直接传递数据"
+        }
+    ],
+    [
+        {
+            "head": "协议栈",
+            "relation": "构成",
+            "tail": "开放系统"
+        },
+        {
+            "head": "实体",
+            "relation": "表示",
+            "tail": "发送或接收信息的硬件或软件进程"
+        },
+        {
+            "head": "协议",
+            "relation": "定义",
+            "tail": "控制两个对等实体通信的规则集合"
+        },
+        {
+            "head": "服务",
+            "relation": "提供",
+            "tail": "在协议控制下，使本层能够向上一层提供服务"
+        },
+        {
+            "head": "服务访问点",
+            "relation": "实现",
+            "tail": "使用本层服务的实体可见的服务"
+        },
+        {
+            "head": "语法",
+            "relation": "定义",
+            "tail": "所交换的信息格式"
+        },
+        {
+            "head": "语义",
+            "relation": "定义",
+            "tail": "发送者或接收者所要完成的操作"
+        }
+    ],
+    [
+        {
+            "head": "协议",
+            "relation": "定义",
+            "tail": "服务是由下层向上层通过层间接口提供的"
+        },
+        {
+            "head": "服务",
+            "relation": "特征",
+            "tail": "上层使用看得见的都称为服务"
+        },
+        {
+            "head": "服务原语",
+            "relation": "功能",
+            "tail": "下层所提供的服务必须通过与下层交换一些命令，这些命令在OSI中称为服务原语"
+        },
+        {
+            "head": "SAP(ServiceAccessPoint)",
+            "relation": "定义",
+            "tail": "在同一系统中相邻两层的实体进行交互的地方，通常称为服务访问点"
+        },
+        {
+            "head": "SDU(ServiceDataUnit)",
+            "relation": "定义",
+            "tail": "OSI把层与层之间交换的数据的单位称作服务数据单元"
+        }
+    ],
+    [
+        {
+            "head": "协议",
+            "relation": "定义了",
+            "tail": "通信方式"
+        },
+        {
+            "head": "实体(n)",
+            "relation": "提供服务给",
+            "tail": "实体(n+1)"
+        },
+        {
+            "head": "实体(n+1)",
+            "relation": "使用",
+            "tail": "第n层的服务"
+        },
+        {
+            "head": "协议(n)",
+            "relation": "用于",
+            "tail": "第n层与第n+1层之间的通信"
+        },
+        {
+            "head": "协议(n+1)",
+            "relation": "用于",
+            "tail": "实体(n+1)之间的通信"
+        }
+    ],
+    [
+        {
+            "head": "协议",
+            "relation": "设计目标",
+            "tail": "实现协同作战"
+        },
+        {
+            "head": "电文",
+            "relation": "可能状态",
+            "tail": "出错或丢失"
+        },
+        {
+            "head": "确认电文",
+            "relation": "目的",
+            "tail": "验证收到电文"
+        }
+    ],
+    [
+        {
+            "head": "蓝军1",
+            "relation": "发送确认电文给",
+            "tail": "蓝军2"
+        },
+        {
+            "head": "蓝军2",
+            "relation": "收到确认电文后发回",
+            "tail": "确认"
+        },
+        {
+            "head": "蓝军1和蓝军2",
+            "relation": "不敢进攻",
+            "tail": "因为不确定对方是否正确收到确认电文"
+        },
+        {
+            "head": "蓝军1",
+            "relation": "等待",
+            "tail": "蓝军2的对确认的确认"
+        },
+        {
+            "head": "蓝军2",
+            "relation": "等待",
+            "tail": "蓝军1的对确认的确认"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "四层协议"
+        }
+    ],
+    [
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "应用层"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "IP层"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "包含",
+            "tail": "链路层"
+        },
+        {
+            "head": "IP层",
+            "relation": "依赖于",
+            "tail": "网络接口层"
+        },
+        {
+            "head": "应用层",
+            "relation": "包含协议",
+            "tail": "TCPIUDP"
+        },
+        {
+            "head": "TCP/IP体系结构",
+            "relation": "不遵循",
+            "tail": "OSI分层概念"
+        }
+    ],
+    [
+        {
+            "head": "IP协议",
+            "relation": "支持",
+            "tail": "多应用层"
+        },
+        {
+            "head": "互联网",
+            "relation": "依赖于",
+            "tail": "IP协议"
+        },
+        {
+            "head": "运输层协议",
+            "relation": "包括",
+            "tail": "TCP, UDP"
+        }
+    ],
+    [],
+    [
+        {
+            "head": "协议栈",
+            "relation": "包含",
+            "tail": "应用层"
+        },
+        {
+            "head": "协议栈",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "协议栈",
+            "relation": "包含",
+            "tail": "网络层"
+        },
+        {
+            "head": "协议栈",
+            "relation": "包含",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "客户进程",
+            "relation": "向",
+            "tail": "服务器进程发出请求"
+        },
+        {
+            "head": "服务器进程",
+            "relation": "接受",
+            "tail": "客户进程发来的请求"
+        },
+        {
+            "head": "连接建立",
+            "relation": "由",
+            "tail": "客户进程发起"
+        },
+        {
+            "head": "连接建立",
+            "relation": "被",
+            "tail": "服务器进程接受"
+        }
+    ]
+]

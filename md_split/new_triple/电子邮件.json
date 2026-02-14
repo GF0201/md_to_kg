@@ -1,0 +1,1105 @@
+[
+    {
+        "head": "微信",
+        "relation": "提供功能",
+        "tail": "实时音频或视频聊天"
+    },
+    {
+        "head": "微信",
+        "relation": "提供服务",
+        "tail": "网上购物"
+    },
+    {
+        "head": "微信",
+        "relation": "提供服务",
+        "tail": "转账"
+    },
+    {
+        "head": "微信",
+        "relation": "提供服务",
+        "tail": "打车"
+    },
+    {
+        "head": "微博",
+        "relation": "性质",
+        "tail": "社交网站"
+    },
+    {
+        "head": "领英Linkedln",
+        "relation": "性质",
+        "tail": "职业性社交网站"
+    },
+    {
+        "head": "微信",
+        "relation": "最初功能",
+        "tail": "收发信息、拍照分享、联系朋友"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "发送对象",
+        "tail": "网上任何一个用户"
+    },
+    {
+        "head": "博客和微博",
+        "relation": "访问方式",
+        "tail": "任何上网用户"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "是",
+        "tail": "互联网应用"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "使用方便",
+        "tail": ""
+    },
+    {
+        "head": "电子邮件",
+        "relation": "传递迅速",
+        "tail": ""
+    },
+    {
+        "head": "电子邮件",
+        "relation": "费用低廉",
+        "tail": ""
+    },
+    {
+        "head": "电子邮件",
+        "relation": "2008年更新的简单邮件传送协议SMTP",
+        "tail": "标准"
+    },
+    {
+        "head": "简单邮件传送协议SMTP",
+        "relation": "更新于",
+        "tail": "2008年"
+    },
+    {
+        "head": "互联网文本报文格式",
+        "relation": "标准文档",
+        "tail": "RFC5322"
+    },
+    {
+        "head": "通用互联网邮件扩充MIME",
+        "relation": "发布于",
+        "tail": "1996年"
+    },
+    {
+        "head": "通用互联网邮件扩充MIME",
+        "relation": "标准文档",
+        "tail": "RFC2045"
+    },
+    {
+        "head": "电子邮件系统",
+        "relation": "包含",
+        "tail": "用户代理"
+    },
+    {
+        "head": "电子邮件系统",
+        "relation": "包含",
+        "tail": "邮件服务器"
+    },
+    {
+        "head": "电子邮件系统",
+        "relation": "包含",
+        "tail": "邮件发送协议SMTP"
+    },
+    {
+        "head": "电子邮件系统",
+        "relation": "包含",
+        "tail": "邮件读取协议POP3"
+    },
+    {
+        "head": "用户代理",
+        "relation": "是",
+        "tail": "电子邮件客户端软件"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "连接",
+        "tail": "互联网"
+    },
+    {
+        "head": "邮件发送协议",
+        "relation": "简称",
+        "tail": "SMTP"
+    },
+    {
+        "head": "邮件读取协议",
+        "relation": "简称",
+        "tail": "POP3"
+    },
+    {
+        "head": "电子邮件用户代理",
+        "relation": "具有功能",
+        "tail": "撰写"
+    },
+    {
+        "head": "电子邮件用户代理",
+        "relation": "具有功能",
+        "tail": "显示"
+    },
+    {
+        "head": "电子邮件用户代理",
+        "relation": "具有功能",
+        "tail": "处理"
+    },
+    {
+        "head": "电子邮件用户代理",
+        "relation": "具有功能",
+        "tail": "通信"
+    },
+    {
+        "head": "撰写功能",
+        "relation": "包含子功能",
+        "tail": "创建通信录"
+    },
+    {
+        "head": "撰写功能",
+        "relation": "包含子功能",
+        "tail": "回信时提取地址"
+    },
+    {
+        "head": "撰写功能",
+        "relation": "包含子功能",
+        "tail": "答复来信问题"
+    },
+    {
+        "head": "显示功能",
+        "relation": "处理内容",
+        "tail": "来信及附件"
+    },
+    {
+        "head": "处理功能",
+        "relation": "操作类型",
+        "tail": "发送邮件"
+    },
+    {
+        "head": "处理功能",
+        "relation": "操作类型",
+        "tail": "接收邮件"
+    },
+    {
+        "head": "通信功能",
+        "relation": "使用协议",
+        "tail": "邮件发送协议"
+    },
+    {
+        "head": "通信功能",
+        "relation": "使用协议",
+        "tail": "邮件读取协议"
+    },
+    {
+        "head": "互联网",
+        "relation": "包含",
+        "tail": "邮件服务器"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "提供",
+        "tail": "24小时不间断服务"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "具有",
+        "tail": "大容量邮件信箱"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "功能",
+        "tail": "发送和接收邮件"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "报告",
+        "tail": "邮件传送结果"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "工作方式",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "SMTP协议",
+        "relation": "用于",
+        "tail": "发送邮件或在邮件服务器之间发送邮件"
+    },
+    {
+        "head": "POP3协议",
+        "relation": "用于",
+        "tail": "用户代理从邮件服务器读取邮件"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "用于",
+        "tail": "传送邮件"
+    },
+    {
+        "head": "用户代理",
+        "relation": "调用",
+        "tail": "计算机中的用户代理"
+    },
+    {
+        "head": "邮件",
+        "relation": "通过",
+        "tail": "SMTP协议"
+    },
+    {
+        "head": "发送方邮件服务器",
+        "relation": "充当",
+        "tail": "SMTP服务器"
+    },
+    {
+        "head": "接收方邮件服务器",
+        "relation": "建立",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "邮件缓存队列",
+        "relation": "存放于",
+        "tail": "发送方邮件服务器"
+    },
+    {
+        "head": "SMTP客户",
+        "relation": "建立",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "保存",
+        "tail": "未发送邮件"
+    },
+    {
+        "head": "接收方邮件服务器",
+        "relation": "放入",
+        "tail": "收件人用户邮箱"
+    },
+    {
+        "head": "用户代理",
+        "relation": "读取",
+        "tail": "POP3协议"
+    },
+    {
+        "head": "POP3客户",
+        "relation": "通信发起者",
+        "tail": "POP3服务器"
+    },
+    {
+        "head": "SMTP",
+        "relation": "传输方式",
+        "tail": "推"
+    },
+    {
+        "head": "POP3",
+        "relation": "传输方式",
+        "tail": "拉"
+    },
+    {
+        "head": "邮件服务器程序",
+        "relation": "运行环境限制",
+        "tail": "计算机存储空间和操作系统"
+    },
+    {
+        "head": "邮件服务器程序",
+        "relation": "运行于",
+        "tail": "互联网"
+    },
+    {
+        "head": "邮件服务器程序",
+        "relation": "不间断地",
+        "tail": "24小时运行"
+    },
+    {
+        "head": "特快专递服务",
+        "relation": "加快了",
+        "tail": "邮件交付"
+    },
+    {
+        "head": "特快专递服务",
+        "relation": "不直接发送到",
+        "tail": "收件人计算机中"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "由",
+        "tail": "信封和内容组成"
+    },
+    {
+        "head": "传输程序",
+        "relation": "根据",
+        "tail": "邮件信封信息传送邮件"
+    },
+    {
+        "head": "电子邮件地址",
+        "relation": "包含",
+        "tail": "用户名@邮件服务器的域名"
+    },
+    {
+        "head": "用户名",
+        "relation": "标识符",
+        "tail": "收件人邮箱名"
+    },
+    {
+        "head": "邮件服务器的域名",
+        "relation": "唯一性保证",
+        "tail": "电子邮件地址在世界范围内是唯一的"
+    },
+    {
+        "head": "SMTP",
+        "relation": "协议",
+        "tail": "简单邮件传送协议"
+    },
+    {
+        "head": "简单邮件传送协议SMTP",
+        "relation": "规定了",
+        "tail": "在两个相互通信的SMTP进程之间应如何交换信息"
+    },
+    {
+        "head": "简单邮件传送协议SMTP",
+        "relation": "使用",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "负责发送邮件的SMTP进程",
+        "relation": "是",
+        "tail": "SMTP客户"
+    },
+    {
+        "head": "负责接收邮件的SMTP进程",
+        "relation": "是",
+        "tail": "SMTP服务器"
+    },
+    {
+        "head": "简单邮件传送协议SMTP",
+        "relation": "规定了",
+        "tail": "14条命令和21种应答信息"
+    },
+    {
+        "head": "每条命令",
+        "relation": "由几个字母组成"
+    },
+    {
+        "head": "每种应答信息",
+        "relation": "以3位数字的代码开始"
+    },
+    {
+        "head": "SMTP客户",
+        "relation": "建立",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "发送方邮件服务器",
+        "relation": "扫描",
+        "tail": "邮件缓存"
+    },
+    {
+        "head": "SMTP客户",
+        "relation": "发送",
+        "tail": "HELO命令"
+    },
+    {
+        "head": "SMTP服务器",
+        "relation": "回答",
+        "tail": "250OK"
+    },
+    {
+        "head": "SMTP服务器",
+        "relation": "回答",
+        "tail": "421Servicenotavailable"
+    },
+    {
+        "head": "发送方邮件服务器",
+        "relation": "通知",
+        "tail": "发件人"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "直接建立",
+        "tail": "发送方和接收方的邮件服务器之间"
+    },
+    {
+        "head": "MAILFROM",
+        "relation": "发送邮件命令",
+        "tail": "发件人的地址"
+    },
+    {
+        "head": "RCPTTO",
+        "relation": "接收邮件命令",
+        "tail": "收件人地址"
+    },
+    {
+        "head": "RCPT",
+        "relation": "确认接收准备状态",
+        "tail": "SMTP服务器"
+    },
+    {
+        "head": "DATA",
+        "relation": "开始传送邮件内容",
+        "tail": "SMTP命令"
+    },
+    {
+        "head": "SMTP服务器",
+        "relation": "返回代码信息",
+        "tail": "确认接收状态"
+    },
+    {
+        "head": "SMTP",
+        "relation": "使用",
+        "tail": "TCP"
+    },
+    {
+        "head": "邮件传输",
+        "relation": "通过",
+        "tail": "SMTP"
+    },
+    {
+        "head": "数据传送",
+        "relation": "开始于",
+        "tail": "DATA命令"
+    },
+    {
+        "head": "邮件内容结束标志",
+        "relation": "由",
+        "tail": "<CRLF>.<CRLF>"
+    },
+    {
+        "head": "邮件传输可靠性",
+        "relation": "依赖于",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "邮件传送成功",
+        "relation": "不等于",
+        "tail": "收件人读取了邮件"
+    },
+    {
+        "head": "邮件丢失",
+        "relation": "可能由于",
+        "tail": "接收方服务器故障"
+    },
+    {
+        "head": "邮件未被检查",
+        "relation": "可能由于",
+        "tail": "收件人原因"
+    },
+    {
+        "head": "SMTP",
+        "relation": "使用于",
+        "tail": "电子邮件"
+    },
+    {
+        "head": "SMTP",
+        "relation": "发送完毕后",
+        "tail": "发送QUIT命令"
+    },
+    {
+        "head": "SMTP服务器",
+        "relation": "返回信息",
+        "tail": "221（服务关闭）"
+    },
+    {
+        "head": "邮件传送过程",
+        "relation": "结束标志",
+        "tail": "SMTP同意释放TCP连接"
+    },
+    {
+        "head": "电子邮件用户代理",
+        "relation": "屏蔽",
+        "tail": "复杂过程"
+    },
+    {
+        "head": "SMTP",
+        "relation": "存在缺点",
+        "tail": "不需要经过鉴别"
+    },
+    {
+        "head": "FROM命令地址",
+        "relation": "可以填写",
+        "tail": "任意地址"
+    },
+    {
+        "head": "垃圾邮件",
+        "relation": "占比例",
+        "tail": "50%以上甚至90%"
+    },
+    {
+        "head": "SMTP",
+        "relation": "被扩充为",
+        "tail": "ESMTP"
+    },
+    {
+        "head": "RFC5321",
+        "relation": "对",
+        "tail": "SMTP进行扩充"
+    },
+    {
+        "head": "ESMTP",
+        "relation": "支持",
+        "tail": "客户端鉴别"
+    },
+    {
+        "head": "ESMTP",
+        "relation": "支持",
+        "tail": "服务器接受二进制报文"
+    },
+    {
+        "head": "ESMTP",
+        "relation": "支持",
+        "tail": "服务器接受分块传送的大报文"
+    },
+    {
+        "head": "ESMTP",
+        "relation": "使用",
+        "tail": "TLS进行安全传输"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "包含",
+        "tail": "信封"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "包含",
+        "tail": "内容首部"
+    },
+    {
+        "head": "内容首部",
+        "relation": "包括",
+        "tail": "To"
+    },
+    {
+        "head": "内容首部",
+        "relation": "包括",
+        "tail": "Subject"
+    },
+    {
+        "head": "内容首部",
+        "relation": "包括",
+        "tail": "Cc"
+    },
+    {
+        "head": "To:",
+        "relation": "表示",
+        "tail": "收件人电子邮件地址"
+    },
+    {
+        "head": "Subject:",
+        "relation": "反映",
+        "tail": "邮件主要内容"
+    },
+    {
+        "head": "Cc:",
+        "relation": "表示",
+        "tail": "抄送"
+    },
+    {
+        "head": "邮件系统",
+        "relation": "支持",
+        "tail": "盲复写副本"
+    },
+    {
+        "head": "发件人",
+        "relation": "使用",
+        "tail": "From关键字"
+    },
+    {
+        "head": "发件人",
+        "relation": "填写",
+        "tail": "Date关键字"
+    },
+    {
+        "head": "回信地址",
+        "relation": "设置",
+        "tail": "Reply-To关键字"
+    },
+    {
+        "head": "POP3协议",
+        "relation": "支持的版本",
+        "tail": "1996年版本"
+    },
+    {
+        "head": "ISP",
+        "relation": "支持",
+        "tail": "POP3协议"
+    },
+    {
+        "head": "IMAP协议",
+        "relation": "与",
+        "tail": "POP3协议并存"
+    },
+    {
+        "head": "POP3",
+        "relation": "支持",
+        "tail": "ISP"
+    },
+    {
+        "head": "POP3",
+        "relation": "使用",
+        "tail": "客户服务器模式"
+    },
+    {
+        "head": "用户代理",
+        "relation": "运行",
+        "tail": "POP3客户端程序"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "运行",
+        "tail": "POP3服务器程序"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "运行",
+        "tail": "SMTP服务器程序"
+    },
+    {
+        "head": "用户",
+        "relation": "输入",
+        "tail": "鉴别信息"
+    },
+    {
+        "head": "POP3协议",
+        "relation": "特点",
+        "tail": "邮件删除"
+    },
+    {
+        "head": "IMAP",
+        "relation": "替代",
+        "tail": "POP3"
+    },
+    {
+        "head": "IMAP",
+        "relation": "复杂度",
+        "tail": "高于POP3"
+    },
+    {
+        "head": "IMAP",
+        "relation": "协议类型",
+        "tail": "网际报文存取协议"
+    },
+    {
+        "head": "IMAP",
+        "relation": "版本",
+        "tail": "IMAP4[RFC3501,建议标准]"
+    },
+    {
+        "head": "IMAP",
+        "relation": "工作方式",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "IMAP",
+        "relation": "连接协议",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "IMAP",
+        "relation": "功能",
+        "tail": "联机操作邮箱"
+    },
+    {
+        "head": "IMAP",
+        "relation": "邮件传输",
+        "tail": "按需传输邮件内容"
+    },
+    {
+        "head": "IMAP",
+        "relation": "邮箱管理",
+        "tail": "层次式文件夹结构"
+    },
+    {
+        "head": "IMAP",
+        "relation": "邮件操作",
+        "tail": "移动和分类邮件"
+    },
+    {
+        "head": "IMAP",
+        "relation": "提供功能",
+        "tail": "在不同地方使用不同计算机阅读和处理邮件"
+    },
+    {
+        "head": "IMAP",
+        "relation": "支持操作",
+        "tail": "只读取邮件的一部分内容"
+    },
+    {
+        "head": "IMAP",
+        "relation": "缺点",
+        "tail": "邮件存放在服务器上，需要上网查阅"
+    },
+    {
+        "head": "IMAP",
+        "relation": "与POP3比较",
+        "tail": "更新同步操作内容不同"
+    },
+    {
+        "head": "用户代理",
+        "relation": "运行于",
+        "tail": "计算机"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "使用",
+        "tail": "SMTP协议"
+    },
+    {
+        "head": "邮件服务器",
+        "relation": "发送邮件给",
+        "tail": "邮件服务器"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "提供于",
+        "tail": "网站"
+    },
+    {
+        "head": "用户代理软件UA",
+        "relation": "安装在",
+        "tail": "计算机中"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "提供服务",
+        "tail": "谷歌的Gmail C@gmalet.com"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "提供服务",
+        "tail": "微软的Hotmail"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "提供服务",
+        "tail": "Yahoo邮箱 @yahoo.com"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "提供服务",
+        "tail": "网易邮箱 @163.eom或＠126.com"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "提供服务",
+        "tail": "新浪邮箱 @sina.com或＠sina.cn"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "提供服务",
+        "tail": "腾讯的QQ邮箱C@qq.com"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "好处",
+        "tail": "方便收发邮件"
+    },
+    {
+        "head": "万维网电子邮件",
+        "relation": "不需要",
+        "tail": "安装用户代理软件"
+    },
+    {
+        "head": "浏览器",
+        "relation": "提供",
+        "tail": "电子邮件界面"
+    },
+    {
+        "head": "HTTP",
+        "relation": "用于",
+        "tail": "浏览器和邮件服务器之间传送邮件"
+    },
+    {
+        "head": "SMTP",
+        "relation": "用于",
+        "tail": "各邮件服务器之间传送邮件"
+    },
+    {
+        "head": "MIME",
+        "relation": "解决",
+        "tail": "SMTP的缺点"
+    },
+    {
+        "head": "SMTP服务器",
+        "relation": "拒绝",
+        "tail": "超过一定长度的邮件"
+    },
+    {
+        "head": "SMTP实现",
+        "relation": "未完全遵循",
+        "tail": "SMTP互联网标准"
+    },
+    {
+        "head": "MIME",
+        "relation": "提出为了解决",
+        "tail": "SMTP问题"
+    },
+    {
+        "head": "MIME",
+        "relation": "不改动或取代",
+        "tail": "SMTP"
+    },
+    {
+        "head": "MIME",
+        "意图": "继续使用原有邮件格式",
+        "tail": ""
+    },
+    {
+        "head": "MIME",
+        "relation": "增加",
+        "tail": "邮件主体结构"
+    },
+    {
+        "head": "MIME",
+        "relation": "定义",
+        "tail": "传送非ASCII码的编码规则"
+    },
+    {
+        "head": "MIME",
+        "relation": "包括",
+        "tail": "5个新的邮件首部字段"
+    },
+    {
+        "head": "MIME",
+        "relation": "定义",
+        "tail": "许多邮件内容格式"
+    },
+    {
+        "head": "MIME",
+        "relation": "标准化",
+        "tail": "多媒体电子邮件表示方法"
+    },
+    {
+        "head": "MIME",
+        "relation": "定义",
+        "tail": "传送编码"
+    },
+    {
+        "head": "MIME",
+        "relation": "定义了",
+        "tail": "传送编码"
+    },
+    {
+        "head": "MIME",
+        "relation": "包含",
+        "tail": "告知收件人数据类型和使用编码的信息"
+    },
+    {
+        "head": "MIME报文",
+        "relation": "增加",
+        "tail": "邮件首部信息"
+    },
+    {
+        "head": "Content-Transfer-Encoding",
+        "relation": "用于",
+        "tail": "描述传送时邮件主体的编码方式"
+    },
+    {
+        "head": "Content-Type",
+        "relation": "说明",
+        "tail": "邮件主体的数据类型和子类型"
+    },
+    {
+        "head": "quoted-printable",
+        "relation": "适用场景",
+        "tail": "少量非ASCII码数据"
+    },
+    {
+        "head": "quoted-printable",
+        "relation": "编码方法",
+        "tail": "对可打印的ASCII码不改变，其他编码为十六进制加等号"
+    },
+    {
+        "head": "quoted-printable",
+        "relation": "开销",
+        "tail": "200%"
+    },
+    {
+        "head": "base64编码",
+        "relation": "用于",
+        "tail": "二进制文件的传输"
+    },
+    {
+        "head": "24位二进制代码",
+        "relation": "划分为",
+        "tail": "4个6位组"
+    },
+    {
+        "head": "每个6位组",
+        "relation": "转换为",
+        "tail": "ASCII码"
+    },
+    {
+        "head": "base64编码",
+        "relation": "增加",
+        "tail": "8位开销"
+    },
+    {
+        "head": "MIME",
+        "relation": "包含",
+        "tail": "Content-Type"
+    },
+    {
+        "head": "Content-Type",
+        "relation": "由",
+        "tail": "类型和子类型组成"
+    },
+    {
+        "head": "MIME",
+        "relation": "允许定义",
+        "tail": "专用内容类型"
+    },
+    {
+        "head": "专用内容类型",
+        "relation": "以",
+        "tail": "X-开始"
+    },
+    {
+        "head": "MIME",
+        "relation": "包含",
+        "tail": "数百个子类型"
+    },
+    {
+        "head": "网站",
+        "relation": "提供",
+        "tail": "现有MIME类型和子类型的名称"
+    },
+    {
+        "head": "网站",
+        "relation": "提供",
+        "tail": "申请新子类型的步骤"
+    },
+    {
+        "head": "ASCII",
+        "relation": "包含于",
+        "tail": "计算机编码"
+    },
+    {
+        "head": "奇偶检验位",
+        "relation": "增加",
+        "tail": "ASCII码"
+    },
+    {
+        "head": "字节",
+        "relation": "由8位组成",
+        "tail": "ASCII码"
+    },
+    {
+        "head": "GraphicsInterchangeFormat",
+        "relation": "属于",
+        "tail": "静止图像格式标准"
+    },
+    {
+        "head": "JointPhotographicExpertGroup",
+        "relation": "属于",
+        "tail": "静止图像格式标准"
+    },
+    {
+        "head": "TaggedImageFileFomat",
+        "relation": "属于",
+        "tail": "静止图像格式标准"
+    },
+    {
+        "head": "MPEG",
+        "relation": "属于",
+        "tail": "活动图像压缩标准"
+    },
+    {
+        "head": "MotionPictureExpertsGroup",
+        "relation": "是",
+        "tail": "MPEG标准组织"
+    },
+    {
+        "head": "QuickTime",
+        "relation": "是",
+        "tail": "苹果公司媒体播放机"
+    },
+    {
+        "head": "VirtualRealityModelingLanguage",
+        "relation": "是",
+        "tail": "虚拟现实建模语言"
+    },
+    {
+        "head": "PortableDocumentFormat",
+        "relation": "属于",
+        "tail": "电子文件格式"
+    },
+    {
+        "head": "MIME",
+        "relation": "包含子类型",
+        "tail": "multipart"
+    },
+    {
+        "head": "multipart",
+        "relation": "定义子类型",
+        "tail": "mixed"
+    },
+    {
+        "head": "mixed",
+        "relation": "允许",
+        "tail": "多个相互独立的子报文"
+    },
+    {
+        "head": "Boundary",
+        "relation": "定义",
+        "tail": "分隔报文各部分所用的字符串"
+    },
+    {
+        "head": "MIME",
+        "relation": "包含子类型",
+        "tail": "alternative"
+    },
+    {
+        "head": "MIME",
+        "relation": "包含子类型",
+        "tail": "parallel"
+    },
+    {
+        "head": "MIME",
+        "relation": "包含子类型",
+        "tail": "digest"
+    },
+    {
+        "head": "multipart报文",
+        "relation": "用于发送",
+        "tail": "多种表示的文本"
+    },
+    {
+        "head": "multipart报文",
+        "relation": "包含",
+        "tail": "ASCII文本和格式化文本"
+    },
+    {
+        "head": "multipart报文",
+        "relation": "支持",
+        "tail": "同时显示多个子部分"
+    },
+    {
+        "head": "MIME邮件",
+        "relation": "包含",
+        "tail": "文本注解"
+    },
+    {
+        "head": "MIME邮件",
+        "relation": "包含",
+        "tail": "照片"
+    },
+    {
+        "head": "谢希仁",
+        "relation": "著有",
+        "tail": "《计算机网络》"
+    },
+    {
+        "head": "Content-Type",
+        "relation": "表示",
+        "tail": "媒体类型"
+    },
+    {
+        "head": "Content-Transfer-Encoding",
+        "relation": "表示",
+        "tail": "编码方式"
+    },
+    {
+        "head": "multipart",
+        "relation": "包含",
+        "tail": "多个部分"
+    }
+]

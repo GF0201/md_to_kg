@@ -1,0 +1,587 @@
+[
+    [
+        {
+            "head": "尾部丢弃策略",
+            "relation": "导致",
+            "tail": "路由器的分组丢失"
+        },
+        {
+            "head": "路由器的尾部丢弃",
+            "relation": "引起",
+            "tail": "TCP连接超时重传"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "进入",
+            "tail": "拥塞控制的慢开始状态"
+        },
+        {
+            "head": "尾部丢弃策略",
+            "relation": "影响",
+            "tail": "多个TCP连接同时进入慢开始状态"
+        },
+        {
+            "头": "这种现象",
+            "关系": "称为",
+            "尾": "全局同步"
+        },
+        {
+            "头": "全局同步",
+            "关系": "导致",
+            "尾": "网络通信量突然下降"
+        },
+        {
+            "头": "网络恢复正常后",
+            "关系": "引起",
+            "尾": "网络通信量突然增大"
+        }
+    ],
+    [
+        {
+            "head": "全局同步",
+            "relation": "导致",
+            "tail": "通信量下降"
+        },
+        {
+            "head": "主动队列管理AQM",
+            "relation": "目的是避免",
+            "tail": "网络中的全局同步现象"
+        },
+        {
+            "head": "RED",
+            "relation": "是",
+            "tail": "随机早期检测的简称"
+        },
+        {
+            "head": "RED",
+            "relation": "需要维持",
+            "tail": "两个参数：最小门限和最大门限"
+        },
+        {
+            "head": "平均队列长度",
+            "relation": "小于",
+            "tail": "最小门限时，分组被放入队列排队"
+        }
+    ],
+    [
+        {
+            "head": "RED机制",
+            "relation": "用于",
+            "tail": "避免全局性的拥塞控制"
+        },
+        {
+            "head": "平均队列长度",
+            "relation": "决定",
+            "tail": "丢弃概率p的选择"
+        },
+        {
+            "head": "丢弃概率p",
+            "relation": "影响",
+            "tail": "分组的丢弃与否"
+        },
+        {
+            "head": "RED机制",
+            "relation": "在",
+            "tail": "互连网路由器中使用"
+        },
+        {
+            "head": "RFC2309",
+            "relation": "推荐",
+            "tail": "RED机制"
+        },
+        {
+            "head": "RFC7567",
+            "relation": "指出",
+            "tail": "RED机制效果不理想"
+        }
+    ],
+    [
+        {
+            "head": "主动队列管理(AQM)",
+            "relation": "是",
+            "tail": "对分组排队进行智能管理的方法"
+        },
+        {
+            "head": "RED",
+            "relation": "已被替代",
+            "tail": "新的AQM算法"
+        },
+        {
+            "head": "TCP",
+            "relation": "面向",
+            "tail": "连接的协议"
+        },
+        {
+            "head": "运输连接建立",
+            "relation": "采用",
+            "tail": "客户服务器方式"
+        },
+        {
+            "head": "客户(client)",
+            "relation": "主动发起",
+            "tail": "连接建立"
+        },
+        {
+            "head": "服务器(server)",
+            "relation": "被动等待",
+            "tail": "连接建立"
+        }
+    ],
+    [
+        {
+            "head": "服务器",
+            "relation": "运行",
+            "tail": "TCP服务器程序"
+        },
+        {
+            "head": "客户",
+            "relation": "运行",
+            "tail": "TCP客户程序"
+        },
+        {
+            "head": "TCP报文段",
+            "relation": "交换",
+            "tail": "三个"
+        },
+        {
+            "head": "握手",
+            "relation": "建立",
+            "tail": "TCP连接"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "状态",
+            "tail": "ESTABLISHED"
+        },
+        {
+            "head": "TCP进程",
+            "relation": "状态",
+            "tail": "CLOSED"
+        },
+        {
+            "head": "TCP服务器进程",
+            "relation": "创建",
+            "tail": "传输控制块TCB@"
+        },
+        {
+            "head": "TCP服务器进程",
+            "relation": "状态",
+            "tail": "LISTEN"
+        }
+    ],
+    [
+        {
+            "head": "服务器进程",
+            "relation": "处于状态",
+            "tail": "LISTEN"
+        },
+        {
+            "head": "服务器进程",
+            "relation": "等待",
+            "tail": "客户连接请求"
+        },
+        {
+            "head": "三报文握手",
+            "relation": "首次采用的译名",
+            "tail": "本教材"
+        },
+        {
+            "head": "三报文握手",
+            "relation": "对应",
+            "tail": "threewayhandshake"
+        },
+        {
+            "head": "传输控制块TCB",
+            "relation": "存储信息",
+            "tail": "TCP连接表、发送和接收缓存指针、重传队列指针、当前序号"
+        }
+    ],
+    [
+        {
+            "head": "TCP客户进程",
+            "relation": "创建",
+            "tail": "TCB"
+        },
+        {
+            "head": "连接请求报文段",
+            "relation": "包含",
+            "tail": "SYN=1"
+        },
+        {
+            "head": "连接请求报文段",
+            "relation": "不携带",
+            "tail": "数据"
+        },
+        {
+            "head": "TCP客户进程",
+            "relation": "进入状态",
+            "tail": "SYN-SENT"
+        },
+        {
+            "head": "B收到连接请求报文段后",
+            "relation": "同意建立连接",
+            "tail": "向A发送确认"
+        },
+        {
+            "head": "确认报文段",
+            "relation": "包含",
+            "tail": "SYN=1和ACK=1"
+        },
+        {
+            "head": "TCP服务器进程",
+            "relation": "进入状态",
+            "tail": "SYN-RCVD"
+        },
+        {
+            "head": "TCP客户进程收到B的确认后",
+            "relation": "给出",
+            "tail": "确认"
+        },
+        {
+            "head": "确认报文段",
+            "relation": "包含",
+            "tail": "ACK=1,确认号ack=y+1"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "建立",
+            "tail": "ESTABLISHED状态"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "进入状态",
+            "tail": "ESTABLISHED"
+        },
+        {
+            "head": "连接建立过程",
+            "relation": "称为",
+            "tail": "三报文握手"
+        },
+        {
+            "head": "确认报文段",
+            "relation": "携带",
+            "tail": "数据"
+        },
+        {
+            "head": "A",
+            "relation": "发送",
+            "tail": "确认报文段"
+        },
+        {
+            "head": "防止错误",
+            "relation": "避免",
+            "tail": "已失效的连接请求报文段"
+        }
+    ],
+    [
+        {
+            "head": "报文段",
+            "relation": "包含",
+            "tail": "连接请求"
+        },
+        {
+            "head": "B",
+            "relation": "误认为",
+            "tail": "新的连接建立"
+        },
+        {
+            "head": "确认报文段",
+            "relation": "导致",
+            "tail": "资源浪费"
+        },
+        {
+            "head": "三报文握手",
+            "relation": "防止",
+            "tail": "异常现象发生"
+        },
+        {
+            "head": "A",
+            "relation": "不会理睬",
+            "tail": "B的确认"
+        },
+        {
+            "head": "状态改变",
+            "relation": "说明",
+            "tail": "连接释放过程复杂"
+        },
+        {
+            "head": "TCP连接释放",
+            "relation": "涉及",
+            "tail": "双方状态变化"
+        }
+    ],
+    [
+        {
+            "head": "数据传输",
+            "relation": "完成",
+            "tail": "连接释放"
+        },
+        {
+            "head": "TCP",
+            "relation": "规定",
+            "tail": "FIN报文段携带序号"
+        },
+        {
+            "head": "A应用进程",
+            "relation": "发送",
+            "tail": "连接释放报文段"
+        },
+        {
+            "head": "连接释放报文段",
+            "relation": "设置",
+            "tail": "FIN位为1"
+        },
+        {
+            "head": "A",
+            "relation": "进入状态",
+            "tail": "FIN-WAIT-I"
+        },
+        {
+            "head": "B",
+            "relation": "确认",
+            "tail": "连接释放报文段"
+        },
+        {
+            "head": "TCP",
+            "relation": "规定",
+            "tail": "FIN报文段不携带数据仍消耗序号"
+        },
+        {
+            "head": "B",
+            "relation": "进入状态",
+            "tail": "ESTABLISHED状态"
+        },
+        {
+            "head": "A",
+            "relation": "关闭",
+            "tail": "主动"
+        },
+        {
+            "head": "B",
+            "关系": "关闭",
+            "尾部": "被动"
+        }
+    ],
+    [
+        {
+            "head": "TCP服务器进程",
+            "relation": "通知",
+            "tail": "高层应用进程"
+        },
+        {
+            "head": "A",
+            "relation": "进入",
+            "tail": "FIN-WAIT-2状态"
+        },
+        {
+            "head": "B",
+            "relation": "发出",
+            "tail": "连接释放报文段"
+        },
+        {
+            "head": "B",
+            "relation": "使",
+            "tail": "FIN=1"
+        },
+        {
+            "head": "B",
+            "relation": "进入",
+            "tail": "LAST-ACK状态"
+        },
+        {
+            "head": "A",
+            "relation": "发出确认",
+            "tail": "连接释放报文段"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "处于",
+            "tail": "半关闭状态"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "处于",
+            "tail": "CLOSE-WAIT状态"
+        }
+    ],
+    [
+        {
+            "head": "TCP标准",
+            "relation": "规定",
+            "tail": "前面发送过的FIN报文段要消序号"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "进入",
+            "tail": "TIME-WAIT状态"
+        },
+        {
+            "head": "TIME-WAIT状态",
+            "relation": "持续时间",
+            "tail": "2MSL"
+        },
+        {
+            "head": "MSL",
+            "relation": "定义",
+            "tail": "最长报文段寿命"
+        },
+        {
+            "head": "RFC793",
+            "relation": "建议",
+            "tail": "MSL设为2分钟"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "从",
+            "tail": "TIME-WAIT状态进入CLOSED状态"
+        },
+        {
+            "head": "TIME-WAIT状态",
+            "relation": "等待时间",
+            "tail": "4分钟"
+        }
+    ],
+    [
+        {
+            "head": "TIME-WAIT状态",
+            "relation": "必须等待",
+            "tail": "2MSL时间"
+        },
+        {
+            "head": "A",
+            "relation": "发送",
+            "tail": "最后一个ACK报文段"
+        },
+        {
+            "head": "B",
+            "relation": "超时重传",
+            "tail": "FIN+ACK报文段"
+        },
+        {
+            "head": "A",
+            "relation": "收到",
+            "tail": "重传的FIN+ACK报文段"
+        },
+        {
+            "head": "A",
+            "relation": "重新启动",
+            "tail": "2MSL计时器"
+        },
+        {
+            "head": "A和B",
+            "relation": "正常进入",
+            "tail": "CLOSED状态"
+        },
+        {
+            "head": "A",
+            "relation": "不等待一段时间",
+            "tail": "立即释放连接"
+        },
+        {
+            "head": "A",
+            "relation": "无法收到",
+            "tail": "B重传的FIN+ACK报文段"
+        },
+        {
+            "head": "B",
+            "relation": "无法进入",
+            "tail": "CLOSED状态"
+        },
+        {
+            "head": "A",
+            "relation": "发送完",
+            "tail": "最后一个ACK报文段"
+        },
+        {
+            "head": "A",
+            "relation": "经过时间2MSL",
+            "tail": "使本连接持续时间内产生的所有报文段消失"
+        },
+        {
+            "head": "下一个新的连接",
+            "relation": "不会出现",
+            "tail": "旧的连接请求报文段"
+        }
+    ],
+    [
+        {
+            "head": "TCP连接",
+            "relation": "包含",
+            "tail": "四报文握手"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "使用",
+            "tail": "传输控制块TCB"
+        },
+        {
+            "head": "TCP连接释放过程",
+            "relation": "包括",
+            "tail": "四报文握手"
+        },
+        {
+            "head": "服务器",
+            "relation": "设置",
+            "tail": "保活计时器"
+        },
+        {
+            "head": "保活计时器",
+            "relation": "用于检测",
+            "tail": "客户端故障"
+        },
+        {
+            "head": "探测报文段",
+            "relation": "发送间隔",
+            "tail": "75秒"
+        },
+        {
+            "head": "服务器",
+            "relation": "关闭连接",
+            "tail": "连续10次无响应"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "包含状态机",
+            "tail": "有限状态机"
+        },
+        {
+            "head": "状态变迁",
+            "relation": "引起",
+            "tail": "粗实线箭头"
+        },
+        {
+            "head": "状态变迁",
+            "relation": "引起",
+            "tail": "粗虚线箭头"
+        },
+        {
+            "head": "状态变迁",
+            "relation": "表示异常",
+            "tail": "细线箭头"
+        },
+        {
+            "head": "客户进程",
+            "relation": "对应状态变迁",
+            "tail": "粗实线箭头"
+        },
+        {
+            "head": "服务器进程",
+            "relation": "对应状态变迁",
+            "tail": "粗虚线箭头"
+        },
+        {
+            "head": "状态变迁",
+            "relation": "包括",
+            "tail": "LISTEN到SYN-SENT"
+        },
+        {
+            "head": "状态变迁",
+            "relation": "包括",
+            "tail": "SYN-SENT到SYN-RCVD"
+        }
+    ]
+]

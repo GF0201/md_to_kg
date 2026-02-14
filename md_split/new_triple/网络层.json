@@ -1,0 +1,367 @@
+[
+    {
+        "head": "网络层",
+        "relation": "提供服务",
+        "tail": "面向连接"
+    },
+    {
+        "head": "网络层",
+        "relation": "提供服务",
+        "tail": "无连接"
+    },
+    {
+        "head": "可靠交付",
+        "relation": "由谁负责",
+        "tail": "端系统"
+    },
+    {
+        "head": "可靠交付",
+        "relation": "由谁负责",
+        "tail": "网络"
+    },
+    {
+        "head": "IP",
+        "relation": "提供协议",
+        "tail": "网际控制报文协议ICMP"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "工作原理",
+        "tail": "路由选择机制"
+    },
+    {
+        "head": "无分类域间路由选择CIDR",
+        "relation": "概念",
+        "tail": "传统分类的地址"
+    },
+    {
+        "head": "网络层",
+        "relation": "提供服务",
+        "tail": "两种服务、两个层面"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "模仿",
+        "tail": "传统电信网"
+    },
+    {
+        "head": "面向连接的通信方式",
+        "relation": "用于",
+        "tail": "可靠传输服务"
+    },
+    {
+        "head": "分组交换",
+        "relation": "建立",
+        "tail": "虚电路VC"
+    },
+    {
+        "head": "分组首部",
+        "relation": "包含",
+        "tail": "虚电路编号"
+    },
+    {
+        "head": "可靠传输的网络协议",
+        "relation": "确保",
+        "tail": "无差错按序到达终点"
+    },
+    {
+        "head": "通信结束",
+        "relation": "释放",
+        "tail": "虚电路"
+    },
+    {
+        "head": "互联网",
+        "relation": "提出",
+        "tail": "崭新的网络设计思路"
+    },
+    {
+        "head": "分组交换",
+        "relation": "提供",
+        "tail": "数据报服务"
+    },
+    {
+        "head": "虚电路",
+        "relation": "表示",
+        "tail": "逻辑上的连接"
+    },
+    {
+        "head": "存储转发",
+        "relation": "方式",
+        "tail": "传送分组"
+    },
+    {
+        "head": "电路交换",
+        "relation": "建立",
+        "tail": "真正的物理连接"
+    },
+    {
+        "head": "数据报IP",
+        "relation": "对应",
+        "tail": "数据报服务"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "属于",
+        "tail": "IP分组"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "在网络层提供",
+        "tail": "数据报服务"
+    },
+    {
+        "head": "路由器",
+        "relation": "处理",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "主机",
+        "relation": "发送/接收",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "端系统",
+        "relation": "包含",
+        "tail": "路由器和主机"
+    },
+    {
+        "head": "X.25建议书",
+        "relation": "定义了",
+        "tail": "虚电路服务和数据报服务"
+    },
+    {
+        "head": "虚电路服务",
+        "relation": "与",
+        "tail": "尽力而为交付相关"
+    },
+    {
+        "head": "虚电路服务",
+        "relation": "提供",
+        "tail": "可靠通信"
+    },
+    {
+        "head": "数据报服务",
+        "relation": "提供",
+        "tail": "可靠通信"
+    },
+    {
+        "head": "连接的建立",
+        "relation": "通过",
+        "tail": "虚电路号"
+    },
+    {
+        "head": "分组的转发",
+        "relation": "依赖于",
+        "tail": "路由"
+    },
+    {
+        "head": "节点出故障",
+        "relation": "影响",
+        "tail": "差错处理"
+    },
+    {
+        "head": "流量控制",
+        "relation": "用于",
+        "tail": "防止拥塞"
+    },
+    {
+        "head": "路由表",
+        "relation": "包含",
+        "tail": "转发表"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "作用于",
+        "tail": "控制层面"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "生成",
+        "tail": "路由表"
+    },
+    {
+        "head": "控制层面",
+        "relation": "包含",
+        "tail": "转发图"
+    },
+    {
+        "head": "数据层面",
+        "relation": "涉及",
+        "tail": "分组"
+    },
+    {
+        "head": "路由器",
+        "relation": "具有",
+        "tail": "接口"
+    },
+    {
+        "head": "路由器",
+        "relation": "维护",
+        "tail": "路由表"
+    },
+    {
+        "head": "路由器",
+        "relation": "运行",
+        "tail": "路由选择协议"
+    },
+    {
+        "head": "协同动作",
+        "relation": "依赖于",
+        "tail": "通信模块"
+    },
+    {
+        "head": "路由选择",
+        "relation": "属于",
+        "tail": "计算机网络"
+    },
+    {
+        "head": "分组转发",
+        "relation": "发生在",
+        "tail": "数据层面"
+    },
+    {
+        "head": "软件定义网络(SDN)",
+        "relation": "涉及",
+        "tail": "控制层面"
+    },
+    {
+        "head": "路由选择软件",
+        "relation": "运行于",
+        "tail": "路由器"
+    },
+    {
+        "head": "远程控制器",
+        "relation": "控制",
+        "tail": "路由器"
+    },
+    {
+        "head": "网络状态",
+        "relation": "影响",
+        "tail": "路由选择软件"
+    },
+    {
+        "head": "分组",
+        "relation": "通过",
+        "tail": "路由器"
+    },
+    {
+        "head": "转发表",
+        "relation": "存储",
+        "tail": "路由器"
+    },
+    {
+        "head": "集中控制",
+        "relation": "实现于",
+        "tail": "SDN"
+    },
+    {
+        "head": "互联网",
+        "relation": "支持",
+        "tail": "SDN"
+    },
+    {
+        "head": "大型的专用数据中心",
+        "relation": "使用",
+        "tail": "SDN"
+    },
+    {
+        "head": "广域网",
+        "relation": "优化",
+        "tail": "网络运行效率"
+    },
+    {
+        "head": "网络运行效率",
+        "relation": "提高",
+        "tail": "经济效益"
+    },
+    {
+        "head": "数据层面",
+        "relation": "传输",
+        "tail": "IP协议"
+    },
+    {
+        "head": "软件定义的连网",
+        "relation": "属于",
+        "tail": "软件定义网络"
+    },
+    {
+        "head": "控制层面",
+        "relation": "位于",
+        "tail": "软件定义网络架构中"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "运行于",
+        "tail": "控制层面"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "属于",
+        "tail": "TCP/IP体系"
+    },
+    {
+        "head": "TCP/IP体系",
+        "relation": "包含",
+        "tail": "网际协议IP"
+    },
+    {
+        "head": "Kahn-Cerf协议",
+        "relation": "由",
+        "tail": "RobertKahn和VintCerf提出"
+    },
+    {
+        "head": "IPv4",
+        "relation": "属于",
+        "tail": "Kahn-Cerf协议"
+    },
+    {
+        "head": "IPv6",
+        "relation": "继承自",
+        "tail": "IPv4"
+    },
+    {
+        "head": "地址解析协议ARP",
+        "relation": "用于",
+        "tail": "IP地址到MAC地址的转换"
+    },
+    {
+        "head": "网际协议",
+        "relation": "属于",
+        "tail": "网络层"
+    },
+    {
+        "head": "网际协议",
+        "relation": "实现",
+        "tail": "IP地址转换"
+    },
+    {
+        "head": "链路层协议",
+        "relation": "位于",
+        "tail": "网络接口层"
+    },
+    {
+        "head": "物理硬件",
+        "relation": "提供",
+        "tail": "链路层服务"
+    },
+    {
+        "head": "虚拟互连网络",
+        "relation": "依赖于",
+        "tail": "网际协议"
+    },
+    {
+        "head": "地址解析协议(ARP)",
+        "relation": "工作在",
+        "tail": "链路层"
+    },
+    {
+        "head": "链路层",
+        "relation": "涉及",
+        "tail": "网络层"
+    },
+    {
+        "head": "ARP工作原理",
+        "relation": "属于",
+        "tail": "链路层"
+    }
+]

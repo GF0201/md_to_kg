@@ -1,0 +1,435 @@
+[
+    [
+        {
+            "head": "网际控制报文协议ICMP",
+            "relation": "是",
+            "tail": "互网络的标准协议"
+        },
+        {
+            "head": "ICMP",
+            "relation": "用于",
+            "tail": "更有效地转发IP数据报和提高交付成功的机会"
+        },
+        {
+            "head": "ICMP",
+            "relation": "允许",
+            "tail": "主机或路由器报告差错情况和提供有关异常情况的报告"
+        },
+        {
+            "head": "ICMP报文",
+            "relation": "包含",
+            "tail": "类型、代码和检验和"
+        },
+        {
+            "head": "ICMP报文格式",
+            "relation": "由",
+            "tail": "前4个字节是统一的格式，共有三个字段：类型、代码和检验和"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "属于",
+            "tail": "ICMP报文的一种"
+        },
+        {
+            "head": "ICMP询问报文",
+            "relation": "属于",
+            "tail": "ICMP报文的一种"
+        }
+    ],
+    [
+        {
+            "head": "ICMP报文",
+            "relation": "包含",
+            "tail": "类型、代码和检验和"
+        },
+        {
+            "head": "类型字段",
+            "relation": "区分",
+            "tail": "ICMP报文的类型"
+        },
+        {
+            "head": "代码字段",
+            "relation": "进一步区分",
+            "tail": "某种类型中的几种不同情况"
+        },
+        {
+            "head": "检验和字段",
+            "relation": "用于",
+            "tail": "检验整个ICMP报文"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "属于",
+            "tail": "ICMP报文的类型之一"
+        },
+        {
+            "head": "回送(Echo)请求",
+            "relation": "属于",
+            "tail": "ICMP报文的类型之一"
+        },
+        {
+            "head": "时间戳(Timestamp)请求",
+            "relation": "属于",
+            "tail": "ICMP报文的类型之一"
+        }
+    ],
+    [
+        {
+            "head": "终点不可达报文",
+            "relation": "发送于",
+            "tail": "路由器或主机不交付数据报时"
+        },
+        {
+            "head": "时间超过报文",
+            "relation": "发送于",
+            "tail": "路由器收到生存时间为零的数据报时"
+        },
+        {
+            "head": "参数问题报文",
+            "relation": "发送于",
+            "tail": "路由器或目的主机收到错误字段值的数据报时"
+        },
+        {
+            "head": "改变路由报文",
+            "relation": "发送于",
+            "tail": "路由器向主机发送以找到更好路由时"
+        },
+        {
+            "head": "转发表",
+            "relation": "存在于",
+            "tail": "互连网的主机中"
+        },
+        {
+            "head": "接口",
+            "relation": "用于",
+            "tail": "数据报发送"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "包含",
+            "tail": "路由器"
+        },
+        {
+            "head": "主机",
+            "relation": "使用",
+            "tail": "默认路由器"
+        },
+        {
+            "head": "数据报",
+            "relation": "通过",
+            "tail": "默认路由器"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "包含",
+            "tail": "首部和数据字段"
+        }
+    ],
+    [
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "包含",
+            "tail": "数据字段"
+        },
+        {
+            "head": "数据字段",
+            "relation": "包含",
+            "tail": "前8个字"
+        },
+        {
+            "head": "前8个字",
+            "relation": "提取",
+            "tail": "端口号和发送序号"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "用于",
+            "tail": "通知高层协议"
+        },
+        {
+            "head": "数据字段",
+            "relation": "包含",
+            "tail": "IP数据报首部信息"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "发送给",
+            "tail": "源点"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "不发送情况",
+            "tail": "对ICMP差错报告报文"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "不发送情况",
+            "tail": "对第一个分片的数据报片的所有后续数据报片"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "不发送情况",
+            "tail": "具有多播地址的数据报"
+        },
+        {
+            "head": "ICMP差错报告报文",
+            "relation": "不发送情况",
+            "tail": "具有特殊地址的数据报"
+        },
+        {
+            "head": "ICMP询问报文",
+            "relation": "类型",
+            "tail": "两种"
+        }
+    ],
+    [
+        {
+            "head": "ICMP",
+            "relation": "包含",
+            "tail": "回送请求"
+        },
+        {
+            "head": "ICMP",
+            "relation": "包含",
+            "tail": "回送回答"
+        },
+        {
+            "head": "ICMP",
+            "relation": "包含",
+            "tail": "时间戳请求"
+        },
+        {
+            "head": "ICMP",
+            "relation": "包含",
+            "tail": "时间戳回答"
+        },
+        {
+            "head": "PING",
+            "relation": "使用",
+            "tail": "ICMP回送请求与回送回答报文"
+        },
+        {
+            "head": "PING",
+            "relation": "是",
+            "tail": "分组网间探测"
+        },
+        {
+            "head": "Windows操作系统",
+            "relation": "提供",
+            "tail": "MSDOS命令行工具"
+        }
+    ],
+    [
+        {
+            "head": "ping",
+            "relation": "发送",
+            "tail": "ICMP回送请求报文"
+        },
+        {
+            "head": "邮件服务器mail.sina.com.cn",
+            "relation": "响应",
+            "tail": "ICMP回送回答报文"
+        },
+        {
+            "head": "ICMP回送请求报文",
+            "relation": "包含",
+            "tail": "时间戳"
+        },
+        {
+            "head": "统计结果",
+            "relation": "显示",
+            "tail": "发送的、收到的和丢失的分组数"
+        },
+        {
+            "head": "统计结果",
+            "relation": "包括",
+            "tail": "往返时间的最小值、最大值和平均值"
+        },
+        {
+            "head": "第三个测试分组",
+            "relation": "状态",
+            "tail": "丢失了"
+        }
+    ],
+    [
+        {
+            "head": "ping",
+            "relation": "target",
+            "tail": "mail.sina.com.cn"
+        },
+        {
+            "head": "ping",
+            "relation": "IP_address",
+            "tail": "202.108.43.230"
+        },
+        {
+            "head": "TTL",
+            "relation": "value",
+            "tail": "242"
+        }
+    ],
+    [
+        {
+            "head": "Ping测试",
+            "relation": "用于",
+            "tail": "检查主机连通性"
+        },
+        {
+            "head": "traceroute命令",
+            "relation": "跟踪",
+            "tail": "分组路径"
+        },
+        {
+            "head": "TTL",
+            "relation": "设置为",
+            "tail": "1"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "封装",
+            "tail": "无法交付的UDP用户数据报"
+        }
+    ],
+    [
+        {
+            "head": "路由器R1",
+            "relation": "接收并处理数据报P1",
+            "tail": "TTL减1后丢弃并向源主机发送ICMP时间超过差错报告"
+        },
+        {
+            "head": "路由器R2",
+            "relation": "接收并转发数据报P2",
+            "tail": "TTL减至0后丢弃并向源主机发送ICMP时间超过差错报告"
+        },
+        {
+            "head": "目的主机",
+            "relation": "接收到无法交付的UDP用户数据报",
+            "tail": "向源主机发送ICMP终点不可达差错报告"
+        }
+    ],
+    [
+        {
+            "head": "tracert命令",
+            "relation": "用于获取",
+            "tail": "路由器的往返时间"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "经过",
+            "tail": "路由器"
+        },
+        {
+            "head": "TTL值",
+            "relation": "对应",
+            "tail": "三次发送相同的IP数据报"
+        },
+        {
+            "head": "网络拥塞程度",
+            "relation": "影响",
+            "tail": "往返时间的长短"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "部"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "ns"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "ms"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "FIS"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "IIIS"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "m$"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "AS"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "FlS"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "MSS"
+        }
+    ],
+    [
+        {
+            "head": "IPv4",
+            "relation": "是",
+            "tail": "IP协议"
+        },
+        {
+            "head": "IPv6",
+            "relation": "是",
+            "tail": "IP协议的新版本"
+        },
+        {
+            "head": "IPv4",
+            "relation": "地址耗尽",
+            "tail": "2011年2月3日"
+        },
+        {
+            "head": "IPv6",
+            "relation": "开始商用部署",
+            "tail": "2014-2015年"
+        },
+        {
+            "head": "IPv6",
+            "relation": "正式标准发布日期",
+            "tail": "2017年7月"
+        },
+        {
+            "head": "IPv6",
+            "relation": "更大地址空间",
+            "tail": "解决IP地址耗尽问题"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "网络"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "涉及",
+            "tail": "数据传输"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "使用",
+            "tail": "协议"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "实现",
+            "tail": "通信"
+        }
+    ]
+]

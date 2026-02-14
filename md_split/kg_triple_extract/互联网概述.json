@@ -1,0 +1,739 @@
+[
+    [
+        {
+            "head": "互联网",
+            "relation": "提供",
+            "tail": "资源共享"
+        },
+        {
+            "head": "服务器",
+            "relation": "存储",
+            "tail": "电子文档"
+        },
+        {
+            "head": "用户",
+            "relation": "读取或下载",
+            "tail": "电子文档"
+        },
+        {
+            "head": "互联网",
+            "relation": "依赖",
+            "tail": "日常生活"
+        },
+        {
+            "head": "互联网",
+            "relation": "瘫痪",
+            "tail": "影响社会活动"
+        },
+        {
+            "head": "互联网",
+            "relation": "成为",
+            "tail": "基础设施"
+        },
+        {
+            "head": "互联网+",
+            "relation": "创造",
+            "tail": "发展生态"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "促进",
+            "tail": "经济发展"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "替代",
+            "tail": "电报业务"
+        },
+        {
+            "head": "网络电话",
+            "relation": "减少",
+            "tail": "长途电话通信量"
+        },
+        {
+            "head": "网购",
+            "relation": "影响",
+            "tail": "实体商店运营"
+        },
+        {
+            "head": "网约车",
+            "relation": "冲击",
+            "tail": "出租车行业"
+        },
+        {
+            "head": "网上支付",
+            "relation": "减少",
+            "tail": "银行营业厅客流量"
+        },
+        {
+            "head": "计算机病毒",
+            "relation": "破坏",
+            "tail": "互联网数据传输"
+        },
+        {
+            "head": "国家机密",
+            "relation": "被盗取",
+            "tail": "通过互联网"
+        },
+        {
+            "head": "网上欺诈",
+            "relation": "传播",
+            "tail": "谣言和不良信息"
+        },
+        {
+            "head": "青少年",
+            "relation": "沉迷",
+            "tail": "网络游戏中"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "是",
+            "tail": "世界上最大的覆盖全球的计算机网络"
+        },
+        {
+            "head": "互联网",
+            "relation": "源于",
+            "tail": "美国的互联网"
+        },
+        {
+            "head": "网络",
+            "relation": "构成",
+            "tail": "互联网的主要构件"
+        },
+        {
+            "head": "互连网",
+            "relation": "等同于",
+            "tail": "互联网"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "由构成",
+            "tail": "节点和链路"
+        },
+        {
+            "head": "节点",
+            "relation": "包括",
+            "tail": "计算机、集线器、交换机或路由器"
+        },
+        {
+            "head": "简单网络",
+            "relation": "包含",
+            "tail": "四个节点和三条链路"
+        },
+        {
+            "head": "互连网",
+            "relation": "由构成",
+            "tail": "多个网络通过路由器相互连接"
+        },
+        {
+            "head": "云",
+            "relation": "表示",
+            "tail": "一个网络"
+        }
+    ],
+    [
+        {
+            "head": "计算机",
+            "relation": "属于",
+            "tail": "主机"
+        },
+        {
+            "head": "路由器",
+            "relation": "是",
+            "tail": "特殊计算机"
+        },
+        {
+            "head": "互连网",
+            "relation": "连接",
+            "tail": "网络"
+        },
+        {
+            "head": "互连网",
+            "relation": "连接",
+            "tail": "路由器"
+        },
+        {
+            "head": "主机",
+            "relation": "与",
+            "tail": "网络相连"
+        }
+    ],
+    [
+        {
+            "head": "网络互连",
+            "relation": "涉及",
+            "tail": "计算机之间交换信息"
+        },
+        {
+            "head": "智能手机",
+            "relation": "相当于",
+            "tail": "主机"
+        },
+        {
+            "head": "互联网基础结构",
+            "relation": "经历",
+            "tail": "三个阶段演进"
+        },
+        {
+            "head": "第一阶段",
+            "relation": "从",
+            "tail": "单个网络ARPANET向互连网发展"
+        }
+    ],
+    [
+        {
+            "head": "ARPANET",
+            "relation": "创建时间",
+            "tail": "1969年"
+        },
+        {
+            "head": "ARPANET",
+            "relation": "最初状态",
+            "tail": "单个分组交换网"
+        },
+        {
+            "head": "互连网络",
+            "relation": "出现时间",
+            "tail": "20世纪70年代中期"
+        },
+        {
+            "head": "TCP/IP协议",
+            "relation": "成为标准协议时间",
+            "tail": "1983年"
+        },
+        {
+            "head": "互联网",
+            "relation": "诞生时间",
+            "tail": "1983年"
+        },
+        {
+            "head": "ARPANET",
+            "relation": "正式关闭时间",
+            "tail": "1990年"
+        }
+    ],
+    [
+        {
+            "head": "TCP/IP协议",
+            "relation": "使用于",
+            "tail": "互联网"
+        },
+        {
+            "head": "Internet",
+            "relation": "前身",
+            "tail": "ARPANET"
+        },
+        {
+            "head": "NSFNET",
+            "relation": "构建",
+            "tail": "三级计算机网络"
+        },
+        {
+            "head": "主干网",
+            "relation": "属于",
+            "tail": "NSFNET"
+        },
+        {
+            "head": "地区网",
+            "relation": "属于",
+            "tail": "NSFNET"
+        },
+        {
+            "head": "校园网",
+            "relation": "属于",
+            "tail": "NSFNET"
+        },
+        {
+            "head": "互联网",
+            "relation": "前身",
+            "tail": "ARPANET"
+        },
+        {
+            "head": "互联网",
+            "relation": "由",
+            "tail": "NSFNET"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "包含",
+            "tail": "主机"
+        },
+        {
+            "head": "1992年",
+            "relation": "拥有",
+            "tail": "100万台主机"
+        },
+        {
+            "head": "主干网",
+            "relation": "速率提高到",
+            "tail": "45Mbit/sCT3速率"
+        },
+        {
+            "head": "互联网",
+            "relation": "需要",
+            "tail": "地区网和主干网"
+        },
+        {
+            "head": "地区网",
+            "relation": "完成通信",
+            "tail": "本地区校园网或企业网之间"
+        },
+        {
+            "head": "主干网",
+            "relation": "实现通信",
+            "tail": "不同地区用户之间"
+        },
+        {
+            "head": "互联网",
+            "relation": "形成结构",
+            "tail": "多层次ISP结构"
+        },
+        {
+            "head": "NSFNET",
+            "relation": "被替代",
+            "tail": "商用互联网主干网"
+        },
+        {
+            "head": "政府机构",
+            "relation": "不再负责",
+            "tail": "互联网运营"
+        },
+        {
+            "head": "ISP",
+            "relation": "定义为",
+            "tail": "互联网服务提供者"
+        },
+        {
+            "head": "ISP",
+            "relation": "又译为",
+            "tail": "互联网服务提供商"
+        },
+        {
+            "head": "中国",
+            "relation": "有著名公司",
+            "tail": "中国电信、中国联通和中国移动"
+        }
+    ],
+    [
+        {
+            "head": "ISP",
+            "relation": "提供服务",
+            "tail": "IP地址租赁"
+        },
+        {
+            "head": "ISP",
+            "relation": "拥有",
+            "tail": "通信线路和路由器"
+        },
+        {
+            "head": "用户",
+            "relation": "通过",
+            "tail": "ISP上网"
+        },
+        {
+            "head": "互联网管理机构",
+            "relation": "分配",
+            "tail": "IP地址"
+        },
+        {
+            "head": "ISP",
+            "relation": "分为",
+            "tail": "主干ISP、地区ISP和本地ISP"
+        }
+    ],
+    [
+        {
+            "head": "主干ISP",
+            "relation": "创建和维护",
+            "tail": "专门的公司"
+        },
+        {
+            "head": "主干ISP",
+            "relation": "服务面积",
+            "tail": "国家范围"
+        },
+        {
+            "head": "主干ISP",
+            "relation": "拥有",
+            "tail": "高速主干网"
+        },
+        {
+            "head": "地区ISP",
+            "relation": "通过连接",
+            "tail": "主干ISP"
+        },
+        {
+            "head": "地区ISP",
+            "relation": "等级",
+            "tail": "第二层"
+        },
+        {
+            "head": "本地ISP",
+            "relation": "提供服务",
+            "tail": "用户"
+        },
+        {
+            "head": "本地ISP",
+            "relation": "可以连接到",
+            "tail": "地区ISP"
+        },
+        {
+            "head": "本地ISP",
+            "relation": "也可以直接连接到",
+            "tail": "主干ISP"
+        },
+        {
+            "head": "本地ISP",
+            "关系": "可以是",
+            "tail": "提供互联网服务的公司"
+        },
+        {
+            "head": "本地ISP",
+            "关系": "可以是",
+            "tail": "拥有网络并向自己雇员提供服务的企业"
+        },
+        {
+            "head": "本地ISP",
+            "关系": "也可以是",
+            "tail": "运行自己的网络的非营利机构"
+        }
+    ],
+    [
+        {
+            "head": "互联网交换点IXP",
+            "relation": "主要作用",
+            "tail": "允许两个网络直接相连并交换分组"
+        },
+        {
+            "head": "主机A",
+            "relation": "通过",
+            "tail": "本地ISP"
+        },
+        {
+            "head": "地区ISP",
+            "relation": "通过",
+            "tail": "互联网交换点IXP连接起来"
+        },
+        {
+            "head": "高速链路",
+            "relation": "用于",
+            "tail": "两个地区ISP之间对等地交换分组"
+        },
+        {
+            "head": "数据流量分布",
+            "relation": "更加合理",
+            "tail": "在互联网上"
+        },
+        {
+            "head": "转发迟延时间",
+            "relation": "减少",
+            "tail": "分组转发时"
+        },
+        {
+            "head": "费用",
+            "relation": "降低",
+            "tail": "分组转发时"
+        }
+    ],
+    [
+        {
+            "head": "IXP",
+            "relation": "包含",
+            "tail": "网络交换机"
+        },
+        {
+            "head": "网络交换机",
+            "relation": "工作在",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "IXP",
+            "relation": "连接",
+            "tail": "ISP"
+        },
+        {
+            "head": "DE-CIX",
+            "relation": "位于",
+            "tail": "法兰克福"
+        },
+        {
+            "head": "DE-CIX",
+            "relation": "峰值吞吐量",
+            "tail": "7.72Tbit/s"
+        },
+        {
+            "head": "视频文件",
+            "relation": "构成",
+            "tail": "互联网上最主要的流量"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "包含",
+            "tail": "视频文件传送"
+        },
+        {
+            "head": "内容提供者",
+            "relation": "提供",
+            "tail": "视频文件服务"
+        },
+        {
+            "head": "ISP",
+            "relation": "不提供",
+            "tail": "互联网转接服务"
+        },
+        {
+            "head": "ISP",
+            "relation": "提供",
+            "tail": "信息服务和增值服务"
+        },
+        {
+            "head": "万维网",
+            "relation": "起源于",
+            "tail": "欧洲原子核研究组织CERN"
+        },
+        {
+            "head": "万维网",
+            "relation": "方便使用",
+            "tail": "非网络专业人员"
+        },
+        {
+            "head": "万维网",
+            "relation": "驱动",
+            "tail": "互联网增长"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "驱动因素",
+            "tail": "人员对网络的使用"
+        },
+        {
+            "head": "万维网",
+            "relation": "增长",
+            "tail": "站点数目"
+        },
+        {
+            "head": "数据通信量",
+            "relation": "增加速度",
+            "tail": "每月约10%"
+        },
+        {
+            "head": "互联网用户数",
+            "relation": "时间点",
+            "tail": "2005年超过10亿"
+        },
+        {
+            "head": "互联网用户数",
+            "relation": "时间点",
+            "tail": "2010年超过20亿"
+        },
+        {
+            "head": "互联网用户数",
+            "relation": "时间点",
+            "tail": "2014年接近30亿"
+        },
+        {
+            "head": "互联网用户数",
+            "relation": "时间点",
+            "tail": "2019年3月底超过43.8亿"
+        },
+        {
+            "head": "标准化工作",
+            "relation": "作用",
+            "tail": "对互联网发展起到重要作用"
+        },
+        {
+            "head": "国际标准",
+            "relation": "影响",
+            "tail": "技术发展状态"
+        },
+        {
+            "head": "国际标准制定",
+            "relation": "复杂性",
+            "tail": "有很多技术问题和非技术问题"
+        }
+    ],
+    [
+        {
+            "head": "互联网协会",
+            "relation": "成立时间",
+            "tail": "1992年"
+        },
+        {
+            "head": "互联网协会",
+            "relation": "简称",
+            "tail": "ISOC"
+        },
+        {
+            "head": "互联网体系结构委员会",
+            "relation": "隶属于",
+            "tail": "互联网协会"
+        },
+        {
+            "head": "互联网工程部IETF",
+            "relation": "隶属于",
+            "tail": "互联网体系结构委员会IAB"
+        },
+        {
+            "head": "互联网工程部IETF",
+            "relation": "组成",
+            "tail": "工作组WG"
+        }
+    ],
+    [
+        {
+            "head": "IESG",
+            "relation": "管理",
+            "tail": "工作组"
+        },
+        {
+            "head": "工作组",
+            "relation": "研究",
+            "tail": "工程问题"
+        },
+        {
+            "head": "IRTF",
+            "relation": "由",
+            "tail": "RG组成"
+        },
+        {
+            "head": "RG",
+            "relation": "属于",
+            "tail": "IRTF"
+        },
+        {
+            "head": "IRSG",
+            "relation": "管理",
+            "tail": "IRTF"
+        },
+        {
+            "head": "RFC",
+            "relation": "形式",
+            "tail": "互联网标准"
+        },
+        {
+            "head": "RFC",
+            "relation": "发表",
+            "tail": "互联网上"
+        }
+    ],
+    [
+        {
+            "head": "RFC",
+            "relation": "包含编号",
+            "tail": "RFCXXXX"
+        },
+        {
+            "head": "RFC",
+            "relation": "更新后使用新编号",
+            "tail": "新的RFC文档"
+        },
+        {
+            "head": "RFC",
+            "relation": "数量增长快",
+            "tail": "2020年8月达到8881"
+        },
+        {
+            "head": "互联网草案",
+            "relation": "有效期",
+            "tail": "六个月"
+        },
+        {
+            "head": "互联网草案",
+            "relation": "阶段",
+            "tail": "InternetDraft"
+        },
+        {
+            "head": "建议标准",
+            "relation": "阶段",
+            "tail": "ProposedStandard"
+        },
+        {
+            "head": "互联网标准",
+            "relation": "阶段",
+            "tail": "InternetStandard"
+        },
+        {
+            "head": "建议标准",
+            "relation": "可以成为",
+            "tail": "互联网标准"
+        },
+        {
+            "head": "建议标准",
+            "relation": "分配编号",
+            "tail": "STDxx"
+        }
+    ],
+    [
+        {
+            "head": "互联网标准",
+            "relation": "包含编号",
+            "tail": "STD"
+        },
+        {
+            "head": "草案标准",
+            "relation": "转换为",
+            "tail": "建议标准或互联网标准"
+        },
+        {
+            "head": "RFC文档",
+            "relation": "成为",
+            "tail": "互联网标准"
+        },
+        {
+            "head": "2019年11月",
+            "relation": "最大编号为",
+            "tail": "STD92"
+        }
+    ],
+    [
+        {
+            "head": "RFC文档",
+            "relation": "分为",
+            "tail": "标准、历史的、实验的和提供信息的"
+        },
+        {
+            "head": "索引文件",
+            "relation": "用于查找",
+            "tail": "RFC文档"
+        },
+        {
+            "head": "边缘部分",
+            "relation": "由",
+            "tail": "所有连接在互联网上的主机组成"
+        },
+        {
+            "head": "互联网",
+            "relation": "划分为",
+            "tail": "两大块"
+        }
+    ],
+    [
+        {
+            "head": "网络",
+            "relation": "组成",
+            "tail": "大量路由器"
+        },
+        {
+            "head": "路由器",
+            "relation": "提供服务给",
+            "tail": "边缘部分"
+        },
+        {
+            "head": "网络和路由器",
+            "relation": "作用",
+            "tail": "提供连通性和交换"
+        }
+    ]
+]

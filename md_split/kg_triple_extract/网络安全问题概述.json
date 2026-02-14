@@ -1,0 +1,510 @@
+[
+    [
+        {
+            "head": "计算机网络",
+            "relation": "面临威胁",
+            "tail": "被动攻击"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "面临威胁",
+            "tail": "主动攻击"
+        },
+        {
+            "head": "网络安全问题",
+            "relation": "包括",
+            "tail": "数据加密模型"
+        },
+        {
+            "head": "对称密钥密码体制",
+            "relation": "特点",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "特点",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "鉴别",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "报文鉴别码",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "数字签名",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "证书",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "证书链",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "IPsec协议族",
+            "relation": "要点",
+            "tail": "网络层安全协议"
+        },
+        {
+            "head": "TLS",
+            "relation": "要点",
+            "tail": "运输层安全协议"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "安全措施",
+            "tail": "应用层"
+        }
+    ],
+    [
+        {
+            "head": "被动攻击",
+            "relation": "包含",
+            "tail": "截获"
+        },
+        {
+            "head": "被动攻击",
+            "relation": "导致",
+            "tail": "流量分析"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "包括",
+            "tail": "篡改攻击"
+        }
+    ],
+    [
+        {
+            "head": "计算机病毒",
+            "relation": "属于",
+            "tail": "恶意程序"
+        },
+        {
+            "head": "计算机蠕虫",
+            "relation": "属于",
+            "tail": "恶意程序"
+        },
+        {
+            "head": "特洛伊木马",
+            "relation": "属于",
+            "tail": "恶意程序"
+        },
+        {
+            "head": "逻辑炸弹",
+            "relation": "属于",
+            "tail": "恶意程序"
+        },
+        {
+            "head": "后门入侵",
+            "relation": "属于",
+            "尾部": "恶意程序"
+        }
+    ],
+    [
+        {
+            "head": "PlayStationNetwork",
+            "relation": "被入侵时间",
+            "tail": "2011年"
+        },
+        {
+            "head": "PlayStationNetwork",
+            "relation": "被盗用户数量",
+            "tail": "7700万"
+        },
+        {
+            "head": "PlayStationNetwork",
+            "tail": "个人信息泄露",
+            "relation": "包含字段"
+        },
+        {
+            "head": "姓名",
+            "relation": "属于",
+            "tail": "个人信息"
+        },
+        {
+            "head": "生日",
+            "relation": "属于",
+            "tail": "个人信息"
+        },
+        {
+            "head": "E-mail地址",
+            "relation": "属于",
+            "tail": "个人信息"
+        },
+        {
+            "head": "密码",
+            "relation": "属于",
+            "tail": "个人信息"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "特征",
+            "tail": "强制安装"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "特征",
+            "tail": "难以卸载"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "特征",
+            "tail": "浏览器劫持"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "特征",
+            "tail": "广告弹出"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "特征",
+            "tail": "恶意收集用户信息"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "特征",
+            "tail": "恶意卸载"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "特征",
+            "tail": "恶意捆绑"
+        },
+        {
+            "head": "计算机病毒",
+            "relation": "定义",
+            "tail": "狭义的恶意程序"
+        },
+        {
+            "head": "Morris病毒",
+            "relation": "事件类型",
+            "tail": "互联网蠕虫事件"
+        }
+    ],
+    [
+        {
+            "head": "拒绝服务",
+            "relation": "类型",
+            "tail": "DoS"
+        },
+        {
+            "head": "分布式拒绝服务",
+            "relation": "类型",
+            "tail": "DDoS"
+        },
+        {
+            "head": "分布式拒绝服务",
+            "relation": "特点",
+            "tail": "网络带宽攻击"
+        },
+        {
+            "head": "分布式拒绝服务",
+            "relation": "特点",
+            "tail": "连通性攻击"
+        },
+        {
+            "head": "2018年2月6日",
+            "relation": "时间",
+            "tail": "根服务器系统袭击事件"
+        }
+    ],
+    [
+        {
+            "head": "黑客",
+            "relation": "攻击",
+            "tail": "根服务器系统"
+        },
+        {
+            "head": "以太网交换机",
+            "relation": "中毒",
+            "tail": "大量伪造源MAC地址的帧"
+        },
+        {
+            "head": "ICANN",
+            "relation": "认为",
+            "tail": "黑客可能是任何人"
+        }
+    ],
+    [
+        {
+            "head": "交换机中毒",
+            "relation": "导致",
+            "tail": "以太网交换机无法正常工作"
+        },
+        {
+            "head": "被动攻击",
+            "relation": "检测不出来",
+            "tail": "通常"
+        },
+        {
+            "head": "计算机网络通信安全",
+            "relation": "目标之一",
+            "tail": "防止析出报文内容和流量分析"
+        },
+        {
+            "head": "计算机网络通信安全",
+            "relation": "目标之一",
+            "tail": "防止恶意程序"
+        },
+        {
+            "head": "计算机网络通信安全",
+            "relation": "目标之一",
+            "tail": "检测更改报文流和拒绝服务"
+        },
+        {
+            "head": "被动攻击",
+            "relation": "应对措施",
+            "tail": "数据加密技术"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "应对措施",
+            "tail": "结合加密技术和鉴别技术"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含目标",
+            "tail": "机密性"
+        },
+        {
+            "head": "安全协议设计",
+            "relation": "针对",
+            "tail": "具体攻击"
+        },
+        {
+            "head": "形式化方法",
+            "relation": "用于证明",
+            "tail": "协议安全性"
+        },
+        {
+            "head": "复杂通信协议",
+            "relation": "安全性分析",
+            "tail": "人工分析"
+        },
+        {
+            "head": "简单协议",
+            "relation": "通过限制入侵者操作",
+            "tail": "进行形式化证明"
+        },
+        {
+            "head": "安全计算机网络",
+            "relation": "应达到目标数量",
+            "tail": "4个"
+        },
+        {
+            "head": "机密性",
+            "relation": "定义为",
+            "tail": "发送方和接收方懂得信息内容，截获者看不懂"
+        }
+    ],
+    [
+        {
+            "head": "端点鉴别",
+            "relation": "确保",
+            "tail": "发送方和接收方的真实身份"
+        },
+        {
+            "head": "信息完整性",
+            "relation": "保证",
+            "tail": "信息内容未被篡改"
+        },
+        {
+            "head": "网络诈骗",
+            "relation": "导致",
+            "tail": "不能鉴别发送方真实身份"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "需要应对",
+            "tail": "端点鉴别和信息完整性"
+        }
+    ],
+    [
+        {
+            "head": "身份鉴别",
+            "relation": "包含于",
+            "tail": "完整性"
+        },
+        {
+            "head": "报文",
+            "relation": "需要验证",
+            "tail": "完整性和身份"
+        },
+        {
+            "head": "访问控制",
+            "relation": "重要性",
+            "tail": "计算机系统运行安全"
+        },
+        {
+            "head": "多级安全",
+            "relation": "影响",
+            "tail": "网络访问控制机制复杂度"
+        },
+        {
+            "head": "数据加密模型",
+            "relation": "用于",
+            "tail": "保护信息完整性"
+        }
+    ],
+    [
+        {
+            "head": "加密算法",
+            "relation": "用于",
+            "tail": "将明文转换为密文"
+        },
+        {
+            "head": "解密算法",
+            "relation": "用于",
+            "tail": "将密文恢复为明文"
+        },
+        {
+            "head": "密钥",
+            "relation": "是",
+            "tail": "加密和解密过程中的关键因素"
+        },
+        {
+            "head": "攻击者",
+            "relation": "可能截取",
+            "tail": "在传输过程中发送的密文"
+        },
+        {
+            "head": "入侵者",
+            "relation": "可能截取",
+            "tail": "在传输过程中发送的密文"
+        },
+        {
+            "head": "解密密钥",
+            "relation": "与",
+            "tail": "加密密钥相关联"
+        },
+        {
+            "head": "安全信道",
+            "relation": "用于",
+            "tail": "传送密钥"
+        }
+    ],
+    [
+        {
+            "head": "密码编码学",
+            "relation": "属于",
+            "tail": "密码体制设计"
+        },
+        {
+            "head": "密码分析学",
+            "relation": "研究对象",
+            "tail": "未知密钥情况下的明文推演"
+        },
+        {
+            "head": "密码学",
+            "relation": "包含",
+            "tail": "密码编码学和密码分析学"
+        },
+        {
+            "head": "无条件安全",
+            "relation": "定义为",
+            "tail": "密文中没有足够信息确定对应明文"
+        },
+        {
+            "head": "计算上不可破",
+            "relation": "目标",
+            "tail": "在一定时间内不能被使用计算资源破译"
+        },
+        {
+            "head": "通信保密",
+            "relation": "历史悠久",
+            "tail": "几千年前已有思想和方法"
+        },
+        {
+            "head": "信息论",
+            "relation": "创始人",
+            "tail": "香农(C.E.Shannon)"
+        },
+        {
+            "head": "电子技术",
+            "relation": "促进",
+            "tail": "密码学发展"
+        },
+        {
+            "head": "计算技术",
+            "relation": "推动",
+            "tail": "密码学进步"
+        }
+    ],
+    [
+        {
+            "head": "数据加密标准DES",
+            "relation": "属于",
+            "tail": "对称密钥密码体制"
+        },
+        {
+            "head": "对称密钥密码体制",
+            "relation": "使用",
+            "tail": "相同密钥进行加密和解密"
+        },
+        {
+            "head": "DES",
+            "relation": "由IBM公司研制",
+            "tail": "1977年被美国定为联邦信息标准"
+        },
+        {
+            "head": "DES",
+            "relation": "每组明文长度",
+            "tail": "64位二进制数据"
+        },
+        {
+            "head": "DES密钥",
+            "relation": "实际长度",
+            "tail": "56位"
+        }
+    ],
+    [
+        {
+            "head": "密钥",
+            "relation": "长度",
+            "tail": "56位"
+        },
+        {
+            "head": "密钥空间",
+            "relation": "包含可能的密钥数量",
+            "tail": "约7.6X10^{72}"
+        },
+        {
+            "head": "计算机",
+            "relation": "执行速度",
+            "tail": "1µs"
+        },
+        {
+            "head": "DES加密",
+            "relation": "破解时间",
+            "tail": "超过1000年"
+        },
+        {
+            "head": "芯片发展",
+            "relation": "影响",
+            "tail": "56位DES不再被认为是安全的"
+        },
+        {
+            "head": "三重DES",
+            "relation": "提出原因",
+            "tail": "解决56位密钥问题"
+        },
+        {
+            "head": "三重DES",
+            "relation": "加密过程",
+            "tail": "DESK[(DES-IK2(DESK1(X)))]"
+        }
+    ]
+]

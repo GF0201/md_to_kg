@@ -1,0 +1,323 @@
+[
+    [
+        {
+            "head": "电路交换",
+            "relation": "适用于",
+            "tail": "话音通信"
+        },
+        {
+            "head": "分组交换",
+            "relation": "适用于",
+            "tail": "数据通信"
+        },
+        {
+            "head": "蜂窝移动通信",
+            "relation": "采用",
+            "tail": "分组交换"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "发展",
+            "tail": "我国"
+        }
+    ],
+    [
+        {
+            "head": "铁道部",
+            "relation": "建设",
+            "tail": "专用计算机广域网"
+        },
+        {
+            "head": "CNPAC",
+            "relation": "建成运行于",
+            "tail": "1989年11月"
+        },
+        {
+            "head": "公安、银行、军队等",
+            "relation": "建立",
+            "tail": "专用计算机广域网"
+        },
+        {
+            "head": "国内单位",
+            "relation": "安装",
+            "tail": "局域网"
+        },
+        {
+            "head": "互联网",
+            "relation": "接入",
+            "tail": "1994年4月20日"
+        },
+        {
+            "head": "中国科学院高能物理研究所",
+            "relation": "设立",
+            "tail": "第一个万维网服务器"
+        },
+        {
+            "head": "CHINANET",
+            "relation": "正式启动于",
+            "tail": "1994年9月"
+        }
+    ],
+    [
+        {
+            "head": "中国",
+            "relation": "拥有",
+            "tail": "第一个万维网服务器"
+        },
+        {
+            "head": "CHINANET",
+            "relation": "启动",
+            "tail": "9月中国公用计算机互联网"
+        },
+        {
+            "head": "CHINANET",
+            "relation": "包含",
+            "tail": "中国电信互联网"
+        },
+        {
+            "head": "UNINET",
+            "relation": "包含",
+            "tail": "中国联通互联网"
+        },
+        {
+            "head": "CMNET",
+            "relation": "包含",
+            "tail": "中国移动互联网"
+        },
+        {
+            "head": "CERNET",
+            "relation": "包含",
+            "tail": "中国教育和科研计算机网"
+        },
+        {
+            "head": "CSTNET",
+            "relation": "包含",
+            "tail": "中国科学技术网"
+        },
+        {
+            "head": "CNGI",
+            "relation": "开通",
+            "tail": "2004年2月下一代互联网试验网"
+        },
+        {
+            "head": "CERNET2试验网",
+            "relation": "连接",
+            "tail": "北京、上海和广州三个核心节点"
+        },
+        {
+            "head": "CERNET2试验网",
+            "relation": "速率",
+            "tail": "2.5~10Gbit/s"
+        },
+        {
+            "head": "中国",
+            "relation": "达到",
+            "tail": "与国际先进水平同步"
+        },
+        {
+            "head": "CNNIC",
+            "relation": "公布",
+            "tail": "互联网发展情况"
+        }
+    ],
+    [
+        {
+            "head": "中国",
+            "relation": "拥有网民数量",
+            "tail": "9.04亿"
+        },
+        {
+            "head": "互联网普及率",
+            "relation": "达到",
+            "tail": "64.5%"
+        },
+        {
+            "head": "手机网民规模",
+            "relation": "为",
+            "tail": "8.97亿"
+        },
+        {
+            "head": "农村网民比例",
+            "relation": "占整体网民的",
+            "tail": "28.2%"
+        },
+        {
+            "head": "即时通信",
+            "relation": "是网民主要网络应用之一",
+            "tail": ""
+        },
+        {
+            "head": "搜索引擎",
+            "relation": "是网民主要网络应用之一",
+            "tail": ""
+        },
+        {
+            "head": "网络音乐",
+            "relation": "是网民主要网络应用之一",
+            "tail": ""
+        },
+        {
+            "head": "网络新闻",
+            "relation": "是网民主要网络应用之一",
+            "tail": ""
+        },
+        {
+            "head": "博客",
+            "relation": "是网民主要网络应用之一",
+            "tail": ""
+        },
+        {
+            "head": "网上购物",
+            "relation": "使用率提升",
+            "tail": ""
+        },
+        {
+            "head": "网上支付",
+            "relation": "使用率提升",
+            "tail": ""
+        },
+        {
+            "head": "网上银行",
+            "relation": "使用率提升",
+            "tail": ""
+        },
+        {
+            "head": "国际出口带宽",
+            "relation": "超过",
+            "tail": "8.8Tbit/s"
+        }
+    ],
+    [
+        {
+            "head": "爱特信公司",
+            "relation": "推出",
+            "tail": "搜狐网站"
+        },
+        {
+            "head": "搜狐网站",
+            "relation": "成为",
+            "tail": "综合门户网站"
+        },
+        {
+            "head": "网易公司",
+            "relation": "推出",
+            "tail": "中文全文搜索引擎"
+        },
+        {
+            "head": "网易邮箱",
+            "relation": "具有",
+            "tail": "高效杀毒和拦截垃圾邮件功能"
+        },
+        {
+            "head": "新浪网站",
+            "relation": "成为",
+            "tail": "全球最大的中文综合门户网站"
+        },
+        {
+            "head": "腾讯公司",
+            "relation": "推出",
+            "tail": "即时通信软件OICQ"
+        },
+        {
+            "head": "OICQ",
+            "relation": "改名为",
+            "tail": "QQ"
+        },
+        {
+            "head": "QQ",
+            "relation": "成为",
+            "tail": "网络沟通交流工具"
+        }
+    ],
+    [
+        {
+            "head": "腾讯",
+            "relation": "提供服务",
+            "tail": "互联网综合服务"
+        },
+        {
+            "head": "微信",
+            "relation": "运行于",
+            "tail": "智能手机"
+        },
+        {
+            "head": "微信",
+            "relation": "支持功能",
+            "tail": "话音短信、视频、图片和文字发送"
+        },
+        {
+            "head": "微信",
+            "relation": "支持功能",
+            "tail": "多人视频会议"
+        },
+        {
+            "head": "微信",
+            "relation": "演变成",
+            "tail": "全能钱包"
+        },
+        {
+            "head": "百度",
+            "relation": "创建时间",
+            "tail": "2000年"
+        },
+        {
+            "head": "百度",
+            "relation": "业务类型",
+            "tail": "搜索引擎"
+        },
+        {
+            "head": "百度",
+            "relation": "语言支持",
+            "tail": "中文"
+        },
+        {
+            "head": "阿里巴巴",
+            "relation": "创建时间",
+            "tail": "1999年"
+        },
+        {
+            "head": "阿里巴巴",
+            "relation": "业务类型",
+            "tail": "网上贸易市场平台"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "定义为",
+            "tail": "通用的、可编程的硬件互连"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "支持应用",
+            "tail": "传送数据"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "支持应用",
+            "tail": "音频文件"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "支持应用",
+            "tail": "视频文件"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "中央处理器CPU"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "分类为",
+            "tail": "广域网WAN"
+        },
+        {
+            "head": "广域网WAN",
+            "relation": "作用范围",
+            "tail": "几十到几千公里"
+        }
+    ]
+]

@@ -1,0 +1,474 @@
+[
+    [
+        {
+            "head": "计算机",
+            "relation": "包含",
+            "tail": "进程"
+        },
+        {
+            "head": "通信",
+            "relation": "需要",
+            "tail": "IP地址和端口号"
+        },
+        {
+            "head": "信封",
+            "relation": "类比",
+            "tail": "计算机通信"
+        },
+        {
+            "head": "客户",
+            "relation": "发起",
+            "tail": "通信请求"
+        },
+        {
+            "head": "服务器端",
+            "relation": "使用",
+            "tail": "熟知端口号"
+        },
+        {
+            "head": "熟知端口号",
+            "relation": "范围",
+            "tail": "0~1023"
+        },
+        {
+            "head": "熟知端口号",
+            "relation": "最初公布在文档中",
+            "tail": "[RFC1700, STD2]"
+        }
+    ],
+    [
+        {
+            "head": "RFC",
+            "relation": "更新",
+            "tail": "标准文档"
+        },
+        {
+            "head": "IANA",
+            "relation": "指派",
+            "tail": "熟知端口号"
+        },
+        {
+            "head": "熟知端口号",
+            "relation": "对应",
+            "tail": "重要应用程序"
+        },
+        {
+            "head": "登记端口号",
+            "relation": "范围",
+            "tail": "1024~49151"
+        },
+        {
+            "head": "客户端",
+            "relation": "使用",
+            "tail": "49152~65535"
+        }
+    ],
+    [
+        {
+            "head": "短暂端口号",
+            "relation": "是",
+            "tail": "临时端口号"
+        },
+        {
+            "head": "客户端",
+            "relation": "使用",
+            "tail": "49152~65535的端口号"
+        },
+        {
+            "head": "短暂端口号",
+            "relation": "存在时间",
+            "tail": "短期"
+        },
+        {
+            "head": "客户进程",
+            "relation": "分配",
+            "tail": "唯一端口号"
+        },
+        {
+            "head": "UDP",
+            "relation": "增加",
+            "tail": "复用和分用的功能以及差错检测的功能"
+        }
+    ],
+    [
+        {
+            "head": "端口",
+            "relation": "用于",
+            "tail": "服务器程序"
+        },
+        {
+            "head": "熟知端口",
+            "relation": "固定使用于",
+            "tail": "服务器程序"
+        },
+        {
+            "head": "UDP",
+            "relation": "无连接的协议",
+            "tail": "发送数据之前不需要建立连接"
+        },
+        {
+            "head": "UDP",
+            "relation": "尽最大努力交付",
+            "tail": "不保证可靠交付"
+        },
+        {
+            "head": "UDP",
+            "relation": "面向报文的协议",
+            "tail": "保留应用层交下来的报文边界"
+        }
+    ],
+    [
+        {
+            "head": "UDP",
+            "relation": "面向",
+            "tail": "报文"
+        },
+        {
+            "head": "UDP",
+            "relation": "交给",
+            "tail": "IP层"
+        },
+        {
+            "head": "IP层",
+            "relation": "分片",
+            "tail": "降低效率"
+        },
+        {
+            "head": "UDP",
+            "relation": "首部开销小",
+            "tail": "8个字节"
+        },
+        {
+            "head": "TCP",
+            "relation": "首部开销大",
+            "tail": "20个字节"
+        },
+        {
+            "head": "UDP",
+            "relation": "支持",
+            "tail": "一对一、一对多、多对一和多对多的交互通信"
+        },
+        {
+            "head": "UDP",
+            "relation": "没有",
+            "tail": "拥塞控制"
+        }
+    ],
+    [
+        {
+            "head": "主机凡的操作系统",
+            "relation": "为进程指派端口",
+            "tail": "a, b 和 c"
+        },
+        {
+            "head": "运输层",
+            "relation": "组装UDP用户数据报",
+            "tail": "源端口(a,x), (b,x)和(c,y)"
+        },
+        {
+            "head": "运输层",
+            "relation": "通信方式",
+            "tail": "不可靠的通信"
+        },
+        {
+            "head": "UDP",
+            "relation": "特点",
+            "tail": "简单方便，但不可靠"
+        },
+        {
+            "head": "TCP",
+            "relation": "提供可靠通信",
+            "tail": "与UDP对比"
+        }
+    ],
+    [
+        {
+            "head": "UDP",
+            "relation": "属于",
+            "tail": "运输层"
+        },
+        {
+            "head": "应用进程",
+            "relation": "通过",
+            "tail": "端口号"
+        },
+        {
+            "head": "UDP用户数据报",
+            "relation": "封装在",
+            "tail": "IP数据报中"
+        },
+        {
+            "head": "网络层",
+            "relation": "提取",
+            "tail": "UDP用户数据报"
+        },
+        {
+            "head": "运输层",
+            "relation": "复用",
+            "tail": "多个应用进程"
+        },
+        {
+            "head": "运输层",
+            "relation": "分用",
+            "tail": "不同应用进程"
+        }
+    ],
+    [
+        {
+            "head": "UDP",
+            "relation": "使用于",
+            "tail": "实时应用"
+        },
+        {
+            "head": "UDP",
+            "relation": "不包含",
+            "tail": "拥塞控制功能"
+        },
+        {
+            "head": "实时视频流",
+            "relation": "可能导致",
+            "tail": "网络拥塞"
+        },
+        {
+            "head": "UDP",
+            "relation": "包含",
+            "tail": "首部字段"
+        },
+        {
+            "head": "首部字段",
+            "relation": "长度",
+            "tail": "8个字节"
+        },
+        {
+            "head": "首部字段",
+            "relation": "由",
+            "tail": "4个字段组成"
+        },
+        {
+            "head": "源端口",
+            "relation": "标识",
+            "tail": "发送方应用进程"
+        },
+        {
+            "head": "目的端口",
+            "relation": "标识",
+            "tail": "接收方应用进程"
+        },
+        {
+            "head": "UDP用户数据报长度",
+            "relation": "最小值",
+            "tail": "8字节"
+        },
+        {
+            "head": "检验和",
+            "relation": "用于检测",
+            "tail": "传输错误"
+        }
+    ],
+    [
+        {
+            "head": "UDP用户数据报",
+            "relation": "包含",
+            "tail": "检验和"
+        },
+        {
+            "head": "接收方UDP",
+            "relation": "检测",
+            "tail": "目的端口号不正确"
+        },
+        {
+            "head": "ICMP",
+            "relation": "发送",
+            "tail": "端口不可达差错报文"
+        },
+        {
+            "head": "traceroute",
+            "relation": "使用",
+            "tail": "非法UDP端口"
+        },
+        {
+            "head": "检验和",
+            "relation": "计算方法",
+            "tail": "增加伪首部"
+        }
+    ],
+    [
+        {
+            "head": "UDP用户数据报",
+            "relation": "包含",
+            "tail": "检验和"
+        },
+        {
+            "head": "检验和",
+            "relation": "计算依据",
+            "tail": "伪首部以及UDP用户数据报"
+        },
+        {
+            "head": "检验和",
+            "relation": "计算方法",
+            "tail": "二进制反码求和"
+        },
+        {
+            "head": "IP数据报首部",
+            "relation": "对比",
+            "tail": "仅检验首部"
+        },
+        {
+            "head": "UDP用户数据报",
+            "relation": "包含",
+            "tail": "数据部分"
+        }
+    ],
+    [
+        {
+            "head": "UDP用户数据报",
+            "relation": "包含",
+            "tail": "检验和"
+        },
+        {
+            "head": "检验和",
+            "relation": "用于",
+            "tail": "差错检测"
+        },
+        {
+            "head": "接收方",
+            "relation": "处理",
+            "tail": "有差错的UDP用户数据报"
+        },
+        {
+            "head": "检验和计算",
+            "relation": "基于",
+            "tail": "15字节"
+        },
+        {
+            "head": "检验和计算",
+            "relation": "结果",
+            "tail": "全0字节"
+        },
+        {
+            "head": "差错检测方法",
+            "relation": "具有",
+            "tail": "简单性"
+        },
+        {
+            "head": "差错检测方法",
+            "relation": "处理速度快"
+        }
+    ],
+    [
+        {
+            "head": "检验和",
+            "relation": "计算方法",
+            "tail": "二进制反码运算求和"
+        },
+        {
+            "head": "伪首部",
+            "relation": "包含字段",
+            "tail": "全零、协议字段值、UDP用户数据报长度"
+        },
+        {
+            "head": "协议字段值",
+            "relation": "对应协议",
+            "tail": "UDP"
+        },
+        {
+            "head": "检验和",
+            "relation": "检查内容",
+            "tail": "源端口号、目的端口号、UDP用户数据报的数据部分、IP数据报的源IP地址、目的地址"
+        }
+    ],
+    [
+        {
+            "head": "传输控制协议TCP",
+            "relation": "属于",
+            "tail": "运输层协议"
+        },
+        {
+            "head": "传输控制协议TCP",
+            "relation": "特点",
+            "tail": "面向连接"
+        },
+        {
+            "head": "传输控制协议TCP",
+            "relation": "提供服务",
+            "tail": "可靠交付服务"
+        },
+        {
+            "head": "传输控制协议TCP",
+            "relation": "支持通信模式",
+            "tail": "全双工通信"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "提供",
+            "tail": "全双工通信"
+        },
+        {
+            "head": "TCP",
+            "relation": "允许",
+            "tail": "应用进程发送数据"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "设有",
+            "tail": "发送缓存和接收缓存"
+        },
+        {
+            "head": "应用程序",
+            "relation": "将数据传送给",
+            "tail": "TCP缓存"
+        },
+        {
+            "head": "TCP",
+            "relation": "在合适时候把数据发送出去"
+        },
+        {
+            "head": "TCP",
+            "relation": "接收时把收到的数据放入缓存",
+            "tail": "上层应用进程读取"
+        },
+        {
+            "head": "TCP中的流",
+            "relation": "指的是",
+            "tail": "字节序列"
+        },
+        {
+            "head": "TCP",
+            "relation": "不保证接收方应用程序收到的数据块和发送方发出的数据块具有对应大小关系"
+        }
+    ],
+    [
+        {
+            "head": "数据块",
+            "relation": "包含于",
+            "tail": "TCP报文段"
+        },
+        {
+            "head": "接收方",
+            "relation": "处理",
+            "tail": "字节流"
+        },
+        {
+            "head": "发送方应用程序",
+            "relation": "传递给",
+            "tail": "TCP共10个数据块"
+        },
+        {
+            "head": "接收方应用程序",
+            "relation": "交付上层应用",
+            "tail": "字节流"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "比喻为",
+            "tail": "管道"
+        },
+        {
+            "head": "字节流",
+            "relation": "可靠传输",
+            "tail": "目的进程"
+        }
+    ]
+]

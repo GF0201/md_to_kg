@@ -1,0 +1,397 @@
+[
+    {
+        "head": "互联网",
+        "relation": "使用",
+        "tail": "应用层协议"
+    },
+    {
+        "head": "应用进程",
+        "relation": "跨越",
+        "tail": "网络通信"
+    },
+    {
+        "head": "系统调用",
+        "relation": "在",
+        "tail": "应用程序和操作系统之间传递控制"
+    },
+    {
+        "head": "系统调用接口",
+        "relation": "传递控制权给",
+        "tail": "操作系统"
+    },
+    {
+        "head": "应用进程",
+        "relation": "启动",
+        "tail": "系统调用"
+    },
+    {
+        "head": "系统调用接口",
+        "relation": "定义",
+        "tail": "API"
+    },
+    {
+        "head": "API",
+        "relation": "包含",
+        "tail": "标准的系统调用函数"
+    },
+    {
+        "head": "TCP/IP协议软件",
+        "relation": "位于",
+        "tail": "操作系统内核中"
+    },
+    {
+        "head": "套接字接口",
+        "relation": "定义于",
+        "tail": "BerkeleyUNIX操作系统"
+    },
+    {
+        "head": "WindowsSocket",
+        "relation": "基于",
+        "tail": "套接字接口"
+    },
+    {
+        "head": "TLI(TransportLayerInterface)",
+        "relation": "简写为",
+        "tail": "AT&TUNIXV API"
+    },
+    {
+        "head": "应用编程接口API",
+        "relation": "提供给",
+        "tail": "应用程序"
+    },
+    {
+        "head": "TCP/IP协议软件",
+        "relation": "驻留在",
+        "tail": "操作系统中"
+    },
+    {
+        "head": "计算机",
+        "relation": "进行",
+        "tail": "通信"
+    },
+    {
+        "head": "应用进程",
+        "relation": "通过",
+        "tail": "套接字"
+    },
+    {
+        "head": "套接字",
+        "relation": "作为",
+        "tail": "接口"
+    },
+    {
+        "head": "运输层协议",
+        "relation": "使用",
+        "tail": "TCP/UDP"
+    },
+    {
+        "head": "应用进程",
+        "relation": "控制",
+        "tail": "套接字以上部分"
+    },
+    {
+        "head": "运输层协议",
+        "relation": "标志",
+        "tail": "通信两端"
+    },
+    {
+        "head": "套接字",
+        "relation": "由",
+        "tail": "操作系统创建"
+    },
+    {
+        "head": "应用程序",
+        "relation": "使用",
+        "tail": "TCP/IP协议进行通信"
+    },
+    {
+        "head": "套接字描述符",
+        "relation": "表示",
+        "tail": "系统资源分配给应用进程"
+    },
+    {
+        "head": "套接字描述符",
+        "relation": "用于",
+        "tail": "网络操作"
+    },
+    {
+        "head": "运输层",
+        "relation": "由",
+        "tail": "操作系统控制"
+    },
+    {
+        "head": "应用程序开发者",
+        "relation": "控制",
+        "tail": "应用进程以上部分"
+    },
+    {
+        "head": "应用程序开发者",
+        "relation": "对",
+        "tail": "很少控制运输层以下部分"
+    },
+    {
+        "head": "套接字描述符号码",
+        "relation": "由操作系统分配给",
+        "tail": "应用进程"
+    },
+    {
+        "head": "系统调用函数",
+        "relation": "用于",
+        "tail": "应用程序与操作系统交互"
+    },
+    {
+        "head": "套接字",
+        "relation": "是",
+        "tail": "应用进程获得网络通信服务的机制"
+    },
+    {
+        "head": "套接字描述符",
+        "relation": "用于",
+        "tail": "标识与操作系统交互时使用的资源"
+    },
+    {
+        "head": "系统调用",
+        "relation": "通知",
+        "tail": "操作系统回收资源"
+    },
+    {
+        "head": "协议族",
+        "relation": "表示",
+        "tail": "使用TCP/IP协议族（PF_INET）"
+    },
+    {
+        "head": "服务",
+        "relation": "表示",
+        "tail": "流式服务（SOCK_STREAM，即TCP服务）"
+    },
+    {
+        "head": "套接字数据结构",
+        "relation": "包含",
+        "tail": "本地和远地端口参数"
+    },
+    {
+        "head": "套接字",
+        "relation": "表示",
+        "tail": "数据结构"
+    },
+    {
+        "head": "socket系统调用",
+        "relation": "创建",
+        "tail": "套接字"
+    },
+    {
+        "head": "bind",
+        "relation": "绑定",
+        "tail": "本地地址"
+    },
+    {
+        "head": "服务器端",
+        "relation": "调用",
+        "tail": "bind"
+    },
+    {
+        "head": "套接字",
+        "relation": "绑定到",
+        "tail": "本地地址"
+    },
+    {
+        "head": "客户端",
+        "relation": "可以不调用",
+        "tail": "bind"
+    },
+    {
+        "head": "服务器",
+        "relation": "必须调用",
+        "tail": "listen"
+    },
+    {
+        "head": "UDP服务器",
+        "relation": "不使用",
+        "tail": "listen系统调用"
+    },
+    {
+        "head": "服务器",
+        "relation": "紧接着调用",
+        "tail": "accept"
+    },
+    {
+        "head": "accept",
+        "relation": "完成",
+        "tail": "多个连接请求提取"
+    },
+    {
+        "head": "服务器",
+        "relation": "实现并发方式工作",
+        "tail": "创建新套接字"
+    },
+    {
+        "head": "主服务器进程M",
+        "relation": "调用accept",
+        "tail": "为每个新的连接请求创建新套接字"
+    },
+    {
+        "head": "主服务器进程",
+        "relation": "处理",
+        "tail": "连接请求"
+    },
+    {
+        "head": "主服务器进程",
+        "relation": "创建",
+        "tail": "从属服务器进程"
+    },
+    {
+        "head": "从属服务器进程",
+        "relation": "建立",
+        "tail": "与客户进程的连接"
+    },
+    {
+        "head": "从属服务器进程",
+        "relation": "使用",
+        "tail": "新创建的套接字"
+    },
+    {
+        "head": "主服务器进程",
+        "relation": "继续接受",
+        "tail": "下一个连接请求"
+    },
+    {
+        "head": "从属服务器进程",
+        "relation": "传送和接收数据",
+        "tail": "在已建立的连接上"
+    },
+    {
+        "head": "从属服务器进程",
+        "relation": "关闭",
+        "tail": "新创建的套接字"
+    },
+    {
+        "head": "主服务器进程",
+        "relation": "用原来的套接字",
+        "tail": "接受连接请求"
+    },
+    {
+        "head": "服务器",
+        "relation": "执行",
+        "tail": "socket系统调用"
+    },
+    {
+        "head": "客户端",
+        "relation": "发起",
+        "tail": "connect系统调用"
+    },
+    {
+        "head": "客户",
+        "relation": "使用",
+        "tail": "send系统调用"
+    },
+    {
+        "head": "服务器",
+        "relation": "使用",
+        "tail": "recv系统调用"
+    },
+    {
+        "head": "数据",
+        "relation": "通过",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "IP地址",
+        "relation": "标识",
+        "tail": "远地端点"
+    },
+    {
+        "head": "缓存",
+        "relation": "存储",
+        "tail": "操作系统内核"
+    },
+    {
+        "head": "套接字",
+        "relation": "包含",
+        "tail": "描述符"
+    },
+    {
+        "head": "recv",
+        "relation": "需要",
+        "tail": "三个变量"
+    },
+    {
+        "head": "close",
+        "relation": "用于",
+        "tail": "释放连接和撤销套接字"
+    },
+    {
+        "head": "connect",
+        "relation": "建立",
+        "tail": "客户端与服务器之间的连接"
+    },
+    {
+        "head": "listen",
+        "relation": "由",
+        "tail": "服务器调用"
+    },
+    {
+        "head": "accept",
+        "relation": "处理",
+        "tail": "客户端的连接请求"
+    },
+    {
+        "head": "TCP",
+        "relation": "使用",
+        "tail": "listen和accept系统调用"
+    },
+    {
+        "head": "UDP",
+        "relation": "不使用",
+        "tail": "listen和accept系统调用"
+    },
+    {
+        "head": "P2P应用",
+        "relation": "涉及",
+        "tail": "无连接服务"
+    },
+    {
+        "head": "P2P应用",
+        "relation": "属于",
+        "tail": "具有P2P体系结构的网络应用"
+    },
+    {
+        "head": "P2P体系结构",
+        "relation": "特征",
+        "tail": "没有固定的服务器，交互使用对等方式进行"
+    },
+    {
+        "head": "P2P文件分发",
+        "relation": "不需要",
+        "tail": "集中式的媒体服务器"
+    },
+    {
+        "head": "P2P文件分发",
+        "relation": "通过",
+        "tail": "普通互联网用户之间的传输"
+    },
+    {
+        "head": "P2P文件分发",
+        "relation": "解决了",
+        "tail": "集中式媒体服务器可能出现的瓶颈问题"
+    },
+    {
+        "head": "P2P工作方式下的文件分发",
+        "relation": "占据",
+        "tail": "互联网流量最大的份额"
+    },
+    {
+        "head": "P2P文件分发",
+        "relation": "传送",
+        "tail": "音频文件MP3, 视频文件(10~1000MB,或更大)、各种软件和图像文件"
+    },
+    {
+        "head": "Napster",
+        "relation": "使用了",
+        "tail": "P2P工作方式"
+    },
+    {
+        "head": "Napster",
+        "relation": "由",
+        "tail": "Shawn Fanning所写"
+    }
+]

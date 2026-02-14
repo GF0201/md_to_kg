@@ -1,0 +1,457 @@
+[
+    {
+        "head": "红外通信",
+        "relation": "使用媒体类型",
+        "tail": "非导引型媒体"
+    },
+    {
+        "head": "激光通信",
+        "relation": "使用媒体类型",
+        "tail": "非导引型媒体"
+    },
+    {
+        "head": "信道复用技术",
+        "relation": "包含类型",
+        "tail": "频分复用"
+    },
+    {
+        "head": "信道复用技术",
+        "relation": "包含类型",
+        "tail": "时分复用"
+    },
+    {
+        "head": "信道复用技术",
+        "relation": "包含类型",
+        "tail": "统计时分复用"
+    },
+    {
+        "head": "共享信道",
+        "relation": "通过技术实现",
+        "tail": "复用器和分用器"
+    },
+    {
+        "head": "TimeDivisionMultiplexing",
+        "relation": "简称",
+        "tail": "时分复用"
+    },
+    {
+        "head": "频分复用",
+        "relation": "是",
+        "tail": "一种复用技术"
+    },
+    {
+        "head": "时分复用",
+        "relation": "是",
+        "tail": "另一种复用技术"
+    },
+    {
+        "head": "频分复用",
+        "relation": "使用调制方法",
+        "tail": "搬移信号频率位置"
+    },
+    {
+        "head": "时分复用",
+        "relation": "用户占用时间不同",
+        "tail": "共享信道资源"
+    },
+    {
+        "head": "频分复用",
+        "relation": "优点",
+        "tail": "技术成熟"
+    },
+    {
+        "head": "时分复用",
+        "relation": "优点",
+        "tail": "更利于数字信号传输"
+    },
+    {
+        "head": "频分多址接入",
+        "relation": "是",
+        "tail": "FDMA"
+    },
+    {
+        "head": "时分多址接入",
+        "relation": "是",
+        "tail": "TDMA"
+    },
+    {
+        "head": "频分复用",
+        "relation": "用于",
+        "tail": "FDMA"
+    },
+    {
+        "head": "时分复用",
+        "relation": "用于",
+        "tail": "TDMA"
+    },
+    {
+        "head": "FDM",
+        "relation": "表示",
+        "tail": "频分复用"
+    },
+    {
+        "head": "TDM",
+        "relation": "表示",
+        "tail": "时分复用"
+    },
+    {
+        "head": "频分复用",
+        "relation": "用于",
+        "tail": "多个用户"
+    },
+    {
+        "head": "时分复用",
+        "relation": "用于",
+        "tail": "多个用户"
+    },
+    {
+        "head": "频分复用",
+        "relation": "带宽增加",
+        "tail": "用户数增加"
+    },
+    {
+        "head": "时分复用",
+        "relation": "时隙宽度不变",
+        "tail": "帧长度"
+    },
+    {
+        "head": "复用器",
+        "relation": "与",
+        "tail": "分用器成对使用"
+    },
+    {
+        "head": "高速信道",
+        "relation": "连接",
+        "tail": "复用器和分用器之间"
+    },
+    {
+        "head": "时分复用",
+        "relation": "用于传送",
+        "tail": "计算机数据"
+    },
+    {
+        "head": "子信道",
+        "relation": "分配给",
+        "tail": "用户"
+    },
+    {
+        "head": "突发性质",
+        "relation": "导致",
+        "tail": "利用率不高"
+    },
+    {
+        "head": "键盘输入",
+        "relation": "引起",
+        "tail": "空闲状态"
+    },
+    {
+        "head": "统计时分复用",
+        "relation": "提高",
+        "tail": "信道利用率"
+    },
+    {
+        "head": "集中器",
+        "relation": "使用",
+        "tail": "统计时分复用"
+    },
+    {
+        "head": "统计时分复用",
+        "relation": "通过",
+        "tail": "STDM帧"
+    },
+    {
+        "head": "统计时分复用",
+        "relation": "提高",
+        "tail": "线路利用率"
+    },
+    {
+        "head": "STDM帧",
+        "relation": "动态分配",
+        "tail": "时隙"
+    },
+    {
+        "head": "统计时分复用",
+        "relation": "称为",
+        "tail": "异步时分复用"
+    },
+    {
+        "head": "普通时分复用",
+        "relation": "称为",
+        "tail": "同步时分复用"
+    },
+    {
+        "head": "集中器",
+        "relation": "能够正常工作",
+        "tail": "前提各用户间歇地工作"
+    },
+    {
+        "head": "统计时分复用",
+        "relation": "需要",
+        "tail": "地址信息"
+    },
+    {
+        "head": "智能复用器",
+        "relation": "提供",
+        "tail": "存储转发能力"
+    },
+    {
+        "head": "智能复用器",
+        "relation": "可能具有",
+        "tail": "路由选择功能"
+    },
+    {
+        "head": "智能复用器",
+        "tail": "数据压缩功能",
+        "relation": "可能具有"
+    },
+    {
+        "head": "智能复用器",
+        "tail": "前向纠错功能",
+        "relation": "可能具有"
+    },
+    {
+        "head": "TDM帧",
+        "relation": "属于",
+        "tail": "物理层"
+    },
+    {
+        "head": "STDM帧",
+        "relation": "属于",
+        "tail": "物理层"
+    },
+    {
+        "head": "波分复用WDM",
+        "relation": "是",
+        "tail": "光的频分复用方式"
+    },
+    {
+        "head": "光纤技术",
+        "relation": "提高",
+        "tail": "数据传输速率"
+    },
+    {
+        "head": "载波电话",
+        "relation": "借鉴",
+        "tail": "频分复用概念"
+    },
+    {
+        "head": "WDM",
+        "relation": "使用",
+        "tail": "密集波分复用DWDM"
+    },
+    {
+        "head": "DWDM",
+        "relation": "支持",
+        "tail": "40Gbit/s传输速率"
+    },
+    {
+        "head": "DWDM",
+        "relation": "实现",
+        "tail": "波分复用"
+    },
+    {
+        "head": "光载波",
+        "relation": "传输速率",
+        "tail": "2.5Gbit/s"
+    },
+    {
+        "head": "光纤",
+        "relation": "传输总速率",
+        "tail": "20Gbit/s"
+    },
+    {
+        "head": "EDFA",
+        "relation": "放大器类型",
+        "tail": "掺饵光纤放大器"
+    },
+    {
+        "head": "光信号",
+        "relation": "需要",
+        "tail": "放大"
+    },
+    {
+        "head": "EDFA",
+        "relation": "提供增益",
+        "tail": "40~50dB"
+    },
+    {
+        "head": "1550nm波长",
+        "relation": "频带范围",
+        "tail": "35nm"
+    },
+    {
+        "head": "光纤放大器",
+        "relation": "无光电转换距离",
+        "tail": "600km"
+    },
+    {
+        "head": "密集波分复用",
+        "relation": "传输速率",
+        "tail": "40Gbit/s"
+    },
+    {
+        "head": "光缆线路长度",
+        "relation": "可达",
+        "tail": "120km"
+    },
+    {
+        "head": "海底光缆MAREA",
+        "relation": "传输速率",
+        "tail": "26.2Tbit/s"
+    },
+    {
+        "head": "海底光缆MAREA",
+        "relation": "传输距离",
+        "tail": "6600公里"
+    },
+    {
+        "head": "S站",
+        "relation": "使用",
+        "tail": "CDMA"
+    },
+    {
+        "head": "S站",
+        "relation": "发送",
+        "tail": "mbit码片序列"
+    },
+    {
+        "head": "比特1",
+        "relation": "转换为",
+        "tail": "S站的mbit码片序列00011011"
+    },
+    {
+        "head": "比特0",
+        "relation": "转换为",
+        "tail": "S站的mbit码片序列11100100"
+    },
+    {
+        "head": "S站",
+        "relation": "数据率提高到",
+        "tail": "mbbit/s"
+    },
+    {
+        "head": "S站",
+        "relation": "频带宽度提高到",
+        "tail": "原来的m倍"
+    },
+    {
+        "head": "通信方式",
+        "relation": "是",
+        "tail": "扩频(spreadspectrum)通信中的一种"
+    },
+    {
+        "head": "扩频通信",
+        "relation": "分为",
+        "tail": "直接序列扩频DSSS和跳频扩频FHSS"
+    },
+    {
+        "head": "CDMA系统",
+        "relation": "具有特点",
+        "tail": "码片序列各不相同且互相正交"
+    },
+    {
+        "head": "码片序列",
+        "relation": "使用",
+        "tail": "伪随机码序列"
+    },
+    {
+        "head": "两个不同站的码片序列",
+        "relation": "满足条件",
+        "tail": "规格化内积为0"
+    },
+    {
+        "head": "向量S和T",
+        "relation": "表示",
+        "tail": "站S和T的码片向量"
+    },
+    {
+        "head": "GSM",
+        "relation": "即",
+        "tail": "全球移动通信系统"
+    },
+    {
+        "head": "CDMA系统",
+        "relation": "使用",
+        "tail": "码片序列"
+    },
+    {
+        "head": "X站",
+        "relation": "接收",
+        "tail": "S站发送的数据"
+    },
+    {
+        "head": "GPS",
+        "relation": "实现",
+        "tail": "同步"
+    },
+    {
+        "head": "内积",
+        "relation": "计算",
+        "tail": "信号与码片向量"
+    },
+    {
+        "head": "内积",
+        "relation": "计算结果",
+        "tail": "+1"
+    },
+    {
+        "head": "内积",
+        "relation": "计算结果",
+        "tail": "-1"
+    },
+    {
+        "head": "S站",
+        "relation": "发送比特",
+        "tail": "1"
+    },
+    {
+        "head": "S站",
+        "relation": "发送比特",
+        "tail": "0"
+    },
+    {
+        "head": "扩频信号",
+        "relation": "由码片序列生成",
+        "tail": "(—1-1-1+1+l-1+1+l)"
+    },
+    {
+        "head": "T站",
+        "relation": "选择的码片序列",
+        "tail": "(-1—l+l-1+1+1+1-1)"
+    },
+    {
+        "head": "扩频信号",
+        "relation": "由数据码元扩展生成",
+        "tail": "110三个码元"
+    },
+    {
+        "head": "频率",
+        "relation": "相同",
+        "tail": "所有站"
+    },
+    {
+        "head": "CDMA",
+        "relation": "工作原理",
+        "tail": "规格化内积"
+    },
+    {
+        "head": "接收站",
+        "relation": "使用",
+        "tail": "S站的码片序列"
+    },
+    {
+        "head": "计算",
+        "relation": "求得",
+        "tail": "数据比特s．＆"
+    },
+    {
+        "head": "FDM",
+        "relation": "传输方式",
+        "tail": "模拟通信"
+    },
+    {
+        "head": "PCM",
+        "relation": "传输方式",
+        "tail": "数字通信"
+    }
+]

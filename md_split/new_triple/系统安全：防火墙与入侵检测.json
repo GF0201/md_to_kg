@@ -1,0 +1,382 @@
+[
+    {
+        "head": "PGP",
+        "relation": "提供",
+        "tail": "足够安全"
+    },
+    {
+        "head": "公钥",
+        "relation": "由",
+        "tail": "私钥签名"
+    },
+    {
+        "head": "用户",
+        "relation": "发布",
+        "tail": "个人网页或电子邮件"
+    },
+    {
+        "head": "恶意用户",
+        "relation": "通过网络",
+        "tail": "入侵计算机系统"
+    },
+    {
+        "head": "软件",
+        "relation": "传播",
+        "tail": "病毒、蠕虫和特洛伊木马"
+    },
+    {
+        "head": "拒绝服务攻击",
+        "relation": "阻止",
+        "tail": "合法用户正常使用服务"
+    },
+    {
+        "head": "防火墙",
+        "relation": "是",
+        "tail": "访问控制技术"
+    },
+    {
+        "head": "防火墙",
+        "relation": "通过",
+        "tail": "分组过滤"
+    },
+    {
+        "head": "入侵检测系统IDS",
+        "relation": "用于",
+        "tail": "发现疑似入侵行为"
+    },
+    {
+        "head": "防火墙",
+        "relation": "位于",
+        "tail": "互联网和内部网络之间"
+    },
+    {
+        "head": "防火墙",
+        "relation": "保护",
+        "tail": "可信的网络"
+    },
+    {
+        "head": "防火墙",
+        "relation": "防御",
+        "tail": "不可信的网络"
+    },
+    {
+        "head": "防火墙",
+        "relation": "位于",
+        "tail": "互连网络中"
+    },
+    {
+        "head": "分组过滤路由器",
+        "relation": "具有",
+        "tail": "分组过滤功能"
+    },
+    {
+        "head": "分组过滤规则",
+        "relation": "基于",
+        "tail": "分组的网络层或运输层首部信息"
+    },
+    {
+        "head": "TCP端口号",
+        "relation": "标识",
+        "tail": "应用层服务"
+    },
+    {
+        "head": "端口号23",
+        "relation": "对应",
+        "tail": "TELNET"
+    },
+    {
+        "head": "端口号119",
+        "relation": "对应",
+        "tail": "USENET"
+    },
+    {
+        "head": "分组过滤器",
+        "relation": "阻拦",
+        "tail": "目的端口号为23的入分组"
+    },
+    {
+        "head": "分组过滤器",
+        "relation": "阻拦",
+        "tail": "目的端口号为119的出分组"
+    },
+    {
+        "head": "分组过滤器",
+        "relation": "允许通过",
+        "tail": "客户动态分配端口发出合法请求的响应"
+    },
+    {
+        "head": "分组过滤路由器",
+        "relation": "优点",
+        "tail": "简单高效且对用户透明"
+    },
+    {
+        "head": "分组过滤路由器",
+        "relation": "缺点",
+        "tail": "不能对高层数据进行过滤"
+    },
+    {
+        "head": "分组过滤技术",
+        "relation": "实现方式",
+        "tail": "无状态和有状态"
+    },
+    {
+        "head": "应用网关技术",
+        "relation": "功能",
+        "tail": "支持应用层用户鉴别"
+    },
+    {
+        "head": "应用网关",
+        "relation": "是",
+        "tail": "代理服务器"
+    },
+    {
+        "head": "应用网关",
+        "relation": "实现",
+        "tail": "过滤和高层用户鉴别"
+    },
+    {
+        "head": "请求报文",
+        "relation": "通过",
+        "tail": "应用网关"
+    },
+    {
+        "head": "邮件网关",
+        "relation": "检查",
+        "tail": "邮件地址或首部或内容"
+    },
+    {
+        "head": "邮件网关",
+        "relation": "确定",
+        "tail": "邮件能否通过防火墙"
+    },
+    {
+        "head": "应用网关",
+        "relation": "需要",
+        "tail": "不同应用的配置"
+    },
+    {
+        "head": "处理负担",
+        "relation": "较重",
+        "tail": "在应用层转发和处理报文"
+    },
+    {
+        "head": "防火墙",
+        "relation": "包含",
+        "tail": "分组过滤路由器"
+    },
+    {
+        "head": "防火墙",
+        "relation": "包含",
+        "tail": "应用网关"
+    },
+    {
+        "head": "防火墙",
+        "relation": "连接",
+        "tail": "局域网"
+    },
+    {
+        "head": "入侵检测系统IDS",
+        "relation": "用于检测",
+        "tail": "网络映射"
+    },
+    {
+        "head": "入侵检测系统IDS",
+        "relation": "用于检测",
+        "tail": "端口扫描"
+    },
+    {
+        "head": "入侵检测系统IDS",
+        "relation": "用于检测",
+        "tail": "DoS攻击"
+    },
+    {
+        "head": "入侵检测系统IDS",
+        "relation": "用于检测",
+        "tail": "蠕虫"
+    },
+    {
+        "head": "入侵检测系统IDS",
+        "relation": "用于检测",
+        "tail": "病毒"
+    },
+    {
+        "head": "入侵检测系统IDS",
+        "relation": "用于检测",
+        "tail": "系统湍洞攻击"
+    },
+    {
+        "head": "入侵检测方法",
+        "relation": "分为",
+        "tail": "基于特征的入侵检测"
+    },
+    {
+        "head": "入侵检测方法",
+        "relation": "分为",
+        "tail": "基于异常的入侵检测"
+    },
+    {
+        "head": "入侵检测方法",
+        "relation": "分为",
+        "tail": "基于特征的入侵检测"
+    },
+    {
+        "head": "入侵检测方法",
+        "relation": "分为",
+        "tail": "基于异常的入侵检测"
+    },
+    {
+        "head": "基于特征的IDS",
+        "relation": "维护",
+        "tail": "攻击标志性特征数据库"
+    },
+    {
+        "head": "规则集",
+        "relation": "关联",
+        "tail": "某种入侵活动"
+    },
+    {
+        "head": "分组或分组序列",
+        "relation": "可能匹配",
+        "tail": "某种攻击特征"
+    },
+    {
+        "head": "基于特征的IDS",
+        "relation": "只能检测",
+        "tail": "已知攻击"
+    },
+    {
+        "head": "基于异常的IDS",
+        "relation": "通过观察",
+        "tail": "正常运行的网络流量"
+    },
+    {
+        "head": "基于异常的IDS",
+        "relation": "学习",
+        "tail": "统计特性和规律"
+    },
+    {
+        "head": "基于异常的IDS",
+        "relation": "检测到",
+        "tail": "不符合正常情况的统计规律"
+    },
+    {
+        "head": "未知攻击",
+        "relation": "无法被",
+        "tail": "基于特征的IDS检测"
+    },
+    {
+        "head": "ICMPping报文",
+        "relation": "突然增加",
+        "tail": "可能表示入侵行为"
+    },
+    {
+        "head": "漏报率",
+        "relation": "影响",
+        "tail": "入侵检测系统(IDS)的检测效果"
+    },
+    {
+        "head": "误报率",
+        "relation": "影响",
+        "tail": "网络管理员的工作效率"
+    },
+    {
+        "head": "椭圆曲线密码(ECC)",
+        "relation": "应用",
+        "tail": "TLS1.3握手协议"
+    },
+    {
+        "head": "椭圆曲线密码(ECC)",
+        "relation": "应用",
+        "tail": "电子护照"
+    },
+    {
+        "head": "椭圆曲线密码(ECC)",
+        "relation": "应用",
+        "tail": "金融系统"
+    },
+    {
+        "head": "移动安全(MobileSecurity)",
+        "relation": "影响",
+        "tail": "移动支付(MobilePayment)"
+    },
+    {
+        "head": "误报率",
+        "relation": "导致",
+        "tail": "大量虚假警报"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含威胁类型",
+        "tail": "被动攻击"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含威胁类型",
+        "tail": "主动攻击"
+    },
+    {
+        "head": "主动攻击",
+        "relation": "包括类型",
+        "tail": "更改报文流"
+    },
+    {
+        "head": "主动攻击",
+        "relation": "包括类型",
+        "tail": "拒绝服务"
+    },
+    {
+        "head": "主动攻击",
+        "relation": "包括类型",
+        "tail": "伪造初始化"
+    },
+    {
+        "head": "主动攻击",
+        "relation": "包括类型",
+        "tail": "恶意程序"
+    },
+    {
+        "head": "恶意程序",
+        "relation": "包含具体形式",
+        "tail": "病毒"
+    },
+    {
+        "head": "恶意程序",
+        "relation": "包含具体形式",
+        "tail": "蠕虫"
+    },
+    {
+        "head": "恶意程序",
+        "relation": "包含具体形式",
+        "tail": "木马"
+    },
+    {
+        "head": "恶意程序",
+        "relation": "包含具体形式",
+        "tail": "逻辑炸弹"
+    },
+    {
+        "head": "恶意程序",
+        "relation": "包含具体形式",
+        "tail": "后门入侵"
+    },
+    {
+        "head": "恶意程序",
+        "relation": "包含具体形式",
+        "tail": "流氓软件"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "保证内容",
+        "tail": "机密性"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "保证内容",
+        "tail": "端点鉴别"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "保证内容",
+        "tail": "信息的完整性"
+    }
+]

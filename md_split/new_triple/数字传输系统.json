@@ -1,0 +1,267 @@
+[
+    {
+        "head": "CDMA系统",
+        "relation": "使用",
+        "tail": "码片序列"
+    },
+    {
+        "head": "X站",
+        "relation": "接收",
+        "tail": "S站发送的数据"
+    },
+    {
+        "head": "内积运算",
+        "relation": "用于",
+        "tail": "信号过滤"
+    },
+    {
+        "head": "GPS",
+        "relation": "实现",
+        "tail": "同步"
+    },
+    {
+        "head": "CDMA",
+        "relation": "工作原理",
+        "tail": "内积计算"
+    },
+    {
+        "head": "S站",
+        "relation": "发送",
+        "tail": "扩频信号Sx"
+    },
+    {
+        "head": "T站",
+        "relation": "发送",
+        "tail": "扩频信号Tx"
+    },
+    {
+        "head": "X站",
+        "relation": "收到",
+        "tail": "叠加信号Sx+Tx"
+    },
+    {
+        "head": "CDMA",
+        "relation": "工作原理",
+        "tail": "规格化内积"
+    },
+    {
+        "head": "数字传输系统",
+        "relation": "采用方式",
+        "tail": "PCM"
+    },
+    {
+        "head": "模拟线路",
+        "relation": "仅剩部分",
+        "tail": "用户线"
+    },
+    {
+        "head": "现代电信网",
+        "relation": "包含业务",
+        "tail": "视频、图像和数据业务"
+    },
+    {
+        "head": "同步光纤网",
+        "relation": "提出时间",
+        "tail": "1988年"
+    },
+    {
+        "head": "同步光纤网",
+        "relation": "主要传输媒体",
+        "tail": "光纤"
+    },
+    {
+        "head": "光纤",
+        "relation": "适用业务",
+        "tail": "高速率数据业务和大量复用的低速率业务"
+    },
+    {
+        "head": "光纤",
+        "relation": "高带宽特性",
+        "tail": "承载今天的高速率数据业务（如视频会议）和大量复用的低速率业务（如话音)"
+    },
+    {
+        "head": "数字传输系统",
+        "relation": "主要缺点之一",
+        "tail": "速率标准不统一"
+    },
+    {
+        "head": "数字传输系统",
+        "relation": "主要缺点之二",
+        "tail": "不是同步传输"
+    },
+    {
+        "head": "T1速率",
+        "relation": "对应国家",
+        "tail": "北美和日本"
+    },
+    {
+        "head": "E1速率",
+        "relation": "对应国家",
+        "tail": "欧洲"
+    },
+    {
+        "head": "同步光纤网",
+        "relation": "等同于",
+        "tail": "SONET"
+    },
+    {
+        "head": "SONET",
+        "relation": "使用",
+        "tail": "主时钟"
+    },
+    {
+        "head": "主时钟",
+        "relation": "类型",
+        "tail": "绝原子钟"
+    },
+    {
+        "head": "传输速率",
+        "relation": "基础值",
+        "tail": "51.840Mbit/s"
+    },
+    {
+        "head": "传输速率",
+        "relation": "对应于电信号",
+        "tail": "STS-1"
+    },
+    {
+        "head": "传输速率",
+        "relation": "对应于光信号",
+        "tail": "OC-1"
+    },
+    {
+        "head": "SDH",
+        "relation": "基于",
+        "tail": "SONET"
+    },
+    {
+        "head": "SDH",
+        "relation": "等同于",
+        "tail": "SONET"
+    },
+    {
+        "head": "SDH",
+        "relation": "定义了基本速率",
+        "tail": "39813.120Mbit/s"
+    },
+    {
+        "head": "SDH",
+        "relation": "等同于",
+        "tail": "SONET"
+    },
+    {
+        "head": "SDH",
+        "relation": "基本速率",
+        "tail": "155.520Mbit/s"
+    },
+    {
+        "head": "SDH",
+        "relation": "同步传递模块",
+        "tail": "STM-1"
+    },
+    {
+        "head": "STM-1",
+        "relation": "相当于",
+        "tail": "OC-3"
+    },
+    {
+        "head": "SONET",
+        "relation": "对应于",
+        "tail": "SDH"
+    },
+    {
+        "head": "OC-1",
+        "relation": "等同于",
+        "tail": "STS-1"
+    },
+    {
+        "head": "STM-1",
+        "relation": "对应于",
+        "tail": "OC-1"
+    },
+    {
+        "head": "线路速率",
+        "relation": "为",
+        "tail": "51840Mbit/s"
+    },
+    {
+        "head": "每个话路",
+        "relation": "数据率",
+        "tail": "64kbit/s"
+    },
+    {
+        "head": "SDH",
+        "relation": "制定标准",
+        "tail": "北美、日本和欧、洲"
+    },
+    {
+        "head": "STM-1",
+        "relation": "等级统一",
+        "tail": "数字传输体制"
+    },
+    {
+        "head": "SDH/SONET",
+        "relation": "成为标准",
+        "tail": "新一代传输网体制"
+    },
+    {
+        "head": "宽带接入技术",
+        "relation": "提高速率",
+        "tail": "多种技术进入家庭"
+    },
+    {
+        "head": "ISP",
+        "relation": "提供服务",
+        "tail": "IP地址"
+    },
+    {
+        "head": "调制解调器",
+        "relation": "连接方式",
+        "tail": "电话用户线"
+    },
+    {
+        "head": "ADSL",
+        "relation": "技术标准",
+        "tail": "G.992.1"
+    },
+    {
+        "head": "ADSL",
+        "relation": "接入类型",
+        "tail": "有线宽带接入"
+    },
+    {
+        "head": "FCC",
+        "relation": "定义",
+        "tail": "宽带速率超过200kbit/s"
+    },
+    {
+        "head": "FCC",
+        "relation": "重新定义",
+        "tail": "2015年1月"
+    },
+    {
+        "head": "ADSL",
+        "relation": "频谱分配",
+        "tail": "低端频谱给传统电话使用"
+    },
+    {
+        "head": "ADSL",
+        "relation": "频谱分配",
+        "tail": "高端频谱留给用户上网"
+    },
+    {
+        "head": "ADSL",
+        "relation": "遵循标准",
+        "tail": "G.992.1"
+    },
+    {
+        "head": "ADSL",
+        "relation": "使用技术",
+        "tail": "DMT"
+    },
+    {
+        "head": "ADSL标准",
+        "relation": "简称",
+        "tail": "G.dmt"
+    }
+]

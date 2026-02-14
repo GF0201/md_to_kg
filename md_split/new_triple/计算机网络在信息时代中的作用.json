@@ -1,0 +1,297 @@
+[
+    {
+        "head": "计算机网络",
+        "relation": "在信息时代中的作用",
+        "tail": "数字化、网络化和信息化"
+    },
+    {
+        "head": "互联网",
+        "relation": "基础结构发展阶段",
+        "tail": "三个阶段"
+    },
+    {
+        "head": "分组交换",
+        "relation": "概念",
+        "tail": "互联边缘部分和核心部分"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "性能指标",
+        "tail": "重要组成部分"
+    },
+    {
+        "head": "体系结构",
+        "relation": "包含",
+        "tail": "协议和服务"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "发展",
+        "tail": "Internet"
+    },
+    {
+        "head": "电信网络",
+        "relation": "融合",
+        "tail": "现代计算机网络"
+    },
+    {
+        "head": "有线电视网络",
+        "relation": "融合",
+        "tail": "现代计算机网络"
+    },
+    {
+        "head": "三网融合",
+        "relation": "提出时间",
+        "tail": "20世纪90年代以后"
+    },
+    {
+        "head": "三网融合",
+        "relation": "包含",
+        "tail": "计算机网络"
+    },
+    {
+        "head": "Internet",
+        "relation": "译名",
+        "tail": "因特网"
+    },
+    {
+        "head": "Internet",
+        "relation": "译名",
+        "tail": "互联网"
+    },
+    {
+        "head": "Internet",
+        "relation": "发展历史",
+        "tail": "从免费教育科研网络到商业网络"
+    },
+    {
+        "head": "Internet",
+        "relation": "重要性",
+        "tail": "人类自印刷术发明以来最大变革"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "互连方式",
+        "tail": "互联网"
+    },
+    {
+        "head": "Internet",
+        "relation": "是",
+        "tail": "互联网"
+    },
+    {
+        "head": "TCP",
+        "relation": "是",
+        "tail": "传输控制协议"
+    },
+    {
+        "head": "互联网",
+        "relation": "不包含",
+        "tail": "国际二字"
+    },
+    {
+        "head": "互连网",
+        "relation": "指",
+        "tail": "局部范围互连起来的计算机网络"
+    },
+    {
+        "head": "互联网",
+        "relation": "提供服务",
+        "tail": "电子邮件"
+    },
+    {
+        "head": "互联网",
+        "relation": "替代传统方式",
+        "tail": "邮政信函"
+    },
+    {
+        "head": "互联网",
+        "relation": "改变购物方式",
+        "tail": "实体商店"
+    },
+    {
+        "head": "互联网",
+        "relation": "方便购买",
+        "tail": "机票、火车票、酒店"
+    },
+    {
+        "head": "互联网",
+        "relation": "改善银行服务",
+        "tail": "网上银行"
+    },
+    {
+        "head": "互联网",
+        "relation": "支持支付方式",
+        "tail": "智能手机"
+    },
+    {
+        "head": "互联网",
+        "relation": "具有特点",
+        "tail": "连通性"
+    },
+    {
+        "head": "互联网",
+        "relation": "具有特点",
+        "tail": "共享"
+    },
+    {
+        "head": "互联网",
+        "relation": "具有",
+        "tail": "连通性"
+    },
+    {
+        "head": "互联网",
+        "relation": "具有",
+        "tail": "共享"
+    },
+    {
+        "head": "传统电信网",
+        "relation": "提供",
+        "tail": "电话通信服务"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "通过",
+        "tail": "互联网"
+    },
+    {
+        "head": "服务器",
+        "relation": "存储",
+        "tail": "电子文档"
+    },
+    {
+        "head": "互联网",
+        "relation": "是",
+        "tail": "社会基础设施"
+    },
+    {
+        "head": "互联网",
+        "relation": "提供",
+        "tail": "电子文档"
+    },
+    {
+        "head": "电子文档",
+        "relation": "包括",
+        "tail": "音频文件"
+    },
+    {
+        "head": "电子文档",
+        "relation": "包括",
+        "tail": "视频文件"
+    },
+    {
+        "head": "用户",
+        "relation": "可以读取或下载",
+        "tail": "资源"
+    },
+    {
+        "head": "互联网",
+        "relation": "使",
+        "tail": "查询资料方便"
+    },
+    {
+        "head": "互联网",
+        "relation": "支持",
+        "tail": "微信交流"
+    },
+    {
+        "head": "互联网",
+        "relation": "支持",
+        "tail": "电子邮件"
+    },
+    {
+        "head": "互联网",
+        "relation": "支持",
+        "tail": "网上购物"
+    },
+    {
+        "head": "互联网",
+        "relation": "影响",
+        "tail": "售票处购票"
+    },
+    {
+        "head": "互联网",
+        "relation": "影响",
+        "tail": "银行存取款"
+    },
+    {
+        "head": "互联网",
+        "relation": "影响",
+        "tail": "交纳费用"
+    },
+    {
+        "head": "互联网",
+        "relation": "影响",
+        "tail": "股市交易"
+    },
+    {
+        "head": "互联网",
+        "relation": "支持",
+        "tail": "图书馆检索"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "替代",
+        "tail": "电报业务"
+    },
+    {
+        "head": "网络电话",
+        "relation": "减少",
+        "tail": "长途电话通信量"
+    },
+    {
+        "head": "网购",
+        "relation": "影响",
+        "tail": "实体商店运营"
+    },
+    {
+        "head": "网约车",
+        "relation": "冲击",
+        "tail": "出租车行业"
+    },
+    {
+        "head": "网上支付",
+        "relation": "减少",
+        "tail": "银行营业厅客流量"
+    },
+    {
+        "head": "互联网病毒",
+        "relation": "破坏",
+        "tail": "数据传送和交换"
+    },
+    {
+        "head": "犯罪分子",
+        "relation": "窃取",
+        "tail": "国家机密"
+    },
+    {
+        "head": "网上欺诈",
+        "relation": "散布",
+        "tail": "谣言和不良信息"
+    },
+    {
+        "head": "青少年",
+        "relation": "沉迷",
+        "tail": "网络游戏"
+    },
+    {
+        "head": "互联网",
+        "relation": "是",
+        "tail": "世界上最大的覆盖全球的计算机网络"
+    },
+    {
+        "head": "互联网",
+        "relation": "包括",
+        "tail": "网络的主要构件"
+    },
+    {
+        "head": "互连网",
+        "relation": "等同于",
+        "tail": "互联网"
+    },
+    {
+        "head": "术语",
+        "relation": "不能用",
+        "tail": "互联代替"
+    }
+]

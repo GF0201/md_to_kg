@@ -1,0 +1,942 @@
+[
+    {
+        "head": "SIP代理服务器",
+        "relation": "处理",
+        "tail": "INVITE"
+    },
+    {
+        "head": "SIP登记器",
+        "relation": "响应",
+        "tail": "重定向报"
+    },
+    {
+        "head": "DNS查询",
+        "relation": "用于",
+        "tail": "查找被叫方"
+    },
+    {
+        "head": "BYE",
+        "relation": "指示结束",
+        "tail": "呼叫过程"
+    },
+    {
+        "head": "SDP",
+        "relation": "描述",
+        "tail": "媒体编码和端口号"
+    },
+    {
+        "head": "SIP协议",
+        "relation": "与",
+        "tail": "H.323竞争市场份额"
+    },
+    {
+        "head": "IETF",
+        "relation": "制定标准",
+        "tail": "SIP协议"
+    },
+    {
+        "head": "互联网",
+        "relation": "提供",
+        "tail": "服务质量QoS"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "定义为",
+        "tail": "服务性能的总效果"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "决定",
+        "tail": "用户对服务的满意程度"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "描述指标",
+        "tail": "可用性"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "描述指标",
+        "tail": "差错率"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "描述指标",
+        "tail": "响应时间"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "描述指标",
+        "tail": "吞吐量"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "描述指标",
+        "tail": "分组丢失率"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "描述指标",
+        "tail": "连接建立时间"
+    },
+    {
+        "head": "服务质量QoS",
+        "relation": "描述指标",
+        "tail": "故障检测和改正时间"
+    },
+    {
+        "head": "互联网",
+        "relation": "传输",
+        "tail": "实时音频／视频分组"
+    },
+    {
+        "head": "互联网",
+        "relation": "提供服务",
+        "tail": "尽力而为的服务"
+    },
+    {
+        "head": "网络服务质量",
+        "relation": "需要机制保障",
+        "tail": "不同性质分组标记"
+    },
+    {
+        "head": "路由器R1",
+        "relation": "处理数据包",
+        "tail": "输出队列"
+    },
+    {
+        "head": "实时音频数据",
+        "relation": "优先级高",
+        "tail": "FTP文件数据"
+    },
+    {
+        "head": "路由器",
+        "relation": "处理",
+        "tail": "分组"
+    },
+    {
+        "head": "路由器",
+        "relation": "识别",
+        "tail": "实时数据分组"
+    },
+    {
+        "head": "路由器",
+        "relation": "给予",
+        "tail": "高优先级服务"
+    },
+    {
+        "head": "路由器",
+        "relation": "分类",
+        "tail": "输入分组"
+    },
+    {
+        "head": "路由器",
+        "relation": "根据",
+        "tail": "发送数据地址"
+    },
+    {
+        "head": "路由器",
+        "relation": "区分",
+        "tail": "不同类别通信量"
+    },
+    {
+        "head": "路由器",
+        "relation": "限定",
+        "tail": "数据率1Mbit/s"
+    },
+    {
+        "head": "路由器",
+        "relation": "进行通信量管制",
+        "tail": "数据流"
+    },
+    {
+        "head": "路由器",
+        "relation": "监视数据率",
+        "tail": "数据流"
+    },
+    {
+        "head": "路由器",
+        "relation": "丢弃分组",
+        "tail": "超过规定数据率的数据流"
+    },
+    {
+        "head": "调度",
+        "relation": "分配带宽",
+        "tail": "应用"
+    },
+    {
+        "head": "实时音频",
+        "relation": "分配带宽",
+        "tail": "1Mbit/s"
+    },
+    {
+        "head": "文件传送",
+        "relation": "分配带宽",
+        "tail": "0.5Mbit/s"
+    },
+    {
+        "head": "总数据率",
+        "relation": "超过链路带宽",
+        "tail": "2Mbit/s"
+    },
+    {
+        "head": "合理做法",
+        "relation": "共享带宽",
+        "tail": "1.5Mbit/s链路"
+    },
+    {
+        "head": "调度机制",
+        "relation": "是实现",
+        "tail": "服务质量的重要措施"
+    },
+    {
+        "head": "先进先出(FIFO)",
+        "relation": "默认排队规则",
+        "tail": "路由器的队列"
+    },
+    {
+        "head": "先进先出",
+        "relation": "缺点",
+        "tail": "不能区分时间敏感分组和一般数据分组"
+    },
+    {
+        "head": "先进先出",
+        "relation": "缺点",
+        "tail": "不能区分时间敏感分组和一般数据分组"
+    },
+    {
+        "head": "优先级排队",
+        "relation": "改进",
+        "tail": "先进先出"
+    },
+    {
+        "head": "高优先级队列",
+        "relation": "包含",
+        "tail": "高优先级分组"
+    },
+    {
+        "head": "低优先级队列",
+        "relation": "包含",
+        "tail": "低优先级分组"
+    },
+    {
+        "head": "优先级排队",
+        "relation": "属于",
+        "tail": "计算机网络"
+    },
+    {
+        "head": "分类器",
+        "relation": "进行",
+        "tail": "优先级分类"
+    },
+    {
+        "head": "高优先级队列",
+        "relation": "服务",
+        "tail": "先于低优先级队列"
+    },
+    {
+        "head": "调度",
+        "relation": "从",
+        "tail": "队列中取走排在队首的分组"
+    },
+    {
+        "head": "分组3和5",
+        "relation": "提前得到服务",
+        "tail": "高优先级队列"
+    },
+    {
+        "head": "公平排队",
+        "relation": "解决",
+        "tail": "高优先级队列中的分组长期得不到服务的问题"
+    },
+    {
+        "head": "加权公平排队",
+        "relation": "改进",
+        "tail": "公平排队的不公平性"
+    },
+    {
+        "head": "加权公平排队",
+        "relation": "增加",
+        "tail": "队列权重的概念"
+    },
+    {
+        "head": "加权公平排队WFQ",
+        "relation": "是",
+        "tail": "服务质量体系结构的重要组成部分"
+    },
+    {
+        "head": "路由器",
+        "relation": "支持",
+        "tail": "加权公平排队WFQ"
+    },
+    {
+        "head": "分组到达后",
+        "relation": "进行",
+        "tail": "分类"
+    },
+    {
+        "head": "队列",
+        "relation": "分配",
+        "tail": "服务时间"
+    },
+    {
+        "head": "权重Wi",
+        "relation": "决定",
+        "tail": "平均服务时间"
+    },
+    {
+        "head": "数据率R",
+        "relation": "与",
+        "tail": "加权公平排队WFQ相关"
+    },
+    {
+        "head": "先进先出FIFO",
+        "relation": "对比",
+        "tail": "加权公平排队WFQ"
+    },
+    {
+        "head": "队列",
+        "relation": "包含",
+        "tail": "分组"
+    },
+    {
+        "head": "FIFO",
+        "relation": "处理方式",
+        "tail": "先进先出规则"
+    },
+    {
+        "head": "WFQ",
+        "relation": "处理方式",
+        "tail": "加权公平队列调度"
+    },
+    {
+        "head": "管制机制",
+        "relation": "提供",
+        "tail": "服务质量"
+    },
+    {
+        "head": "数据流",
+        "relation": "受控指标",
+        "tail": "平均速率"
+    },
+    {
+        "head": "平均速率",
+        "relation": "定义",
+        "tail": "一定时间间隔内通过的分组数"
+    },
+    {
+        "head": "分组流",
+        "relation": "包含于",
+        "tail": "WFQ"
+    },
+    {
+        "head": "分组流",
+        "relation": "包含于",
+        "tail": "FIFO"
+    },
+    {
+        "head": "峰值速率",
+        "relation": "限制",
+        "tail": "数据流的流量"
+    },
+    {
+        "head": "突发长度",
+        "relation": "限制",
+        "tail": "网络中分组数"
+    },
+    {
+        "head": "漏桶管制器",
+        "relation": "用于",
+        "tail": "管制分组流"
+    },
+    {
+        "head": "注入漏桶",
+        "relation": "包含",
+        "tail": "权标(token)"
+    },
+    {
+        "head": "漏桶管制器",
+        "relation": "管理",
+        "tail": "分组流"
+    },
+    {
+        "head": "分组流",
+        "relation": "进入",
+        "tail": "网络"
+    },
+    {
+        "head": "分组流",
+        "relation": "通过",
+        "tail": "队列"
+    },
+    {
+        "head": "漏桶",
+        "relation": "注入",
+        "tail": "权标(token)"
+    },
+    {
+        "head": "时间间隔t",
+        "relation": "允许",
+        "tail": "分组进入网络"
+    },
+    {
+        "head": "带宽",
+        "relation": "影响",
+        "tail": "分组在输出端的排队情况"
+    },
+    {
+        "head": "漏桶机制",
+        "relation": "用于",
+        "tail": "控制分组进入网络的速率"
+    },
+    {
+        "head": "WFQ",
+        "relation": "结合",
+        "tail": "漏桶机制"
+    },
+    {
+        "head": "最大时延",
+        "relation": "由",
+        "tail": "分组流的数据率决定"
+    },
+    {
+        "head": "路由器",
+        "relation": "使用",
+        "tail": "漏桶机制进行管制"
+    },
+    {
+        "head": "WFQ",
+        "relation": "提供",
+        "tail": "有保证的数据率"
+    },
+    {
+        "head": "综合服务",
+        "relation": "提出者",
+        "tail": "IETF"
+    },
+    {
+        "head": "综合服务",
+        "relation": "RFC标准",
+        "tail": "RFC2210-2215"
+    },
+    {
+        "head": "资源预留协议RSVP",
+        "relation": "RFC标准",
+        "tail": "RFC2205-2209"
+    },
+    {
+        "head": "综合服务IntServ",
+        "relation": "特点",
+        "tail": "资源预留"
+    },
+    {
+        "head": "综合服务IntServ",
+        "relation": "特点",
+        "tail": "呼叫建立"
+    },
+    {
+        "head": "路由器",
+        "relation": "操作",
+        "tail": "预留资源"
+    },
+    {
+        "head": "会话",
+        "relation": "需要",
+        "tail": "呼叫建立"
+    },
+    {
+        "head": "服务质量",
+        "relation": "保证",
+        "tail": "综合服务IntServ"
+    },
+    {
+        "head": "IntServ",
+        "relation": "定义了",
+        "tail": "两类服务"
+    },
+    {
+        "head": "有保证的服务",
+        "relation": "提供",
+        "tail": "严格的上限"
+    },
+    {
+        "head": "受控负载的服务",
+        "relation": "提供",
+        "tail": "比通常的尽力而为更加可靠的服务"
+    },
+    {
+        "head": "IntServ",
+        "relation": "包含",
+        "tail": "资源预留协议RSVP"
+    },
+    {
+        "head": "IntServ",
+        "relation": "包含",
+        "tail": "接纳控制"
+    },
+    {
+        "head": "IntServ",
+        "relation": "包含",
+        "tail": "分类器"
+    },
+    {
+        "head": "IntServ",
+        "relation": "包含",
+        "tail": "调度器"
+    },
+    {
+        "head": "调度器",
+        "relation": "决定",
+        "tail": "分组发送顺序"
+    },
+    {
+        "head": "会话",
+        "relation": "声明",
+        "tail": "服务质量要求"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发",
+        "tail": "PATH报文"
+    },
+    {
+        "head": "接收端",
+        "relation": "发送",
+        "tail": "RESV报文"
+    },
+    {
+        "head": "路由器",
+        "relation": "拒绝或接受",
+        "tail": "RESV请求"
+    },
+    {
+        "head": "差错报文",
+        "relation": "终止",
+        "tail": "信令过程"
+    },
+    {
+        "head": "流",
+        "relation": "定义为",
+        "tail": "具有相同标识的一连串分组"
+    },
+    {
+        "head": "RSVP协议",
+        "relation": "用于",
+        "tail": "多播视频节目"
+    },
+    {
+        "head": "PATH报文",
+        "relation": "发送",
+        "tail": "从源点H1向下游"
+    },
+    {
+        "head": "RESV报文",
+        "relation": "由叶节点发送",
+        "tail": "指明服务质量等级"
+    },
+    {
+        "head": "路由器",
+        "relation": "预留或返回",
+        "tail": "差错报文"
+    },
+    {
+        "head": "RSVP协议",
+        "relation": "面向",
+        "tail": "终点"
+    },
+    {
+        "head": "路由器",
+        "relation": "处理",
+        "tail": "RESV报"
+    },
+    {
+        "head": "RESV报",
+        "relation": "预留",
+        "tail": "数据率"
+    },
+    {
+        "head": "路由器",
+        "relation": "合并",
+        "tail": "下游的RESV报"
+    },
+    {
+        "head": "路由器",
+        "relation": "发送",
+        "tail": "RESV报"
+    },
+    {
+        "head": "RESV报",
+        "relation": "要求预留",
+        "tail": "3Mbit/s"
+    },
+    {
+        "head": "RESV报",
+        "relation": "要求预留",
+        "tail": "100kbit/s"
+    },
+    {
+        "head": "路由器",
+        "relation": "发送",
+        "tail": "视频数据报"
+    },
+    {
+        "head": "RSVP",
+        "relation": "基于",
+        "tail": "IntServ"
+    },
+    {
+        "head": "RSVP",
+        "relation": "使得互联网不再是提供",
+        "tail": "\"尽最大努力交付\"的服务"
+    },
+    {
+        "head": "RSVP",
+        "relation": "是",
+        "tail": "网络层的控制协议"
+    },
+    {
+        "head": "IntServ体系结构",
+        "relation": "分为",
+        "tail": "前台和后台两个部分"
+    },
+    {
+        "head": "前台部分",
+        "relation": "包括",
+        "tail": "分类器与分组转发，分组调度器"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "负责维持",
+        "tail": "路由选择数据库"
+    },
+    {
+        "head": "RSVP协议",
+        "relation": "为每一个流预留",
+        "tail": "必要资源"
+    },
+    {
+        "head": "接纳控制",
+        "relation": "确定是否有足够的资源",
+        "tail": "供新的流使用"
+    },
+    {
+        "head": "管理代理",
+        "relation": "修改",
+        "tail": "通信量控制数据库和管理接纳控制功能块"
+    },
+    {
+        "head": "IntServ体系结构",
+        "relation": "存在的主要问题",
+        "tail": "状态信息的数量与流的数目成正比"
+    },
+    {
+        "head": "IntServ",
+        "relation": "包含",
+        "tail": "RSVP"
+    },
+    {
+        "head": "IntServ",
+        "relation": "需要",
+        "tail": "接纳控制"
+    },
+    {
+        "head": "IntServ",
+        "relation": "需要",
+        "tail": "分类器"
+    },
+    {
+        "head": "IntServ",
+        "relation": "需要",
+        "tail": "调度器"
+    },
+    {
+        "head": "RSVP路由器",
+        "relation": "提供",
+        "tail": "有保证的服务"
+    },
+    {
+        "head": "DiffServ",
+        "relation": "替代",
+        "tail": "IntServ和RSVP"
+    },
+    {
+        "head": "DS节点",
+        "relation": "具备",
+        "tail": "区分服务功能"
+    },
+    {
+        "head": "区分服务",
+        "relation": "简写为",
+        "tail": "DS"
+    },
+    {
+        "head": "具有区分服务功能的节点",
+        "relation": "称为",
+        "tail": "DS节点"
+    },
+    {
+        "head": "DiffServ",
+        "relation": "要点包括",
+        "tail": "不改变网络的基础结构，但在路由器中增加区分服务的功能"
+    },
+    {
+        "head": "IP协议的服务类型字段",
+        "relation": "重定义为",
+        "tail": "DS（区分服务）"
+    },
+    {
+        "head": "DS字段的值",
+        "relation": "用于处理分组的转发",
+        "tail": "路由器根据其值来确定服务质量"
+    },
+    {
+        "head": "DS字段",
+        "relation": "使用其中前6位",
+        "tail": "DSCP(DifferentiatedServicesCodePoint)"
+    },
+    {
+        "head": "DSCP",
+        "relation": "由",
+        "tail": "DS字段的值确定"
+    },
+    {
+        "head": "DS字段",
+        "relation": "包含",
+        "tail": "区分服务码点DSCP"
+    },
+    {
+        "head": "SLA",
+        "relation": "定义",
+        "tail": "服务等级协定"
+    },
+    {
+        "head": "DiffServ",
+        "relation": "实现",
+        "tail": "区分服务策略"
+    },
+    {
+        "head": "边界节点",
+        "relation": "包含",
+        "tail": "主机、路由器或防火墙"
+    },
+    {
+        "head": "DS域",
+        "relation": "控制",
+        "tail": "在管理实体下"
+    },
+    {
+        "head": "内部路由器",
+        "relation": "工作",
+        "tail": "简单"
+    },
+    {
+        "head": "边界路由器",
+        "relation": "包含",
+        "tail": "分类器(classifier)"
+    },
+    {
+        "head": "边界路由器",
+        "relation": "包含",
+        "tail": "通信量调节器(conditioner)"
+    },
+    {
+        "head": "通信量调节器(conditioner)",
+        "relation": "由",
+        "tail": "标记器(marker)"
+    },
+    {
+        "head": "通信量调节器(conditioner)",
+        "relation": "由",
+        "tail": "整形器(shaper)"
+    },
+    {
+        "head": "通信量调节器(conditioner)",
+        "relation": "由",
+        "tail": "测定器(meter)"
+    },
+    {
+        "head": "分类器(classifier)",
+        "relation": "根据",
+        "tail": "分组首部字段"
+    },
+    {
+        "head": "标记器(marker)",
+        "relation": "设置",
+        "tail": "DS字段值"
+    },
+    {
+        "head": "测定器(meter)",
+        "relation": "测定",
+        "tail": "分组流速率"
+    },
+    {
+        "head": "边界路由器",
+        "relation": "包含",
+        "tail": "功能块"
+    },
+    {
+        "head": "DiffServ",
+        "relation": "提供",
+        "tail": "聚合功能"
+    },
+    {
+        "head": "DiffServ",
+        "relation": "不使用",
+        "tail": "RSVP信令"
+    },
+    {
+        "head": "每跳行为PHB",
+        "relation": "定义于",
+        "tail": "DiffServ"
+    },
+    {
+        "head": "每跳行为PHB",
+        "relation": "描述",
+        "tail": "转发分组时的服务水平"
+    },
+    {
+        "head": "DiffServ工作组",
+        "relation": "定义了",
+        "tail": "PHB"
+    },
+    {
+        "head": "EFPHB",
+        "relation": "指代",
+        "tail": "ExpeditedForwardingPHB"
+    },
+    {
+        "head": "EFPHB",
+        "relation": "提供",
+        "tail": "低丢失率、低时延、低时延抖动、确保带宽的服务"
+    },
+    {
+        "head": "EFPHB",
+        "relation": "对应于",
+        "tail": "DSCP值101110"
+    },
+    {
+        "head": "AFPHB",
+        "relation": "指代",
+        "tail": "AssuredForwardingPHB"
+    },
+    {
+        "head": "AFPHB",
+        "relation": "划分为",
+        "tail": "四个等级"
+    },
+    {
+        "head": "AFPHB",
+        "relation": "对应于",
+        "tail": "DSCP的第0~2位"
+    },
+    {
+        "head": "DiffServ",
+        "relation": "提供",
+        "tail": "最低数量带宽和缓存空间"
+    },
+    {
+        "head": "DSCP",
+        "relation": "划分",
+        "tail": "丢弃优先级"
+    },
+    {
+        "head": "网络拥塞",
+        "relation": "导致",
+        "tail": "分组丢弃"
+    },
+    {
+        "head": "DiffServ",
+        "relation": "灵活",
+        "tail": "无需定义特定服务类别"
+    },
+    {
+        "head": "多媒体信息",
+        "relation": "具有",
+        "tail": "大信息量"
+    },
+    {
+        "head": "多媒体信息",
+        "relation": "传输特点",
+        "tail": "边传输、边播放"
+    },
+    {
+        "head": "分组",
+        "relation": "到达接收端",
+        "tail": "变非等时"
+    },
+    {
+        "head": "接收端缓存",
+        "relation": "达到一定数量后",
+        "tail": "按顺序还原播放"
+    },
+    {
+        "head": "实时数据",
+        "relation": "要求限制",
+        "tail": "传输时延和时延抖动"
+    },
+    {
+        "head": "流式存储音频／视频",
+        "relation": "属于",
+        "tail": "流媒体"
+    },
+    {
+        "head": "流式实况音频／视频",
+        "relation": "属于",
+        "tail": "流媒体"
+    },
+    {
+        "head": "交互式音频／视频",
+        "relation": "属于",
+        "tail": "流媒体"
+    },
+    {
+        "head": "互联网电视会议",
+        "relation": "提供",
+        "tail": "服务类型"
+    },
+    {
+        "head": "TCP",
+        "relation": "保证",
+        "tail": "播放质量"
+    },
+    {
+        "head": "UDP",
+        "relation": "用于",
+        "tail": "实时流式音频／视频文件传送"
+    },
+    {
+        "head": "RTSP",
+        "relation": "设计目的",
+        "tail": "增加流式过程功能"
+    },
+    {
+        "head": "IP电话",
+        "relation": "属于",
+        "尾": "广义的互联网电话"
+    },
+    {
+        "head": "IP电话",
+        "relation": "定义为",
+        "tail": "在IP网络上打电话"
+    },
+    {
+        "head": "广义的IP电话",
+        "relation": "包含",
+        "tail": "交互式多媒体实时通信（包括话音、视像等）"
+    },
+    {
+        "head": "广义的IP电话",
+        "relation": "还包括",
+        "tail": "即时传信IM（如QQ和Skype等）"
+    },
+    {
+        "head": "IP电话通话质量",
+        "relation": "主要由",
+        "tail": "端到端的时延和时延抖动决定"
+    },
+    {
+        "head": "IP电话通话质量",
+        "relation": "还受",
+        "tail": "话音分组的丢失率影响"
+    }
+]

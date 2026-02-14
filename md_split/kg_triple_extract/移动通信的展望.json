@@ -1,0 +1,330 @@
+[
+    [
+        {
+            "head": "移动IP",
+            "relation": "涉及问题",
+            "tail": "永久IP地址分配"
+        },
+        {
+            "head": "移动IP",
+            "relation": "技术挑战",
+            "tail": "伪造的外地代理"
+        },
+        {
+            "head": "无线网络",
+            "relation": "影响因素",
+            "tail": "移动站漫游"
+        },
+        {
+            "head": "高层协议",
+            "relation": "受影响情况",
+            "tail": "连接点更换"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "使用",
+            "tail": "拥塞控制"
+        },
+        {
+            "head": "TCP报段丢失",
+            "relation": "可能原因",
+            "tail": "移动用户切换"
+        },
+        {
+            "head": "TCP报段丢失",
+            "relation": "可能原因",
+            "tail": "网络拥塞"
+        },
+        {
+            "head": "TCP",
+            "relation": "采取措施",
+            "tail": "减小拥塞窗口"
+        },
+        {
+            "head": "移动用户切换",
+            "relation": "导致",
+            "tail": "TCP报段丢失"
+        },
+        {
+            "head": "网络拥塞",
+            "relation": "引起",
+            "tail": "TCP报段频繁丢失"
+        }
+    ],
+    [
+        {
+            "head": "自动请求重传ARQ协议",
+            "relation": "属于",
+            "tail": "本地恢复"
+        },
+        {
+            "head": "TCP",
+            "relation": "需要知道",
+            "tail": "链路使用情况"
+        },
+        {
+            "head": "拥塞控制策略",
+            "relation": "由",
+            "tail": "TCP采用"
+        },
+        {
+            "head": "报段丢失",
+            "relation": "发生在",
+            "tail": "有线网络部分"
+        }
+    ],
+    [
+        {
+            "head": "端到端TCP连接",
+            "relation": "被拆分",
+            "tail": "两个互相串接的TCP连接"
+        },
+        {
+            "head": "移动用户",
+            "relation": "发起",
+            "tail": "从cid:4877线接入点到有线网段连接"
+        },
+        {
+            "head": "tcp连接",
+            "relation": "分为",
+            "tail": "一个使用cid:4877线信道, 一个使用有线网段连接"
+        },
+        {
+            "head": "拆分TCP连接方法",
+            "relation": "适用于",
+            "tail": "标准的TCP协议、有选择确认的TCP协议和专用UDP协议"
+        },
+        {
+            "head": "性能",
+            "relation": "得到改进",
+            "tail": "在使用cid:4874线信道的TCP连接上"
+        },
+        {
+            "head": "蜂窝移动通信",
+            "relation": "从lG发展到4G",
+            "tail": "每十年一代"
+        },
+        {
+            "head": "lG",
+            "relation": "是",
+            "tail": "模拟电一话"
+        },
+        {
+            "head": "2G",
+            "relation": "是",
+            "tail": "(cid:4802)字电话"
+        },
+        {
+            "head": "3G",
+            "relation": "具有较强数据传输能力",
+            "tail": ""
+        },
+        {
+            "head": "4G",
+            "relation": "支持",
+            "tail": "高质量"
+        }
+    ],
+    [
+        {
+            "head": "5G",
+            "relation": "标准制定机构",
+            "tail": "3GPP"
+        },
+        {
+            "head": "5G",
+            "relation": "传输业务分类",
+            "tail": "三大应用场景"
+        },
+        {
+            "head": "5G",
+            "relation": "重要应用领域",
+            "tail": "物联网IoT"
+        },
+        {
+            "head": "4G",
+            "relation": "主要特点",
+            "tail": "人与人通信、多人视频聊天"
+        },
+        {
+            "head": "4G",
+            "relation": "增加功能",
+            "tail": "人与互联网通信（下载文件、音乐、视频）"
+        },
+        {
+            "head": "5G",
+            "relation": "商用启动时间",
+            "tail": "2019年10月31日"
+        }
+    ],
+    [
+        {
+            "head": "5G",
+            "relation": "支持",
+            "tail": "eMBB"
+        },
+        {
+            "head": "eMBB",
+            "relation": "传输",
+            "tail": "3D视频"
+        },
+        {
+            "head": "3D视频",
+            "relation": "包括",
+            "tail": "虚拟现实VR"
+        },
+        {
+            "head": "3D视频",
+            "relation": "包括",
+            "tail": "增强现实AR"
+        },
+        {
+            "head": "5G",
+            "relation": "支持",
+            "tail": "mMTC"
+        },
+        {
+            "head": "mMTC",
+            "relation": "属于",
+            "tail": "物联网"
+        },
+        {
+            "head": "mMTC",
+            "relation": "应用场景",
+            "tail": "智慧城市"
+        },
+        {
+            "head": "mMTC",
+            "relation": "应用场景",
+            "tail": "智能家居"
+        },
+        {
+            "head": "5G",
+            "relation": "支持",
+            "tail": "uRLLC"
+        },
+        {
+            "head": "uRLLC",
+            "relation": "属于",
+            "tail": "物联网"
+        },
+        {
+            "head": "uRLLC",
+            "relation": "应用场景",
+            "tail": "工业控制"
+        },
+        {
+            "head": "uRLLC",
+            "relation": "应用场景",
+            "tail": "交通安全和控制"
+        }
+    ],
+    [
+        {
+            "head": "5G",
+            "relation": "提供",
+            "tail": "10Gbit/s下行数据峰值速率"
+        },
+        {
+            "head": "5G",
+            "relation": "支持",
+            "tail": "20Gbit/s特定场景数据率"
+        },
+        {
+            "head": "5GNR",
+            "relation": "构成",
+            "tail": "5G空口标准"
+        },
+        {
+            "head": "5G",
+            "relation": "缩短",
+            "tail": "单向时延至毫秒级"
+        },
+        {
+            "head": "5G",
+            "relation": "满足",
+            "tail": "各种应用场景端到端时延需求"
+        },
+        {
+            "head": "5G",
+            "relation": "使用",
+            "tail": "更大信道带宽"
+        },
+        {
+            "head": "5G",
+            "relation": "提高",
+            "tail": "数据传输速率"
+        },
+        {
+            "head": "5G",
+            "relation": "增加",
+            "tail": "频谱效率数倍"
+        },
+        {
+            "head": "5G",
+            "relation": "特点",
+            "tail": "极高的速率、极大的容量、极低的时延"
+        }
+    ],
+    [
+        {
+            "head": "5G",
+            "relation": "引入",
+            "tail": "毫米波"
+        },
+        {
+            "head": "5G",
+            "relation": "使用",
+            "tail": "信道编码方式"
+        },
+        {
+            "head": "5G",
+            "relation": "采用",
+            "tail": "天线波束赋形技术"
+        },
+        {
+            "head": "5G",
+            "relation": "发展到",
+            "tail": "大规模MIMO系统"
+        },
+        {
+            "head": "5G",
+            "relation": "覆盖范围缩小",
+            "tail": "基站密集度增加"
+        },
+        {
+            "head": "5G",
+            "relation": "复杂性增加",
+            "tail": "网络投资和运营成本提高"
+        },
+        {
+            "head": "5G",
+            "relation": "前景",
+            "tail": "与商业市场相关"
+        },
+        {
+            "head": "局域网",
+            "relation": "分类",
+            "tail": "有固定基础设施的"
+        },
+        {
+            "head": "局域网",
+            "relation": "分类",
+            "tail": "无固定基础设施的"
+        }
+    ],
+    [
+        {
+            "head": "线局域网",
+            "relation": "遵循标准",
+            "tail": "IEEE的802.11系列"
+        },
+        {
+            "head": "使用802.11系列协议的局域网",
+            "relation": "称为",
+            "tail": "Wi-Fi"
+        }
+    ]
+]

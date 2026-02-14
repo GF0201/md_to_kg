@@ -1,0 +1,442 @@
+[
+    {
+        "head": "密钥管理",
+        "relation": "包括",
+        "tail": "密钥的产生、分配、注入、验证和使用"
+    },
+    {
+        "head": "密钥分配",
+        "relation": "是",
+        "tail": "密钥管理中最大的问题"
+    },
+    {
+        "head": "公钥分配",
+        "relation": "需要解决",
+        "tail": "公钥认证的问题"
+    },
+    {
+        "head": "对称密钥分配",
+        "relation": "存在",
+        "tail": "两个问题"
+    },
+    {
+        "head": "密钥分配方式",
+        "relation": "分为",
+        "tail": "网外分配和网内分配"
+    },
+    {
+        "head": "密钥",
+        "relation": "数量计算公式",
+        "tail": "n(n-1)/2"
+    },
+    {
+        "head": "密钥分配中心",
+        "relation": "简称",
+        "tail": "KDC"
+    },
+    {
+        "head": "会话密钥",
+        "relation": "使用次数",
+        "tail": "仅一次"
+    },
+    {
+        "head": "主密钥",
+        "relation": "存储位置",
+        "tail": "KDC服务器上"
+    },
+    {
+        "head": "KDC",
+        "relation": "生成",
+        "tail": "会话密钥K"
+    },
+    {
+        "head": "A",
+        "relation": "发送",
+        "tail": "回答报文给B"
+    },
+    {
+        "head": "回答报文",
+        "relation": "包含",
+        "tail": "会话密钥KAB"
+    },
+    {
+        "head": "票据",
+        "relation": "包括",
+        "tail": "身份信息和会话密钥KAB"
+    },
+    {
+        "head": "票据",
+        "relation": "用B的密钥加密",
+        "tail": "防止A解密"
+    },
+    {
+        "head": "B",
+        "relation": "使用自己的密钥解密",
+        "tail": "票据中的内容"
+    },
+    {
+        "head": "会话密钥KAB",
+        "relation": "用于",
+        "tail": "A和B的通信"
+    },
+    {
+        "head": "KDC",
+        "relation": "防止",
+        "tail": "重放攻击通过加入时间戳"
+    },
+    {
+        "head": "会话密钥KAB",
+        "relation": "一次性使用",
+        "tail": "提高机密性"
+    },
+    {
+        "head": "Kerberos",
+        "relation": "是",
+        "tail": "对称密钥分配协议"
+    },
+    {
+        "head": "Kerberos V5",
+        "relation": "版本",
+        "tail": "目前最出名的对称密钥分配协议"
+    },
+    {
+        "head": "Kerberos",
+        "relation": "使用",
+        "tail": "高级加密标准AES进行加密"
+    },
+    {
+        "head": "Kerberos",
+        "relation": "包含",
+        "tail": "鉴别服务器AS和票据授予服务器TGS"
+    },
+    {
+        "head": "AS",
+        "relation": "全称",
+        "tail": "Authentication Server"
+    },
+    {
+        "head": "TGS",
+        "relation": "全称",
+        "tail": "Ticket Granting Server"
+    },
+    {
+        "head": "鉴别服务器AS",
+        "relation": "向",
+        "tail": "客户A发送加密报文"
+    },
+    {
+        "head": "客户A",
+        "relation": "使用",
+        "tail": "对称密钥KA解密报文"
+    },
+    {
+        "head": "鉴别服务器AS",
+        "relation": "生成",
+        "tail": "会话密钥Ks和票据"
+    },
+    {
+        "head": "客户A",
+        "relation": "向",
+        "tail": "票据授予服务器TGS发送票据"
+    },
+    {
+        "head": "鉴别服务器AS",
+        "relation": "掌握",
+        "tail": "各实体登记的身份和口令"
+    },
+    {
+        "head": "A",
+        "relation": "向",
+        "tail": "TGS发送票据"
+    },
+    {
+        "head": "A",
+        "relation": "请求",
+        "tail": "B的服务"
+    },
+    {
+        "head": "票据",
+        "relation": "包含",
+        "tail": "会话密钥KAB"
+    },
+    {
+        "head": "入侵者",
+        "relation": "不能伪造",
+        "tail": "票据"
+    },
+    {
+        "head": "入侵者",
+        "tail": "会话密钥KAB",
+        "relation": "不能提取"
+    },
+    {
+        "head": "时间戳T",
+        "relation": "防止",
+        "tail": "重放攻击"
+    },
+    {
+        "head": "TGS",
+        "relation": "发送",
+        "tail": "两个票据"
+    },
+    {
+        "head": "票据",
+        "relation": "用",
+        "tail": "密钥Ks加密"
+    },
+    {
+        "head": "票据",
+        "relation": "用",
+        "tail": "密钥KB加密"
+    },
+    {
+        "head": "入侵者",
+        "relation": "不能解密",
+        "tail": "票据"
+    },
+    {
+        "head": "A",
+        "relation": "转发",
+        "tail": "B的票据"
+    },
+    {
+        "head": "B",
+        "relation": "发送",
+        "tail": "时间戳T"
+    },
+    {
+        "head": "报文",
+        "relation": "用",
+        "tail": "密钥KAB加密"
+    },
+    {
+        "head": "A和B",
+        "relation": "使用",
+        "tail": "会话密钥KAB通信"
+    },
+    {
+        "head": "Kerberos",
+        "relation": "要求",
+        "tail": "主机时钟同步"
+    },
+    {
+        "head": "松散的同步",
+        "relation": "确保",
+        "tail": "防止重放攻击"
+    },
+    {
+        "head": "TGS",
+        "relation": "发出",
+        "tail": "票据"
+    },
+    {
+        "head": "票据",
+        "relation": "设置有效期",
+        "tail": "较短"
+    },
+    {
+        "head": "公钥密码体制",
+        "relation": "涉及",
+        "tail": "公钥分配"
+    },
+    {
+        "head": "私钥",
+        "relation": "保存",
+        "tail": "各自"
+    },
+    {
+        "head": "邮件",
+        "relation": "包含",
+        "tail": "签名"
+    },
+    {
+        "head": "捣乱者",
+        "relation": "伪造",
+        "tail": "公钥"
+    },
+    {
+        "head": "第三方机构",
+        "relation": "提供",
+        "tail": "数字证书"
+    },
+    {
+        "head": "认证中心CA",
+        "relation": "签发",
+        "tail": "数字证书"
+    },
+    {
+        "head": "数字证书",
+        "relation": "绑定",
+        "tail": "公钥与其对应的实体"
+    },
+    {
+        "head": "公司A",
+        "relation": "向",
+        "tail": "公司B索要其公钥"
+    },
+    {
+        "head": "认证中心CA",
+        "relation": "由",
+        "tail": "政府或知名公司出资建立"
+    },
+    {
+        "head": "数字证书",
+        "relation": "包含",
+        "tail": "公钥及其拥有者的标识信息"
+    },
+    {
+        "head": "数字证书",
+        "relation": "包含",
+        "tail": "未签名的证书"
+    },
+    {
+        "head": "认证中心CA",
+        "relation": "使用",
+        "tail": "私钥进行数字签名"
+    },
+    {
+        "head": "数字证书",
+        "relation": "具有",
+        "tail": "不可伪造性"
+    },
+    {
+        "head": "用户",
+        "relation": "可从",
+        "tail": "可信任的地方获得公钥"
+    },
+    {
+        "head": "认证中心CA",
+        "relation": "发行",
+        "tail": "数字证书"
+    },
+    {
+        "head": "中国金融认证中心CFCA",
+        "relation": "属于",
+        "tail": "金融领域"
+    },
+    {
+        "head": "威瑞信公司VeriSign",
+        "relation": "具有",
+        "tail": "权威性"
+    },
+    {
+        "head": "数字证书",
+        "relation": "用于",
+        "tail": "验证身份"
+    },
+    {
+        "head": "X.509 V3",
+        "relation": "定义了",
+        "tail": "数字证书格式"
+    },
+    {
+        "head": "RFC5280",
+        "relation": "作为",
+        "tail": "互联网建议标准"
+    },
+    {
+        "head": "PKI",
+        "relation": "简称",
+        "tail": "X.509"
+    },
+    {
+        "head": "数字证书",
+        "relation": "包含字段",
+        "tail": "X.509版本"
+    },
+    {
+        "head": "数字证书",
+        "relation": "包含字段",
+        "tail": "公钥和数字证书拥有者的唯一标识符"
+    },
+    {
+        "head": "数字证书",
+        "relation": "包含字段",
+        "tail": "数字证书签发者唯一的标识符"
+    },
+    {
+        "head": "数字证书",
+        "relation": "包含字段",
+        "tail": "数字证书的有效期"
+    },
+    {
+        "head": "X.509",
+        "relation": "规定了",
+        "tail": "多级认证中心链接方式"
+    },
+    {
+        "head": "信任链",
+        "relation": "表示",
+        "tail": "从根CA向下的所有链接"
+    },
+    {
+        "head": "根认证中心",
+        "relation": "称为",
+        "tail": "公认可信的认证中心"
+    },
+    {
+        "head": "认证中心",
+        "relation": "规定",
+        "tail": "统一名称"
+    },
+    {
+        "head": "根CA",
+        "relation": "签发",
+        "tail": "中间CA证书"
+    },
+    {
+        "head": "中间CA2",
+        "relation": "签发",
+        "tail": "用户证书"
+    },
+    {
+        "head": "公钥",
+        "relation": "验证",
+        "tail": "数字签名"
+    },
+    {
+        "head": "根CA",
+        "relation": "使用",
+        "tail": "私钥进行数字签名"
+    },
+    {
+        "head": "中间CA2",
+        "relation": "使用",
+        "tail": "根CA的公钥验证签名"
+    },
+    {
+        "head": "用户",
+        "relation": "使用",
+        "tail": "中间CA2的公钥验证签名"
+    },
+    {
+        "head": "证书",
+        "relation": "构成",
+        "tail": "信任链"
+    },
+    {
+        "head": "根CA",
+        "relation": "自签名",
+        "tail": "最顶层证书"
+    },
+    {
+        "head": "根证书",
+        "relation": "是",
+        "tail": "信任链的起点"
+    },
+    {
+        "head": "认证中心",
+        "relation": "若未严格遵守要求，则",
+        "tail": "节点以下的证书是否可信应重新验证"
+    },
+    {
+        "head": "用户",
+        "relation": "应及时报告",
+        "tail": "上级CA以便撤销证书"
+    },
+    {
+        "head": "CA",
+        "relation": "公布",
+        "tail": "公众的、用本CA的私钥签名证书撤销名单"
+    }
+]

@@ -1,0 +1,577 @@
+[
+    [
+        {
+            "head": "窗口大小",
+            "relation": "受制于",
+            "tail": "传播时延和带宽"
+        },
+        {
+            "head": "窗口扩大选项",
+            "relation": "包含",
+            "tail": "移位值S"
+        },
+        {
+            "head": "窗口值",
+            "relation": "计算方式",
+            "tail": "16+S"
+        },
+        {
+            "head": "最大移位值",
+            "relation": "为",
+            "tail": "14"
+        },
+        {
+            "head": "窗口位数",
+            "relation": "从",
+            "tail": "16增大到230"
+        },
+        {
+            "head": "时间戳选项",
+            "relation": "包含",
+            "tail": "时间戳值字段和时间戳回送回答字段"
+        },
+        {
+            "head": "时间戳值字段",
+            "relation": "长度",
+            "tail": "4字"
+        },
+        {
+            "head": "时间戳回送回答字段",
+            "relation": "长度",
+            "tail": "4字"
+        },
+        {
+            "head": "时间戳选项",
+            "relation": "用于计算",
+            "tail": "往返时间RTT"
+        }
+    ],
+    [
+        {
+            "head": "TCP序号",
+            "relation": "用于处理",
+            "tail": "超过232的情况"
+        },
+        {
+            "head": "防止序号绕回PAWS",
+            "relation": "解决",
+            "tail": "TCP序号超过232的问题"
+        },
+        {
+            "head": "时间戳",
+            "relation": "用于区分",
+            "tail": "新的报文段和迟到很久的报文段"
+        },
+        {
+            "head": "滑动窗口",
+            "relation": "实现",
+            "tail": "可靠传输"
+        }
+    ],
+    [
+        {
+            "head": "滑动窗口",
+            "relation": "用于实现",
+            "tail": "可靠传输"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "属于",
+            "tail": "滑动窗口"
+        },
+        {
+            "head": "接收窗口",
+            "relation": "属于",
+            "tail": "滑动窗口"
+        },
+        {
+            "head": "字为单位的滑动窗口",
+            "relation": "以",
+            "tail": "字为位置"
+        },
+        {
+            "head": "确认号",
+            "relation": "标识",
+            "tail": "已接收数据的最大序号"
+        }
+    ],
+    [
+        {
+            "head": "发送窗口",
+            "relation": "表示",
+            "tail": "允许发送的序号范围"
+        },
+        {
+            "head": "发送窗口大小",
+            "relation": "影响",
+            "tail": "传输效率"
+        },
+        {
+            "head": "接收窗口数值",
+            "relation": "由对方发送给",
+            "tail": "发送方"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "不能超过",
+            "tail": "接收窗口数值"
+        },
+        {
+            "head": "长粗管道",
+            "relation": "又称",
+            "tail": "信道"
+        }
+    ],
+    [
+        {
+            "head": "发送窗口",
+            "relation": "包含",
+            "tail": "已发送且已收到确认的数据"
+        },
+        {
+            "head": "发送窗口后沿",
+            "relation": "表示",
+            "tail": "已发送且已收到确认的数据范围"
+        },
+        {
+            "head": "发送窗口前沿",
+            "relation": "不能移动",
+            "tail": "向后"
+        },
+        {
+            "head": "发送窗口前沿",
+            "relation": "可能不动",
+            "tail": "没有收到新的确认或窗口大小不变"
+        },
+        {
+            "head": "发送窗口前沿",
+            "relation": "可能收缩",
+            "tail": "对方通知的窗口缩小了"
+        }
+    ],
+    [
+        {
+            "head": "发送窗口",
+            "relation": "包含",
+            "tail": "序号31~50"
+        },
+        {
+            "head": "接收窗口",
+            "relation": "等于",
+            "tail": "20"
+        },
+        {
+            "head": "指针P1",
+            "relation": "指向",
+            "tail": "已发送并确认部分"
+        },
+        {
+            "head": "指针P2-P1",
+            "relation": "表示",
+            "tail": "已发送但未确认字节数"
+        },
+        {
+            "head": "指针P3",
+            "relation": "指向",
+            "tail": "不允许发送部分"
+        }
+    ],
+    [
+        {
+            "head": "接收窗口",
+            "relation": "包含",
+            "tail": "允许接收的数据"
+        },
+        {
+            "head": "发送确认",
+            "relation": "基于",
+            "tail": "按序收到的数据中的最高序号"
+        },
+        {
+            "head": "确认报文段",
+            "relation": "携带",
+            "tail": "确认号31"
+        },
+        {
+            "head": "窗口大小",
+            "relation": "设定为",
+            "tail": "20"
+        },
+        {
+            "head": "数据交付",
+            "relation": "完成于",
+            "tail": "序号为31~33的数据"
+        }
+    ],
+    [
+        {
+            "head": "接收窗口",
+            "relation": "移动",
+            "tail": "3个序号"
+        },
+        {
+            "head": "确认号",
+            "relation": "更新为",
+            "tail": "34"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "向前滑动",
+            "tail": "3个序号"
+        },
+        {
+            "head": "可用窗口",
+            "relation": "增大",
+            "tail": "些"
+        },
+        {
+            "head": "序号范围",
+            "relation": "更新为",
+            "tail": "42~53"
+        }
+    ],
+    [
+        {
+            "head": "发送窗口",
+            "relation": "包含",
+            "tail": "序号"
+        },
+        {
+            "head": "超时计时器",
+            "relation": "控制",
+            "tail": "重传数据"
+        },
+        {
+            "head": "确认号",
+            "relation": "指示",
+            "tail": "发送窗口向前滑动"
+        }
+    ],
+    [
+        {
+            "head": "发送窗口",
+            "relation": "维持",
+            "tail": "发送缓存"
+        },
+        {
+            "head": "接收缓存",
+            "relation": "维持",
+            "tail": "接收窗口"
+        },
+        {
+            "head": "字节流",
+            "relation": "写入",
+            "tail": "TCP的发送缓存"
+        },
+        {
+            "head": "字节流",
+            "relation": "读取",
+            "tail": "TCP的接收缓存"
+        },
+        {
+            "head": "序号空间",
+            "relation": "有限且循环使用",
+            "tail": ""
+        },
+        {
+            "head": "缓存空间",
+            "relation": "有限且循环使用",
+            "tail": ""
+        }
+    ],
+    [
+        {
+            "head": "发送缓存",
+            "relation": "存放",
+            "tail": "发送应用程序传送给TCP准备发送的数据"
+        },
+        {
+            "head": "发送缓存",
+            "relation": "存放",
+            "tail": "TCP已发送出但尚未收到确认的数据"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "是",
+            "tail": "发送缓存的一部分"
+        },
+        {
+            "head": "已被确认的数据",
+            "relation": "从",
+            "tail": "发送缓存中删除"
+        },
+        {
+            "head": "发送应用程序",
+            "relation": "控制",
+            "tail": "写入缓存的速率"
+        },
+        {
+            "head": "接收缓存",
+            "relation": "存放",
+            "tail": "按序到达但尚未被读取的数据"
+        },
+        {
+            "head": "接收缓存",
+            "relation": "存放",
+            "tail": "未按序到达的数据"
+        }
+    ],
+    [
+        {
+            "head": "接收缓存",
+            "relation": "导致",
+            "tail": "接收窗口减小到零"
+        },
+        {
+            "head": "接收应用程序",
+            "relation": "影响",
+            "tail": "接收窗口增大"
+        },
+        {
+            "head": "确认号",
+            "relation": "标识",
+            "tail": "下一个期望收到的字节号"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "根据",
+            "tail": "B的接收窗口设置"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "不总是等于",
+            "tail": "B的接收窗口"
+        },
+        {
+            "head": "发送窗口数值",
+            "relation": "通过网络传送",
+            "tail": "经历时间滞后"
+        },
+        {
+            "head": "发送方A",
+            "relation": "可能减小",
+            "tail": "自己的发送窗口数值"
+        },
+        {
+            "head": "不按序到达的数据",
+            "relation": "处理方式",
+            "tail": "临时存放在接收窗口中"
+        },
+        {
+            "head": "字节流中所缺少的字节收到后",
+            "relation": "操作",
+            "tail": "按序交付上层的应用进程"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "要求",
+            "tail": "接收方有累积确认功能"
+        },
+        {
+            "head": "TCP",
+            "relation": "减少",
+            "tail": "传输开销"
+        },
+        {
+            "head": "确认推迟时间",
+            "relation": "不应超过",
+            "tail": "0.5秒"
+        },
+        {
+            "head": "TCP",
+            "relation": "规定",
+            "tail": "确认每隔一个报文段发送一次"
+        },
+        {
+            "head": "TCP",
+            "relation": "支持",
+            "tail": "全双工通信"
+        },
+        {
+            "head": "TCP",
+            "relation": "重传",
+            "tail": "在规定时间内没有收到确认"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "采用",
+            "tail": "自适应算法"
+        },
+        {
+            "head": "自适应算法",
+            "relation": "计算",
+            "tail": "往返时间RTT"
+        },
+        {
+            "head": "往返时间RTT",
+            "relation": "更新为",
+            "tail": "平滑的往返时间RTTs"
+        },
+        {
+            "head": "平滑的往返时间RTTs",
+            "relation": "计算公式",
+            "tail": "新的RTTs=(1-a)x（旧的RTTs)+ax（新的RTT样本）"
+        }
+    ],
+    [
+        {
+            "head": "RTT",
+            "relation": "计算方法",
+            "tail": "加权平均往返时间"
+        },
+        {
+            "head": "RTO",
+            "relation": "计算公式",
+            "tail": "RTTs+4xRTT0"
+        },
+        {
+            "head": "RFC6298",
+            "relation": "推荐值",
+            "tail": "a=1/8"
+        },
+        {
+            "head": "RTT偏差",
+            "relation": "加权平均值",
+            "tail": "RTTo"
+        },
+        {
+            "head": "RTT样本",
+            "relation": "计算方法",
+            "tail": "测量到的RTT样本值的一半"
+        }
+    ],
+    [
+        {
+            "head": "重传时间",
+            "relation": "影响",
+            "tail": "超时重传时间RTO"
+        },
+        {
+            "head": "确认报文段",
+            "relation": "区分困难",
+            "tail": "原报文段或重传报文段"
+        },
+        {
+            "head": "计算出的RTT",
+            "relation": "受误判影响",
+            "tail": "偏大或偏小"
+        },
+        {
+            "head": "RTO",
+            "relation": "变化趋势",
+            "tail": "越来越长或越来越短"
+        }
+    ],
+    [
+        {
+            "head": "Kam算法",
+            "relation": "改进了",
+            "tail": "往返时间估测"
+        },
+        {
+            "head": "重传报文段",
+            "relation": "影响",
+            "tail": "超时重传时间RTO计算"
+        },
+        {
+            "head": "超时重传时间RTO",
+            "relation": "更新方式",
+            "tail": "每次重传加倍"
+        },
+        {
+            "head": "选择确认SACK",
+            "relation": "解决",
+            "tail": "未按序号的数据传输问题"
+        }
+    ],
+    [
+        {
+            "head": "选择确认",
+            "relation": "是",
+            "tail": "一种可行的处理方法"
+        },
+        {
+            "head": "选择确认",
+            "relation": "用于",
+            "tail": "处理序号不连续的数据块"
+        },
+        {
+            "head": "TCP接收方",
+            "relation": "收到",
+            "tail": "序号1~1000和4501起的字节流"
+        },
+        {
+            "head": "TCP接收方",
+            "relation": "未收到",
+            "tail": "序号1001~1500和3001~3500的字节流"
+        },
+        {
+            "head": "选择确认",
+            "relation": "告诉发送方",
+            "tail": "已收到的数据不需重复发送"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "包含选项",
+            "tail": "SACK"
+        },
+        {
+            "head": "SACK",
+            "relation": "用于",
+            "tail": "选择确认"
+        },
+        {
+            "head": "TCP首部",
+            "relation": "增加",
+            "tail": "SACK选项"
+        },
+        {
+            "head": "SACK选项",
+            "relation": "描述",
+            "tail": "不连续的字节块边界信息"
+        },
+        {
+            "head": "SACK选项长度",
+            "relation": "最多为",
+            "tail": "40字节"
+        },
+        {
+            "head": "每个边界信息",
+            "relation": "占用",
+            "tail": "4字节"
+        },
+        {
+            "head": "SACK选项中",
+            "relation": "最多指明",
+            "tail": "4个字节块的边界"
+        }
+    ],
+    [
+        {
+            "head": "SACK选项",
+            "relation": "包含于",
+            "tail": "互联网建议标准RFC2018"
+        },
+        {
+            "head": "SACK选项",
+            "relation": "用于报告",
+            "tail": "5个字节块的边界信息"
+        },
+        {
+            "head": "SACK文档",
+            "relation": "未指明",
+            "tail": "发送方应当怎样响应SACK"
+        },
+        {
+            "head": "大多数实现",
+            "relation": "重传",
+            "tail": "所有未被确认的数据块"
+        }
+    ]
+]

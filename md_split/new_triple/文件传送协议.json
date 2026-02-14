@@ -1,0 +1,347 @@
+[
+    {
+        "head": "域名服务器",
+        "relation": "维护",
+        "tail": "高速缓存"
+    },
+    {
+        "head": "主机",
+        "relation": "定期检查",
+        "tail": "域名服务器"
+    },
+    {
+        "head": "文件传送协议",
+        "relation": "标准文档",
+        "tail": "RFC959, STD9"
+    },
+    {
+        "head": "FTP",
+        "relation": "提供",
+        "tail": "交互式访问"
+    },
+    {
+        "head": "用户",
+        "relation": "需要授权",
+        "tail": "访问文件"
+    },
+    {
+        "head": "FTP",
+        "relation": "传输协议",
+        "tail": "文件"
+    },
+    {
+        "head": "TCP",
+        "relation": "支持协议",
+        "tail": "FTP"
+    },
+    {
+        "head": "TFTP",
+        "relation": "基于协议",
+        "tail": "UDP"
+    },
+    {
+        "head": "文件共享协议",
+        "relation": "包含类别",
+        "tail": "复制整个文件"
+    },
+    {
+        "head": "操作系统",
+        "relation": "提供服务",
+        "tail": "远程文件访问"
+    },
+    {
+        "head": "FTP",
+        "relation": "通信量占比",
+        "tail": "三分之一"
+    },
+    {
+        "head": "操作系统",
+        "relation": "提供服务",
+        "tail": "远地共享文件访问"
+    },
+    {
+        "head": "透明存取",
+        "relation": "优点",
+        "tail": "不需要明显改动应用程序处理远地文件"
+    },
+    {
+        "head": "网络文件系统NFS",
+        "relation": "实现方式",
+        "tail": "UNIX操作系统环境"
+    },
+    {
+        "head": "网络文件系统NFS",
+        "relation": "主要应用",
+        "tail": "TCP/IP, NetWare等操作系统上运行"
+    },
+    {
+        "head": "网络文件系统NFS",
+        "relation": "最新版本",
+        "tail": "NFSv4"
+    },
+    {
+        "head": "网络文件系统NFSv4",
+        "relation": "发布时间",
+        "tail": "2015年3月"
+    },
+    {
+        "head": "FTP",
+        "relation": "提供服务",
+        "tail": "文件传送"
+    },
+    {
+        "head": "FTP",
+        "relation": "使用",
+        "tail": "TCP"
+    },
+    {
+        "head": "FTP",
+        "relation": "采用",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "FTP服务器进程",
+        "relation": "包含",
+        "tail": "主进程和从属进程"
+    },
+    {
+        "head": "FTP",
+        "relation": "使用",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "控制连接",
+        "relation": "属于",
+        "tail": "FTP"
+    },
+    {
+        "head": "数据连接",
+        "relation": "用于",
+        "tail": "文件传输"
+    },
+    {
+        "head": "客户端",
+        "relation": "包含",
+        "tail": "用户界面进程"
+    },
+    {
+        "head": "服务器端",
+        "relation": "包含",
+        "tail": "从属进程"
+    },
+    {
+        "head": "主进程",
+        "relation": "处理",
+        "tail": "客户进程请求"
+    },
+    {
+        "head": "从属进程",
+        "relation": "创建",
+        "tail": "子进程"
+    },
+    {
+        "head": "数据连接",
+        "relation": "用于",
+        "tail": "文件传送"
+    },
+    {
+        "head": "控制进程",
+        "relation": "接收",
+        "tail": "文件传输请求"
+    },
+    {
+        "head": "服务器端",
+        "relation": "创建",
+        "tail": "数据传送进程"
+    },
+    {
+        "head": "FTP客户",
+        "relation": "发送",
+        "tail": "文件传输请求"
+    },
+    {
+        "head": "控制连接",
+        "relation": "传送",
+        "tail": "控制信息"
+    },
+    {
+        "head": "数据传送连接",
+        "relation": "关闭",
+        "tail": "在传送完毕后"
+    },
+    {
+        "head": "FTP",
+        "relation": "使用",
+        "tail": "两个TCP连接"
+    },
+    {
+        "head": "客户进程",
+        "relation": "寻找",
+        "tail": "熟知端口21"
+    },
+    {
+        "head": "服务器进程",
+        "relation": "用",
+        "tail": "熟知端口20"
+    },
+    {
+        "head": "数据传送连接",
+        "relation": "建立",
+        "tail": "在客户提供的端口号上"
+    },
+    {
+        "head": "FTP",
+        "relation": "使用",
+        "tail": "两个不同的端口号"
+    },
+    {
+        "head": "控制连接",
+        "relation": "避免",
+        "tail": "与数据连接混淆"
+    },
+    {
+        "head": "独立的连接",
+        "relation": "使协议",
+        "tail": "更加简单和容易实现"
+    },
+    {
+        "head": "控制连接",
+        "relation": "用于",
+        "tail": "文件传输控制"
+    },
+    {
+        "head": "FTP",
+        "relation": "不适用于",
+        "tail": "大文件传输"
+    },
+    {
+        "head": "NFS",
+        "relation": "允许",
+        "tail": "应用进程读写远地文件"
+    },
+    {
+        "head": "TFTP",
+        "relation": "属于",
+        "tail": "TCP/IP协议族"
+    },
+    {
+        "head": "TFTP",
+        "relation": "使用",
+        "tail": "客户服务器方式"
+    },
+    {
+        "head": "TFTP",
+        "relation": "使用",
+        "tail": "UDP数据报"
+    },
+    {
+        "head": "TFTP",
+        "relation": "需要",
+        "tail": "差错改正措施"
+    },
+    {
+        "head": "TFTP",
+        "relation": "支持",
+        "tail": "文件传输"
+    },
+    {
+        "head": "TFTP",
+        "relation": "不支持",
+        "tail": "交互"
+    },
+    {
+        "head": "TFTP",
+        "relation": "没有",
+        "tail": "庞大命令集"
+    },
+    {
+        "head": "TFTP",
+        "relation": "不支持",
+        "tail": "列目录功能"
+    },
+    {
+        "head": "TFTP",
+        "relation": "不进行",
+        "tail": "身份鉴别"
+    },
+    {
+        "head": "TFTP",
+        "relation": "主要优点",
+        "tail": "适用于UDP环境"
+    },
+    {
+        "head": "TFTP",
+        "relation": "主要优点",
+        "tail": "代码占用内存较小"
+    },
+    {
+        "head": "TFTP",
+        "relation": "需要",
+        "tail": "只读存储器"
+    },
+    {
+        "head": "TFTP",
+        "relation": "数据报文大小",
+        "tail": "512字节"
+    },
+    {
+        "head": "TFTP",
+        "relation": "数据报文编号",
+        "tail": "从1开始"
+    },
+    {
+        "head": "TFTP",
+        "relation": "支持",
+        "tail": "ASCII码或二进制传送"
+    },
+    {
+        "head": "TFTP",
+        "relation": "支持",
+        "tail": "ASCII码或二进制传送"
+    },
+    {
+        "head": "TFTP",
+        "relation": "使用",
+        "tail": "简单的首部"
+    },
+    {
+        "head": "TFTP",
+        "relation": "类似于",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "TFTP",
+        "relation": "发送",
+        "tail": "读请求报文或写请求报文"
+    },
+    {
+        "head": "TFTP客户进程",
+        "relation": "发送",
+        "tail": "读请求报文或写请求报文"
+    },
+    {
+        "head": "TFTP服务器进程",
+        "relation": "熟知端口号码为",
+        "tail": "69"
+    },
+    {
+        "head": "文件长度",
+        "relation": "是512字节的整数倍时",
+        "tail": "发送一个只含首部而无数据的数据报文"
+    },
+    {
+        "head": "文件长度",
+        "relation": "不是512字节的整数倍时",
+        "tail": "最后传送数据报文中的数据字段不满512字节"
+    },
+    {
+        "head": "TELNET",
+        "relation": "是",
+        "tail": "远程终端协议"
+    },
+    {
+        "head": "TELNET",
+        "relation": "相关文档",
+        "tail": "RFC854, STD8"
+    }
+]

@@ -1,0 +1,694 @@
+[
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "性能指标"
+        },
+        {
+            "head": "性能指标",
+            "relation": "包括",
+            "tail": "速率"
+        },
+        {
+            "head": "速率",
+            "relation": "定义为",
+            "tail": "数据的传送速率"
+        },
+        {
+            "head": "速率",
+            "relation": "单位",
+            "tail": "bit/s"
+        },
+        {
+            "head": "速率",
+            "relation": "等同于",
+            "tail": "数据率(datarate)"
+        },
+        {
+            "head": "速率",
+            "relation": "等同于",
+            "tail": "比特率(bitrate)"
+        }
+    ],
+    [
+        {
+            "head": "数据率",
+            "relation": "等于",
+            "tail": "40Gbit/s"
+        },
+        {
+            "head": "带宽",
+            "relation": "指",
+            "tail": "信号的频带宽度"
+        },
+        {
+            "head": "带宽",
+            "relation": "包含",
+            "tail": "各种不同频率成分所占据的频率范围"
+        },
+        {
+            "head": "传统通信线路",
+            "relation": "传送",
+            "tail": "电话信号"
+        },
+        {
+            "head": "标准带宽",
+            "relation": "为",
+            "tail": "3.1kHz"
+        }
+    ],
+    [
+        {
+            "head": "带宽",
+            "relation": "表示",
+            "tail": "单位时间内某信道所能通过的最高数据率"
+        },
+        {
+            "head": "带宽",
+            "relation": "单位",
+            "tail": "bit/s"
+        },
+        {
+            "head": "千",
+            "relation": "等于",
+            "tail": "1024"
+        },
+        {
+            "head": "兆",
+            "relation": "等于",
+            "tail": "2^20"
+        },
+        {
+            "head": "吉",
+            "relation": "等于",
+            "tail": "2^30"
+        },
+        {
+            "head": "太",
+            "relation": "等于",
+            "tail": "2^40"
+        },
+        {
+            "head": "尧",
+            "relation": "等于",
+            "tail": "2^80"
+        },
+        {
+            "head": "字节B",
+            "relation": "表示",
+            "tail": "8bit"
+        }
+    ],
+    [
+        {
+            "head": "带宽",
+            "relation": "描述",
+            "tail": "通信链路的最高数据率"
+        },
+        {
+            "head": "吞吐量",
+            "relation": "定义",
+            "tail": "单位时间内通过网络的实际数据量"
+        },
+        {
+            "head": "吞吐量",
+            "relation": "限制因素",
+            "tail": "网络带宽或网络额定速率"
+        },
+        {
+            "head": "以太网",
+            "relation": "额定速率",
+            "tail": "1Gbit/s"
+        },
+        {
+            "head": "实际吞吐量",
+            "relation": "可能值",
+            "tail": "100Mbit/s"
+        }
+    ],
+    [
+        {
+            "head": "主机A",
+            "relation": "连接到",
+            "tail": "互联网"
+        },
+        {
+            "head": "链路速率",
+            "relation": "是",
+            "tail": "100Mbit/s"
+        },
+        {
+            "head": "服务器B",
+            "relation": "连接到",
+            "tail": "互联网"
+        },
+        {
+            "head": "链路速率",
+            "tail": "1Gbit/s"
+        },
+        {
+            "head": "吞吐量",
+            "relation": "取决于",
+            "tail": "互联网的具体情况"
+        },
+        {
+            "head": "用户数量",
+            "relation": "影响",
+            "tail": "吞吐量"
+        },
+        {
+            "head": "带宽",
+            "relation": "被平分",
+            "tail": "10Mbit/s"
+        },
+        {
+            "head": "拥塞",
+            "relation": "导致",
+            "tail": "吞吐量下降到零"
+        }
+    ],
+    [
+        {
+            "head": "宽带费用",
+            "relation": "决定",
+            "tail": "传输速率"
+        },
+        {
+            "head": "互联网",
+            "relation": "取决于",
+            "tail": "流量分布"
+        },
+        {
+            "head": "时延",
+            "relation": "由",
+            "tail": "发送时延、传播时延组成"
+        },
+        {
+            "head": "发送时延",
+            "relation": "与",
+            "tail": "帧长成正比，与发送速率成反比"
+        }
+    ],
+    [
+        {
+            "head": "传播时延",
+            "relation": "是",
+            "tail": "电磁波在信道中的传播时间"
+        },
+        {
+            "head": "传播时延计算公式",
+            "relation": "等于",
+            "tail": "信道长度除以电磁波的传播速率"
+        },
+        {
+            "head": "电磁波传播速率",
+            "relation": "在自由空间是",
+            "tail": "光速，即3.0x10^5km/s"
+        },
+        {
+            "head": "电磁波传播速率",
+            "relation": "在铜线电缆中约为",
+            "tail": "2.3x10^5km/s"
+        },
+        {
+            "头": "电磁波传播速率",
+            "关系": "在光纤中约为",
+            "尾": "2.0x10^5km/s"
+        },
+        {
+            "head": "传播时延",
+            "relation": "与",
+            "tail": "信号发送距离有关"
+        },
+        {
+            "head": "传播时延",
+            "relation": "发生在",
+            "tail": "机器外部的传输信道媒体上"
+        },
+        {
+            "head": "发送时延",
+            "relation": "发生在",
+            "tail": "网络适配器中"
+        }
+    ],
+    [
+        {
+            "head": "发送时延",
+            "relation": "等于",
+            "tail": "60秒"
+        },
+        {
+            "head": "传播时延",
+            "relation": "等于",
+            "tail": "30分钟"
+        },
+        {
+            "head": "处理时延",
+            "relation": "由",
+            "tail": "主机或路由器进行分组处理产生"
+        },
+        {
+            "head": "排队时延",
+            "relation": "由",
+            "tail": "分组在路由器队列中等待产生"
+        }
+    ],
+    [
+        {
+            "head": "发送时延",
+            "relation": "发生在",
+            "tail": "节点A发送器"
+        },
+        {
+            "head": "传播时延",
+            "relation": "发生在",
+            "tail": "链路"
+        },
+        {
+            "head": "处理时延和排队时延",
+            "relation": "发生在",
+            "tail": "节点B"
+        },
+        {
+            "head": "总时延",
+            "relation": "等于",
+            "tail": "发送时延+传播时延+处理时延+排队时延"
+        },
+        {
+            "head": "带宽为1Mbit/s的信道",
+            "relation": "传输速率",
+            "tail": "1Mbit/s"
+        },
+        {
+            "head": "长度为100MB的数据块",
+            "relation": "发送时间",
+            "tail": "20.8389秒"
+        }
+    ],
+    [
+        {
+            "head": "发送时延",
+            "relation": "决定",
+            "tail": "总时延"
+        },
+        {
+            "head": "数据率提高100倍",
+            "relation": "减少",
+            "tail": "总时延"
+        },
+        {
+            "head": "传播时延",
+            "relation": "决定",
+            "tail": "总时延"
+        },
+        {
+            "head": "数据率提高1000倍",
+            "relation": "影响不大",
+            "tail": "总时延"
+        }
+    ],
+    [
+        {
+            "head": "高速链路",
+            "relation": "提高",
+            "tail": "数据发送速率"
+        },
+        {
+            "head": "比特传播速率",
+            "relation": "取决于",
+            "tail": "通信线路介质材料"
+        },
+        {
+            "head": "数据发送速率",
+            "relation": "减小",
+            "tail": "发送时延"
+        },
+        {
+            "head": "光纤信道",
+            "relation": "传输速率高",
+            "tail": "铜线"
+        },
+        {
+            "head": "电磁波传播速率",
+            "relation": "光速数量级",
+            "tail": ""
+        },
+        {
+            "head": "光在光纤中传播速率",
+            "relation": "约为",
+            "tail": "每秒20.5万公里"
+        },
+        {
+            "head": "电磁波在铜线中传播速率",
+            "relation": "约为",
+            "tail": "每秒23.1万公里"
+        }
+    ],
+    [
+        {
+            "head": "光纤信道",
+            "relation": "传输速率",
+            "tail": "高"
+        },
+        {
+            "head": "时延带宽积",
+            "relation": "定义为",
+            "tail": "传播时延x带宽"
+        },
+        {
+            "head": "路由器",
+            "relation": "可能增加",
+            "tail": "处理时延和排队时延"
+        },
+        {
+            "head": "链路",
+            "relation": "长度表示",
+            "tail": "传播时延"
+        },
+        {
+            "head": "链路",
+            "relation": "截面积表示",
+            "tail": "带宽"
+        },
+        {
+            "head": "时延带宽积",
+            "relation": "等价于",
+            "tail": "管道体积"
+        },
+        {
+            "head": "时延带宽积",
+            "relation": "表示",
+            "tail": "链路可容纳比特数"
+        },
+        {
+            "head": "传播时延为20ms的链路",
+            "relation": "带宽为10Mbit/s",
+            "tail": "时延带宽积为2X10^5bit"
+        }
+    ],
+    [
+        {
+            "head": "往返时间RTT",
+            "relation": "是",
+            "tail": "性能指标"
+        },
+        {
+            "head": "往返时间RTT",
+            "relation": "用于",
+            "tail": "双向交互"
+        },
+        {
+            "head": "发送速率",
+            "relation": "影响",
+            "tail": "发送时延"
+        },
+        {
+            "head": "确认信息",
+            "relation": "导致",
+            "tail": "等待往返时间RTT"
+        },
+        {
+            "head": "有效数据率",
+            "relation": "取决于",
+            "tail": "往返时间RTT"
+        }
+    ],
+    [
+        {
+            "head": "往返时间",
+            "relation": "包括",
+            "tail": "各中间节点的处理时延、排队时延以及转发数据时的发送时延"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "影响",
+            "tail": "往返时间RTT相对较长"
+        },
+        {
+            "head": "往返时间",
+            "relation": "又称为",
+            "tail": "往返时延(Round-TripTime delay)"
+        },
+        {
+            "head": "带宽时延积",
+            "relation": "定义为",
+            "tail": "带宽与RTT的乘积"
+        }
+    ],
+    [
+        {
+            "head": "带宽",
+            "relation": "定义了",
+            "tail": "数据传输的最大速率"
+        },
+        {
+            "head": "时延",
+            "relation": "影响",
+            "tail": "信道利用率和网络通信量"
+        },
+        {
+            "head": "信道利用率",
+            "relation": "衡量",
+            "tail": "某信道被利用的程度"
+        },
+        {
+            "head": "网络利用率",
+            "relation": "计算",
+            "tail": "全网络的加权平均值"
+        },
+        {
+            "head": "排队论",
+            "relation": "解释",
+            "tail": "信道利用率与时延的关系"
+        },
+        {
+            "head": "高速公路",
+            "relation": "类比",
+            "tail": "信道利用率增加导致时延增大"
+        },
+        {
+            "head": "车流量",
+            "relation": "影响",
+            "tail": "高速公路的行车时间"
+        },
+        {
+            "head": "分组",
+            "relation": "在节点处理时需要排队等候",
+            "tail": "引起网络时延增大"
+        }
+    ],
+    [
+        {
+            "head": "信道利用率",
+            "relation": "影响",
+            "tail": "时延"
+        },
+        {
+            "head": "网络利用率",
+            "relation": "等于",
+            "tail": "信道利用率"
+        },
+        {
+            "head": "网络利用率",
+            "relation": "接近最大值1",
+            "tail": "产生非常大的时延"
+        },
+        {
+            "head": "主干网",
+            "relation": "通常控制",
+            "tail": "不超过50%的信道利用率"
+        },
+        {
+            "head": "线路带宽",
+            "relation": "通过扩容增大",
+            "tail": "超过50%的信道利用率"
+        },
+        {
+            "head": "网络价格",
+            "relation": "考虑",
+            "tail": "网络性能"
+        },
+        {
+            "head": "网络质量",
+            "relation": "影响",
+            "tail": "网络可靠性"
+        },
+        {
+            "head": "网络质量",
+            "relation": "影响",
+            "tail": "网络管理简易性"
+        },
+        {
+            "head": "网络质量",
+            "relation": "影响",
+            "tail": "网络性能"
+        }
+    ],
+    [
+        {
+            "head": "网络质量",
+            "relation": "影响",
+            "tail": "可靠性"
+        },
+        {
+            "head": "网络质量",
+            "relation": "影响",
+            "tail": "管理简易性"
+        },
+        {
+            "head": "网络质量",
+            "relation": "影响",
+            "tail": "性能"
+        },
+        {
+            "head": "网络性能",
+            "relation": "不是",
+            "tail": "网络质量"
+        },
+        {
+            "head": "低质量网络",
+            "relation": "导致",
+            "tail": "故障"
+        },
+        {
+            "head": "高质量网络",
+            "relation": "通常价格较高",
+            "tail": ""
+        },
+        {
+            "head": "标准化设计",
+            "relation": "可以遵循",
+            "tail": "通用国际标准"
+        },
+        {
+            "head": "标准化设计",
+            "relation": "也可以遵循",
+            "tail": "特定专用网络标准"
+        },
+        {
+            "head": "采用国际标准设计",
+            "relation": "得到更好",
+            "tail": "互操作性"
+        },
+        {
+            "head": "采用国际标准设计",
+            "relation": "更容易",
+            "tail": "升级换代和维修"
+        },
+        {
+            "head": "采用国际标准设计",
+            "relation": "更容易",
+            "tail": "技术支持"
+        },
+        {
+            "head": "可靠性",
+            "relation": "与",
+            "tail": "网络质量有关"
+        },
+        {
+            "head": "可靠性",
+            "relation": "与",
+            "tail": "网络性能有关"
+        },
+        {
+            "head": "高速网络",
+            "relation": "可靠性不一定差",
+            "tail": ""
+        },
+        {
+            "head": "高速网络",
+            "relation": "运行更困难",
+            "tail": ""
+        },
+        {
+            "head": "高速网络",
+            "relation": "费用更高",
+            "tail": ""
+        },
+        {
+            "head": "可扩展性",
+            "relation": "需要考虑",
+            "tail": "未来规模扩大"
+        },
+        {
+            "head": "可升级性",
+            "relation": "需要考虑",
+            "tail": "未来性能和版本提高"
+        },
+        {
+            "head": "网络性能好",
+            "relation": "扩展费用高",
+            "tail": ""
+        },
+        {
+            "head": "网络性能好",
+            "relation": "难度增加",
+            "tail": ""
+        },
+        {
+            "head": "良好管理和维护",
+            "relation": "有助于",
+            "tail": "达到和保持设计性能"
+        },
+        {
+            "head": "计算机网络体系结构",
+            "relation": "最基础",
+            "tail": "分层次的架构"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "通信通路"
+        },
+        {
+            "head": "发起通信的计算机",
+            "relation": "激活",
+            "tail": "通信通路"
+        },
+        {
+            "head": "信令",
+            "relation": "用于",
+            "tail": "激活通信通路"
+        },
+        {
+            "head": "接收数据的计算机",
+            "relation": "由网络识别",
+            "tail": ""
+        },
+        {
+            "head": "发起通信的计算机",
+            "relation": "查明",
+            "tail": "对方是否开机并连接正常"
+        },
+        {
+            "head": "应用程序",
+            "relation": "需要弄清楚",
+            "tail": "文件管理程序是否准备好接收和存储文件"
+        },
+        {
+            "head": "格式转换功能",
+            "relation": "用于解决",
+            "tail": "计算机文件格式不兼容问题"
+        },
+        {
+            "head": "差错和意外事故处理",
+            "relation": "保证",
+            "tail": "数据正确传输"
+        }
+    ],
+    [
+        {
+            "head": "ARPANET",
+            "relation": "设计时提出了",
+            "tail": "分层方法"
+        },
+        {
+            "head": "计算机系统",
+            "relation": "必须实现",
+            "tail": "相互通信的协调工作"
+        }
+    ]
+]

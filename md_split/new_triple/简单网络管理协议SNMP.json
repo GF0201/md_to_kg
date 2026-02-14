@@ -1,0 +1,1027 @@
+[
+    {
+        "head": "DHCP客户",
+        "relation": "接收",
+        "tail": "DHCP提供报文"
+    },
+    {
+        "head": "DHCP客户",
+        "relation": "选择",
+        "tail": "DHCP服务器"
+    },
+    {
+        "head": "被选择的DHCP服务器",
+        "relation": "发送",
+        "tail": "DHCPACK确认报文"
+    },
+    {
+        "head": "DHCP客户",
+        "relation": "进入",
+        "tail": "已绑定状态"
+    },
+    {
+        "head": "DHCP客户",
+        "relation": "设置",
+        "tail": "计时器T1和T2"
+    },
+    {
+        "head": "T1时间到",
+        "relation": "触发",
+        "tail": "DHCP请求报文"
+    },
+    {
+        "head": "DHCP服务器",
+        "relation": "发送",
+        "tail": "DHCPACK确认报文"
+    },
+    {
+        "head": "DHCP服务器",
+        "relation": "发送",
+        "tail": "DHCPNACK否认报文"
+    },
+    {
+        "head": "DHCP",
+        "relation": "响应",
+        "tail": "DHCPREQUEST"
+    },
+    {
+        "head": "DHCP客户",
+        "relation": "发送",
+        "tail": "DHCPRELEASE"
+    },
+    {
+        "head": "Windows操作系统",
+        "relation": "使用",
+        "tail": "DHCP协议"
+    },
+    {
+        "head": "网络管理",
+        "relation": "包括",
+        "tail": "监视、测试、配置、分析、评价和控制"
+    },
+    {
+        "head": "SNMP",
+        "relation": "简称为",
+        "tail": "网管"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "分布式系统"
+    },
+    {
+        "head": "路由器",
+        "relation": "属于",
+        "tail": "节点"
+    },
+    {
+        "head": "管理站",
+        "relation": "是",
+        "tail": "管理器"
+    },
+    {
+        "head": "管理程序",
+        "relation": "运行时成为",
+        "tail": "管理进程"
+    },
+    {
+        "head": "网络管理员",
+        "relation": "操作和控制",
+        "tail": "管理站"
+    },
+    {
+        "head": "管理站",
+        "relation": "位于",
+        "tail": "NOC"
+    },
+    {
+        "head": "被管设备",
+        "relation": "运行",
+        "tail": "代理程序"
+    },
+    {
+        "head": "管理程序",
+        "relation": "命令和控制",
+        "tail": "代理程序"
+    },
+    {
+        "head": "代理程序",
+        "relation": "运行",
+        "tail": "SNMP客户程序"
+    },
+    {
+        "head": "被管设备",
+        "relation": "包含",
+        "tail": "被管对象"
+    },
+    {
+        "head": "被管对象",
+        "relation": "可以是",
+        "tail": "硬件或配置参数的集合"
+    },
+    {
+        "head": "代理程序",
+        "relation": "运行在",
+        "tail": "被管设备上"
+    },
+    {
+        "head": "网络管理",
+        "relation": "模型",
+        "tail": "图6-20"
+    },
+    {
+        "head": "网络管理协议",
+        "relation": "简称为",
+        "tail": "网管协议"
+    },
+    {
+        "head": "SNMP",
+        "relation": "是",
+        "tail": "简单网络管理协议"
+    },
+    {
+        "head": "管理程序",
+        "relation": "运行",
+        "tail": "SNMP客户程序"
+    },
+    {
+        "head": "代理程序",
+        "relation": "运行",
+        "tail": "SNMP服务器程序"
+    },
+    {
+        "head": "被管对象",
+        "relation": "运行",
+        "tail": "SNMP服务器程序"
+    },
+    {
+        "head": "管理站",
+        "relation": "接收",
+        "tail": "来自代理程序的请求"
+    },
+    {
+        "head": "SNMP",
+        "relation": "设计依据",
+        "tail": "对象的影响必须尽量小些"
+    },
+    {
+        "head": "SNMP",
+        "relation": "设计原理",
+        "tail": "基本原理"
+    },
+    {
+        "head": "SNMP",
+        "relation": "发布年份",
+        "tail": "1988年"
+    },
+    {
+        "head": "SNMP",
+        "relation": "指导思想",
+        "tail": "简单性"
+    },
+    {
+        "head": "SNMP",
+        "relation": "功能",
+        "tail": "监视网络性能"
+    },
+    {
+        "head": "SNMP",
+        "relation": "功能",
+        "tail": "检测分析网络差错"
+    },
+    {
+        "head": "SNMP",
+        "relation": "功能",
+        "tail": "配置网络设备"
+    },
+    {
+        "head": "SNMP",
+        "relation": "版本",
+        "tail": "SNMPv3"
+    },
+    {
+        "head": "SNMPv3",
+        "relation": "改进",
+        "tail": "安全特性"
+    },
+    {
+        "head": "SNMPv3",
+        "relation": "授权",
+        "tail": "被授权人员"
+    },
+    {
+        "head": "SNMP",
+        "relation": "用于管理",
+        "tail": "网络元素"
+    },
+    {
+        "head": "委托代理",
+        "relation": "提供功能",
+        "tail": "协议转换和过滤操作"
+    },
+    {
+        "head": "SNMP",
+        "relation": "定义了",
+        "tail": "管理站和代理之间分组格式"
+    },
+    {
+        "head": "SMI",
+        "relation": "定义了",
+        "tail": "命名对象和对象类型规则"
+    },
+    {
+        "head": "MIB",
+        "relation": "在实体中创建",
+        "tail": "命名对象及其类型"
+    },
+    {
+        "head": "SMI",
+        "relation": "定义了",
+        "tail": "被管对象命名规则"
+    },
+    {
+        "head": "SMI",
+        "relation": "规定了",
+        "tail": "数据类型"
+    },
+    {
+        "head": "SMI",
+        "relation": "定义了",
+        "tail": "管理数据编码方式"
+    },
+    {
+        "head": "MIB",
+        "relation": "对",
+        "tail": "被管对象进行说明"
+    },
+    {
+        "head": "SNMP",
+        "relation": "存储和改变",
+        "tail": "被管对象的值"
+    },
+    {
+        "head": "SNMP",
+        "relation": "解释",
+        "tail": "管理数据"
+    },
+    {
+        "head": "被管对象",
+        "relation": "属于",
+        "tail": "对象命名树"
+    },
+    {
+        "head": "对象命名树",
+        "relation": "根节点没有名字",
+        "tail": ""
+    },
+    {
+        "head": "顶级对象",
+        "relation": "包括",
+        "tail": "ITU-T, ISO, ITU-T/ISO联合体"
+    },
+    {
+        "head": "组织成员",
+        "relation": "属于",
+        "tail": "org节点"
+    },
+    {
+        "head": "internet",
+        "relation": "位于",
+        "tail": "dod子树下"
+    },
+    {
+        "head": "对象标识符",
+        "relation": "表示",
+        "tail": "internet节点"
+    },
+    {
+        "head": "SNMP",
+        "relation": "管理",
+        "tail": "被管对象"
+    },
+    {
+        "head": "MIB-2",
+        "relation": "包含",
+        "tail": "被SNMP管理的对象"
+    },
+    {
+        "head": "抽象语法记法",
+        "relation": "定义",
+        "tail": "数据类型"
+    },
+    {
+        "head": "SMI",
+        "relation": "基于",
+        "tail": "ASN.1"
+    },
+    {
+        "head": "数据类型",
+        "relation": "分为",
+        "tail": "简单类型和结构化类型"
+    },
+    {
+        "head": "简单类型",
+        "relation": "使用",
+        "tail": "ASN.1定义"
+    },
+    {
+        "head": "SMI",
+        "relation": "严格定义",
+        "tail": "数据的含义"
+    },
+    {
+        "head": "数据",
+        "relation": "具有",
+        "tail": "值和类型属性"
+    },
+    {
+        "head": "ASN.1",
+        "relation": "描述",
+        "tail": "抽象语法记法"
+    },
+    {
+        "head": "抽象语法记法",
+        "relation": "定义",
+        "tail": "数据结构形式"
+    },
+    {
+        "head": "简单类型",
+        "relation": "包含",
+        "tail": "整数, 无符号数, OCTETSTRING, OBJECTIDENTIFIER, IPAddress, Counter32, TimeTicks, BITSOpaque"
+    },
+    {
+        "head": "SMI",
+        "relation": "定义",
+        "tail": "sequence和sequenceof"
+    },
+    {
+        "head": "sequence",
+        "relation": "类似于",
+        "tail": "C语言中的struct或record"
+    },
+    {
+        "head": "数据类型sequence",
+        "relation": "类似于",
+        "tail": "C语言中的struct或record"
+    },
+    {
+        "head": "数据类型sequenceof",
+        "relation": "类似于",
+        "tail": "C语言中的array"
+    },
+    {
+        "head": "BER",
+        "relation": "用于",
+        "tail": "数据编码"
+    },
+    {
+        "head": "T字段",
+        "relation": "定义为",
+        "tail": "标记字段"
+    },
+    {
+        "head": "L字段",
+        "relation": "定义为",
+        "tail": "长度字段"
+    },
+    {
+        "head": "V字段",
+        "relation": "定义为",
+        "tail": "值字段"
+    },
+    {
+        "head": "T字段",
+        "relation": "定义",
+        "tail": "数据类型"
+    },
+    {
+        "head": "T字段",
+        "relation": "包含",
+        "tail": "类别(2位)"
+    },
+    {
+        "head": "T字段",
+        "relation": "包含",
+        "tail": "格式(1位)"
+    },
+    {
+        "head": "T字段",
+        "relation": "包含",
+        "tail": "编号(5位)"
+    },
+    {
+        "head": "类别",
+        "relation": "取值范围",
+        "tail": "通用类(00)"
+    },
+    {
+        "head": "类别",
+        "relation": "取值范围",
+        "tail": "应用类(01)"
+    },
+    {
+        "head": "类别",
+        "relation": "取值范围",
+        "tail": "上下文类(10)"
+    },
+    {
+        "head": "类别",
+        "relation": "取值范围",
+        "tail": "专用类(11)"
+    },
+    {
+        "head": "格式",
+        "relation": "取值范围",
+        "tail": "简单数据类型(0)"
+    },
+    {
+        "head": "格式",
+        "relation": "取值范围",
+        "tail": "结构化数据类型(1)"
+    },
+    {
+        "head": "编号",
+        "relation": "范围",
+        "tail": "0~30"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "INTEGER数据类型"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "OCTETSTRING"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "OBJECTIDENTIFIER"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "NULL"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "Sequence,sequenceofIPAddress"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "Counter"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "Gauge"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "TimeTicks"
+    },
+    {
+        "head": "T字段",
+        "relation": "编码",
+        "tail": "Opaque"
+    },
+    {
+        "head": "L字段",
+        "relation": "定义",
+        "tail": "长度字段"
+    },
+    {
+        "head": "V字段",
+        "relation": "定义",
+        "tail": "数据元素的值"
+    },
+    {
+        "head": "L字段",
+        "relation": "格式举例",
+        "tail": "单字节或多字节"
+    },
+    {
+        "head": "单字节L字段",
+        "relation": "最高位",
+        "tail": "0"
+    },
+    {
+        "head": "多字节L字段",
+        "relation": "最高位",
+        "tail": "1"
+    },
+    {
+        "head": "V字段长度",
+        "relation": "由",
+        "tail": "后续字节定义"
+    },
+    {
+        "head": "单字节L字段",
+        "relation": "V字段长度",
+        "tail": "7位"
+    },
+    {
+        "head": "TLV编码",
+        "relation": "包含",
+        "tail": "T字段"
+    },
+    {
+        "head": "TLV编码",
+        "relation": "包含",
+        "tail": "V字段"
+    },
+    {
+        "head": "被管对象",
+        "relation": "维持",
+        "tail": "控制和状态信息"
+    },
+    {
+        "head": "管理程序",
+        "relation": "使用",
+        "tail": "MIB中的值"
+    },
+    {
+        "head": "路由器",
+        "relation": "应维持",
+        "tail": "网络接口的状态"
+    },
+    {
+        "head": "路由器",
+        "relation": "应维持",
+        "tail": "入分组和出分组的流量"
+    },
+    {
+        "head": "路由器",
+        "relation": "应维持",
+        "tail": "丢弃的分组统计信息"
+    },
+    {
+        "head": "路由器",
+        "relation": "应维持",
+        "tail": "有差错的报文统计信息"
+    },
+    {
+        "head": "调制解调器",
+        "relation": "应维持",
+        "tail": "发送和接收的字符数"
+    },
+    {
+        "head": "调制解调器",
+        "relation": "应维持",
+        "tail": "码元传输速率"
+    },
+    {
+        "head": "调制解调器",
+        "relation": "应维持",
+        "tail": "接受的呼叫统计信息"
+    },
+    {
+        "head": "MIB",
+        "relation": "包含",
+        "tail": "节点mib-2"
+    },
+    {
+        "head": "节点mib-2",
+        "relation": "包含类别",
+        "tail": "system, interfaces, address translation, ICMP, TCP, UDP, GEP"
+    },
+    {
+        "head": "iplnReceives",
+        "relation": "属于",
+        "tail": "ip下的MIB变量"
+    },
+    {
+        "head": "iplnReceives",
+        "relation": "表示",
+        "tail": "收到的IP数据报数"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "iplnReceives"
+    },
+    {
+        "head": "iplnReceives",
+        "relation": "实例化为",
+        "tail": "1.3.6.1.2.1.4.3.0"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "sysUpTime"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ifNumber"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "mtu"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ipDefaultTTL"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ipinReceives"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ipForwDatagrams"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ipOutNoRoutes"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ipReasmOK"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ipFragOK"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "表示",
+        "tail": "ipRoutingTable"
+    },
+    {
+        "head": "IP",
+        "relation": "使用",
+        "tail": "生存时间字段"
+    },
+    {
+        "head": "IP",
+        "relation": "接收",
+        "tail": "数据报数目"
+    },
+    {
+        "head": "IP",
+        "relation": "转发",
+        "tail": "数据报数目"
+    },
+    {
+        "head": "IP",
+        "relation": "路由选择失败",
+        "tail": "次数"
+    },
+    {
+        "head": "IP",
+        "relation": "重装",
+        "tail": "数据报数目"
+    },
+    {
+        "head": "IP",
+        "relation": "分片",
+        "tail": "数据报数目"
+    },
+    {
+        "head": "ICMP",
+        "relation": "收到",
+        "tail": "回送请求数目"
+    },
+    {
+        "head": "TCP",
+        "relation": "允许的最小重传时间",
+        "tail": "RtoMin"
+    },
+    {
+        "head": "TCP",
+        "relation": "最大连接数",
+        "tail": "MaxConn"
+    },
+    {
+        "head": "UDP",
+        "relation": "收到的数据报数目",
+        "tail": "Datagrams"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "定义了",
+        "tail": "路由表"
+    },
+    {
+        "head": "MIB变量",
+        "relation": "包括",
+        "tail": "前缀、地址掩码以及下跳地址"
+    },
+    {
+        "head": "SNMP操作",
+        "relation": "包含",
+        "tail": "读写操作"
+    },
+    {
+        "head": "SNMP操作",
+        "relation": "使用",
+        "tail": "Get报文"
+    },
+    {
+        "head": "SNMP操作",
+        "relation": "使用",
+        "tail": "Set报文"
+    },
+    {
+        "head": "探询操作",
+        "relation": "实现",
+        "tail": "定时向被管理设备发送探询信息"
+    },
+    {
+        "head": "SNMP",
+        "relation": "是",
+        "tail": "探询协议"
+    },
+    {
+        "head": "SNMP",
+        "relation": "允许",
+        "tail": "不经过询问发送信息"
+    },
+    {
+        "head": "这种信息",
+        "relation": "称为",
+        "tail": "陷阱(trap)"
+    },
+    {
+        "head": "陷阱",
+        "relation": "表示",
+        "tail": "捕捉事件"
+    },
+    {
+        "head": "陷阱信息",
+        "relation": "参数受限制",
+        "tail": ""
+    },
+    {
+        "head": "被管对象的代理",
+        "relation": "检测到有事件发生时",
+        "tail": "检查门限值"
+    },
+    {
+        "head": "代理",
+        "relation": "向管理进程报告",
+        "tail": "达到某些门限值的事件"
+    },
+    {
+        "head": "这种方法",
+        "relation": "好处是",
+        "tail": "仅在严重事件发生时发送陷阱"
+    },
+    {
+        "head": "这种方法",
+        "relation": "好处是",
+        "tail": "陷阱信息简单且所需字节数少"
+    },
+    {
+        "head": "SNMP",
+        "relation": "使用",
+        "tail": "无连接的UDP"
+    },
+    {
+        "head": "在网络上传送SNMP报文",
+        "relation": "开销较小",
+        "tail": ""
+    },
+    {
+        "head": "UDP",
+        "relation": "不保证",
+        "tail": "可靠交付"
+    },
+    {
+        "head": "代理程序服务器端",
+        "relation": "用熟知端口161来接收",
+        "tail": "Get或Set报文和发送响应报文"
+    },
+    {
+        "head": "客户端使用临时端口",
+        "relation": "与熟知端口通信",
+        "tail": ""
+    },
+    {
+        "head": "管理程序客户端",
+        "relation": "使用熟知端口162来接收",
+        "tail": "来自各代理的trap报文"
+    },
+    {
+        "head": "SNMP",
+        "relation": "定义了",
+        "tail": "8种类型的协议数据单元"
+    },
+    {
+        "head": "PDU编号4",
+        "relation": "状态",
+        "tail": "废弃"
+    },
+    {
+        "head": "T字段值",
+        "relation": "表示",
+        "tail": "PDU编号对应的十六进制形式"
+    },
+    {
+        "head": "GetRequest",
+        "relation": "用途",
+        "tail": "管理者从代理读取个或组变量的值"
+    },
+    {
+        "head": "GetNextRequest",
+        "relation": "用途",
+        "tail": "管理者从代理读取MIB树的下一个变蛇的值"
+    },
+    {
+        "head": "Response",
+        "relation": "用途",
+        "tail": "代理向管理者或管理者向管理者发送对种Request报文的响应，并提供差错码、差错状态等信息"
+    },
+    {
+        "head": "SetRequest",
+        "relation": "用途",
+        "tail": "管理者对代理的一个或多个MIB变量的值进行设置"
+    },
+    {
+        "head": "GetBulkRequest",
+        "relation": "用途",
+        "tail": "管理者从代理读取大数据块的值（如大的列表中的值）"
+    },
+    {
+        "head": "InformRequest",
+        "relation": "用途",
+        "tail": "管理者从另远程管理者读取该管理者控制的代理中的变量值"
+    },
+    {
+        "head": "SNMPv2Trap",
+        "relation": "用途",
+        "tail": "代理向管理者报告代理中发生的异常事件"
+    },
+    {
+        "head": "Report",
+        "relation": "用途",
+        "tail": "在管理者之间报告某些类型的差错，目前尚未定义"
+    },
+    {
+        "head": "SNMP报文",
+        "relation": "使用标准编码方式",
+        "tail": "ASN.1"
+    },
+    {
+        "head": "SNMP报文",
+        "relation": "包含",
+        "tail": "版本"
+    },
+    {
+        "head": "SNMP报文",
+        "relation": "包含",
+        "tail": "首部"
+    },
+    {
+        "head": "首部",
+        "relation": "包括",
+        "tail": "报文标识"
+    },
+    {
+        "head": "首部",
+        "relation": "包括",
+        "tail": "最大报文长度"
+    },
+    {
+        "head": "首部",
+        "relation": "包括",
+        "tail": "报文标志"
+    },
+    {
+        "head": "SNMP报文",
+        "relation": "包含",
+        "tail": "安全参数"
+    },
+    {
+        "head": "SNMP报文",
+        "relation": "包含",
+        "tail": "数据部分"
+    },
+    {
+        "head": "PDU类型",
+        "relation": "定义",
+        "tail": "请求ID"
+    },
+    {
+        "head": "PDU类型",
+        "relation": "定义",
+        "tail": "差错状态"
+    },
+    {
+        "head": "PDU类型",
+        "relation": "定义",
+        "tail": "差错索引"
+    },
+    {
+        "head": "PDU类型",
+        "relation": "定义",
+        "tail": "变量绑定"
+    },
+    {
+        "head": "请求ID",
+        "relation": "由管理进程设置",
+        "tail": "4字节整数值"
+    },
+    {
+        "head": "代理进程",
+        "relation": "在发送响应报文时返回",
+        "tail": "请求ID"
+    },
+    {
+        "head": "差错状态",
+        "relation": "表示",
+        "tail": "tooBig, noError, noSuchName, badValue, readOnly"
+    },
+    {
+        "head": "差错索引",
+        "relation": "指明有差错的变量位置",
+        "tail": "noSuchName, badValue, readOnly"
+    },
+    {
+        "head": "变量绑定",
+        "relation": "包含",
+        "tail": "一个或多个变量名和值"
+    },
+    {
+        "head": "GetRequest-PDU",
+        "relation": "定义为",
+        "tail": "SEQUENCE"
+    },
+    {
+        "head": "GetRequest-PDU",
+        "relation": "包含",
+        "tail": "request-id (integer32)"
+    },
+    {
+        "head": "GetRequest-PDU",
+        "relation": "包含",
+        "tail": "error-status (0~18的整数)"
+    },
+    {
+        "head": "GetRequest-PDU",
+        "relation": "包含",
+        "tail": "error-index (0~max-bindings的整数)"
+    },
+    {
+        "head": "GetRequest-PDU",
+        "relation": "包含",
+        "tail": "variable-bindings (VarBindList)"
+    },
+    {
+        "head": "SEQUENCE",
+        "relation": "表示",
+        "tail": "隐式标记IMPLICIT"
+    },
+    {
+        "head": "GetRequest-PDU",
+        "relation": "用于获取",
+        "tail": "udpinDatagrams"
+    },
+    {
+        "head": "udpinDatagrams",
+        "relation": "位于",
+        "tail": "mib-2/7/1"
+    },
+    {
+        "head": "GetRequest-PDU",
+        "relation": "使用ASN.1编码格式",
+        "tail": "TILOBJECTIDENTIFIER"
+    },
+    {
+        "head": "INTEGER类型",
+        "relation": "包含长度",
+        "tail": "0116"
+    },
+    {
+        "head": "errorstatus",
+        "relation": "等于",
+        "tail": "oo,6"
+    },
+    {
+        "head": "errorindex",
+        "relation": "等于",
+        "tail": "0016"
+    },
+    {
+        "head": "SEQUENCEOF类型",
+        "relation": "包含长度",
+        "tail": "OF16=15"
+    },
+    {
+        "head": "SEQUENCE类型",
+        "relation": "包含长度",
+        "tail": "OD16=13"
+    }
+]

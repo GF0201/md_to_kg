@@ -1,0 +1,712 @@
+[
+    {
+        "head": "前同步码",
+        "relation": "包含于",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "位同步",
+        "relation": "实现",
+        "tail": "前同步码"
+    },
+    {
+        "head": "帧开始定界符",
+        "relation": "定义为",
+        "tail": "10101011"
+    },
+    {
+        "head": "FCS字段",
+        "relation": "检验范围不包括",
+        "tail": "前同步码和帧开始定界符"
+    },
+    {
+        "head": "以太网",
+        "relation": "使用",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "IEEE802.3标准",
+        "relation": "规定",
+        "tail": "帧长度不是整数个字节或FCS查出差错"
+    },
+    {
+        "head": "帧",
+        "relation": "包含",
+        "tail": "字节"
+    },
+    {
+        "head": "MAC客户数据字段",
+        "relation": "长度范围",
+        "tail": "46~1500字节"
+    },
+    {
+        "head": "有效MAC帧长度",
+        "relation": "范围",
+        "tail": "64~1518字节"
+    },
+    {
+        "head": "IEEE802.3标准",
+        "relation": "规定",
+        "tail": "MAC帧格式"
+    },
+    {
+        "head": "以太网V2MAC帧格式",
+        "relation": "采用",
+        "tail": "曼彻斯特编码"
+    },
+    {
+        "head": "类型段",
+        "relation": "表示",
+        "tail": "最大长度1518字节"
+    },
+    {
+        "head": "字段值",
+        "relation": "不等于",
+        "tail": "无效MAC帧"
+    },
+    {
+        "head": "LLC子层",
+        "relation": "使用",
+        "tail": "LLC帧"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "属于",
+        "tail": "LLC子层"
+    },
+    {
+        "head": "以太网V2",
+        "relation": "使用",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "802.3标准",
+        "relation": "定义",
+        "tail": "MAC帧格式"
+    },
+    {
+        "head": "物理层扩展",
+        "relation": "技术",
+        "tail": "以太网"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "包含",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "物理层",
+        "relation": "扩展",
+        "tail": "以太网"
+    },
+    {
+        "head": "转发器",
+        "relation": "用于",
+        "tail": "扩展以太网地理覆盖范围"
+    },
+    {
+        "head": "IEEE 802.3标准",
+        "relation": "规定",
+        "tail": "任意两个站之间最多可以经过三个电缆网段"
+    },
+    {
+        "head": "双绞线以太网",
+        "relation": "成为主流类型",
+        "tail": ""
+    },
+    {
+        "head": "光纤调制解调器",
+        "relation": "进行转换",
+        "tail": "电信号和光信号"
+    },
+    {
+        "head": "光纤",
+        "relation": "提供低时延宽带连接",
+        "tail": "主机和集线器"
+    },
+    {
+        "head": "集线器",
+        "relation": "用于连接",
+        "tail": "多个以太网"
+    },
+    {
+        "head": "多级星形结构",
+        "relation": "形成",
+        "tail": "覆盖更大范围的以太网"
+    },
+    {
+        "head": "碰撞域",
+        "relation": "数量",
+        "tail": "三个独立的"
+    },
+    {
+        "head": "地理范围",
+        "relation": "扩大",
+        "tail": "通过主干集线器连接"
+    },
+    {
+        "head": "双绞线",
+        "relation": "最大距离",
+        "tail": "100米"
+    },
+    {
+        "head": "光纤",
+        "relation": "可以更远",
+        "tail": "传输"
+    },
+    {
+        "head": "以太网",
+        "relation": "构成",
+        "tail": "碰撞域"
+    },
+    {
+        "head": "碰撞域",
+        "relation": "定义为",
+        "tail": "在同一时刻只能有一个站发送数据"
+    },
+    {
+        "head": "三个系的以太网",
+        "relation": "最大吞吐量",
+        "tail": "30Mbit/s"
+    },
+    {
+        "head": "集线器互连",
+        "relation": "碰撞域变化为",
+        "tail": "一个碰撞域"
+    },
+    {
+        "head": "集线器",
+        "relation": "最大吞吐量限制",
+        "tail": "10Mbit/s"
+    },
+    {
+        "head": "不同系以太网技术",
+        "relation": "互连限制",
+        "tail": "使用相同速率适配器"
+    },
+    {
+        "head": "集线器",
+        "relation": "功能",
+        "tail": "多端口转发器"
+    },
+    {
+        "head": "集线器",
+        "relation": "是",
+        "tail": "多端口转发器"
+    },
+    {
+        "head": "网桥",
+        "relation": "根据",
+        "tail": "MAC帧目的地址进行转发和过滤"
+    },
+    {
+        "head": "交换式集线器",
+        "relation": "又称为",
+        "tail": "以太网交换机"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "工作在",
+        "tail": "数据链路层"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "是",
+        "tail": "多端口的网桥"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "具有",
+        "tail": "全双工方式"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "提供",
+        "tail": "并行性"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "包含",
+        "tail": "存储器"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "使用",
+        "tail": "专用的交换结构芯片"
+    },
+    {
+        "head": "帧交换表",
+        "relation": "又称为",
+        "tail": "地址表"
+    },
+    {
+        "head": "帧交换表",
+        "relation": "是",
+        "tail": "内容可寻址存储器(CAM)"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "性能超过",
+        "tail": "集线器"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "价格便宜",
+        "tail": "普通集线器"
+    },
+    {
+        "head": "共享式以太网",
+        "relation": "用户平均带宽",
+        "tail": "1Mbit/s"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "端口数量",
+        "tail": "10个"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "总容量",
+        "tail": "100Mbit/s"
+    },
+    {
+        "head": "共享总线以太网",
+        "relation": "不需要改动",
+        "tail": "接入设备软件和硬件"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "支持多种速率端口",
+        "tail": "10Mbit/s, 100Mbit/s 和 1Gbit/s"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "转发方式",
+        "tail": "存储转发"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "也有采用",
+        "tail": "直通交换"
+    },
+    {
+        "head": "直通交换",
+        "relation": "使用方式",
+        "tail": "不缓存数据帧"
+    },
+    {
+        "head": "直通交换",
+        "relation": "优点",
+        "tail": "提高帧转发速度"
+    },
+    {
+        "head": "基于硬件的交叉矩阵",
+        "relation": "作用",
+        "tail": "减少交换时延"
+    },
+    {
+        "head": "存储转发方式",
+        "relation": "缺点",
+        "tail": "检查差错后转发"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "支持方式",
+        "tail": "直通和存储转发"
+    },
+    {
+        "head": "自学习功能",
+        "relation": "应用场景",
+        "tail": "识别MAC地址与端口对应关系"
+    },
+    {
+        "head": "交换机",
+        "relation": "发送帧给",
+        "tail": "B"
+    },
+    {
+        "head": "A",
+        "relation": "从端口",
+        "tail": "1发送帧给B"
+    },
+    {
+        "head": "交换表",
+        "relation": "初始为空",
+        "tail": ""
+    },
+    {
+        "head": "交换机",
+        "relation": "查找并更新",
+        "tail": "交换表"
+    },
+    {
+        "head": "广播发送",
+        "relation": "保证接收者收到",
+        "tail": "帧"
+    },
+    {
+        "head": "过滤",
+        "relation": "丢弃不匹配地址的帧",
+        "tail": ""
+    },
+    {
+        "head": "MAC地址",
+        "relation": "用于查找转发端口",
+        "tail": ""
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "包含",
+        "tail": "自学习方法"
+    },
+    {
+        "head": "自学习方法",
+        "relation": "实现",
+        "tail": "即插即用"
+    },
+    {
+        "head": "交换表",
+        "relation": "记录",
+        "tail": "MAC地址、端口和写入时间"
+    },
+    {
+        "head": "交换表项目",
+        "relation": "自动删除条件",
+        "tail": "超过300秒"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "避免",
+        "tail": "环路导致的帧兜圈子问题"
+    },
+    {
+        "head": "生成树协议STP",
+        "relation": "解决",
+        "tail": "兜圈子问题"
+    },
+    {
+        "head": "交换表",
+        "relation": "影响",
+        "tail": "广播发送"
+    },
+    {
+        "head": "端口交换机",
+        "relation": "参与",
+        "tail": "广播发送"
+    },
+    {
+        "head": "逻辑上",
+        "relation": "切断",
+        "tail": "某些链路"
+    },
+    {
+        "head": "生成树协议STP",
+        "relation": "确保",
+        "tail": "无环路的路径"
+    },
+    {
+        "head": "以太网",
+        "relation": "采用",
+        "tail": "总线结构"
+    },
+    {
+        "head": "以太网",
+        "relation": "发展为",
+        "tail": "星形结构"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "实现",
+        "tail": "全双工方式工作"
+    },
+    {
+        "head": "以太网",
+        "relation": "使用",
+        "tail": "CSMA/CD协议"
+    },
+    {
+        "head": "总线式以太网",
+        "relation": "采用",
+        "tail": "CSMA/CD协议"
+    },
+    {
+        "head": "虚拟局域网",
+        "relation": "是",
+        "tail": "一种服务"
+    },
+    {
+        "head": "802.3ac标准",
+        "relation": "定义了",
+        "tail": "以太网帧格式的扩展"
+    },
+    {
+        "head": "VLAN标签",
+        "relation": "插入在",
+        "tail": "以太网MAC帧源地址字段和类型字段之间"
+    },
+    {
+        "head": "802.1Q帧",
+        "relation": "包含",
+        "tail": "4字节的标识符"
+    },
+    {
+        "head": "VLAN标签",
+        "relation": "前两个字节设置为",
+        "tail": "Ox8100"
+    },
+    {
+        "head": "802.1Q标签类型",
+        "relation": "包含",
+        "tail": "VLAN标签"
+    },
+    {
+        "head": "VLAN标签",
+        "relation": "由",
+        "tail": "12位VID标识"
+    },
+    {
+        "head": "VID",
+        "relation": "表示",
+        "tail": "VLAN标识符"
+    },
+    {
+        "head": "802.1Q帧",
+        "relation": "插入",
+        "tail": "4字节VLAN标签"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "包含",
+        "tail": "源地址字段"
+    },
+    {
+        "head": "以太网帧首部",
+        "relation": "增加",
+        "tail": "4个字节"
+    },
+    {
+        "head": "最大帧长",
+        "relation": "从1518字节变为",
+        "tail": "1522字节"
+    },
+    {
+        "head": "交换机",
+        "relation": "连接",
+        "tail": "7台计算机"
+    },
+    {
+        "head": "局域网",
+        "relation": "划分为",
+        "tail": "VLAN-10和VLAN-20"
+    },
+    {
+        "head": "VID字段值",
+        "relation": "表示",
+        "tail": "虚拟局域网编号"
+    },
+    {
+        "head": "以太网",
+        "relation": "包含",
+        "tail": "虚拟局域网(VLAN)"
+    },
+    {
+        "head": "交换机",
+        "relation": "连接",
+        "tail": "接入链路"
+    },
+    {
+        "head": "交换机",
+        "relation": "划分",
+        "tail": "虚拟局域网(VLAN)"
+    },
+    {
+        "head": "计算机",
+        "relation": "通过",
+        "tail": "接入链路"
+    },
+    {
+        "head": "VID",
+        "relation": "标识",
+        "tail": "虚拟局域网"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "用于",
+        "tail": "划分虚拟局域网"
+    },
+    {
+        "head": "汇聚链路",
+        "relation": "连接",
+        "tail": "交换机端口"
+    },
+    {
+        "head": "汇聚链路",
+        "relation": "是",
+        "tail": "连接两个交换机端口之间的链路"
+    },
+    {
+        "head": "802.1Q帧",
+        "relation": "包含",
+        "tail": "VLAN标签"
+    },
+    {
+        "head": "交换机#1",
+        "relation": "转发",
+        "tail": "标准以太网帧给A向E发送的帧"
+    },
+    {
+        "head": "交换机#2",
+        "relation": "移除",
+        "tail": "插入的VLAN标签"
+    },
+    {
+        "head": "路由器",
+        "relation": "解决",
+        "tail": "不同网络之间的通信问题"
+    },
+    {
+        "head": "VLAN-10",
+        "relation": "属于",
+        "tail": "交换机管理的VLAN"
+    },
+    {
+        "head": "VLAN-20",
+        "relation": "属于",
+        "tail": "不同的网络"
+    },
+    {
+        "head": "交换机",
+        "relation": "包含",
+        "tail": "转发模块"
+    },
+    {
+        "head": "转发模块",
+        "relation": "实现",
+        "tail": "第3层的转发功能"
+    },
+    {
+        "head": "交换机",
+        "relation": "称为",
+        "tail": "L3/L2交换机"
+    },
+    {
+        "head": "不同VLAN之间",
+        "relation": "通过",
+        "tail": "帧转发"
+    },
+    {
+        "head": "第3层交换",
+        "relation": "提高",
+        "tail": "转发速率"
+    },
+    {
+        "head": "高速以太网",
+        "relation": "发展自",
+        "tail": "10Mbit/s以太网"
+    },
+    {
+        "head": "当前常用",
+        "relation": "速率为",
+        "tail": "1Gbit/s吉比特以太网"
+    },
+    {
+        "head": "lOOBASE-T",
+        "relation": "是",
+        "tail": "100Mbit/s基带信号在双绞线上传送的以太网"
+    },
+    {
+        "head": "lOOBASE-T",
+        "relation": "使用",
+        "tail": "IEEE802.3 CSMA/CD协议"
+    },
+    {
+        "head": "lOOBASE-T",
+        "relation": "称为",
+        "tail": "快速以太网(FastEthernet)"
+    },
+    {
+        "head": "升级",
+        "relation": "从",
+        "tail": "10BASE-T到100Mbit/s"
+    },
+    {
+        "head": "适配器",
+        "relation": "具有",
+        "tail": "自适应性，能够识别10Mbit/s和100Mbit/s"
+    },
+    {
+        "head": "IEEE802.3u",
+        "relation": "是",
+        "tail": "lOOBASE-T快速以太网的正式标准"
+    },
+    {
+        "head": "lOOBASE-T",
+        "relation": "使用",
+        "tail": "以太网交换机提供服务质量"
+    },
+    {
+        "head": "工作方式",
+        "relation": "为",
+        "tail": "全双工，无冲突发生"
+    },
+    {
+        "head": "MAC帧格式",
+        "relation": "遵循",
+        "tail": "IEEE802.3标准"
+    },
+    {
+        "head": "IEEE802.3u",
+        "relation": "不包括",
+        "tail": "同轴电缆支持"
+    },
+    {
+        "head": "快速以太网",
+        "relation": "需要",
+        "tail": "重新布线"
+    },
+    {
+        "head": "I0/100Mbit/s以太网",
+        "relation": "使用",
+        "tail": "无屏蔽双绞线布线"
+    },
+    {
+        "head": "100Mbit/s以太网",
+        "relation": "改动了",
+        "tail": "原10Mbit/s以太网规定"
+    },
+    {
+        "head": "参数a",
+        "relation": "定义为",
+        "tail": "r与To的比值"
+    },
+    {
+        "head": "帧发送时间",
+        "relation": "影响",
+        "tail": "参数a大小"
+    },
+    {
+        "head": "数据率提高10倍",
+        "relation": "使",
+        "tail": "网络电缆长度减小到十分之一"
+    },
+    {
+        "head": "最短帧长",
+        "relation": "保持不变",
+        "tail": "64字节"
+    },
+    {
+        "head": "最大网段长度",
+        "relation": "为",
+        "tail": "100m"
+    },
+    {
+        "head": "争用期",
+        "relation": "是",
+        "tail": "5.12µs"
+    },
+    {
+        "head": "帧间最小间隔",
+        "relation": "为",
+        "tail": "0.96µs"
+    }
+]

@@ -1,0 +1,778 @@
+[
+    [
+        {
+            "head": "互联网草案",
+            "relation": "有效期为",
+            "tail": "六个月"
+        },
+        {
+            "head": "建议标准",
+            "relation": "成为",
+            "tail": "RFC文档"
+        },
+        {
+            "head": "互联网标准",
+            "relation": "分配编号",
+            "tail": "STDxx"
+        },
+        {
+            "head": "草案标准",
+            "relation": "取消阶段时间",
+            "tail": "2011年10月"
+        },
+        {
+            "head": "建议标准",
+            "relation": "简化为",
+            "tail": "互联网标准"
+        },
+        {
+            "head": "草案标准",
+            "relation": "处理原则",
+            "tail": "升级或保持原名称"
+        }
+    ],
+    [
+        {
+            "head": "RFC文档",
+            "relation": "包含",
+            "tail": "互联网标准"
+        },
+        {
+            "head": "RFC文档",
+            "relation": "包含",
+            "tail": "建议标准"
+        },
+        {
+            "head": "RFC文档",
+            "relation": "包含",
+            "tail": "历史的RFC文档"
+        },
+        {
+            "head": "RFC文档",
+            "relation": "包含",
+            "tail": "实验的RFC文档"
+        },
+        {
+            "head": "RFC文档",
+            "relation": "包含",
+            "tail": "提供信息的RFC文档"
+        },
+        {
+            "head": "互联网标准",
+            "relation": "最大编号是",
+            "tail": "STD92"
+        },
+        {
+            "head": "索引文件",
+            "relation": "名称为",
+            "tail": "RFCINDEX"
+        },
+        {
+            "head": "RFCINDEX",
+            "relation": "提供信息关于",
+            "tail": "RFC文档"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "组成",
+            "tail": "边缘部分"
+        },
+        {
+            "head": "互联网",
+            "relation": "组成",
+            "tail": "核心部分"
+        },
+        {
+            "head": "边缘部分",
+            "relation": "包含",
+            "tail": "所有连接在互联网上的主机"
+        },
+        {
+            "head": "主机",
+            "relation": "称为",
+            "tail": "端系统"
+        },
+        {
+            "head": "端系统",
+            "relation": "功能",
+            "tail": "通信和资源共享"
+        },
+        {
+            "head": "核心部分",
+            "relation": "包含",
+            "tail": "大量网络和路由器"
+        },
+        {
+            "head": "核心部分",
+            "relation": "提供",
+            "tail": "连通性和交换服务"
+        },
+        {
+            "head": "端系统",
+            "relation": "可能为",
+            "tail": "个人电脑、智能手机、网络摄像头或服务器"
+        },
+        {
+            "head": "拥有者",
+            "relation": "可以是",
+            "tail": "个人或单位"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "端系统"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "ISP"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "服务器"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "数据中心"
+        },
+        {
+            "head": "服务器",
+            "relation": "提供",
+            "tail": "信息检索服务"
+        },
+        {
+            "head": "服务器",
+            "relation": "提供",
+            "tail": "万维网浏览服务"
+        },
+        {
+            "head": "服务器",
+            "relation": "提供",
+            "tail": "视频播放服务"
+        },
+        {
+            "head": "端系统",
+            "relation": "可以是",
+            "tail": "个人拥有"
+        },
+        {
+            "head": "端系统",
+            "relation": "可以是",
+            "tail": "单位拥有"
+        },
+        {
+            "head": "端系统",
+            "relation": "可以是",
+            "tail": "ISP拥有"
+        },
+        {
+            "head": "数据中心",
+            "relation": "包含",
+            "tail": "服务器"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "进程"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "通信方式",
+            "tail": "客户-服务器方式(C/S方式)"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "通信方式",
+            "tail": "对等方式(P2P方式)"
+        },
+        {
+            "head": "客户-服务器方式",
+            "relation": "应用领域",
+            "tail": "互联网"
+        },
+        {
+            "head": "客户-服务器方式",
+            "relation": "涉及进程",
+            "tail": "应用层中的应用进程"
+        },
+        {
+            "head": "浏览器-服务器方式",
+            "relation": "属于",
+            "tail": "客户-服务器方式(C/S方式)"
+        },
+        {
+            "head": "端系统",
+            "relation": "进行通信",
+            "tail": "主机A和主机B"
+        }
+    ],
+    [
+        {
+            "head": "客户",
+            "relation": "是",
+            "tail": "服务请求方"
+        },
+        {
+            "head": "服务器",
+            "relation": "是",
+            "tail": "服务提供方"
+        },
+        {
+            "head": "客户程序",
+            "relation": "运行在",
+            "tail": "主机A"
+        },
+        {
+            "head": "服务器程序",
+            "relation": "运行在",
+            "tail": "主机B"
+        },
+        {
+            "head": "客户程序",
+            "relation": "主动发起",
+            "tail": "通信请求"
+        },
+        {
+            "head": "服务器程序",
+            "relation": "提供",
+            "tail": "服务"
+        }
+    ],
+    [
+        {
+            "head": "服务器程序",
+            "relation": "提供",
+            "tail": "服务"
+        },
+        {
+            "head": "服务器程序",
+            "relation": "处理",
+            "tail": "请求"
+        },
+        {
+            "head": "服务器程序",
+            "relation": "运行",
+            "tail": "系统启动后"
+        },
+        {
+            "head": "服务器程序",
+            "relation": "不需要知道",
+            "tail": "客户地址"
+        },
+        {
+            "head": "服务器程序",
+            "relation": "需要",
+            "tail": "强大硬件和高级操作系统"
+        },
+        {
+            "head": "通信",
+            "relation": "可以是",
+            "tail": "双向"
+        },
+        {
+            "head": "运行客户程序的机器",
+            "relation": "称为",
+            "tail": "客户端"
+        },
+        {
+            "head": "运行服务器程序的机器",
+            "relation": "称为",
+            "tail": "服务器端"
+        }
+    ],
+    [
+        {
+            "head": "客户机",
+            "relation": "运行",
+            "tail": "服务器程序"
+        },
+        {
+            "head": "对等连接方式",
+            "relation": "称为",
+            "tail": "P2P方式"
+        },
+        {
+            "head": "主机C",
+            "relation": "既是",
+            "tail": "客户同时又是服务器"
+        }
+    ],
+    [
+        {
+            "head": "网络核心部分",
+            "relation": "是",
+            "tail": "互联网中最复杂的部分"
+        },
+        {
+            "head": "路由器",
+            "relation": "在",
+            "tail": "网络核心部分起特殊作用"
+        },
+        {
+            "head": "路由器",
+            "relation": "实现",
+            "tail": "分组交换"
+        },
+        {
+            "head": "分组交换",
+            "relation": "任务是",
+            "tail": "转发收到的分组"
+        },
+        {
+            "head": "对等连接工作方式",
+            "relation": "支持",
+            "tail": "大量对等用户同时工作"
+        },
+        {
+            "head": "P2P程序",
+            "relation": "运行于",
+            "tail": "对等连接工作方式"
+        }
+    ],
+    [
+        {
+            "head": "电话",
+            "relation": "使用",
+            "tail": "交换机"
+        },
+        {
+            "head": "交换机",
+            "relation": "实现",
+            "tail": "电路交换"
+        },
+        {
+            "head": "电信网",
+            "relation": "由",
+            "tail": "交换机构成"
+        }
+    ],
+    [
+        {
+            "head": "交换",
+            "relation": "是",
+            "tail": "动态分配传输线路资源"
+        },
+        {
+            "head": "电路交换",
+            "relation": "包括步骤",
+            "tail": "通信资源请求、通话占用资源、释放连接归还资源"
+        }
+    ],
+    [
+        {
+            "head": "电路交换",
+            "relation": "适用于",
+            "tail": "电话用户"
+        },
+        {
+            "head": "电路交换",
+            "relation": "不适用于",
+            "tail": "计算机数据传输"
+        },
+        {
+            "head": "中继线",
+            "relation": "由多个用户共享",
+            "tail": ""
+        },
+        {
+            "head": "用户线",
+            "relation": "为用户提供专用线路",
+            "tail": ""
+        },
+        {
+            "head": "电路交换",
+            "relation": "在通话期间",
+            "tail": "占用端到端通信资源"
+        },
+        {
+            "head": "多路复用技术",
+            "relation": "扩展了",
+            "tail": "电路交换概念"
+        },
+        {
+            "head": "多路复用技术",
+            "relation": "包括",
+            "tail": "频分多路"
+        },
+        {
+            "head": "多路复用技术",
+            "relation": "包括",
+            "tail": "时分多路"
+        },
+        {
+            "head": "多路复用技术",
+            "relation": "包括",
+            "tail": "码分多路"
+        }
+    ],
+    [
+        {
+            "head": "数据",
+            "relation": "出现在",
+            "tail": "传输线路上"
+        },
+        {
+            "head": "通信线路资源",
+            "relation": "大部分时间是空闲的",
+            "tail": ""
+        },
+        {
+            "head": "分组交换",
+            "relation": "采用",
+            "tail": "存储转发技术"
+        },
+        {
+            "head": "报文",
+            "relation": "划分为",
+            "tail": "分组"
+        },
+        {
+            "head": "分组",
+            "relation": "称为",
+            "tail": "包"
+        },
+        {
+            "head": "分组",
+            "relation": "包含",
+            "tail": "控制信息"
+        },
+        {
+            "head": "首部",
+            "relation": "是",
+            "tail": "分组的重要组成部分"
+        }
+    ],
+    [
+        {
+            "head": "分组传输",
+            "relation": "包含于",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "首部",
+            "relation": "属于",
+            "tail": "分组"
+        },
+        {
+            "head": "报文发送",
+            "relation": "发生在",
+            "tail": "前巨分组分组"
+        },
+        {
+            "head": "路由器",
+            "relation": "转发",
+            "tail": "分组"
+        },
+        {
+            "head": "主机",
+            "relation": "位于",
+            "tail": "网络边缘部分"
+        },
+        {
+            "head": "路由器",
+            "relation": "位于",
+            "tail": "网络核心部分"
+        },
+        {
+            "head": "链路",
+            "relation": "连接",
+            "tail": "主机与路由器"
+        },
+        {
+            "head": "分组交换",
+            "relation": "由",
+            "tail": "路由器执行"
+        }
+    ],
+    [
+        {
+            "head": "存储转发",
+            "relation": "提出时间",
+            "tail": "1964年8月"
+        },
+        {
+            "head": "巴兰",
+            "relation": "提出者",
+            "tail": "分布式通信报告"
+        },
+        {
+            "head": "路由器",
+            "relation": "功能",
+            "tail": "分组交付目的主机"
+        },
+        {
+            "head": "ARPANET",
+            "relation": "运行时间",
+            "tail": "1969年12月"
+        },
+        {
+            "head": "分组交换网",
+            "relation": "起源",
+            "tail": "ARPANET"
+        },
+        {
+            "head": "CYCLADES",
+            "relation": "开通时间",
+            "tail": "1973年"
+        }
+    ],
+    [
+        {
+            "head": "分组交换",
+            "relation": "包含于",
+            "tail": "互联网"
+        },
+        {
+            "head": "路由器",
+            "relation": "转发",
+            "tail": "分组"
+        },
+        {
+            "head": "主机",
+            "relation": "发送数据给",
+            "tail": "主机"
+        },
+        {
+            "head": "网络拓扑",
+            "relation": "影响",
+            "tail": "转发表更新"
+        }
+    ],
+    [
+        {
+            "head": "路由器A",
+            "relation": "转发分组到",
+            "tail": "链路A-C"
+        },
+        {
+            "head": "分组",
+            "relation": "占用",
+            "tail": "链路H1-A"
+        },
+        {
+            "head": "路由器C",
+            "relation": "查找转发表",
+            "tail": "确定转发路由"
+        },
+        {
+            "head": "路由器E",
+            "relation": "最终接收并交付",
+            "tail": "主机H2"
+        },
+        {
+            "head": "分组",
+            "relation": "存储在",
+            "tail": "路由器内存中"
+        },
+        {
+            "head": "短分组",
+            "relation": "保证",
+            "tail": "较高交换速率"
+        }
+    ],
+    [
+        {
+            "head": "分组交换",
+            "relation": "采用",
+            "tail": "存储转发"
+        },
+        {
+            "head": "路由器",
+            "relation": "运行",
+            "tail": "路由选择协议"
+        },
+        {
+            "head": "互联网",
+            "relation": "保证",
+            "tail": "数据传送可靠性"
+        },
+        {
+            "head": "网络节点或链路故障",
+            "relation": "触发",
+            "tail": "路由选择协议自动寻径"
+        },
+        {
+            "head": "分组交换",
+            "relation": "分配",
+            "tail": "传输带宽"
+        }
+    ],
+    [
+        {
+            "head": "分组交换网",
+            "relation": "采用",
+            "tail": "网状拓扑结构"
+        },
+        {
+            "head": "路由器",
+            "relation": "选择",
+            "tail": "转发路由"
+        },
+        {
+            "head": "通信线路",
+            "relation": "提高",
+            "tail": "利用率"
+        },
+        {
+            "head": "主干线路",
+            "relation": "构成",
+            "tail": "高速链路"
+        },
+        {
+            "head": "分组交换网",
+            "relation": "保证",
+            "tail": "可靠性"
+        },
+        {
+            "head": "网络协议",
+            "relation": "确保",
+            "tail": "端到端带宽"
+        },
+        {
+            "head": "路由器",
+            "relation": "减少",
+            "tail": "时延"
+        }
+    ],
+    [
+        {
+            "head": "分组交换",
+            "relation": "采用",
+            "tail": "存储转发原理"
+        },
+        {
+            "head": "报文交换",
+            "relation": "采用",
+            "tail": "存储转发原理"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "分组交换"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "报文交换"
+        },
+        {
+            "head": "分组交换",
+            "relation": "提供",
+            "tail": "端到端平均时延小于0.1秒"
+        },
+        {
+            "head": "分组交换",
+            "relation": "减少",
+            "tail": "控制信息开销"
+        },
+        {
+            "head": "分组交换",
+            "relation": "提高",
+            "tail": "转发速度"
+        }
+    ],
+    [
+        {
+            "head": "电路交换",
+            "relation": "传输方式",
+            "tail": "数据传送比特流直达终点"
+        },
+        {
+            "head": "报文交换",
+            "relation": "存储转发",
+            "tail": "整个报文先传送到相邻节点，全部存储下来后查找转发表，转发到下一节点"
+        },
+        {
+            "head": "分组交换",
+            "relation": "存储转发",
+            "tail": "单个分组传送到相邻节点，存储下来后查找转发表，转发到下一个节点"
+        },
+        {
+            "head": "电路交换",
+            "relation": "传输速率",
+            "tail": "在传送时间远大于连接建立时间时较快"
+        }
+    ],
+    [
+        {
+            "head": "分组交换",
+            "relation": "提高",
+            "tail": "信道利用率"
+        },
+        {
+            "head": "分组交换",
+            "relation": "时延小",
+            "tail": "报文交换"
+        },
+        {
+            "head": "分组交换",
+            "relation": "灵活",
+            "tail": "报文交换"
+        },
+        {
+            "head": "电路交换",
+            "relation": "适合",
+            "tail": "话音通信"
+        },
+        {
+            "head": "分组交换",
+            "relation": "适合",
+            "tail": "数据通信"
+        },
+        {
+            "head": "蜂窝移动通信网",
+            "relation": "采用",
+            "tail": "分组交换"
+        },
+        {
+            "head": "铁道部",
+            "relation": "开始建设",
+            "tail": "计算机广域网"
+        },
+        {
+            "head": "CNPAC",
+            "relation": "建成运行时间",
+            "tail": "1989年11月"
+        },
+        {
+            "head": "局域网",
+            "relation": "价格便宜",
+            "tail": ""
+        },
+        {
+            "head": "局域网",
+            "relation": "所有权和使用权",
+            "tail": "本单位"
+        }
+    ],
+    [
+        {
+            "head": "我国",
+            "relation": "接入",
+            "tail": "互联网"
+        },
+        {
+            "head": "1994年4月20日",
+            "relation": "时间点",
+            "tail": "我国用64kbit/s专线正式连入互联网"
+        },
+        {
+            "head": "中国科学院高能物理研究所",
+            "relation": "设立",
+            "tail": "CD信道"
+        },
+        {
+            "head": "信道(channel)",
+            "relation": "定义为",
+            "tail": "信号通路"
+        }
+    ]
+]

@@ -1,0 +1,448 @@
+[
+    [
+        {
+            "head": "移动站",
+            "relation": "处于",
+            "tail": "待机状态"
+        },
+        {
+            "head": "移动站",
+            "relation": "处于",
+            "tail": "活跃状态"
+        },
+        {
+            "head": "接入点(AP)",
+            "relation": "保存有",
+            "tail": "待机状态的移动站名单"
+        },
+        {
+            "head": "MAC帧",
+            "relation": "包含",
+            "tail": "功率管理字段"
+        },
+        {
+            "head": "功率管理字段",
+            "relation": "指示",
+            "tail": "活跃状态或待机状态"
+        },
+        {
+            "head": "信标帧",
+            "relation": "发送周期为",
+            "tail": "100ms"
+        },
+        {
+            "head": "移动站",
+            "relation": "设置",
+            "tail": "计时器"
+        },
+        {
+            "head": "AP",
+            "relation": "缓存",
+            "tail": "MAC帧"
+        }
+    ],
+    [
+        {
+            "head": "信标帧",
+            "relation": "包含",
+            "tail": "发给自己的帧"
+        },
+        {
+            "head": "移动站",
+            "relation": "响应",
+            "tail": "收到的信标帧"
+        },
+        {
+            "head": "待机状态",
+            "relation": "减少",
+            "tail": "电池功率消耗"
+        },
+        {
+            "head": "WEP字段",
+            "relation": "指示",
+            "tail": "MAC帧主体加密"
+        },
+        {
+            "head": "IEEE802.11i",
+            "relation": "解决",
+            "tail": "安全问题"
+        },
+        {
+            "head": "WPA",
+            "relation": "符合",
+            "tail": "802.11i功能"
+        },
+        {
+            "head": "WPA2",
+            "relation": "增加支持",
+            "tail": "AES加密算法"
+        },
+        {
+            "head": "MAC帧首部",
+            "relation": "包含",
+            "tail": "帧控制字段"
+        },
+        {
+            "head": "WPA2的加密算法",
+            "relation": "复杂",
+            "tail": "[KUR017]"
+        }
+    ],
+    [
+        {
+            "head": "无线个人区域网WPAN",
+            "relation": "定义为",
+            "tail": "线个人区域网"
+        },
+        {
+            "head": "无线个人区域网WPAN",
+            "relation": "不需要使用",
+            "tail": "接入点AP"
+        },
+        {
+            "head": "无线个人区域网WPAN",
+            "relation": "范围约为",
+            "tail": "10m"
+        },
+        {
+            "head": "无线个人区域网WPAN",
+            "relation": "可以用于",
+            "tail": "个人使用"
+        },
+        {
+            "head": "无线个人区域网WPAN",
+            "relation": "也可以用于",
+            "tail": "若干人共同使用"
+        },
+        {
+            "head": "无线个人区域网WPAN",
+            "relation": "电子设备间",
+            "tail": "进行通信"
+        }
+    ],
+    [
+        {
+            "head": "WPAN",
+            "relation": "由",
+            "tail": "IEEE802.15工作组制定"
+        },
+        {
+            "head": "WPAN",
+            "relation": "工作在",
+            "tail": "2.4GHz的ISM频段"
+        },
+        {
+            "head": "蓝牙(Bluetooth)",
+            "relation": "最早使用的WPAN",
+            "tail": "由爱立信公司推出"
+        },
+        {
+            "head": "蓝牙技术",
+            "relation": "由",
+            "tail": "蓝牙技术联盟维护"
+        },
+        {
+            "head": "蓝牙4.0",
+            "relation": "增加了",
+            "tail": "低耗能蓝牙BLE(BluetoothLowEnergy)"
+        }
+    ],
+    [
+        {
+            "head": "蓝牙",
+            "relation": "版本",
+            "tail": "5.2"
+        },
+        {
+            "head": "蓝牙4.0",
+            "relation": "数据率",
+            "tail": "3Mbit/s"
+        },
+        {
+            "head": "蓝牙5.0",
+            "relation": "数据率上限",
+            "tail": "24Mbit/s"
+        },
+        {
+            "head": "蓝牙5.0",
+            "relation": "传输距离",
+            "tail": "300m"
+        },
+        {
+            "head": "皮可网(piconet)",
+            "relation": "组成方式",
+            "tail": "TDM和跳频扩频FHSS技术"
+        },
+        {
+            "head": "皮可网",
+            "relation": "主设备数量",
+            "tail": "1个"
+        },
+        {
+            "head": "皮可网",
+            "relation": "从设备数量",
+            "tail": "最多7个"
+        },
+        {
+            "head": "扩散网(scattemet)",
+            "relation": "形成方式",
+            "tail": "多个皮可网链接起来"
+        }
+    ],
+    [
+        {
+            "head": "蓝牙技术",
+            "relation": "应用于",
+            "tail": "计算机与外设"
+        },
+        {
+            "head": "蓝牙技术",
+            "relation": "应用于",
+            "tail": "家居自动化"
+        },
+        {
+            "head": "蓝牙技术",
+            "relation": "应用于",
+            "tail": "医疗和保健"
+        },
+        {
+            "head": "蓝牙技术",
+            "relation": "应用于",
+            "tail": "汽车上的各种设备"
+        },
+        {
+            "head": "低速WPAN",
+            "relation": "标准",
+            "tail": "IEEE802.15.4"
+        },
+        {
+            "head": "低速WPAN",
+            "relation": "速率范围",
+            "tail": "2~250kbit/s"
+        }
+    ],
+    [
+        {
+            "head": "ZigBee",
+            "relation": "属于",
+            "tail": "WPAN"
+        },
+        {
+            "head": "ZigBee",
+            "relation": "命名来源",
+            "tail": "蜜蜂跳Z形舞蹈"
+        },
+        {
+            "head": "ZigBee",
+            "relation": "主要应用于",
+            "tail": "电子设备通信"
+        },
+        {
+            "head": "ZigBee",
+            "relation": "特点",
+            "tail": "短距离无线通信"
+        },
+        {
+            "head": "ZigBee",
+            "relation": "特点",
+            "tail": "低功耗"
+        },
+        {
+            "head": "ZigBee节点",
+            "relation": "状态",
+            "tail": "休眠状态"
+        },
+        {
+            "head": "ZigBee网络",
+            "relation": "包含",
+            "tail": "主设备和从设备"
+        },
+        {
+            "head": "ZigBee网络",
+            "relation": "通过",
+            "tail": "网络协调器"
+        }
+    ],
+    [
+        {
+            "head": "ZigBee",
+            "relation": "支持节点数",
+            "tail": "超过64000个"
+        },
+        {
+            "head": "ZigBee",
+            "relation": "网络容量",
+            "tail": "最多255个节点"
+        },
+        {
+            "head": "IEEE802.15.4",
+            "relation": "定义",
+            "tail": "物理层和MAC层"
+        },
+        {
+            "head": "ZigBee联盟",
+            "relation": "定义",
+            "tail": "网络层和应用层"
+        },
+        {
+            "head": "ZigBee/802.15.4",
+            "relation": "由",
+            "tail": "两个不同的组织制定的"
+        },
+        {
+            "head": "IEEE802.15.4",
+            "relation": "定义",
+            "tail": "三个频段（免费开放）"
+        }
+    ],
+    [
+        {
+            "head": "IEEE802.15.4",
+            "relation": "使用频段",
+            "tail": "2.4GHz"
+        },
+        {
+            "head": "IEEE802.15.4",
+            "relation": "使用频段",
+            "tail": "915MHz"
+        },
+        {
+            "head": "IEEE802.15.4",
+            "relation": "使用频段",
+            "tail": "868MHz"
+        },
+        {
+            "head": "IEEE802.15.4物理层",
+            "relation": "数据率",
+            "tail": "915MHz 40kbit/s"
+        },
+        {
+            "head": "IEEE802.15.4物理层",
+            "relation": "数据率",
+            "tail": "868MHz 20kbit/s"
+        },
+        {
+            "head": "IEEE802.15.4 MAC层",
+            "relation": "采用协议",
+            "tail": "CSMA/CA协议"
+        }
+    ],
+    [
+        {
+            "head": "ZigBee",
+            "relation": "采用",
+            "tail": "星形拓扑"
+        },
+        {
+            "head": "ZigBee",
+            "relation": "采用",
+            "tail": "网状拓扑"
+        },
+        {
+            "head": "ZigBee网络",
+            "relation": "最多包含节点数",
+            "tail": "255个节点"
+        },
+        {
+            "head": "RFD节点",
+            "relation": "是",
+            "tail": "精简功能设备"
+        },
+        {
+            "head": "FFD节点",
+            "relation": "是",
+            "tail": "全功能设备"
+        },
+        {
+            "head": "RFD节点",
+            "relation": "成本较低",
+            "tail": "电路简单，存储容量较小"
+        },
+        {
+            "head": "FFD节点",
+            "relation": "具备",
+            "tail": "控制器功能"
+        },
+        {
+            "head": "ZigBee联盟",
+            "relation": "成立于",
+            "tail": "2001年8月"
+        },
+        {
+            "head": "ZigBee联盟",
+            "relation": "成员超过",
+            "tail": "220个"
+        }
+    ],
+    [
+        {
+            "head": "ZigBee网络",
+            "relation": "包含节点",
+            "tail": "FFD"
+        },
+        {
+            "head": "FFD",
+            "relation": "充当角色",
+            "tail": "协调器"
+        },
+        {
+            "head": "ZigBee网络",
+            "relation": "支持节点数",
+            "tail": "超过65000个"
+        },
+        {
+            "head": "高速WPAN",
+            "relation": "标准",
+            "tail": "IEEE802.15.3"
+        },
+        {
+            "head": "高速WPAN",
+            "relation": "支持数据率",
+            "tail": "11~55Mbit/s"
+        }
+    ],
+    [
+        {
+            "head": "IEEE802.15.3a工作组",
+            "relation": "提出",
+            "tail": "超高速WPAN"
+        },
+        {
+            "head": "UWB(Ultra-WideBand)技术",
+            "relation": "工作在",
+            "tail": "3.1~10.6GHz微波频段"
+        },
+        {
+            "head": "信道带宽",
+            "relation": "与",
+            "tail": "信道的极限传输速率成正比"
+        },
+        {
+            "head": "超宽带信号",
+            "relation": "带宽超过",
+            "tail": "信号中心频率25％以上或绝对带宽500MHz"
+        },
+        {
+            "head": "UWB技术",
+            "relation": "支持",
+            "tail": "100~400Mbit/s数据率"
+        },
+        {
+            "head": "蜂窝移动通信系统",
+            "relation": "称为",
+            "tail": "小区制移动通信"
+        }
+    ],
+    [
+        {
+            "head": "蜂窝线通信",
+            "relation": "最初用途",
+            "tail": "打电话"
+        },
+        {
+            "head": "无线个人区域网",
+            "relation": "发展驱动力",
+            "tail": "消费电子设备间快速数据传输需求"
+        }
+    ]
+]

@@ -1,0 +1,1318 @@
+[
+    [
+        {
+            "head": "音频／视频文件",
+            "relation": "被下载",
+            "tail": "通过RTSP"
+        },
+        {
+            "head": "协议",
+            "relation": "运行在",
+            "tail": "UDP上"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "可以暂停",
+            "tail": "PAUSE报文"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "可以继续播放",
+            "tail": "PLAY报文"
+        },
+        {
+            "head": "RTSP客户",
+            "relation": "发送",
+            "tail": "TEARDOWN报文"
+        },
+        {
+            "head": "媒体服务器",
+            "relation": "发送响应",
+            "tail": "RESPONSE报文"
+        },
+        {
+            "head": "IP电话",
+            "relation": "是",
+            "tail": "互联网上传送多媒体信息的一种方式"
+        },
+        {
+            "head": "VoIP",
+            "relation": "同义词",
+            "tail": "IP电话"
+        },
+        {
+            "head": "InternetTelephony",
+            "relation": "同义词",
+            "tail": "IP电话"
+        },
+        {
+            "head": "VON",
+            "relation": "同义词",
+            "tail": "IP电话"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "属于",
+            "tail": "IP网络"
+        },
+        {
+            "head": "IP电话",
+            "relation": "使用",
+            "tail": "IP协议"
+        },
+        {
+            "head": "IP网络",
+            "relation": "传输方式",
+            "tail": "分组交换"
+        },
+        {
+            "head": "IP电话",
+            "relation": "通信类型",
+            "tail": "话音、视像、数据"
+        },
+        {
+            "head": "即时传信",
+            "relation": "应用实例",
+            "tail": "微信"
+        },
+        {
+            "head": "即时传信",
+            "relation": "应用实例",
+            "tail": "Skype"
+        },
+        {
+            "head": "即时传信",
+            "relation": "应用实例",
+            "tail": "QQ"
+        },
+        {
+            "head": "即时传信",
+            "relation": "应用实例",
+            "tail": "MSNMessenger"
+        },
+        {
+            "head": "IP电话",
+            "relation": "质量",
+            "tail": "优于普通电话"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "源于",
+            "tail": "分组话音通信"
+        },
+        {
+            "head": "IP电话",
+            "relation": "解决",
+            "tail": "实时通信服务质量QoS问题"
+        },
+        {
+            "head": "IP电话网关",
+            "relation": "出现时间",
+            "tail": "1995年初"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "缺少",
+            "tail": "廉价高质量低速率的话音信号编解码软件和相应芯片"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "传输速率",
+            "tail": "不够快"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "路由器处理速率",
+            "tail": "不够快"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "属于",
+            "tail": "电话网关"
+        },
+        {
+            "head": "IP电话网关",
+            "relation": "实现",
+            "tail": "PC用户到固定电话用户打IP电话"
+        },
+        {
+            "head": "IP电话网关",
+            "relation": "实现",
+            "tail": "固定电话用户之间打IP电话"
+        },
+        {
+            "head": "IP电话网关",
+            "relation": "进行",
+            "tail": "电话信令转换"
+        },
+        {
+            "head": "IP电话网关",
+            "relation": "进行",
+            "tail": "话音编码转换"
+        },
+        {
+            "head": "PC到固定电话通话",
+            "relation": "需要",
+            "tail": "经过IP电话网关"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "使用",
+            "tail": "分组交换"
+        },
+        {
+            "head": "IP电话",
+            "relation": "连接方式",
+            "tail": "电路交换"
+        },
+        {
+            "head": "IP电话",
+            "relation": "通话质量因素",
+            "tail": "时延和时延抖动"
+        },
+        {
+            "head": "IP电话",
+            "relation": "通话质量因素",
+            "tail": "分组丢失率"
+        },
+        {
+            "head": "IP电话",
+            "relation": "通话质量受制于",
+            "tail": "网络拥塞"
+        },
+        {
+            "head": "电路交换电话网",
+            "relation": "通话质量特性",
+            "tail": "有保证"
+        },
+        {
+            "head": "公用电话网",
+            "relation": "又称为",
+            "tail": "传统电话网或电信网"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "保证",
+            "tail": "端到端时延不超过250ms"
+        },
+        {
+            "head": "陆地公用电话网",
+            "relation": "提供",
+            "tail": "小于250ms的端到端时延"
+        },
+        {
+            "head": "卫星电话",
+            "relation": "导致",
+            "tail": "超过250ms的端到端时延"
+        },
+        {
+            "head": "IP电话",
+            "relation": "需要减小",
+            "tail": "端到端时延"
+        },
+        {
+            "head": "回声",
+            "relation": "要求",
+            "tail": "更短的端到端时延"
+        },
+        {
+            "head": "模数转换",
+            "relation": "产生",
+            "tail": "时延"
+        },
+        {
+            "head": "数字话音比特流",
+            "relation": "积累",
+            "tail": "形成话音分组"
+        },
+        {
+            "head": "话音分组发送",
+            "relation": "需要时间",
+            "tail": "与数据率相关"
+        },
+        {
+            "head": "路由器存储转发",
+            "relation": "引起",
+            "tail": "时延"
+        },
+        {
+            "head": "缓存暂存",
+            "relation": "引起",
+            "tail": "时延"
+        },
+        {
+            "head": "数模转换",
+            "relation": "产生",
+            "tail": "时延"
+        },
+        {
+            "head": "通信线路传播",
+            "relation": "引起",
+            "tail": "时延"
+        }
+    ],
+    [
+        {
+            "head": "IP电话网关",
+            "relation": "引起",
+            "tail": "接入时延"
+        },
+        {
+            "head": "V.34调制解调器",
+            "relation": "增加",
+            "tail": "20~40ms时延"
+        },
+        {
+            "head": "光纤主干网",
+            "relation": "减少",
+            "tail": "第三项时延"
+        },
+        {
+            "head": "话音编码方法",
+            "relation": "决定",
+            "tail": "第一、第二和第六项时延"
+        },
+        {
+            "head": "G.729标准",
+            "relation": "定义",
+            "tail": "8kbit/s共辅结构代数码激励线性预测声码器"
+        }
+    ],
+    [
+        {
+            "head": "G.723.1",
+            "relation": "比特率",
+            "tail": "5.3/6.3kbit/s"
+        },
+        {
+            "head": "G.729和G.723.1",
+            "relation": "主要性能比较",
+            "tail": "表8-1"
+        },
+        {
+            "head": "帧大小",
+            "relation": "时间长度",
+            "tail": "每个帧运行编码算法所需的时间"
+        },
+        {
+            "head": "处理时延",
+            "relation": "数据率",
+            "tail": "G.723.1标准虽然可得到更低的数据率，但其时延也更大些"
+        },
+        {
+            "head": "数字信号处理MIPS",
+            "relation": "实现编码所需的最小处理机速率",
+            "tail": "420"
+        }
+    ],
+    [
+        {
+            "head": "接收端缓存空间",
+            "relation": "影响",
+            "tail": "话音分组丢失率"
+        },
+        {
+            "head": "播放时延",
+            "relation": "影响",
+            "tail": "话音分组丢失率"
+        },
+        {
+            "head": "接收端缓存空间",
+            "relation": "影响",
+            "tail": "端到端时延"
+        },
+        {
+            "head": "播放时延",
+            "relation": "影响",
+            "tail": "端到端时延"
+        }
+    ],
+    [
+        {
+            "head": "端到端时延",
+            "relation": "包含",
+            "tail": "30~100ms"
+        },
+        {
+            "head": "路由器转发分组速率",
+            "relation": "影响",
+            "tail": "IP电话质量"
+        },
+        {
+            "head": "吉比特路由器",
+            "relation": "提高",
+            "tail": "每秒转发分组数量"
+        },
+        {
+            "head": "IP电话",
+            "relation": "话音质量",
+            "tail": "优于固定电话"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "质量提高",
+            "tail": "近几年来"
+        },
+        {
+            "head": "IP电话",
+            "relation": "话音质量",
+            "tail": "优于固定电话"
+        },
+        {
+            "head": "Skype",
+            "relation": "提供",
+            "tail": "高质量通话服务"
+        },
+        {
+            "head": "Skype",
+            "relation": "使用",
+            "tail": "iLBC编解码器"
+        },
+        {
+            "head": "iLBC",
+            "relation": "全称",
+            "tail": "internet Low Bit Rate Codec"
+        },
+        {
+            "head": "Skype",
+            "relation": "支持帧长",
+            "tail": "20ms和30ms"
+        },
+        {
+            "head": "Skype",
+            "relation": "容忍话音分组丢失率",
+            "tail": "高达30%"
+        },
+        {
+            "head": "P2P",
+            "relation": "技术提供",
+            "tail": "快速通话"
+        }
+    ],
+    [
+        {
+            "head": "Skype",
+            "relation": "采用",
+            "tail": "路由选择机制"
+        },
+        {
+            "head": "Skype",
+            "relation": "保证",
+            "tail": "信息安全性"
+        },
+        {
+            "head": "Skype",
+            "relation": "使用",
+            "tail": "端对端加密方式"
+        },
+        {
+            "head": "Skype",
+            "relation": "采用",
+            "tail": "P2P技术"
+        },
+        {
+            "head": "Skype",
+            "relation": "保证",
+            "tail": "数据可靠性"
+        },
+        {
+            "head": "Skype",
+            "relation": "拥有",
+            "tail": "超过5000万次下载量"
+        },
+        {
+            "head": "Skype",
+            "relation": "注册用户数",
+            "tail": "超过2000万"
+        },
+        {
+            "head": "Skype",
+            "relation": "市场份额",
+            "tail": "40%的国际长途电话"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "需要",
+            "tail": "信令协议"
+        },
+        {
+            "head": "IP电话",
+            "relation": "需要",
+            "tail": "话音分组传送协议"
+        },
+        {
+            "head": "IP电话",
+            "relation": "使用",
+            "tail": "RTP"
+        },
+        {
+            "head": "IP电话",
+            "relation": "使用",
+            "tail": "RTCP"
+        },
+        {
+            "head": "信令协议",
+            "relation": "包括",
+            "tail": "H.323和SIP"
+        },
+        {
+            "head": "音频/视频数据传输",
+            "relation": "依赖于",
+            "tail": "RTP"
+        },
+        {
+            "head": "服务质量提高",
+            "relation": "依靠",
+            "tail": "RSVP和RTCP"
+        },
+        {
+            "head": "网络协议栈",
+            "relation": "包含",
+            "tail": "UDP, IPv4/IPv6"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "使用",
+            "tail": "信令协议"
+        },
+        {
+            "head": "7号信令",
+            "relation": "类型",
+            "tail": "信令"
+        },
+        {
+            "head": "H.323",
+            "relation": "用于",
+            "tail": "IP电话的信令协议"
+        },
+        {
+            "head": "SIP",
+            "relation": "用于",
+            "tail": "IP电话的信令协议"
+        },
+        {
+            "head": "RTP",
+            "relation": "标准",
+            "tail": "IETF的AVT工作组开发"
+        }
+    ],
+    [
+        {
+            "head": "RTP",
+            "relation": "提供",
+            "tail": "端到端的运输"
+        },
+        {
+            "head": "RTP",
+            "relation": "不保证",
+            "tail": "服务质量"
+        },
+        {
+            "head": "多媒体数据块",
+            "relation": "经过",
+            "tail": "压缩编码处理"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "封装",
+            "tail": "多媒体数据块"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "包含",
+            "tail": "附加信息"
+        },
+        {
+            "head": "RTP",
+            "relation": "已成为",
+            "tail": "互联网正式标准"
+        },
+        {
+            "head": "RTP",
+            "relation": "是",
+            "tail": "ITU-T标准(H.225.0)"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "通过",
+            "tail": "UDP套接字接口进入应用层"
+        },
+        {
+            "head": "开发者",
+            "relation": "编写",
+            "tail": "用RTP封装分组的程序代码"
+        }
+    ],
+    [
+        {
+            "head": "RTP",
+            "relation": "属于",
+            "tail": "运输层协议"
+        },
+        {
+            "head": "RTP",
+            "relation": "封装",
+            "tail": "多媒体应用数据块"
+        },
+        {
+            "head": "RTP",
+            "relation": "提供服务",
+            "tail": "时间戳和序号"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "包含",
+            "tail": "RTP数据"
+        },
+        {
+            "head": "RTP",
+            "relation": "使用端口号范围",
+            "tail": "1025到65535"
+        },
+        {
+            "head": "RTCP",
+            "relation": "提供控制",
+            "tail": "RTP分组"
+        },
+        {
+            "head": "默认端口号",
+            "relation": "用于",
+            "tail": "RTP和RTCP"
+        }
+    ],
+    [
+        {
+            "head": "RTP首部",
+            "relation": "包含",
+            "tail": "有效载荷类型"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "由",
+            "tail": "IP首部、UDP首部和RTP首部组成"
+        },
+        {
+            "head": "有效载荷类型",
+            "relation": "指示",
+            "tail": "应用层数据格式"
+        }
+    ],
+    [
+        {
+            "head": "RTP分组",
+            "relation": "包含",
+            "tail": "序号"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "包含",
+            "tail": "时间戳"
+        },
+        {
+            "head": "初始序号",
+            "relation": "由",
+            "tail": "随机选择"
+        },
+        {
+            "head": "序号",
+            "relation": "用于",
+            "tail": "发现丢失的分组"
+        },
+        {
+            "head": "序号",
+            "relation": "用于",
+            "tail": "重新排列RTP分组"
+        },
+        {
+            "head": "时间戳",
+            "relation": "反映",
+            "tail": "数据的第一个字节的采样时刻"
+        },
+        {
+            "head": "时间戳",
+            "relation": "由",
+            "tail": "随机选择"
+        },
+        {
+            "head": "接收端",
+            "relation": "使用",
+            "tail": "时间戳"
+        },
+        {
+            "head": "时间戳",
+            "relation": "用于",
+            "tail": "消除时延的抖动"
+        },
+        {
+            "head": "时间戳",
+            "relation": "用于",
+            "tail": "使声音和图像同步"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "称为",
+            "tail": "媒体时间戳"
+        },
+        {
+            "head": "媒体时间戳",
+            "relation": "取决于",
+            "tail": "信号的类型"
+        }
+    ],
+    [
+        {
+            "head": "RTP分组",
+            "relation": "包含时间戳",
+            "tail": "160"
+        },
+        {
+            "head": "同步源标识符SSRC",
+            "relation": "用于标志",
+            "tail": "RTP流来源"
+        },
+        {
+            "head": "SSRC",
+            "relation": "长度为",
+            "tail": "32位"
+        },
+        {
+            "head": "多个RTP流",
+            "relation": "可以复用到",
+            "tail": "一个UDP用户数据报中"
+        },
+        {
+            "head": "CSRC",
+            "relation": "用于标志",
+            "tail": "不同地点的RTP流来源"
+        },
+        {
+            "head": "参与源数",
+            "relation": "表示数量",
+            "tail": "参与源标识符的数目"
+        }
+    ],
+    [
+        {
+            "head": "实时运输控制协议RTCP",
+            "relation": "配合使用",
+            "tail": "实时传输协议RTP"
+        },
+        {
+            "head": "实时运输控制协议RTCP",
+            "relation": "定义于",
+            "tail": "RFC3550, RFC3551"
+        },
+        {
+            "head": "参与源数",
+            "relation": "标识符数目",
+            "tail": "4位"
+        },
+        {
+            "head": "填充P",
+            "relation": "表示",
+            "tail": "需要加密时的长度不足"
+        },
+        {
+            "head": "扩展X",
+            "relation": "很少使用",
+            "tail": "不讨论"
+        },
+        {
+            "head": "标记M",
+            "relation": "表示特殊意义",
+            "tail": "视频帧开始"
+        }
+    ],
+    [
+        {
+            "head": "RTCP",
+            "relation": "用于传输",
+            "tail": "RTP分组的统计信息"
+        },
+        {
+            "head": "RTCP",
+            "relation": "封装在",
+            "tail": "UDP用户数据报中"
+        },
+        {
+            "head": "RTCP",
+            "relation": "周期性地发送",
+            "tail": "网上传送"
+        },
+        {
+            "head": "接收端报告",
+            "relation": "包含",
+            "tail": "流的分组丢失率"
+        },
+        {
+            "head": "BYE",
+            "relation": "表示",
+            "tail": "结束特定应用"
+        }
+    ],
+    [
+        {
+            "head": "RTP",
+            "relation": "包含",
+            "tail": "分组丢失率"
+        },
+        {
+            "head": "RTP",
+            "relation": "包含",
+            "tail": "最后个分组序号"
+        },
+        {
+            "head": "RTP",
+            "relation": "包含",
+            "tail": "RR到达时间间隔的抖动"
+        },
+        {
+            "head": "RTCP",
+            "relation": "作用",
+            "tail": "了解网络状态"
+        },
+        {
+            "head": "RTCP",
+            "relation": "作用",
+            "tail": "调整发送速率"
+        },
+        {
+            "head": "RTP分组",
+            "relation": "不超过",
+            "tail": "5%通信量"
+        },
+        {
+            "head": "SR分组",
+            "relation": "周期性报告",
+            "tail": "所有接收端"
+        },
+        {
+            "head": "发送端报告分组RTPSR",
+            "relation": "包含",
+            "tail": "同步源标识符SSRC"
+        },
+        {
+            "head": "发送端报告分组RTPSR",
+            "relation": "包含",
+            "tail": "wallclocktime"
+        },
+        {
+            "head": "发送端报告分组RTPSR",
+            "relation": "包含",
+            "tail": "最新产生的分组数"
+        },
+        {
+            "head": "发送端报告分组RTPSR",
+            "relation": "包含",
+            "tail": "时间戳和绝对时钟时间"
+        },
+        {
+            "head": "发送端报告分组RTPSR",
+            "relation": "包含",
+            "tail": "字节数"
+        }
+    ],
+    [
+        {
+            "head": "H.323协议",
+            "relation": "定义了",
+            "tail": "实时声音和视频会议"
+        },
+        {
+            "head": "H.323协议",
+            "relation": "包括",
+            "tail": "呼叫信令过程"
+        },
+        {
+            "head": "H.323协议",
+            "relation": "包括",
+            "tail": "控制报文"
+        },
+        {
+            "head": "H.323协议",
+            "relation": "包括",
+            "tail": "复用"
+        },
+        {
+            "head": "H.323协议",
+            "relation": "包括",
+            "tail": "话音编解码器"
+        },
+        {
+            "head": "H.323协议",
+            "relation": "包括",
+            "tail": "视像编解码器"
+        },
+        {
+            "head": "H.323协议",
+            "relation": "包括",
+            "tail": "数据协议"
+        },
+        {
+            "head": "H.323终端",
+            "relation": "使用",
+            "tail": "H.323协议"
+        },
+        {
+            "head": "H.323",
+            "relation": "适用于",
+            "tail": "分组交换网"
+        },
+        {
+            "head": "H.323",
+            "relation": "包括",
+            "tail": "系统和构件的描述"
+        },
+        {
+            "head": "H.323",
+            "relation": "包括",
+            "tail": "呼叫模型的描述"
+        },
+        {
+            "head": "H.323v7",
+            "relation": "更新于",
+            "tail": "2009年"
+        }
+    ],
+    [
+        {
+            "head": "H.323协议",
+            "relation": "更新到版本",
+            "tail": "H.323v7"
+        },
+        {
+            "head": "H.323终端",
+            "relation": "进行",
+            "tail": "多媒体通信"
+        },
+        {
+            "head": "网关",
+            "relation": "连接",
+            "tail": "两种不同网络"
+        },
+        {
+            "head": "gatekeeper",
+            "relation": "提供",
+            "tail": "地址转换、授权、带宽管理和计费功能"
+        },
+        {
+            "head": "MCU",
+            "relation": "支持",
+            "tail": "三个或更多H.323终端的音频或视频会议"
+        }
+    ],
+    [
+        {
+            "head": "H.323网关",
+            "relation": "实现连接",
+            "tail": "互联网和公用电话网"
+        },
+        {
+            "head": "H.323终端",
+            "relation": "称为",
+            "tail": "H.323端点"
+        },
+        {
+            "head": "H.323",
+            "relation": "包括",
+            "tail": "音频编解码器"
+        },
+        {
+            "head": "音频编解码器",
+            "relation": "支持",
+            "tail": "G.711(64kbit/s)"
+        },
+        {
+            "head": "音频编解码器",
+            "relation": "建议支持",
+            "tail": "G.722(16kbit/s)"
+        },
+        {
+            "head": "音频编解码器",
+            "relation": "支持",
+            "tail": "G.723.1(5.3/6.3)"
+        },
+        {
+            "head": "音频编解码器",
+            "relation": "支持",
+            "tail": "G.728(16kbit/s)"
+        },
+        {
+            "head": "音频编解码器",
+            "relation": "支持",
+            "tail": "G.729(8kbit/s)"
+        }
+    ],
+    [
+        {
+            "head": "H.323",
+            "relation": "支持",
+            "tail": "H.261标准"
+        },
+        {
+            "head": "H.323终端",
+            "relation": "使用",
+            "tail": "RAS信令"
+        },
+        {
+            "head": "RAS信令",
+            "relation": "用于",
+            "tail": "登记、接纳控制和带宽转换"
+        },
+        {
+            "head": "H.225.0",
+            "relation": "用来",
+            "tail": "建立连接"
+        },
+        {
+            "head": "H.245",
+            "relation": "用来交换",
+            "tail": "端到端的控制报文"
+        },
+        {
+            "head": "T.120",
+            "relation": "用于数据交换",
+            "tail": "音频/视频会议"
+        },
+        {
+            "head": "RTP",
+            "relation": "与",
+            "tail": "RTCP共同使用"
+        },
+        {
+            "head": "H.323",
+            "relation": "基于",
+            "tail": "电路交换电话网"
+        }
+    ],
+    [
+        {
+            "head": "会话发起协议SIP",
+            "relation": "是标准",
+            "tail": "互联网建议标准"
+        },
+        {
+            "head": "会话发起协议SIP",
+            "relation": "由",
+            "tail": "IETF的MMUSIC工作组制定"
+        },
+        {
+            "head": "会话发起协议SIP",
+            "relation": "遵循原则",
+            "tail": "KISS原则"
+        },
+        {
+            "head": "会话发起协议SIP",
+            "relation": "涉及问题",
+            "tail": "信令和服务质量"
+        },
+        {
+            "head": "会话发起协议SIP",
+            "relation": "不强制使用",
+            "tail": "特定编解码器"
+        },
+        {
+            "head": "会话发起协议SIP",
+            "relation": "不强制使用",
+            "tail": "RTP协议"
+        },
+        {
+            "head": "会话发起协议SIP",
+            "relation": "通常配合使用",
+            "tail": "RTP和RTCP"
+        }
+    ],
+    [
+        {
+            "head": "SIP",
+            "relation": "使用",
+            "tail": "文本方式的客户-服务器协议"
+        },
+        {
+            "head": "用户代理",
+            "relation": "包括",
+            "tail": "用户代理客户UAC和用户代理服务器UAS"
+        },
+        {
+            "head": "用户代理客户UAC",
+            "relation": "用于",
+            "tail": "发起呼叫"
+        },
+        {
+            "head": "用户代理服务器UAS",
+            "relation": "用于",
+            "tail": "接受呼叫"
+        },
+        {
+            "head": "网络服务器",
+            "relation": "分为",
+            "tail": "代理服务器和重定向服务器"
+        },
+        {
+            "head": "代理服务器",
+            "relation": "接受",
+            "tail": "来自用户代理客户的呼叫请求"
+        },
+        {
+            "head": "代理服务器",
+            "relation": "转发",
+            "tail": "给被叫用户或下跳代理服务器"
+        },
+        {
+            "head": "重定向服务器",
+            "relation": "不接受",
+            "tail": "呼叫"
+        },
+        {
+            "head": "重定向服务器",
+            "relation": "通过响应告诉客户",
+            "tail": "下一跳代理服务器的地址"
+        },
+        {
+            "head": "SIP地址",
+            "relation": "灵活使用",
+            "tail": "电话号码、电子邮件地址、IP地址或其他类型地址"
+        },
+        {
+            "head": "SIP地址格式",
+            "relation": "必须遵循",
+            "tail": "特定格式"
+        }
+    ],
+    [
+        {
+            "head": "SIP协议",
+            "relation": "基于",
+            "tail": "报文"
+        },
+        {
+            "head": "SIP协议",
+            "relation": "使用",
+            "tail": "HTTP首部、编码规则、差错码以及鉴别机制"
+        },
+        {
+            "head": "SIP协议",
+            "relation": "具有",
+            "tail": "更好的可扩缩性"
+        },
+        {
+            "head": "SIP会话",
+            "relation": "包含",
+            "tail": "三个阶段：建立会话、通信和终止会话"
+        },
+        {
+            "head": "INVITE报文",
+            "relation": "含有",
+            "tail": "双方的地址信息以及其他一些信息（如通话时话音编码方式）"
+        },
+        {
+            "head": "被叫方",
+            "relation": "发送",
+            "tail": "OK响应"
+        },
+        {
+            "head": "主叫方",
+            "relation": "发送",
+            "tail": "ACK报文作为确认"
+        },
+        {
+            "head": "双方",
+            "relation": "进行",
+            "tail": "电话交谈"
+        },
+        {
+            "head": "BYE报文",
+            "relation": "用于",
+            "tail": "终止会话"
+        },
+        {
+            "head": "SIP协议",
+            "relation": "具有",
+            "tail": "跟踪用户的机制"
+        }
+    ],
+    [
+        {
+            "head": "SIP",
+            "relation": "包含机制",
+            "tail": "跟踪用户"
+        },
+        {
+            "head": "SIP",
+            "relation": "使用",
+            "tail": "登记概念"
+        },
+        {
+            "head": "SIP",
+            "relation": "定义",
+            "tail": "注册器(registrar)"
+        },
+        {
+            "head": "SIP用户",
+            "relation": "关联",
+            "tail": "注册器"
+        },
+        {
+            "head": "SIP应用",
+            "relation": "发送",
+            "tail": "REGISTER报文"
+        },
+        {
+            "head": "SIP登记器",
+            "relation": "运行在",
+            "tail": "代理服务器同一主机上"
+        },
+        {
+            "head": "INVITE报文",
+            "relation": "包含",
+            "tail": "被叫方电子邮件地址"
+        },
+        {
+            "head": "SIP代理服务器",
+            "relation": "发送",
+            "tail": "DNS查询"
+        },
+        {
+            "head": "SIP登记器",
+            "relation": "回答",
+            "tail": "查找回答"
+        },
+        {
+            "head": "INVITE报文",
+            "relation": "插入",
+            "tail": "被叫方IP地址"
+        },
+        {
+            "head": "ACK报文",
+            "relation": "完成",
+            "tail": "会话建立"
+        }
+    ],
+    [
+        {
+            "head": "SIP",
+            "relation": "包含协议",
+            "tail": "会话描述协议SDP"
+        },
+        {
+            "head": "SDP",
+            "relation": "用于",
+            "tail": "电话会议"
+        },
+        {
+            "head": "SDP",
+            "relation": "指明",
+            "tail": "媒体编码、端口号以及多播地址"
+        },
+        {
+            "head": "SIP",
+            "relation": "比H.323市场份额小",
+            "tail": "目前"
+        },
+        {
+            "head": "IETF",
+            "relation": "制定标准",
+            "tail": "SIP协议"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "提供",
+            "tail": "服务质量QoS"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "定义为",
+            "tail": "服务性能的总效果"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "决定",
+            "tail": "用户对服务的满意程度"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "描述指标",
+            "tail": "可用性"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "描述指标",
+            "tail": "差错率"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "描述指标",
+            "tail": "响应时间"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "描述指标",
+            "tail": "吞吐量"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "描述指标",
+            "tail": "分组丢失率"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "描述指标",
+            "tail": "连接建立时间"
+        },
+        {
+            "head": "服务质量QoS",
+            "relation": "描述指标",
+            "tail": "故障检测和改正时间"
+        },
+        {
+            "head": "互联网",
+            "relation": "传输",
+            "tail": "实时音频／视频分组"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "提供服务",
+            "tail": "尽力而为交付"
+        },
+        {
+            "head": "互联网",
+            "relation": "需要改进",
+            "tail": "服务质量"
+        },
+        {
+            "head": "网络",
+            "relation": "支持",
+            "tail": "多媒体信息传输"
+        },
+        {
+            "head": "服务质量",
+            "relation": "依赖于",
+            "tail": "特定技术措施"
+        },
+        {
+            "head": "局域网",
+            "relation": "包含",
+            "tail": "主机H1和H2"
+        }
+    ]
+]

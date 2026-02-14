@@ -1,0 +1,527 @@
+[
+    [
+        {
+            "head": "流媒体",
+            "relation": "是",
+            "tail": "流式音频／视频"
+        },
+        {
+            "head": "流媒体",
+            "relation": "特点",
+            "tail": "不是全部收录下来再开始播放"
+        },
+        {
+            "head": "互联网电话",
+            "relation": "属于",
+            "tail": "交互式音频／视频类型"
+        },
+        {
+            "head": "互联网电视会议",
+            "relation": "属于",
+            "tail": "交互式音频／视频类型"
+        }
+    ],
+    [
+        {
+            "head": "HTTP",
+            "relation": "使用于",
+            "tail": "浏览器"
+        },
+        {
+            "head": "TCP",
+            "relation": "用于",
+            "tail": "HTTP连接"
+        },
+        {
+            "head": "客户机",
+            "relation": "向",
+            "tail": "服务器请求下载"
+        },
+        {
+            "head": "服务器",
+            "relation": "发送",
+            "tail": "音频／视频文件给浏览器"
+        },
+        {
+            "head": "浏览器",
+            "relation": "接收",
+            "tail": "音频／视频文件"
+        },
+        {
+            "head": "浏览器",
+            "relation": "传送",
+            "tail": "媒体播放器进行解压缩"
+        }
+    ],
+    [
+        {
+            "head": "浏览器",
+            "relation": "不支持直接播放",
+            "tail": "音频/视频文件"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "集成在",
+            "tail": "单独的应用程序中"
+        },
+        {
+            "head": "RealPlayer",
+            "relation": "流行于",
+            "tail": "媒体播放器"
+        },
+        {
+            "head": "WindowsMediaPlayer",
+            "relation": "流行于",
+            "tail": "媒体播放器"
+        },
+        {
+            "head": "QuickTime",
+            "relation": "流行于",
+            "tail": "媒体播放器"
+        },
+        {
+            "head": "元文件",
+            "relation": "描述或指明",
+            "tail": "音频/视频文件信息"
+        },
+        {
+            "head": "元文件",
+            "relation": "大小为",
+            "tail": "非常小的文件"
+        }
+    ],
+    [
+        {
+            "head": "客户机",
+            "relation": "使用",
+            "tail": "浏览器"
+        },
+        {
+            "head": "浏览器",
+            "relation": "发送",
+            "tail": "HTTP GET报文"
+        },
+        {
+            "head": "服务器",
+            "relation": "响应",
+            "tail": "HTTP响应报文"
+        },
+        {
+            "head": "元文件",
+            "relation": "包含",
+            "tail": "统一资源定位符URL"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "下载",
+            "tail": "音频／视频文件"
+        },
+        {
+            "head": "万维网服务器",
+            "relation": "发送",
+            "tail": "HTTP响应报文"
+        }
+    ],
+    [
+        {
+            "head": "媒体服务器",
+            "relation": "是",
+            "tail": "流式服务器"
+        },
+        {
+            "head": "媒体服务器",
+            "relation": "与",
+            "tail": "万维网服务器"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "请求",
+            "tail": "音频／视频文件"
+        },
+        {
+            "head": "媒体服务器和媒体播放器",
+            "relation": "采用",
+            "tail": "协议交互"
+        }
+    ],
+    [
+        {
+            "head": "媒体服务器",
+            "relation": "使用协议",
+            "tail": "HTTP/TCP"
+        },
+        {
+            "head": "媒体服务器",
+            "relation": "使用协议",
+            "tail": "RTP"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "请求下载",
+            "tail": "音频/视频文件"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "延迟播放",
+            "tail": "2~5秒"
+        },
+        {
+            "head": "UDP",
+            "relation": "缺点",
+            "tail": "分组丢失导致重传不及时"
+        },
+        {
+            "head": "TCP",
+            "relation": "优点",
+            "tail": "保证数据传输的可靠性"
+        },
+        {
+            "head": "流媒体数据帧",
+            "relation": "发送速率",
+            "tail": "1Mbit/s"
+        }
+    ],
+    [
+        {
+            "head": "防火墙",
+            "relation": "阻拦",
+            "tail": "外部UDP分组"
+        },
+        {
+            "head": "流式多媒体文件",
+            "relation": "使用",
+            "tail": "TCP"
+        },
+        {
+            "head": "流式视频",
+            "relation": "传送",
+            "tail": "TCP"
+        },
+        {
+            "head": "YouTube",
+            "relation": "是",
+            "tail": "全球视频网站"
+        },
+        {
+            "head": "Netflix",
+            "relation": "提供",
+            "tail": "在线影片租赁服务"
+        },
+        {
+            "head": "Netflix",
+            "relation": "提供",
+            "tail": "在线观看服务"
+        }
+    ],
+    [
+        {
+            "head": "TCP发送缓存",
+            "relation": "包含",
+            "tail": "视频数据"
+        },
+        {
+            "head": "TCP接收缓存",
+            "relation": "从",
+            "tail": "TCP发送缓存传送视频数据"
+        },
+        {
+            "head": "应用程序缓存",
+            "relation": "接收",
+            "tail": "TCP接收缓存的视频数据"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "使用",
+            "tail": "解压缩后的视频节目"
+        },
+        {
+            "head": "HTTP",
+            "relation": "用于",
+            "tail": "获取视频文件"
+        },
+        {
+            "head": "万维网服务器",
+            "relation": "存储",
+            "tail": "视频文件"
+        }
+    ],
+    [
+        {
+            "head": "媒体播放器",
+            "relation": "使用",
+            "tail": "TCP"
+        },
+        {
+            "head": "TCP发送缓存",
+            "relation": "从",
+            "tail": "存储的视频文件读取"
+        },
+        {
+            "head": "传送速率",
+            "relation": "小于",
+            "tail": "读出速率"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "需要",
+            "tail": "两倍于视频节目的播放速率"
+        },
+        {
+            "head": "观看实况转播",
+            "relation": "建议使用",
+            "tail": "UDP"
+        }
+    ],
+    [
+        {
+            "head": "分组",
+            "relation": "在网络传输中丢失",
+            "tail": "因网络拥塞"
+        },
+        {
+            "head": "宽带上网",
+            "relation": "不能保证",
+            "tail": "媒体播放器流畅回放视频节目"
+        },
+        {
+            "head": "网络运营商",
+            "relation": "保证数据速率",
+            "tail": "从用户家中到路由器之间"
+        },
+        {
+            "head": "互联网",
+            "relation": "包含未知网络状况",
+            "tail": "从网络运营商到媒体服务器之间"
+        },
+        {
+            "head": "流式媒体播放器",
+            "relation": "受欢迎",
+            "tail": "方便观看视频音频节目"
+        },
+        {
+            "head": "光盘销售商店",
+            "relation": "因受冲击而变得萧条",
+            "tail": "流式媒体"
+        }
+    ],
+    [
+        {
+            "head": "RTSP",
+            "relation": "是",
+            "tail": "IETF MMUSIC工作组开发的协议"
+        },
+        {
+            "head": "RTSP",
+            "relation": "版本",
+            "tail": "RTSP2.0"
+        },
+        {
+            "head": "RTSP",
+            "relation": "类似",
+            "tail": "文件传送协议FTP"
+        },
+        {
+            "head": "RTSP",
+            "relation": "功能",
+            "tail": "控制多媒体流的传送"
+        },
+        {
+            "head": "RTSP",
+            "relation": "工作方式",
+            "tail": "客户－服务器方式"
+        },
+        {
+            "head": "RTSP",
+            "relation": "属于",
+            "tail": "应用层的多媒体播放控制协议"
+        },
+        {
+            "head": "RTSP",
+            "relation": "又称为",
+            "tail": "互联网录像机遥控协议"
+        }
+    ],
+    [
+        {
+            "head": "RTSP",
+            "relation": "基于",
+            "tail": "HTTP"
+        },
+        {
+            "head": "RTSP",
+            "relation": "使用",
+            "tail": "TCP"
+        },
+        {
+            "head": "RTSP",
+            "relation": "使用",
+            "tail": "UDP"
+        },
+        {
+            "head": "RTSP",
+            "relation": "与",
+            "tail": "HTTP不同"
+        },
+        {
+            "head": "QuickTime",
+            "relation": "是",
+            "tail": "著名播放器"
+        },
+        {
+            "head": "RealPlayer",
+            "relation": "是",
+            "tail": "著名播放器"
+        }
+    ],
+    [
+        {
+            "head": "浏览器",
+            "relation": "传输文件给",
+            "tail": "媒体播放器"
+        },
+        {
+            "head": "RTSP客户",
+            "relation": "发送",
+            "tail": "SETUP报文"
+        },
+        {
+            "head": "RTSP服务器",
+            "relation": "建立连接",
+            "tail": "RTSP客户"
+        },
+        {
+            "head": "RTSP服务器",
+            "relation": "发送响应",
+            "tail": "RESPONSE报文"
+        },
+        {
+            "head": "RTSP客户",
+            "relation": "发送PLAY报文",
+            "tail": "开始下载音频/视频文件"
+        },
+        {
+            "head": "RTSP服务器",
+            "relation": "发送响应",
+            "tail": "RESPONSE报文"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "使用",
+            "tail": "UDP协议"
+        },
+        {
+            "head": "媒体播放器",
+            "relation": "下载音频/视频文件",
+            "tail": "RTP或专用协议"
+        },
+        {
+            "head": "RTSP客户",
+            "relation": "发送PAUSE报文",
+            "tail": "暂停播放"
+        },
+        {
+            "head": "RTSP客户",
+            "relation": "发送PLAY报文",
+            "tail": "继续播放"
+        },
+        {
+            "head": "RTSP客户",
+            "relation": "发送TEARDOWN报文",
+            "tail": "断开连接"
+        },
+        {
+            "head": "IP电话",
+            "relation": "在互联网上传送",
+            "tail": "音频/视频数据"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "是",
+            "tail": "VoIP"
+        },
+        {
+            "head": "IP电话",
+            "relation": "是",
+            "tail": "InternetTelephony"
+        },
+        {
+            "head": "IP电话",
+            "relation": "是",
+            "tail": "VON"
+        },
+        {
+            "head": "IP电话",
+            "relation": "是",
+            "tail": "VoiceOntheNet"
+        },
+        {
+            "head": "IP电话",
+            "relation": "包含",
+            "tail": "在IP网络上打电话"
+        },
+        {
+            "head": "IP电话",
+            "relation": "包含",
+            "tail": "交互式多媒体实时通信"
+        },
+        {
+            "head": "IP电话",
+            "relation": "还包含",
+            "tail": "即时传信IM"
+        },
+        {
+            "head": "IP网络",
+            "relation": "使用",
+            "tail": "IP协议的分组"
+        },
+        {
+            "head": "即时传信",
+            "relation": "是",
+            "tail": "Skype"
+        }
+    ],
+    [
+        {
+            "head": "IP电话",
+            "relation": "基于",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "分组话音通信",
+            "relation": "研究对象",
+            "tail": "ARPANET"
+        },
+        {
+            "head": "IP电话",
+            "relation": "使用",
+            "tail": "宽带多播技术"
+        },
+        {
+            "head": "即时传信应用程序",
+            "relation": "包括",
+            "tail": "微信"
+        },
+        {
+            "head": "IP电话",
+            "relation": "话音质量",
+            "tail": "优于普通电话"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "提供",
+            "tail": "低速率话音信号编解码软件"
+        },
+        {
+            "head": "路由器",
+            "relation": "处理",
+            "tail": "传输时延"
+        },
+        {
+            "head": "IP电话",
+            "relation": "依赖",
+            "tail": "实时通信服务质量(QoS)"
+        }
+    ]
+]

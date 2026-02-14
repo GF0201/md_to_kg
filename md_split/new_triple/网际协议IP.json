@@ -1,0 +1,1912 @@
+[
+    {
+        "head": "网际协议IP",
+        "relation": "是",
+        "tail": "TCP/IP体系中的主要协议之一"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "又称为",
+        "tail": "Kahn-Cerf协议"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "研发者",
+        "tail": "Robert Kahn和Vint Cerf"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "版本",
+        "tail": "IPv4"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "新版本",
+        "tail": "IPv6"
+    },
+    {
+        "head": "地址解析协议ARP",
+        "relation": "配套使用于",
+        "tail": "网际协议IP"
+    },
+    {
+        "head": "网际控制报文协议ICMP",
+        "relation": "配套使用于",
+        "tail": "网际协议IP"
+    },
+    {
+        "head": "网际控制报文协议ICMP",
+        "relation": "属于",
+        "tail": "网际层"
+    },
+    {
+        "head": "网际组管理协议IGMP",
+        "relation": "属于",
+        "tail": "网际层"
+    },
+    {
+        "head": "逆地址解析协议RARP",
+        "relation": "已被淘汰",
+        "tail": ""
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "用于",
+        "tail": "使互连网络通信"
+    },
+    {
+        "head": "TCP/IP体系",
+        "relation": "包含",
+        "tail": "网际层"
+    },
+    {
+        "head": "应用层",
+        "relation": "位于",
+        "tail": "TCP/IP模型顶部"
+    },
+    {
+        "head": "HTTP",
+        "relation": "属于",
+        "tail": "应用层协议"
+    },
+    {
+        "head": "FTP",
+        "relation": "属于",
+        "尾": "应用层协议"
+    },
+    {
+        "head": "SMTP",
+        "relation": "属于",
+        "tail": "应用层协议"
+    },
+    {
+        "head": "网际层",
+        "relation": "包含",
+        "tail": "IP网络接口层"
+    },
+    {
+        "head": "IP网络接口层",
+        "relation": "涉及",
+        "tail": "物理硬件"
+    },
+    {
+        "head": "互连网络",
+        "relation": "构成",
+        "tail": "虚拟互连网络"
+    },
+    {
+        "head": "ARP",
+        "relation": "属于",
+        "tail": "链路层协议"
+    },
+    {
+        "head": "ARP",
+        "relation": "位于",
+        "tail": "链路层和网络层之间"
+    },
+    {
+        "head": "ARP",
+        "relation": "位于",
+        "tail": "链路层和网络层之间"
+    },
+    {
+        "head": "寻址方案",
+        "relation": "不同",
+        "tail": "网络互连"
+    },
+    {
+        "head": "最大分组长度",
+        "relation": "不同",
+        "tail": "网络接入机制"
+    },
+    {
+        "head": "超时控制",
+        "relation": "不同",
+        "tail": "差错恢复方法"
+    },
+    {
+        "head": "路由选择技术",
+        "relation": "不同",
+        "tail": "状态报告方法"
+    },
+    {
+        "head": "用户接入控制",
+        "relation": "不同",
+        "tail": "服务类型"
+    },
+    {
+        "head": "中间设备",
+        "relation": "使用于",
+        "tail": "物理层"
+    },
+    {
+        "head": "转发器",
+        "relation": "属于",
+        "tail": "物理层使用的中间设备"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "使用中间设备",
+        "tail": "网桥"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "使用中间设备",
+        "tail": "交换机"
+    },
+    {
+        "head": "网络层",
+        "relation": "使用中间设备",
+        "tail": "路由器"
+    },
+    {
+        "head": "网络层以上",
+        "relation": "使用中间设备",
+        "tail": "网关"
+    },
+    {
+        "head": "转发器或网桥",
+        "relation": "扩大",
+        "tail": "网络"
+    },
+    {
+        "head": "路由器",
+        "relation": "进行",
+        "tail": "路由选择"
+    },
+    {
+        "head": "路由器",
+        "relation": "是",
+        "tail": "专用计算机"
+    },
+    {
+        "head": "TCP/IP",
+        "relation": "文献中称为",
+        "tail": "网关"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "通过",
+        "tail": "路由器互连"
+    },
+    {
+        "head": "虚拟互连网络",
+        "relation": "等同于",
+        "tail": "IP网"
+    },
+    {
+        "head": "IP网",
+        "relation": "使用协议",
+        "tail": "IP"
+    },
+    {
+        "head": "主机通信",
+        "relation": "在",
+        "tail": "IP网上进行"
+    },
+    {
+        "head": "互联网",
+        "relation": "基于",
+        "tail": "TCP/IP协议栈"
+    },
+    {
+        "head": "桥路器",
+        "relation": "兼具功能",
+        "tail": "网桥和路由器"
+    },
+    {
+        "head": "IP网",
+        "relation": "概念",
+        "tail": "异构网络互连"
+    },
+    {
+        "head": "路由器",
+        "relation": "功能",
+        "tail": "转发数据报"
+    },
+    {
+        "head": "分组交换",
+        "relation": "过程",
+        "tail": "存储转发"
+    },
+    {
+        "head": "源主机",
+        "relation": "操作",
+        "tail": "查找转发表"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "传输方式",
+        "tail": "间接交付或直接交付"
+    },
+    {
+        "head": "路由器R1",
+        "relation": "角色",
+        "tail": "转发数据报给R2"
+    },
+    {
+        "head": "目的主机H2",
+        "relation": "接收方",
+        "tail": "最终接收IP数据报"
+    },
+    {
+        "head": "物理层",
+        "relation": "属于",
+        "tail": "协议栈"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "属于",
+        "tail": "协议栈"
+    },
+    {
+        "head": "网络层",
+        "relation": "属于",
+        "tail": "协议栈"
+    },
+    {
+        "head": "运输层",
+        "relation": "属于",
+        "尾": "协议栈"
+    },
+    {
+        "head": "应用层",
+        "relation": "属于",
+        "tail": "协议栈"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "在",
+        "tail": "网络层中传送"
+    },
+    {
+        "head": "路由器",
+        "relation": "连接",
+        "tail": "多个网络"
+    },
+    {
+        "head": "局域网",
+        "relation": "包含",
+        "tail": "主机、路由器R1、R2、R3"
+    },
+    {
+        "head": "卫星链路",
+        "relation": "使用于",
+        "tail": "凡和R4之间"
+    },
+    {
+        "head": "分组",
+        "relation": "在传送途中经过的次数",
+        "tail": "跳"
+    },
+    {
+        "head": "路由器",
+        "relation": "使用",
+        "tail": "下跳"
+    },
+    {
+        "head": "R1",
+        "relation": "下一跳是",
+        "tail": "R2"
+    },
+    {
+        "head": "R3",
+        "relation": "下一跳是",
+        "tail": "R4"
+    },
+    {
+        "head": "H1",
+        "relation": "向目的主机发送分组需要经过的跳数",
+        "tail": "6"
+    },
+    {
+        "head": "民",
+        "relation": "与",
+        "tail": "民直接连接在同一网络上"
+    },
+    {
+        "head": "IP地址",
+        "relation": "是",
+        "tail": "TCP/IP体系中最基本的概念"
+    },
+    {
+        "head": "IP地址",
+        "relation": "由ICANN分配",
+        "tail": "互联网名字和数字分配机构"
+    },
+    {
+        "head": "IP地址",
+        "relation": "表示为32位二进制代码",
+        "tail": ""
+    },
+    {
+        "head": "IP地址",
+        "relation": "用点分十进制记法表示",
+        "tail": ""
+    },
+    {
+        "head": "IP地址",
+        "relation": "分配给",
+        "tail": "ISP"
+    },
+    {
+        "head": "IP地址",
+        "relation": "由",
+        "tail": "32位二进制代码组成"
+    },
+    {
+        "head": "IP地址",
+        "relation": "采用",
+        "tail": "点分十进制记法"
+    },
+    {
+        "head": "IP地址",
+        "relation": "标志",
+        "tail": "主机或路由器及其连接的网络"
+    },
+    {
+        "head": "IP地址",
+        "relation": "包含",
+        "tail": "网络号字段"
+    },
+    {
+        "head": "中国互联网信息中心CNNIC",
+        "relation": "向",
+        "tail": "亚太网络信息中心APNIC申请地址"
+    },
+    {
+        "head": "互联网号码分配机构JANA",
+        "relation": "把大块IP地址分配给",
+        "tail": "全球五个信息中心"
+    },
+    {
+        "head": "IP地址",
+        "relation": "包含",
+        "tail": "网络号和主机号"
+    },
+    {
+        "head": "网络号",
+        "relation": "唯一标识",
+        "tail": "连接到的网络"
+    },
+    {
+        "head": "主机号",
+        "relation": "唯一标识",
+        "tail": "该主机或路由器"
+    },
+    {
+        "head": "IP地址",
+        "relation": "定义为",
+        "tail": "{<网络号>, <主机号>}"
+    },
+    {
+        "head": "网络号",
+        "relation": "前n位是",
+        "tail": "主机所连接的网络"
+    },
+    {
+        "head": "主机号",
+        "relation": "后(32-n)位是",
+        "tail": "主机号"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "A类地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "B类地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "C类地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "D类地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "E类地址"
+    },
+    {
+        "head": "A类地址",
+        "relation": "网络号字段占",
+        "tail": "1个字节"
+    },
+    {
+        "head": "A类地址",
+        "尾": "7位",
+        "relation": "网络号位数"
+    },
+    {
+        "头": "B类地址",
+        "尾": "16位",
+        "relation": "网络号位数"
+    },
+    {
+        "head": "IP地址",
+        "relation": "包含",
+        "tail": "网络号"
+    },
+    {
+        "head": "IP地址",
+        "relation": "包含",
+        "tail": "主机号"
+    },
+    {
+        "head": "环回测试",
+        "relation": "使用",
+        "tail": "127.0.0.1"
+    },
+    {
+        "head": "A类地址",
+        "relation": "可指派网络数",
+        "tail": "126个"
+    },
+    {
+        "head": "A类地址",
+        "relation": "最大主机数",
+        "tail": "16777214"
+    },
+    {
+        "head": "B类地址",
+        "relation": "可指派网络数",
+        "tail": "16384个"
+    },
+    {
+        "head": "B类地址",
+        "relation": "最大主机数",
+        "tail": "65534"
+    },
+    {
+        "head": "C类地址",
+        "relation": "包含",
+        "tail": "3个字节的网络号字段"
+    },
+    {
+        "head": "C类地址",
+        "relation": "可指派的网络总数",
+        "tail": "2097152"
+    },
+    {
+        "head": "C类地址",
+        "relation": "每个地址的最大主机数",
+        "tail": "254"
+    },
+    {
+        "head": "B类地址中的网络地址",
+        "relation": "曾规定不指派",
+        "tail": "128.0.0.0"
+    },
+    {
+        "head": "C类地址中的网络地址",
+        "relation": "曾规定不指派",
+        "tail": "192.0.0.0"
+    },
+    {
+        "head": "B类地址中的网络地址128.0.0.0和C类地址中的网络地址192.0.0.0",
+        "relation": "现在可以指派",
+        "tail": "[RFC6890]"
+    },
+    {
+        "head": "特殊IP地址",
+        "relation": "一般不指派",
+        "tail": "表4-2给出"
+    },
+    {
+        "head": "广播",
+        "relation": "进行于",
+        "tail": "只在本网络上"
+    },
+    {
+        "head": "路由器",
+        "relation": "不转发",
+        "tail": "只在本网络上进行广播"
+    },
+    {
+        "head": "IP地址",
+        "relation": "划分为",
+        "tail": "A类、B类和C类"
+    },
+    {
+        "head": "分类地址",
+        "relation": "成为历史",
+        "tail": "无分类IP地址广泛使用"
+    },
+    {
+        "head": "传统分类的IP地址",
+        "relation": "仍然引用",
+        "tail": "很多文献和资料"
+    },
+    {
+        "head": "网络号",
+        "relation": "位数固定",
+        "tail": "管理简单、使用方便"
+    },
+    {
+        "head": "子网号",
+        "relation": "插入到",
+        "tail": "主机号中"
+    },
+    {
+        "head": "转发分组",
+        "relation": "迅速",
+        "tail": "满足当时互联网需求"
+    },
+    {
+        "head": "互联网",
+        "relation": "演变",
+        "tail": "美国专用的科研实验网到世界范围开放的商用网"
+    },
+    {
+        "head": "IP地址",
+        "relation": "面临枯竭危险",
+        "tail": "由于用户猛增"
+    },
+    {
+        "head": "A类网络地址块",
+        "relation": "主机号数目超过",
+        "tail": "1677万个"
+    },
+    {
+        "head": "C类网络地址块",
+        "relation": "可指派的主机号只有",
+        "tail": "254个"
+    },
+    {
+        "head": "划分子网方法",
+        "relation": "无法解决",
+        "tail": "IP地址枯竭问题"
+    },
+    {
+        "head": "无分类编址CIDR",
+        "relation": "推迟",
+        "tail": "IP地址用尽的日子"
+    },
+    {
+        "head": "无分类编址CIDR",
+        "relation": "包含",
+        "tail": "网络前缀"
+    },
+    {
+        "head": "无分类编址CIDR",
+        "relation": "包含",
+        "tail": "主机号"
+    },
+    {
+        "head": "网络前缀",
+        "relation": "定义为",
+        "tail": "IP地址的前n位"
+    },
+    {
+        "head": "32位IP地址",
+        "relation": "包含",
+        "tail": "网络前缀和主机号"
+    },
+    {
+        "head": "CIDR表示的IP地址",
+        "relation": "使用",
+        "tail": "斜线记法"
+    },
+    {
+        "head": "CIDR记法",
+        "relation": "表示方式",
+        "tail": "网络前缀所占位数"
+    },
+    {
+        "head": "128.14.35.7/20",
+        "relation": "包含",
+        "tail": "20位网络前缀和12位主机号"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "由",
+        "tail": "相同网络前缀的连续IP地址组成"
+    },
+    {
+        "head": "CIDR",
+        "relation": "包含",
+        "tail": "地址块"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "由",
+        "tail": "网络前缀相同的所有连续IP地址组成"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "包含的IP地址数目",
+        "tail": "取决于网络前缀的位数"
+    },
+    {
+        "head": "已知IP地址128.14.35.7/20",
+        "relation": "属于",
+        "tail": "CIDR地址块中的一个地址"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "最小地址",
+        "tail": "128.14.32.0"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "最大地址",
+        "tail": "128.14.47.255"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "包含的IP地址数",
+        "tail": "2^12 - 2 = 4094个可指派地址"
+    },
+    {
+        "head": "地址块",
+        "relation": "包含",
+        "tail": "128.14.32.0/20"
+    },
+    {
+        "head": "网络前缀",
+        "relation": "表示",
+        "tail": "20位"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "128.14.32.7/20"
+    },
+    {
+        "head": "网络前缀长度",
+        "relation": "确定",
+        "tail": "20位"
+    },
+    {
+        "head": "地址块",
+        "relation": "简写为",
+        "tail": "128.14.32/20"
+    },
+    {
+        "head": "CIDR记法",
+        "relation": "使用",
+        "tail": "地址掩码"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "计算机网络"
+    },
+    {
+        "head": "分类地址",
+        "relation": "前缀固定值",
+        "tail": "8位、16位或24位"
+    },
+    {
+        "head": "CIDR记法",
+        "relation": "优点",
+        "tail": "很多"
+    },
+    {
+        "head": "IP地址",
+        "relation": "无法直接确定",
+        "tail": "网络地址（使用CIDR记法）"
+    },
+    {
+        "head": "地址掩码",
+        "relation": "定义为",
+        "tail": "一连串1和接着的一连串0"
+    },
+    {
+        "head": "地址掩码",
+        "relation": "又称为",
+        "tail": "子网掩码"
+    },
+    {
+        "head": "CIDR记法",
+        "relation": "表示方式为",
+        "tail": "斜线后面的数字是1的个数"
+    },
+    {
+        "head": "地址块20",
+        "relation": "网络前缀长度为",
+        "tail": "20位"
+    },
+    {
+        "head": "A类网络",
+        "relation": "地址掩码为",
+        "tail": "255.0.0.0或255.0.0.0/8"
+    },
+    {
+        "head": "B类网络",
+        "relation": "地址掩码为",
+        "tail": "255.255.0.0或255.255.0.0/16"
+    },
+    {
+        "head": "C类网络",
+        "relation": "地址掩码为",
+        "tail": "255.255.255.0或255.255.255.0/24"
+    },
+    {
+        "head": "IP地址和地址掩码",
+        "relation": "运算结果是",
+        "tail": "网络地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "计算为",
+        "tail": "128.14.35.7"
+    },
+    {
+        "head": "网络地址",
+        "relation": "由",
+        "tail": "128.14.32.0/20"
+    },
+    {
+        "head": "二进制IP地址",
+        "relation": "按位AND运算结果为",
+        "tail": "12814320"
+    },
+    {
+        "head": "网络前缀长度",
+        "relation": "范围是",
+        "tail": "13到27之间"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "包含的地址数",
+        "tail": "2^k (K表示2^k即1024)"
+    },
+    {
+        "head": "网络前缀长度",
+        "relation": "包含",
+        "tail": "点分十进制"
+    },
+    {
+        "head": "网络前缀长度",
+        "relation": "对应",
+        "tail": "地址数"
+    },
+    {
+        "head": "网络前缀长度27",
+        "relation": "对应",
+        "tail": "128个C类地址"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "包含",
+        "tail": "多个C类地址"
+    },
+    {
+        "head": "CIDR编址",
+        "relation": "称为",
+        "tail": "构造超网"
+    },
+    {
+        "head": "特殊地址块",
+        "relation": "包括",
+        "tail": "前缀n=32"
+    },
+    {
+        "head": "特殊地址块",
+        "relation": "包括",
+        "tail": "前缀n=31"
+    },
+    {
+        "head": "特殊地址块",
+        "relation": "包括",
+        "tail": "0.0.0.0/0"
+    },
+    {
+        "head": "CIDR编址",
+        "relation": "等同于",
+        "tail": "构造超网"
+    },
+    {
+        "head": "CIDR编址",
+        "relation": "可以更有效分配",
+        "tail": "IP地址空间"
+    },
+    {
+        "head": "CIDR编址",
+        "relation": "根据客户需要分配",
+        "tail": "适当大小的CIDR地址块"
+    },
+    {
+        "head": "分类地址",
+        "relation": "只能以固定单位分配给部门",
+        "tail": "/8, /16 或 /24"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "包含多个小地址块",
+        "tail": "路由器转发表中利用较大CIDR地址块代替较小的地址块"
+    },
+    {
+        "head": "路由聚合",
+        "relation": "表示传统分类地址的多个路由项",
+        "tail": "一个大的CIDR地址块"
+    },
+    {
+        "head": "路由聚合",
+        "relation": "压缩转发表空间并减少查找时间",
+        "tail": "路由器转发表中使用较大CIDR地址块代替较小的地址块"
+    },
+    {
+        "head": "ISP",
+        "relation": "拥有",
+        "tail": "CIDR地址块"
+    },
+    {
+        "head": "大学",
+        "relation": "需要",
+        "tail": "800个IP地址"
+    },
+    {
+        "head": "ISP",
+        "relation": "分配给大学",
+        "tail": "10个地址块206.0.68.0/22"
+    },
+    {
+        "head": "地址块206.0.68.0/22",
+        "relation": "包含",
+        "tail": "1024个IP地址"
+    },
+    {
+        "head": "ISP",
+        "relation": "拥有",
+        "tail": "64个C类网络"
+    },
+    {
+        "head": "路由器",
+        "relation": "包含",
+        "tail": "转发表"
+    },
+    {
+        "head": "地址聚合",
+        "relation": "减少",
+        "tail": "查找时间"
+    },
+    {
+        "head": "ISP",
+        "relation": "拥有",
+        "tail": "大学收发室"
+    },
+    {
+        "head": "邮递员",
+        "relation": "类比",
+        "tail": "路由器"
+    },
+    {
+        "head": "二进制表示",
+        "relation": "用于",
+        "tail": "地址块"
+    },
+    {
+        "head": "网络前缀",
+        "relation": "决定",
+        "tail": "地址块大小"
+    },
+    {
+        "head": "IP地址",
+        "relation": "包含",
+        "tail": "网络前缀和主机号"
+    },
+    {
+        "head": "IP地址管理机构",
+        "relation": "分配",
+        "tail": "网络前缀"
+    },
+    {
+        "head": "得到该网络前缀的单位",
+        "relation": "自行分配",
+        "tail": "主机号"
+    },
+    {
+        "head": "路由器",
+        "relation": "根据",
+        "tail": "目的主机所连接的网络前缀转发分组"
+    },
+    {
+        "head": "转发表",
+        "relation": "减少",
+        "tail": "存储空间和查找时间"
+    },
+    {
+        "head": "IP地址",
+        "relation": "标识",
+        "tail": "主机或路由器和接口"
+    },
+    {
+        "head": "多归属主机",
+        "relation": "定义为",
+        "tail": "同时连接两个网络并具有不同IP地址的主机"
+    },
+    {
+        "head": "路由器",
+        "relation": "至少需要",
+        "tail": "两个不同的IP地址"
+    },
+    {
+        "head": "网络前缀",
+        "relation": "用于区分",
+        "tail": "不同网络或子网"
+    },
+    {
+        "head": "互联网",
+        "relation": "平等对待",
+        "tail": "每个IP地址"
+    },
+    {
+        "head": "局域网(LAN)",
+        "relation": "通过",
+        "tail": "以太网交换机互连"
+    },
+    {
+        "head": "路由器(R)",
+        "relation": "连接",
+        "tail": "三个局域网"
+    },
+    {
+        "head": "IP地址",
+        "relation": "标识",
+        "tail": "主机连接在网络上的接口"
+    },
+    {
+        "head": "局域网",
+        "relation": "要求",
+        "tail": "同一网络前缀"
+    },
+    {
+        "head": "网络地址",
+        "relation": "包含",
+        "tail": "全0的主机号"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "工作于",
+        "tail": "链路层"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "属于",
+        "tail": "设备标识符"
+    },
+    {
+        "head": "IP地址",
+        "relation": "分配给",
+        "tail": "主机或路由器"
+    },
+    {
+        "head": "路由器",
+        "relation": "具有",
+        "tail": "两个或多个IP地址"
+    },
+    {
+        "head": "局域网",
+        "relation": "使用",
+        "tail": "相同的网络前缀"
+    },
+    {
+        "head": "点对点链路",
+        "relation": "使用",
+        "tail": "/31地址块"
+    },
+    {
+        "head": "特殊‘网络’",
+        "relation": "由",
+        "tail": "未分配IP地址的点对点链路构成"
+    },
+    {
+        "head": "无编号网络",
+        "relation": "属于",
+        "tail": "特殊网络"
+    },
+    {
+        "head": "匿名网络",
+        "relation": "等同于",
+        "tail": "无编号网络"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "称为",
+        "tail": "硬件地址"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "称为",
+        "tail": "物理地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "逻辑地址"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "固化在",
+        "tail": "网卡上的ROM中"
+    },
+    {
+        "head": "IP地址",
+        "relation": "使用于",
+        "tail": "网络层和以上各层"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "使用于",
+        "tail": "数据链路层"
+    },
+    {
+        "head": "IP地址",
+        "relation": "位于",
+        "tail": "IP数据报首部"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "位于",
+        "tail": "MAC帧首部"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "封装成",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "通信链路",
+        "relation": "使用",
+        "tail": "MAC地址"
+    },
+    {
+        "head": "网络层及以上",
+        "relation": "使用",
+        "tail": "IP地址"
+    },
+    {
+        "head": "数据链路层及以下",
+        "relation": "使用",
+        "tail": "MAC地址"
+    },
+    {
+        "head": "主机或路由器",
+        "relation": "根据",
+        "tail": "MAC帧首部中的MAC地址决定收下或丢弃"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "看不见",
+        "tail": "数据报的IP地址"
+    },
+    {
+        "head": "路由器R1",
+        "relation": "有两个MAC地址",
+        "tail": "MAC3和MAC4"
+    },
+    {
+        "head": "主机H1",
+        "relation": "IP地址是",
+        "tail": "IP1"
+    },
+    {
+        "head": "主机H2",
+        "relation": "IP地址是",
+        "tail": "IP2"
+    },
+    {
+        "head": "路由器R2",
+        "relation": "有两个MAC地址",
+        "tail": "MAC6和MAC5"
+    },
+    {
+        "head": "从主机H1到路由器R1",
+        "relation": "使用",
+        "tail": "MAC1"
+    },
+    {
+        "head": "从主机H1到路由器R1",
+        "relation": "IP地址是",
+        "tail": "IP1"
+    },
+    {
+        "head": "从路由器R2到主机H2",
+        "relation": "使用",
+        "tail": "MAC2"
+    },
+    {
+        "head": "从路由器R2到主机H2",
+        "relation": "IP地址是",
+        "tail": "IP2"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "IP层",
+        "relation": "看到",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "封装",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "路由器",
+        "relation": "根据",
+        "tail": "目的站的IP地址"
+    },
+    {
+        "head": "局域网",
+        "relation": "使用",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "局域网",
+        "relation": "包含",
+        "tail": "链路层"
+    },
+    {
+        "head": "链路层",
+        "relation": "处理",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "封装",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "变化",
+        "tail": "源地址和目的地址"
+    },
+    {
+        "head": "路由器",
+        "relation": "剥去",
+        "tail": "MAC帧首部和尾部"
+    },
+    {
+        "head": "路由器",
+        "relation": "添加",
+        "tail": "新的MAC帧首部和尾部"
+    },
+    {
+        "head": "IP层",
+        "relation": "屏蔽",
+        "tail": "下层复杂细节"
+    },
+    {
+        "head": "主机或路由器",
+        "relation": "填入",
+        "tail": "MAC地址"
+    },
+    {
+        "head": "地址解析协议ARP",
+        "relation": "用于解决",
+        "tail": "已知IP地址找MAC地址"
+    },
+    {
+        "head": "逆地址解析协议RARP",
+        "relation": "作用于",
+        "tail": "已知MAC地址找IP地址"
+    },
+    {
+        "head": "动态主机配置协议DHCP",
+        "relation": "包含功能",
+        "tail": "逆地址解析协议RARP"
+    },
+    {
+        "head": "链路层",
+        "relation": "包含",
+        "tail": "MAC地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "与",
+        "tail": "MAC地址不同"
+    },
+    {
+        "head": "主机",
+        "relation": "具有",
+        "tail": "ARP高速缓存"
+    },
+    {
+        "head": "ARP高速缓存",
+        "relation": "存储",
+        "tail": "IP地址到MAC地址的映射表"
+    },
+    {
+        "head": "主机A",
+        "relation": "发送",
+        "tail": "IP数据报给主机B"
+    },
+    {
+        "head": "ARP高速缓存",
+        "relation": "查找",
+        "tail": "主机B的MAC地址"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "包含",
+        "tail": "主机B的MAC地址"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "写入",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "ARP请求分组",
+        "relation": "广播发送",
+        "tail": "局域网"
+    },
+    {
+        "head": "主机A",
+        "relation": "运行",
+        "tail": "ARP进程"
+    },
+    {
+        "head": "ARP请求分组",
+        "relation": "包含内容",
+        "tail": "我的IP地址是209.0.0.5,MAC地址是00-00-CO-l5-AD-l8。我想知道IP地址为209.0.0.6的主机的MAC地址"
+    },
+    {
+        "head": "ARP请求分组",
+        "relation": "查询",
+        "tail": "IP地址为209.0.0.6的主机"
+    },
+    {
+        "head": "主机B",
+        "relation": "响应",
+        "tail": "ARP响应分组"
+    },
+    {
+        "head": "ARP响应分组",
+        "relation": "包含内容",
+        "tail": "自己的MAC地址"
+    },
+    {
+        "head": "ARP请求分组",
+        "relation": "发送给",
+        "tail": "所有主机"
+    },
+    {
+        "head": "ARP响应分组",
+        "relation": "发送给",
+        "tail": "主机A"
+    },
+    {
+        "head": "IP地址",
+        "relation": "是",
+        "tail": "209.0.0.6"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "是",
+        "tail": "08-00-2B-OO-EE-OA"
+    },
+    {
+        "head": "ARP请求分组",
+        "relation": "广播发送",
+        "tail": "IP地址209.0.0.6"
+    },
+    {
+        "head": "ARP响应分组",
+        "relation": "单播发送",
+        "tail": "目的地址"
+    },
+    {
+        "head": "主机A",
+        "relation": "写入",
+        "tail": "ARP高速缓存"
+    },
+    {
+        "head": "ARP请求分组",
+        "relation": "包含",
+        "tail": "IP地址到MAC地址的映射"
+    },
+    {
+        "head": "主机B",
+        "relation": "接收并缓存",
+        "tail": "主机A的IP地址到MAC地址的映射"
+    },
+    {
+        "head": "ARP高速缓存",
+        "relation": "减少",
+        "tail": "网络通信量"
+    },
+    {
+        "head": "生存时间",
+        "relation": "设置于",
+        "tail": "地址映射项目"
+    },
+    {
+        "head": "主机A",
+        "relation": "使用",
+        "tail": "ARP高速缓存"
+    },
+    {
+        "head": "主机B",
+        "relation": "更换",
+        "tail": "网络适配器"
+    },
+    {
+        "head": "主机A",
+        "relation": "发送",
+        "tail": "数据帧"
+    },
+    {
+        "head": "主机A",
+        "relation": "广播发送",
+        "tail": "ARP请求分组"
+    },
+    {
+        "head": "ARP",
+        "relation": "解决",
+        "tail": "IP地址和MAC地址的映射问题"
+    },
+    {
+        "head": "主机C",
+        "relation": "需要知道",
+        "tail": "路由器R331的MAC地址"
+    },
+    {
+        "head": "主机C",
+        "relation": "发送",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "主机C",
+        "relation": "通过",
+        "tail": "路由器R331转发"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "传输到",
+        "tail": "路由器Ro"
+    },
+    {
+        "head": "路由器Ro",
+        "relation": "转发到",
+        "tail": "路由器R25"
+    },
+    {
+        "head": "路由器R25",
+        "relation": "解析出",
+        "tail": "目的主机H的MAC地址"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "最终交付给",
+        "tail": "主机H"
+    },
+    {
+        "head": "ARP",
+        "relation": "自动进行",
+        "tail": "从IP地址到MAC地址的解析"
+    },
+    {
+        "head": "主机或路由器",
+        "relation": "与",
+        "tail": "本网络上的另一个已知IP地址的主机或路由器通信"
+    },
+    {
+        "head": "发送方",
+        "relation": "是",
+        "tail": "主机H"
+    },
+    {
+        "head": "ARP请求分组",
+        "relation": "在网络N1上广播",
+        "tail": ""
+    },
+    {
+        "head": "目的主机",
+        "relation": "是",
+        "tail": "主机H2"
+    },
+    {
+        "head": "ARP",
+        "relation": "用于",
+        "tail": "获取MAC地址"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "通过",
+        "tail": "ARP请求分组"
+    },
+    {
+        "head": "主机",
+        "relation": "发送",
+        "tail": "ARP请求分组"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "在",
+        "tail": "网络链路上进行通信"
+    },
+    {
+        "head": "IP编址",
+        "relation": "解决",
+        "tail": "MAC地址转换问题"
+    },
+    {
+        "head": "IP地址",
+        "relation": "使",
+        "tail": "主机通信简单方便"
+    },
+    {
+        "head": "ARP",
+        "relation": "自动进行",
+        "tail": "MAC地址查找"
+    },
+    {
+        "head": "虚拟的IP网络",
+        "relation": "提供",
+        "tail": "计算机用户便利"
+    },
+    {
+        "head": "IP数据报格式",
+        "relation": "定义在",
+        "tail": "RFC791标准中"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "包含",
+        "tail": "首部"
+    },
+    {
+        "head": "首部",
+        "relation": "由",
+        "tail": "固定部分和可选字段组成"
+    },
+    {
+        "head": "版本",
+        "relation": "标识",
+        "tail": "IPv4"
+    },
+    {
+        "head": "首部长度",
+        "relation": "表示",
+        "tail": "32位字长的倍数"
+    },
+    {
+        "head": "首部长度",
+        "relation": "最小值",
+        "tail": "5"
+    },
+    {
+        "head": "首部长度",
+        "relation": "最大值",
+        "tail": "15"
+    },
+    {
+        "head": "首部长度",
+        "relation": "范围",
+        "tail": "5-60"
+    },
+    {
+        "head": "首部长度字段",
+        "relation": "最大值",
+        "tail": "15个32位字长"
+    },
+    {
+        "head": "IP分组",
+        "relation": "数据部分开始位置",
+        "tail": "4字节的整数倍时"
+    },
+    {
+        "head": "区分服务",
+        "relation": "字段名称变更",
+        "tail": "DS(Differentiated Services)"
+    },
+    {
+        "head": "总长度",
+        "relation": "单位",
+        "tail": "字节"
+    },
+    {
+        "head": "总长度",
+        "relation": "最大值",
+        "tail": "65535"
+    },
+    {
+        "head": "最大传送单元MTU",
+        "relation": "规定于",
+        "tail": "数据链路层"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "长度不能超过",
+        "tail": "576字节"
+    },
+    {
+        "head": "以太网",
+        "relation": "MTU值是",
+        "tail": "1500字节"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "进行分片处理",
+        "tail": "超过数据链路层的MTU值"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发速度与",
+        "tail": "IP数据报长度有关"
+    },
+    {
+        "head": "分片",
+        "relation": "包含于",
+        "tail": "数据报首部"
+    },
+    {
+        "head": "总长度字段",
+        "relation": "表示",
+        "tail": "分片后的每个分片的首部长度与该分片的数据长度的总和"
+    },
+    {
+        "head": "标识(identification)",
+        "relation": "位于",
+        "tail": "IP软件在存储器中维持的一个计数器值"
+    },
+    {
+        "head": "无连接服务",
+        "relation": "特点",
+        "tail": "数据报不存在按序接收的问题"
+    },
+    {
+        "head": "MF(MoreFragment)",
+        "relation": "表示",
+        "tail": "后面还有分片"
+    },
+    {
+        "head": "DF(Don'tFragment)",
+        "relation": "表示",
+        "tail": "不能分片"
+    },
+    {
+        "head": "片偏移",
+        "relation": "指出",
+        "tail": "较长的分组在分片后某片在原分组中的相对位置"
+    },
+    {
+        "head": "数据报",
+        "relation": "被分片为",
+        "tail": "多个数据报片"
+    },
+    {
+        "head": "每个数据报片",
+        "relation": "包含",
+        "tail": "固定首部和数据部分"
+    },
+    {
+        "head": "数据报片",
+        "relation": "具有",
+        "tail": "片偏移字段"
+    },
+    {
+        "head": "分片长度",
+        "relation": "不超过",
+        "tail": "1420字节"
+    },
+    {
+        "head": "原始数据报首部",
+        "relation": "被复制为",
+        "tail": "各数据报片的首部"
+    },
+    {
+        "head": "数据报",
+        "relation": "进行",
+        "tail": "分片"
+    },
+    {
+        "head": "标识",
+        "relation": "用于",
+        "tail": "区分相同的数据报片"
+    },
+    {
+        "head": "MF",
+        "relation": "表示",
+        "tail": "最后一个分片标志"
+    },
+    {
+        "head": "DF",
+        "relation": "表示",
+        "tail": "非最后分片标志"
+    },
+    {
+        "head": "片偏移",
+        "relation": "用于",
+        "tail": "确定数据报片在原始数据报中的位置"
+    },
+    {
+        "head": "生存时间",
+        "relation": "表示为",
+        "tail": "TTL"
+    },
+    {
+        "head": "TTL",
+        "relation": "由设置",
+        "tail": "源点"
+    },
+    {
+        "head": "数据报",
+        "relation": "在网络中寿命",
+        "tail": "生存时间"
+    },
+    {
+        "head": "路由器",
+        "relation": "减少",
+        "tail": "TTL值"
+    },
+    {
+        "head": "TTL值",
+        "relation": "减为零时",
+        "tail": "丢弃数据报"
+    },
+    {
+        "head": "路由器",
+        "relation": "处理",
+        "tail": "数据报"
+    },
+    {
+        "head": "TTL",
+        "relation": "表示",
+        "tail": "跳数限制"
+    },
+    {
+        "head": "TTL",
+        "relation": "减小到零",
+        "tail": "丢弃数据报"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发",
+        "tail": "数据报"
+    },
+    {
+        "head": "协议字段",
+        "relation": "指出",
+        "tail": "数据使用何种协议"
+    },
+    {
+        "head": "ICMP",
+        "relation": "协议字段值",
+        "tail": "1"
+    },
+    {
+        "head": "TCP",
+        "relation": "协议字段值",
+        "tail": "6"
+    },
+    {
+        "head": "IGMP",
+        "relation": "协议字段值",
+        "tail": "2"
+    },
+    {
+        "head": "UDP",
+        "relation": "协议字段值",
+        "tail": "17"
+    },
+    {
+        "head": "ESP",
+        "relation": "协议字段值",
+        "tail": "50"
+    },
+    {
+        "head": "AH",
+        "relation": "协议字段值",
+        "tail": "51"
+    },
+    {
+        "head": "IP数据报首部",
+        "relation": "包含",
+        "tail": "16位字序列"
+    },
+    {
+        "head": "发送方",
+        "relation": "计算",
+        "tail": "检验和字段"
+    },
+    {
+        "head": "接收方",
+        "relation": "验证",
+        "tail": "检验和结果"
+    },
+    {
+        "head": "IP首部检验和",
+        "relation": "不采用",
+        "tail": "CRC检验码"
+    },
+    {
+        "head": "发送方",
+        "relation": "将16位字相加",
+        "tail": "求和"
+    },
+    {
+        "head": "接收方",
+        "relation": "对16位字反码算术运算",
+        "tail": "求和取反码"
+    },
+    {
+        "head": "结果为0",
+        "relation": "表示",
+        "tail": "数据报无差错"
+    },
+    {
+        "head": "IP数据报首部",
+        "relation": "包含",
+        "tail": "检验和"
+    },
+    {
+        "head": "检验和",
+        "relation": "计算",
+        "tail": "16位反码算术运算求和取反码"
+    },
+    {
+        "head": "IP数据报首部",
+        "relation": "包含",
+        "tail": "源地址"
+    },
+    {
+        "head": "IP数据报首部",
+        "relation": "包含",
+        "tail": "目的地址"
+    },
+    {
+        "head": "IANA",
+        "relation": "由...建立",
+        "tail": "美国政府"
+    },
+    {
+        "head": "ICANN",
+        "relation": "取代",
+        "tail": "IANA"
+    },
+    {
+        "head": "ICANN",
+        "relation": "与...分工",
+        "tail": "IANA"
+    },
+    {
+        "head": "IP地址",
+        "relation": "管理",
+        "tail": "IANA/ICANN"
+    },
+    {
+        "head": "二进制反码",
+        "relation": "用于计算",
+        "tail": "简单运算"
+    },
+    {
+        "head": "IP数据报首部",
+        "relation": "包含",
+        "tail": "可变部分选项字段"
+    },
+    {
+        "head": "选项字段",
+        "relation": "支持",
+        "tail": "排错、测量和安全措施"
+    },
+    {
+        "head": "路由器",
+        "relation": "处理",
+        "tail": "IP数据报首部的可变部分"
+    },
+    {
+        "head": "IPv6",
+        "relation": "简化",
+        "tail": "IP数据报首部长度固定"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "固定首部长度"
+    },
+    {
+        "head": "路由器",
+        "relation": "根据",
+        "tail": "分组目的地址查找转发表"
+    },
+    {
+        "head": "转发表",
+        "relation": "不直接按",
+        "tail": "目的IP地址查找下一跳"
+    },
+    {
+        "head": "32位IP地址",
+        "relation": "由",
+        "tail": "两级组成: 前缀和主机"
+    },
+    {
+        "head": "分组转发",
+        "relation": "基于",
+        "tail": "终点(目的地址)"
+    },
+    {
+        "head": "互联网",
+        "relation": "使用",
+        "tail": "基千终点的转发方式"
+    },
+    {
+        "head": "目的网络",
+        "relation": "属于",
+        "tail": "网络前缀"
+    },
+    {
+        "head": "分组",
+        "relation": "在",
+        "tail": "目的网络上直接交付"
+    },
+    {
+        "head": "路由器",
+        "relation": "使用",
+        "tail": "转发表"
+    },
+    {
+        "head": "待转发的分组",
+        "relation": "通过",
+        "tail": "下一跳路由器"
+    },
+    {
+        "head": "路由器",
+        "relation": "从",
+        "tail": "转发表得出下一跳路由器的IP地址"
+    },
+    {
+        "head": "网络接口软件",
+        "relation": "负责",
+        "tail": "MAC帧首部写入MAC地址"
+    },
+    {
+        "head": "ARP",
+        "relation": "解析出",
+        "tail": "下一跳路由器的MAC地址"
+    },
+    {
+        "head": "IP地址",
+        "relation": "用于",
+        "tail": "隐蔽底层网络复杂性"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "不能直接使用于",
+        "tail": "转发表"
+    },
+    {
+        "head": "路由选择",
+        "relation": "受到",
+        "tail": "IP地址抽象影响"
+    }
+]

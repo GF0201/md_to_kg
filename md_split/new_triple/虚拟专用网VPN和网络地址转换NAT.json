@@ -1,0 +1,486 @@
+[
+    {
+        "head": "IP-in-IP",
+        "relation": "包含于",
+        "tail": "多播组"
+    },
+    {
+        "head": "核心路由器",
+        "relation": "指定为",
+        "tail": "多播组转发树的起点"
+    },
+    {
+        "head": "数据报",
+        "relation": "经过",
+        "tail": "途中每一个路由器检查"
+    },
+    {
+        "head": "多播组G成员",
+        "relation": "处理",
+        "tail": "多播数据报"
+    },
+    {
+        "head": "请求加入多播组的数据报",
+        "relation": "转发",
+        "tail": "核心路由器"
+    },
+    {
+        "head": "DVMRP",
+        "relation": "建议使用的多播路由选择协议之一"
+    },
+    {
+        "head": "mrouted",
+        "relation": "实现协议",
+        "tail": "DVMRP"
+    },
+    {
+        "head": "CBT",
+        "relation": "使用方法",
+        "tail": "核心路由器作为转发树的根节点"
+    },
+    {
+        "head": "MOSPF",
+        "relation": "基于",
+        "tail": "单播路由选择协议OSPF"
+    },
+    {
+        "head": "PIM-SM",
+        "relation": "成为标准",
+        "tail": "互联网标准"
+    },
+    {
+        "head": "协议无关多播",
+        "relation": "适用于",
+        "tail": "组成员分布非常分散的情况"
+    },
+    {
+        "head": "PIM-DM",
+        "relation": "适用于",
+        "tail": "组成员分布非常集中的情况"
+    },
+    {
+        "head": "PIM-DM",
+        "relation": "不使用",
+        "tail": "核心路由器"
+    },
+    {
+        "head": "PIM-DM",
+        "relation": "采用",
+        "tail": "洪泛方式转发数据报"
+    },
+    {
+        "head": "VPN",
+        "relation": "解决",
+        "tail": "IP地址紧缺问题"
+    },
+    {
+        "head": "VPN",
+        "relation": "考虑",
+        "tail": "互联网安全性"
+    },
+    {
+        "head": "主机",
+        "relation": "主要通信对象",
+        "tail": "本机构内的其他主机"
+    },
+    {
+        "head": "计算机",
+        "relation": "使用",
+        "tail": "TCP/IP协议"
+    },
+    {
+        "head": "IP地址",
+        "relation": "分为",
+        "tail": "全球唯一的IP地址和本地地址"
+    },
+    {
+        "head": "本地地址",
+        "relation": "仅用于",
+        "tail": "机构内部通信"
+    },
+    {
+        "head": "专用地址",
+        "relation": "由",
+        "tail": "RFC1918指明"
+    },
+    {
+        "head": "专用地址",
+        "relation": "解决",
+        "tail": "地址二义性问题"
+    },
+    {
+        "head": "IPv4",
+        "relation": "包含专用地址块",
+        "tail": "10.0.0.0/8"
+    },
+    {
+        "head": "IPv4",
+        "relation": "包含专用地址块",
+        "tail": "172.16.0.0/12"
+    },
+    {
+        "head": "IPv4",
+        "relation": "包含专用地址块",
+        "tail": "192.168.0.0/16"
+    },
+    {
+        "head": "路由器",
+        "relation": "不转发",
+        "tail": "目的地址是专用地址的数据报"
+    },
+    {
+        "head": "RFC6890",
+        "relation": "全面给出",
+        "tail": "所有特殊用途的IPv4和IPv6地址"
+    },
+    {
+        "head": "A类网络",
+        "relation": "对应于",
+        "tail": "10.0.0.0/8"
+    },
+    {
+        "head": "B类网络",
+        "relation": "对应于",
+        "tail": "172.16.0.0/12"
+    },
+    {
+        "head": "C类网络",
+        "relation": "对应于",
+        "tail": "192.168.0.0/16"
+    },
+    {
+        "head": "ARPANET",
+        "relation": "原地址分配给",
+        "tail": "10.0.0.0"
+    },
+    {
+        "head": "专用互连网络",
+        "relation": "称为",
+        "tail": "专用网"
+    },
+    {
+        "head": "专用IP地址",
+        "relation": "也叫作",
+        "tail": "可重用地址"
+    },
+    {
+        "head": "虚拟专用网",
+        "relation": "又称为",
+        "tail": "VPN"
+    },
+    {
+        "head": "协议",
+        "relation": "将在讨论",
+        "tail": "7.6.1"
+    },
+    {
+        "head": "VPN",
+        "relation": "不是使用",
+        "tail": "通信专线"
+    },
+    {
+        "head": "机构",
+        "relation": "需要购买",
+        "tail": "硬件和软件"
+    },
+    {
+        "head": "路由器",
+        "relation": "具有",
+        "tail": "合法的全球IP地址"
+    },
+    {
+        "head": "内部数据报源地址",
+        "relation": "是",
+        "tail": "125.1.2.3"
+    },
+    {
+        "head": "路由器R1",
+        "relation": "连接",
+        "tail": "互联网"
+    },
+    {
+        "head": "路由器R2",
+        "relation": "连接",
+        "tail": "互联网"
+    },
+    {
+        "head": "主机X",
+        "relation": "发送",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "包含",
+        "tail": "源地址10.1.0.1"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "包含",
+        "tail": "目的地址10.2.0.3"
+    },
+    {
+        "head": "路由器R1",
+        "relation": "加密",
+        "tail": "内部数据报"
+    },
+    {
+        "head": "虚拟专用网(VPN)",
+        "relation": "实现方式",
+        "tail": "隧道技术"
+    },
+    {
+        "head": "路由器R",
+        "relation": "发送数据报给",
+        "tail": "路由器S"
+    },
+    {
+        "head": "全球地址125.1.2.3",
+        "relation": "作为",
+        "tail": "源地址"
+    },
+    {
+        "head": "全球地址194.4.5.6",
+        "relation": "作为",
+        "tail": "目的地址"
+    },
+    {
+        "head": "数据报",
+        "relation": "经过",
+        "tail": "很多个网络和路由器"
+    },
+    {
+        "head": "从R到S",
+        "relation": "逻辑上看",
+        "tail": "像一条直通的点对点链路"
+    },
+    {
+        "head": "场所A和B",
+        "relation": "构成虚拟专用网",
+        "tail": "VPN"
+    },
+    {
+        "head": "内网(intranet或intrnnet)VPN",
+        "relation": "表示",
+        "tail": "场所A和B属于同一个机构"
+    },
+    {
+        "head": "外网(extranet)VPN",
+        "relation": "是",
+        "tail": "一种类型的VPN"
+    },
+    {
+        "head": "内网",
+        "relation": "采用",
+        "tail": "互联网技术"
+    },
+    {
+        "head": "外网",
+        "relation": "采用",
+        "tail": "互联网技术"
+    },
+    {
+        "head": "远程接入VPN",
+        "relation": "满足",
+        "tail": "公司与流动员工保持联系的需求"
+    },
+    {
+        "head": "远程接入VPN",
+        "relation": "支持",
+        "tail": "电话会议和视频会议"
+    },
+    {
+        "head": "外地员工",
+        "relation": "通过",
+        "tail": "拨号接入互联网"
+    },
+    {
+        "head": "个人电脑中的VPN软件",
+        "relation": "建立",
+        "tail": "与公司主机之间的隧道"
+    },
+    {
+        "head": "通信内容",
+        "relation": "是",
+        "tail": "保密的"
+    },
+    {
+        "head": "VPN隧道",
+        "relation": "涉及",
+        "tail": "保密问题"
+    },
+    {
+        "head": "网络地址转换",
+        "relation": "提出时间",
+        "tail": "1994年"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "功能",
+        "tail": "进行网络地址转换"
+    },
+    {
+        "head": "专用网",
+        "relation": "使用",
+        "tail": "本地IP地址"
+    },
+    {
+        "head": "互联网",
+        "relation": "连接方式",
+        "tail": "通过全球IP地址"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "具有",
+        "tail": "全球IP地址"
+    },
+    {
+        "head": "专用网",
+        "relation": "使用",
+        "tail": "内部IP地址"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "转换",
+        "tail": "IP数据报源地址"
+    },
+    {
+        "head": "主机A",
+        "relation": "发送",
+        "tail": "IP数据报到互联网"
+    },
+    {
+        "head": "主机B",
+        "relation": "接收",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "转发",
+        "tail": "回应答"
+    },
+    {
+        "head": "互联网上的路由器",
+        "relation": "不能转发",
+        "tail": "目的地址是专用地址的IP数据报"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "进行",
+        "tail": "IP地址转换"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "使用",
+        "tail": "NAT转换表"
+    },
+    {
+        "head": "专用网",
+        "relation": "最多同时有",
+        "tail": "n台主机接入互联网"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "使",
+        "tail": "专用网内较多数量的主机轮流使用全球IP地址"
+    },
+    {
+        "head": "通信",
+        "relation": "必须由",
+        "tail": "专用网内的主机发起"
+    },
+    {
+        "head": "专用网上外面的主机",
+        "relation": "不能直接充当",
+        "tail": "服务器用"
+    },
+    {
+        "head": "NAT转换表",
+        "relation": "利用",
+        "tail": "运输层端口号"
+    },
+    {
+        "head": "多个拥有本地地址的主机",
+        "relation": "共用",
+        "tail": "一个全球IP地址"
+    },
+    {
+        "head": "全球IP地址",
+        "relation": "支持",
+        "tail": "同时和互联网上的不同主机进行通信"
+    },
+    {
+        "head": "端口号",
+        "relation": "在",
+        "tail": "下一章5.1.3节讨论"
+    },
+    {
+        "head": "NAT",
+        "relation": "分为",
+        "tail": "网络地址与端口号转换NAPT和传统NAT"
+    },
+    {
+        "head": "NAPT",
+        "relation": "被称为",
+        "tail": "网络地址与端口号转换"
+    },
+    {
+        "head": "传统NAT",
+        "relation": "被称为",
+        "tail": "不使用端口号的NAT"
+    },
+    {
+        "head": "NAPT",
+        "relation": "包含",
+        "tail": "地址转换机制"
+    },
+    {
+        "head": "NAPT",
+        "relation": "使用",
+        "tail": "TCP端口号"
+    },
+    {
+        "head": "NAPT",
+        "relation": "转换",
+        "tail": "IP地址和端口号"
+    },
+    {
+        "head": "NAPT",
+        "relation": "支持",
+        "tail": "UDP端口号"
+    },
+    {
+        "head": "NAPT",
+        "relation": "实现",
+        "tail": "端口地址转换"
+    },
+    {
+        "head": "NAPT",
+        "relation": "使用",
+        "tail": "NAPT转换表"
+    },
+    {
+        "head": "NAT路由器",
+        "relation": "操作",
+        "tail": "更换IP地址"
+    },
+    {
+        "head": "普通路由器",
+        "relation": "不改变",
+        "tail": "源IP地址或目的IP地址"
+    },
+    {
+        "head": "NAPT路由器",
+        "relation": "查看和转换",
+        "tail": "运输层的端口号"
+    },
+    {
+        "head": "MPLS工作组",
+        "relation": "成立时间",
+        "tail": "1997年"
+    },
+    {
+        "head": "MPLS",
+        "relation": "定义为",
+        "tail": "多协议标签交换"
+    }
+]

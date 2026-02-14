@@ -1,0 +1,762 @@
+[
+    {
+        "head": "互连网络",
+        "relation": "包含问题",
+        "tail": "通信问题"
+    },
+    {
+        "head": "VLAN",
+        "relation": "用于实现",
+        "tail": "不同交换机间通信"
+    },
+    {
+        "head": "转发模块",
+        "relation": "嵌入于",
+        "tail": "某些交换机中"
+    },
+    {
+        "head": "路由器",
+        "relation": "解决",
+        "tail": "互连网络中的通信问题"
+    },
+    {
+        "head": "第3层交换",
+        "relation": "实现",
+        "tail": "在交换机中"
+    },
+    {
+        "head": "L3/L2交换机",
+        "relation": "称为",
+        "tail": "具有第3层交换功能的交换机"
+    },
+    {
+        "head": "高速以太网",
+        "relation": "发展自",
+        "tail": "传统10Mbit/s以太网"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "速率",
+        "tail": "1Gbit/s"
+    },
+    {
+        "head": "lOOBASE-T",
+        "relation": "是",
+        "tail": "100Mbit/s基带信号在双绞线上传送的以太网"
+    },
+    {
+        "head": "lOOBASE-T",
+        "relation": "使用",
+        "tail": "IEEE802.3CSMA/CD协议"
+    },
+    {
+        "head": "lOOBASE-T",
+        "relation": "称为",
+        "tail": "快速以太网(FastEthernet)"
+    },
+    {
+        "head": "升级",
+        "relation": "从",
+        "tail": "10BASE-T到100Mbit/s"
+    },
+    {
+        "head": "适配器",
+        "relation": "具有",
+        "tail": "自适应性"
+    },
+    {
+        "head": "IEEE802.3u",
+        "relation": "是",
+        "tail": "lOOBASE-T快速以太网的正式标准"
+    },
+    {
+        "head": "服务质量",
+        "relation": "由",
+        "tail": "以太网交换机提供"
+    },
+    {
+        "head": "全双工方式",
+        "relation": "工作时",
+        "tail": "无冲突发生"
+    },
+    {
+        "head": "MAC帧格式",
+        "relation": "仍然是",
+        "tail": "IEEE802.3标准规定的帧格式"
+    },
+    {
+        "head": "IEEE802.3u",
+        "relation": "支持",
+        "tail": "快速以太网"
+    },
+    {
+        "head": "快速以太网",
+        "relation": "使用",
+        "tail": "无屏蔽双绞线布线"
+    },
+    {
+        "head": "I0/100Mbit/s以太网",
+        "relation": "使用",
+        "tail": "无屏蔽双绞线布线"
+    },
+    {
+        "head": "100Mbit/s以太网",
+        "relation": "最大长度",
+        "tail": "100m"
+    },
+    {
+        "head": "最短帧长",
+        "relation": "为",
+        "tail": "64字节"
+    },
+    {
+        "head": "争用期",
+        "relation": "是",
+        "tail": "5.12µs"
+    },
+    {
+        "head": "帧间最小间隔",
+        "relation": "是",
+        "tail": "0.96µs"
+    },
+    {
+        "head": "数据率",
+        "relation": "提高到",
+        "tail": "10倍"
+    },
+    {
+        "head": "网络电缆长度",
+        "relation": "减小",
+        "tail": "原有数值的十分之一"
+    },
+    {
+        "head": "100Mbit/s以太网",
+        "relation": "包含",
+        "tail": "lOOBASE-TX"
+    },
+    {
+        "head": "100Mbit/s以太网",
+        "relation": "包含",
+        "tail": "lOOBASE-T4"
+    },
+    {
+        "head": "100Mbit/s以太网",
+        "relation": "包含",
+        "tail": "lOOBASE-FX"
+    },
+    {
+        "head": "lOOBASE-TX",
+        "relation": "使用",
+        "tail": "铜缆"
+    },
+    {
+        "head": "lOOBASE-T4",
+        "relation": "使用",
+        "tail": "UTP3类线或5类线"
+    },
+    {
+        "head": "lOOBASE-FX",
+        "relation": "使用",
+        "tail": "光缆"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "标准",
+        "tail": "IEEE802.3z"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "工作方式",
+        "tail": "全双工"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "工作方式",
+        "tail": "半双工"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "使用",
+        "tail": "CSMA/CD协议"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "使用协议",
+        "tail": "CSMA/CD"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "不使用协议",
+        "tail": "全双工方式"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "兼容技术",
+        "tail": "lOBASE-T和100BASE-T"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "应用场合",
+        "tail": "主干网、高带宽应用"
+    },
+    {
+        "head": "吉比特以太网物理层",
+        "relation": "使用技术",
+        "tail": "现有以太网和光纤通道FC"
+    },
+    {
+        "head": "1000BASE-SX",
+        "relation": "标准",
+        "tail": "IEEE802.3z"
+    },
+    {
+        "head": "1000BASE-LX",
+        "relation": "标准",
+        "tail": "IEEE802.3z"
+    },
+    {
+        "head": "1000BASE-CX",
+        "relation": "标准",
+        "tail": "IEEE802.3z"
+    },
+    {
+        "head": "1000BASE-T",
+        "relation": "标准",
+        "tail": "IEEE802.3ab"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "使用",
+        "tail": "碰撞检测"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "最大电缆长度",
+        "tail": "100m"
+    },
+    {
+        "head": "最短帧长",
+        "relation": "提高到",
+        "tail": "640字节"
+    },
+    {
+        "head": "争用期",
+        "relation": "增大为",
+        "tail": "512字节"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "发送长度",
+        "tail": "512字节"
+    },
+    {
+        "head": "短帧填充",
+        "relation": "开销",
+        "tail": "448字节"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "采用",
+        "tail": "载波延伸"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "增加",
+        "tail": "分组突发功能"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "工作方式",
+        "tail": "全双工方式"
+    },
+    {
+        "head": "分组突发",
+        "relation": "发送机制",
+        "tail": "帧间最小间隔"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "连接设备",
+        "tail": "图形工作站"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "连接设备",
+        "tail": "百兆以太网主干网"
+    },
+    {
+        "head": "吉比特以太网",
+        "relation": "连接设备",
+        "tail": "大型服务器"
+    },
+    {
+        "head": "100Mbit/s链路",
+        "relation": "与",
+        "tail": "IGbit/s链路"
+    },
+    {
+        "head": "吉比特以太网配置举例",
+        "relation": "包含",
+        "tail": "图3-29"
+    },
+    {
+        "head": "lOGbE",
+        "relation": "使用",
+        "tail": "802.3标准"
+    },
+    {
+        "head": "lOGbE",
+        "relation": "保留",
+        "tail": "最小帧长和最大帧长"
+    },
+    {
+        "head": "lOGbE",
+        "relation": "工作在",
+        "tail": "全双工方式"
+    },
+    {
+        "head": "lOGbE",
+        "relation": "不存在",
+        "tail": "争用问题"
+    },
+    {
+        "head": "lOGbE",
+        "relation": "不使用",
+        "tail": "CSMA/CD协议"
+    },
+    {
+        "head": "lOGbE",
+        "relation": "传输距离提高",
+        "tail": "碰撞检测限制取消"
+    },
+    {
+        "head": "有效载荷",
+        "relation": "表示",
+        "tail": "去掉首部和尾部后的数据部分"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "包含",
+        "tail": "网络层IP数据报的IP首部和数据部分"
+    },
+    {
+        "head": "TCP报文段",
+        "relation": "包含",
+        "tail": "运输层TCP报文段中的数据部分"
+    },
+    {
+        "head": "IEEE802.3ae",
+        "relation": "完成时间",
+        "tail": "2002年6月"
+    },
+    {
+        "head": "IOGBASE-SR",
+        "relation": "最大网段长度",
+        "tail": "300m"
+    },
+    {
+        "head": "IOGBASE-LR",
+        "relation": "传输介质",
+        "tail": "单模光纤(13pm)"
+    },
+    {
+        "head": "IOGBASE-ER",
+        "relation": "传输距离",
+        "tail": "40km"
+    },
+    {
+        "head": "IOGBASE-T",
+        "relation": "使用电缆类型",
+        "tail": "6A类UTP双纹线"
+    },
+    {
+        "head": "10GBASE-CX4",
+        "relation": "使用电缆类型",
+        "tail": "4对双芯同轴电缆(twinax)"
+    },
+    {
+        "head": "IOGbE",
+        "relation": "物理层标准",
+        "tail": "IEEE802.3ae"
+    },
+    {
+        "head": "10GbE",
+        "relation": "物理层标准",
+        "tail": "IEEE802.3ak"
+    },
+    {
+        "head": "40GbE/100GbE",
+        "relation": "标准文档",
+        "tail": "IEEE802.3ba-2010和802.3bm-2015"
+    },
+    {
+        "head": "40GbE",
+        "relation": "传输距离",
+        "tail": "超过1m"
+    },
+    {
+        "head": "40GbE",
+        "relation": "传输介质",
+        "tail": "背板"
+    },
+    {
+        "head": "40GBASE-KR4",
+        "relation": "传输距离",
+        "tail": "超过7m"
+    },
+    {
+        "head": "40GBASE-KR4",
+        "relation": "传输介质",
+        "tail": "铜缆"
+    },
+    {
+        "head": "100GbE",
+        "relation": "传输距离",
+        "tail": "多模光纤IOOm"
+    },
+    {
+        "head": "100GbE",
+        "relation": "传输距离",
+        "tail": "单模光纤40km"
+    },
+    {
+        "head": "100GbE",
+        "relation": "传输介质",
+        "tail": "多模光纤"
+    },
+    {
+        "head": "100GbE",
+        "relation": "传输介质",
+        "tail": "单模光纤"
+    },
+    {
+        "head": "802.3bm",
+        "relation": "提出标准",
+        "tail": "40GBASE-ER4, 40GBASE-LR4"
+    },
+    {
+        "head": "100GbE",
+        "relation": "传输方式",
+        "tail": "全双工"
+    },
+    {
+        "head": "100GbE",
+        "relation": "使用协议",
+        "tail": "CSMA/CD"
+    },
+    {
+        "head": "100GbE",
+        "relation": "帧格式",
+        "tail": "以太网标准"
+    },
+    {
+        "head": "100GbE",
+        "relation": "最小帧长",
+        "tail": "802.3标准规定"
+    },
+    {
+        "head": "100GbE",
+        "relation": "最大帧长",
+        "tail": "802.3标准规定"
+    },
+    {
+        "head": "40GBASE-ER4, 40GBASE-LR4",
+        "relation": "传输方式",
+        "tail": "波分复用"
+    },
+    {
+        "head": "IEEE802.3bs标准",
+        "relation": "颁布时间",
+        "tail": "2017年12月"
+    },
+    {
+        "head": "IEEE802.3bs标准",
+        "relation": "传输速率",
+        "tail": "200GbE和400GbE"
+    },
+    {
+        "head": "IEEE802.3bs标准",
+        "relation": "传输介质",
+        "tail": "光纤"
+    },
+    {
+        "head": "以太网",
+        "relation": "工作范围",
+        "tail": "局域网、城域网、广域网"
+    },
+    {
+        "head": "以太网",
+        "relation": "互操作性",
+        "tail": "不同厂商生产的以太网能可靠地进行互操作"
+    },
+    {
+        "head": "以太网",
+        "relation": "价格优势",
+        "tail": "大约只有同步光纤网SONET的五分之一"
+    },
+    {
+        "head": "以太网",
+        "relation": "传输媒体适应性",
+        "tail": "铜缆、双绞线以及各种光缆"
+    },
+    {
+        "head": "端到端以太网连接",
+        "relation": "简化操作和管理",
+        "tail": "不需要再进行帧的格式转换"
+    },
+    {
+        "head": "以太网",
+        "relation": "演进到",
+        "tail": "400Gbit/s"
+    },
+    {
+        "head": "以太网",
+        "relation": "可扩展的",
+        "tail": "速率从10Mbit/s到400Gbit/s"
+    },
+    {
+        "head": "以太网",
+        "relation": "灵活的",
+        "tail": "多种媒体、全／半双工、共享／交换"
+    },
+    {
+        "head": "以太网",
+        "relation": "易安装的",
+        "tail": ""
+    },
+    {
+        "head": "以太网",
+        "relation": "稳健性好",
+        "tail": ""
+    },
+    {
+        "head": "IEEE 802.3EFM工作组",
+        "relation": "研究",
+        "tail": "高速以太网宽带接入技术"
+    },
+    {
+        "head": "以太网接入",
+        "relation": "提供",
+        "tail": "双向通信"
+    },
+    {
+        "head": "带宽升级",
+        "relation": "可以进行",
+        "tail": "10兆到吉比特的交换机更新"
+    },
+    {
+        "head": "城域网和广域网",
+        "relation": "采用",
+        "tail": "吉比特以太网或10吉比特以太网"
+    },
+    {
+        "head": "以太网接入",
+        "relation": "实现",
+        "tail": "端到端的以太网传输"
+    },
+    {
+        "head": "帧格式标准",
+        "relation": "没有包含",
+        "tail": "用户名字段和用户鉴别过程"
+    },
+    {
+        "head": "PPPoE",
+        "relation": "是",
+        "tail": "PPP协议在以太网中的应用"
+    },
+    {
+        "head": "PPPoE",
+        "relation": "用于",
+        "tail": "光纤宽带接入FTTx"
+    },
+    {
+        "head": "ONU",
+        "relation": "作用于",
+        "tail": "光网络单元"
+    },
+    {
+        "head": "传输媒体",
+        "relation": "变为",
+        "tail": "铜线"
+    },
+    {
+        "head": "用户设备",
+        "relation": "连接方式",
+        "tail": "RJ-45插口"
+    },
+    {
+        "head": "光纤到大楼FTTB方案",
+        "relation": "安装于",
+        "tail": "每个大楼的楼口"
+    },
+    {
+        "head": "宽带上网",
+        "relation": "使用协议",
+        "tail": "PPPoE"
+    },
+    {
+        "head": "以太网接入",
+        "relation": "技术标准",
+        "tail": "EthernetintheFirstMile"
+    },
+    {
+        "head": "ADSL",
+        "relation": "宽带技术",
+        "tail": "非对称数字用户线"
+    },
+    {
+        "head": "RJ-45",
+        "relation": "连接方式",
+        "tail": "以太网"
+    },
+    {
+        "head": "5类线",
+        "relation": "网络线类型",
+        "tail": "以太网"
+    },
+    {
+        "head": "以太网",
+        "relation": "接入方式",
+        "tail": "EFM"
+    },
+    {
+        "head": "PPPoE",
+        "relation": "协议类型",
+        "tail": "链路层协议"
+    },
+    {
+        "head": "PPP",
+        "relation": "特点",
+        "tail": "简单"
+    },
+    {
+        "head": "PPP",
+        "relation": "特点",
+        "tail": "只检测差错"
+    },
+    {
+        "head": "PPP",
+        "relation": "支持",
+        "tail": "多种网络层协议"
+    },
+    {
+        "head": "RJ-11插口",
+        "relation": "传输介质",
+        "tail": "电话线"
+    },
+    {
+        "head": "ADSL调制解调器",
+        "relation": "转换",
+        "tail": "PPP帧"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "传送单位",
+        "tail": "帧"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "信道类型",
+        "tail": "点对点信道"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "信道类型",
+        "tail": "广播信道"
+    },
+    {
+        "head": "循环冗余检验CRC",
+        "relation": "方法",
+        "tail": "检错"
+    },
+    {
+        "head": "PPPoE",
+        "relation": "是",
+        "tail": "宽带上网的主机使用的链路层协议"
+    },
+    {
+        "head": "局域网",
+        "relation": "具有",
+        "tail": "广播功能"
+    },
+    {
+        "head": "系统",
+        "relation": "提高了",
+        "tail": "可靠性、可用性和生存性"
+    },
+    {
+        "head": "共享通信媒体资源",
+        "relation": "方法有",
+        "tail": "静态划分信道和动态媒体接入控制"
+    },
+    {
+        "head": "IEEE802委员会",
+        "relation": "拆分",
+        "tail": "数据链路层为逻辑链路控制子层和媒体接入控制子层"
+    },
+    {
+        "head": "网络适配器",
+        "relation": "又称为",
+        "tail": "网络接口卡或网卡"
+    },
+    {
+        "head": "以太网",
+        "relation": "采用",
+        "tail": "无连接的工作方式"
+    },
+    {
+        "head": "以太网",
+        "relation": "使用",
+        "tail": "具有冲突检测的载波监听多点接入CSMA/CD"
+    },
+    {
+        "head": "总线",
+        "relation": "包含",
+        "tail": "碰撞"
+    },
+    {
+        "head": "发送",
+        "relation": "触发",
+        "tail": "停止"
+    },
+    {
+        "head": "退避算法",
+        "relation": "用于解决",
+        "tail": "碰撞"
+    },
+    {
+        "head": "以太网",
+        "relation": "使用",
+        "tail": "双绞线"
+    },
+    {
+        "head": "集线器",
+        "relation": "工作在",
+        "tail": "物理层"
+    },
+    {
+        "head": "硬件地址",
+        "relation": "等同于",
+        "tail": "MAC地址"
+    },
+    {
+        "head": "适配器",
+        "relation": "具有",
+        "tail": "过滤功能"
+    },
+    {
+        "head": "集线器",
+        "relation": "扩展",
+        "tail": "以太网"
+    },
+    {
+        "head": "交换式集线器",
+        "relation": "称为",
+        "tail": "以太网交换机"
+    },
+    {
+        "head": "以太网交换机",
+        "relation": "工作在",
+        "tail": "数据链路层"
+    }
+]

@@ -1,0 +1,558 @@
+[
+    [
+        {
+            "head": "五层协议栈",
+            "relation": "包含",
+            "tail": "物理层, 数据链路层, 网络层, 传输层, 应用层"
+        },
+        {
+            "head": "路由器",
+            "relation": "处理",
+            "tail": "分组"
+        },
+        {
+            "head": "数据",
+            "relation": "从",
+            "tail": "物理层 -> 网络层 -> 物理层"
+        },
+        {
+            "head": "转发表",
+            "relation": "用于查找",
+            "tail": "下一跳地址"
+        },
+        {
+            "head": "主机H1",
+            "relation": "向",
+            "tail": "主机H2发送数据"
+        },
+        {
+            "head": "数据链路层通信",
+            "relation": "由",
+            "tail": "四段不同链路组成"
+        },
+        {
+            "head": "链路层协议",
+            "relation": "可能采用",
+            "tail": "不同的数据链路层协议"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "讨论",
+            "tail": "点对点信道的基本问题"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "涉及",
+            "tail": "通信协议"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "传输",
+            "tail": "数据"
+        },
+        {
+            "head": "路由器",
+            "relation": "交换",
+            "tail": "路由信息"
+        },
+        {
+            "head": "路由选择协议",
+            "relation": "使用",
+            "tail": "不同"
+        },
+        {
+            "head": "运输层协议",
+            "relation": "可能需要",
+            "tail": "在路由器间"
+        }
+    ],
+    [
+        {
+            "head": "网络适配器",
+            "relation": "包括",
+            "tail": "数据链路层和物理层"
+        },
+        {
+            "head": "逻辑链路",
+            "relation": "等于",
+            "tail": "数据链路加上通信协议"
+        },
+        {
+            "head": "早期数据通信协议",
+            "relation": "称为",
+            "tail": "通信规程"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "处理",
+            "tail": "帧的发送和接收"
+        },
+        {
+            "head": "网络层协议数据单元",
+            "relation": "是",
+            "tail": "IP数据报或分组或包"
+        },
+        {
+            "head": "点对点信道的数据链路层协议",
+            "relation": "使用",
+            "tail": "三层模型"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "包含",
+            "tail": "封装成帧"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "处理",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "节点A",
+            "relation": "发送",
+            "tail": "帧给节点B的数据链路层"
+        },
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "首部和尾部"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "关注",
+            "tail": "透明传输"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "关注",
+            "tail": "差错检测"
+        }
+    ],
+    [
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "首部和尾部"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "使用",
+            "tail": "帧"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "成为",
+            "tail": "帧的数据部分"
+        },
+        {
+            "head": "分组交换",
+            "relation": "基于",
+            "tail": "分组"
+        },
+        {
+            "head": "首部和尾部",
+            "relation": "用于",
+            "tail": "帧定界"
+        },
+        {
+            "head": "首部和尾部",
+            "relation": "包含",
+            "tail": "控制信息"
+        },
+        {
+            "head": "帧",
+            "relation": "从",
+            "tail": "帧首部开始发送"
+        },
+        {
+            "head": "链路层协议",
+            "relation": "规定",
+            "tail": "帧首部和帧尾部格式"
+        },
+        {
+            "head": "MTU",
+            "relation": "定义为",
+            "tail": "最大传送单元"
+        }
+    ],
+    [
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "帧首部"
+        },
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "帧尾部"
+        },
+        {
+            "head": "帧",
+            "relation": "用于封装",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "帧长度",
+            "relation": "受限于",
+            "tail": "MTU"
+        },
+        {
+            "head": "ASCII码",
+            "relation": "编码方式",
+            "tail": "7位"
+        },
+        {
+            "head": "控制字符",
+            "relation": "数量",
+            "tail": "33个不可打印"
+        },
+        {
+            "head": "帧定界符",
+            "relation": "标识",
+            "tail": "SOH和EOT"
+        }
+    ],
+    [
+        {
+            "head": "帧定界符",
+            "relation": "包含",
+            "tail": "开始符SOH和结束符EOT"
+        },
+        {
+            "head": "透明传输",
+            "relation": "依赖于",
+            "tail": "使用专门指明的控制字符作为帧的开始和结束标记"
+        }
+    ],
+    [
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "数据部分"
+        },
+        {
+            "head": "数据部分",
+            "relation": "使用",
+            "tail": "文本文件"
+        },
+        {
+            "head": "透明传输",
+            "relation": "适用于",
+            "tail": "键盘输入的字符"
+        },
+        {
+            "head": "非ASCII码的数据",
+            "relation": "导致",
+            "tail": "帧边界错误"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "处理",
+            "tail": "控制字符SOH或EOT"
+        },
+        {
+            "head": "二进制代码",
+            "relation": "包含在",
+            "tail": "计算机程序或图像"
+        },
+        {
+            "head": "EOT",
+            "relation": "被误认为",
+            "tail": "帧结束标志"
+        },
+        {
+            "head": "透明传输",
+            "relation": "不适用于",
+            "tail": "非ASCII码的数据"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "实现",
+            "tail": "透明传送数据"
+        },
+        {
+            "head": "控制字符",
+            "relation": "可能引起误解",
+            "tail": "SOH 和 EOT"
+        },
+        {
+            "head": "转义字符",
+            "relation": "用于解决",
+            "tail": "透明传输问题"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "在接收端删除",
+            "tail": "插入的转义字符"
+        },
+        {
+            "head": "字节填充",
+            "relation": "方法之一",
+            "tail": "解决透明传输问题"
+        }
+    ],
+    [
+        {
+            "head": "字节填充",
+            "relation": "解决方法",
+            "tail": "透明传输"
+        },
+        {
+            "head": "转义字符",
+            "relation": "处理方式",
+            "tail": "在数据前面插入一个转义字符"
+        },
+        {
+            "head": "接收端",
+            "relation": "操作",
+            "tail": "删除连续两个转义字符中的前面一个"
+        },
+        {
+            "head": "比特差错",
+            "relation": "定义",
+            "tail": "传输过程中产生的差错"
+        },
+        {
+            "head": "误码率(BER)",
+            "relation": "描述",
+            "tail": "传输错误的比特占所传输比特总数的比率"
+        },
+        {
+            "head": "信噪比",
+            "relation": "关系",
+            "tail": "与误码率有很大关系"
+        }
+    ],
+    [
+        {
+            "head": "循环冗余检验",
+            "relation": "使用于",
+            "tail": "差错检测"
+        },
+        {
+            "head": "CRC(CyclicRedundancyCheck)",
+            "relation": "是",
+            "tail": "循环冗余检验技术"
+        },
+        {
+            "head": "模2运算",
+            "relation": "用于",
+            "tail": "生成冗余码"
+        },
+        {
+            "head": "除数P",
+            "relation": "参与",
+            "tail": "CRC计算过程"
+        }
+    ],
+    [
+        {
+            "head": "模2除法",
+            "relation": "用于",
+            "tail": "计算冗余码"
+        },
+        {
+            "head": "FCS",
+            "relation": "是",
+            "tail": "帧检验序列"
+        },
+        {
+            "head": "CRC",
+            "relation": "是一种",
+            "tail": "检错方法"
+        },
+        {
+            "head": "FCS",
+            "relation": "添加在",
+            "tail": "数据后面"
+        }
+    ],
+    [
+        {
+            "head": "循环冗余检验",
+            "relation": "用于",
+            "tail": "CRC检验"
+        },
+        {
+            "head": "CRC检验",
+            "relation": "检查",
+            "tail": "余数R是否为0"
+        },
+        {
+            "head": "接收端",
+            "relation": "进行",
+            "tail": "CRC检验"
+        },
+        {
+            "head": "CRC检验",
+            "relation": "基于",
+            "tail": "模2运算"
+        },
+        {
+            "head": "除数P",
+            "relation": "参与",
+            "tail": "CRC计算"
+        },
+        {
+            "head": "误码",
+            "relation": "导致",
+            "tail": "余数R不为0"
+        }
+    ],
+    [
+        {
+            "head": "循环冗余检验",
+            "relation": "用于",
+            "tail": "差错检测"
+        },
+        {
+            "head": "生成多项式",
+            "relation": "表示",
+            "tail": "除数P"
+        },
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "冗余码"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "使用",
+            "tail": "循环冗余检验CRC"
+        },
+        {
+            "head": "FCS",
+            "relation": "生成于",
+            "tail": "发送端"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "使用",
+            "tail": "循环冗余检验CRC差错检测技术"
+        },
+        {
+            "head": "接收端数据链路层",
+            "relation": "接受",
+            "tail": "帧"
+        },
+        {
+            "head": "传输差错",
+            "relation": "分为",
+            "tail": "比特差错和更复杂类型的差错"
+        },
+        {
+            "head": "比特差错",
+            "relation": "属于",
+            "tail": "传输差错"
+        },
+        {
+            "head": "帧丢失",
+            "relation": "属于",
+            "tail": "传输差错"
+        },
+        {
+            "head": "帧重复",
+            "relation": "属于",
+            "尾": "传输差错"
+        },
+        {
+            "head": "帧失序",
+            "relation": "属于",
+            "tail": "传输差错"
+        }
+    ],
+    [
+        {
+            "head": "帧重复",
+            "relation": "属于",
+            "tail": "传输差错"
+        },
+        {
+            "head": "帧失序",
+            "relation": "属于",
+            "tail": "传输差错"
+        },
+        {
+            "head": "CRC检验",
+            "relation": "实现",
+            "tail": "无比特差错的传输"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "提供",
+            "tail": "可靠传输"
+        }
+    ],
+    [
+        {
+            "head": "OSI",
+            "relation": "认为",
+            "tail": "数据链路层必须提供可靠传输"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "使用",
+            "tail": "帧编号、确认和重传机制"
+        },
+        {
+            "head": "CRC检错",
+            "relation": "基础上增加",
+            "tail": "帧编号、确认和重传机制"
+        },
+        {
+            "head": "通信线路质量",
+            "relation": "提高",
+            "tail": "差错概率降低"
+        },
+        {
+            "head": "数据链路层协议",
+            "relation": "不使用",
+            "tail": "确认和重传机制"
+        },
+        {
+            "head": "上层协议",
+            "relation": "完成",
+            "tail": "改正差错任务"
+        },
+        {
+            "head": "无线传输链路",
+            "relation": "使用",
+            "tail": "确认和重传机制"
+        },
+        {
+            "head": "PPP",
+            "relation": "在",
+            "tail": "通信线路质量较差年代"
+        }
+    ],
+    [
+        {
+            "head": "点对点协议PPP",
+            "relation": "是",
+            "tail": "数据链路层协议"
+        },
+        {
+            "head": "高级数据链路控制HDLC",
+            "relation": "是",
+            "tail": "数据链路层协议"
+        },
+        {
+            "head": "点对点协议PPP",
+            "relation": "比",
+            "tail": "高级数据链路控制HDLC更广泛使用"
+        },
+        {
+            "head": "用户计算机",
+            "relation": "使用",
+            "tail": "点对点协议PPP与ISP通信"
+        }
+    ]
+]

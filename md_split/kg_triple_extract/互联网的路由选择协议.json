@@ -1,0 +1,2060 @@
+[
+    [
+        {
+            "head": "路由选择协议",
+            "relation": "属于",
+            "tail": "网络层控制层面"
+        },
+        {
+            "head": "理想路由算法",
+            "relation": "需要具备",
+            "tail": "正确性和完整性"
+        },
+        {
+            "head": "理想路由算法",
+            "relation": "需要具备",
+            "tail": "计算简单性"
+        },
+        {
+            "head": "路由选择协议",
+            "relation": "讨论内容",
+            "tail": "互连网中路由器信息交换和路由表生成"
+        },
+        {
+            "head": "ICMPv6报文",
+            "relation": "用于",
+            "tail": "分类"
+        },
+        {
+            "head": "MLD协议",
+            "relation": "与",
+            "tail": "LLND协议相关"
+        }
+    ],
+    [
+        {
+            "head": "路由选择算法",
+            "relation": "应简单",
+            "tail": "计算上"
+        },
+        {
+            "head": "路由选择算法",
+            "relation": "适应变化",
+            "tail": "通信量和网络拓扑"
+        },
+        {
+            "head": "路由选择算法",
+            "relation": "具有",
+            "tail": "适应性"
+        },
+        {
+            "head": "路由选择算法",
+            "relation": "应稳定",
+            "tail": "在网络通信量和网络拓扑相对稳定情况下"
+        },
+        {
+            "head": "路由选择算法",
+            "relation": "应公平",
+            "tail": "对所有用户"
+        },
+        {
+            "head": "路由选择算法",
+            "relation": "应最佳",
+            "tail": "找出最好的路由"
+        }
+    ],
+    [
+        {
+            "head": "路由选择",
+            "relation": "考虑因素",
+            "tail": "可靠性"
+        },
+        {
+            "head": "路由选择",
+            "relation": "考虑因素",
+            "tail": "最小的分组平均时延"
+        },
+        {
+            "head": "路由选择",
+            "relation": "考虑因素",
+            "tail": "最大吞吐量"
+        },
+        {
+            "head": "路由选择算法",
+            "relation": "目标",
+            "tail": "接近于理想的算法"
+        },
+        {
+            "head": "应用条件",
+            "relation": "影响",
+            "tail": "路由选择策略"
+        },
+        {
+            "head": "网络环境",
+            "relation": "特点",
+            "tail": "不断变化"
+        },
+        {
+            "head": "路由选择",
+            "relation": "挑战",
+            "tail": "网络故障"
+        },
+        {
+            "head": "拥塞",
+            "relation": "需要",
+            "tail": "缓解策略"
+        },
+        {
+            "head": "路由选择信息",
+            "relation": "获取难度",
+            "tail": "在网络中各点"
+        }
+    ],
+    [
+        {
+            "head": "路由算法",
+            "relation": "分为",
+            "tail": "静态路由选择策略和动态路由选择策略"
+        },
+        {
+            "head": "静态路由选择策略",
+            "relation": "特点",
+            "tail": "简单、开销较小，但不适应网络状态变化"
+        },
+        {
+            "head": "动态路由选择策略",
+            "relation": "特点",
+            "tail": "较好地适应网络状态的变化，实现复杂，开销较大"
+        },
+        {
+            "head": "互联网",
+            "relation": "采用",
+            "tail": "分层次的路由选择协议"
+        },
+        {
+            "head": "分层次的路由选择协议",
+            "relation": "原因",
+            "tail": "互联网规模非常大，避免路由器之间交换路由信息所需的带宽使通信链路饱和"
+        }
+    ],
+    [
+        {
+            "head": "单位",
+            "relation": "不愿意公开",
+            "tail": "内部网络布局和路由选择协议"
+        },
+        {
+            "head": "互联网",
+            "relation": "划分为",
+            "tail": "自治系统AS"
+        },
+        {
+            "head": "自治系统AS",
+            "relation": "包含",
+            "tail": "多个网络、IP地址以及路由器"
+        },
+        {
+            "head": "自治系统AS",
+            "relation": "使用",
+            "tail": "内部网关协议IGP"
+        },
+        {
+            "head": "内部网关协议IGP",
+            "relation": "用于",
+            "tail": "单一自治系统内部的路由选择"
+        },
+        {
+            "head": "自治系统AS",
+            "relation": "对外表现",
+            "tail": "单一和一致的路由策略"
+        },
+        {
+            "head": "互联网",
+            "relation": "路由选择协议分为两类",
+            "tail": "内部网关协议IGP和外部网关协议EGP"
+        },
+        {
+            "head": "内部网关协议IGP",
+            "relation": "实例",
+            "tail": "RIP、OSPF协议"
+        }
+    ],
+    [
+        {
+            "head": "外部网关协议EGP",
+            "relation": "是",
+            "tail": "不同治系统之间的路由选择协议"
+        },
+        {
+            "head": "BGP-4",
+            "relation": "是",
+            "tail": "目前使用最多的外部网关协议"
+        },
+        {
+            "head": "RIP",
+            "relation": "可以作为",
+            "tail": "内部路由选择协议之一"
+        },
+        {
+            "head": "OSPF",
+            "relation": "可以作为",
+            "tail": "内部路由选择协议之一"
+        },
+        {
+            "head": "域间路由选择",
+            "relation": "也叫作",
+            "tail": "外部网关协议EGP"
+        },
+        {
+            "head": "域内路由选择",
+            "relation": "也叫作",
+            "tail": "内部网关协议IGP"
+        }
+    ],
+    [
+        {
+            "head": "自治系统",
+            "relation": "使用",
+            "tail": "外部网关协议"
+        },
+        {
+            "head": "自治系统",
+            "relation": "使用",
+            "tail": "内部网关协议"
+        },
+        {
+            "head": "边界网关协议",
+            "relation": "取代",
+            "tail": "EGP"
+        },
+        {
+            "head": "IGP",
+            "relation": "类别",
+            "tail": "内部网关协议"
+        },
+        {
+            "head": "EGP",
+            "relation": "类别",
+            "tail": "外部网关协议"
+        }
+    ],
+    [
+        {
+            "head": "RIP",
+            "relation": "属于",
+            "tail": "内部网关协议IGP"
+        },
+        {
+            "head": "BGP-4",
+            "relation": "属于",
+            "tail": "外部网关协议EGP"
+        },
+        {
+            "head": "OSPF",
+            "relation": "属于",
+            "tail": "内部网关协议IGP"
+        },
+        {
+            "head": "RIP",
+            "relation": "是",
+            "tail": "路由信息协议"
+        }
+    ],
+    [
+        {
+            "head": "路由信息协议",
+            "relation": "是",
+            "tail": "分布式距离向量路由选择协议"
+        },
+        {
+            "head": "路由信息协议",
+            "relation": "应用于",
+            "tail": "互联网"
+        },
+        {
+            "head": "路由信息协议",
+            "relation": "维护",
+            "tail": "从路由器到其他目的网络的距离记录"
+        },
+        {
+            "head": "跳数",
+            "relation": "定义为",
+            "tail": "经过的网络数目加1"
+        },
+        {
+            "head": "RIP",
+            "relation": "允许路径最多包含",
+            "tail": "15个网络"
+        },
+        {
+            "head": "RIP",
+            "relation": "认为好的路由",
+            "tail": "通过的网络数目少"
+        }
+    ],
+    [
+        {
+            "head": "RIP",
+            "relation": "选择",
+            "tail": "最短路由"
+        },
+        {
+            "head": "主机",
+            "relation": "连接到",
+            "tail": "H2"
+        },
+        {
+            "head": "距离",
+            "relation": "定义为",
+            "tail": "6跳"
+        },
+        {
+            "head": "RIP",
+            "relation": "不同时使用",
+            "tail": "多条路由"
+        },
+        {
+            "head": "RIP",
+            "relation": "选择",
+            "tail": "最少网络数的路由"
+        },
+        {
+            "head": "RIP和OSPF",
+            "relation": "属于",
+            "tail": "分布式路由选择协议"
+        },
+        {
+            "head": "路由器",
+            "relation": "交换信息",
+            "tail": "其他一些路由器"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "交换信息对象",
+            "tail": "相邻路由器"
+        },
+        {
+            "head": "路由器",
+            "relation": "交换信息内容",
+            "tail": "当前路由表"
+        },
+        {
+            "head": "路由器",
+            "relation": "交换时间间隔",
+            "tail": "固定的时间间隔，例如30秒"
+        }
+    ],
+    [
+        {
+            "head": "RIP",
+            "relation": "使用",
+            "tail": "距离向量算法"
+        },
+        {
+            "head": "路由表",
+            "relation": "包含",
+            "tail": "最短距离和下一跳地址"
+        },
+        {
+            "head": "路由器",
+            "relation": "交换并更新",
+            "tail": "路由信息"
+        },
+        {
+            "head": "RIP",
+            "relation": "可以实现",
+            "tail": "收敛"
+        }
+    ],
+    [
+        {
+            "head": "距离向量算法",
+            "relation": "包含步骤",
+            "tail": "修改RIP报文"
+        },
+        {
+            "head": "修改后的RIP报文",
+            "relation": "添加项目",
+            "tail": "路由表"
+        },
+        {
+            "head": "路由表",
+            "relation": "更新依据",
+            "tail": "距离和下一跳路由器"
+        },
+        {
+            "head": "相邻路由器",
+            "relation": "发送报文",
+            "tail": "RIP报文"
+        },
+        {
+            "head": "距离向量算法",
+            "relation": "设置距离",
+            "tail": "16表示不可达"
+        }
+    ],
+    [
+        {
+            "head": "Bellman-Ford算法",
+            "relation": "是",
+            "tail": "距离向量算法的基础"
+        },
+        {
+            "head": "RIP报文",
+            "relation": "包含",
+            "tail": "网络地址和距离信息"
+        }
+    ],
+    [
+        {
+            "head": "路由器Y",
+            "relation": "不是下一跳路由器地址",
+            "tail": "对本路由器无用"
+        },
+        {
+            "head": "目的网络Net2",
+            "relation": "需要加入路由表",
+            "tail": "因为没有此项目"
+        },
+        {
+            "head": "距离",
+            "relation": "可能增大或减小",
+            "tail": "但也可不变"
+        },
+        {
+            "head": "原路由表项目",
+            "relation": "需更新为最新消息",
+            "tail": "即使距离不变"
+        },
+        {
+            "head": "原路由表项目Net2,5,P",
+            "relation": "应更新为Net2,4,X",
+            "tail": "因为距离减小"
+        },
+        {
+            "head": "原路由表项目Net2,3,X",
+            "relation": "无需更新",
+            "tail": "因为距离不变"
+        }
+    ],
+    [
+        {
+            "head": "路由器氏",
+            "relation": "更新路由表",
+            "tail": "Net1"
+        },
+        {
+            "head": "路由器氏",
+            "relation": "更新路由表",
+            "tail": "Net2"
+        },
+        {
+            "head": "路由器氏",
+            "relation": "更新路由表",
+            "tail": "Net3"
+        },
+        {
+            "head": "路由器氏",
+            "relation": "添加路由信息",
+            "tail": "Net1"
+        },
+        {
+            "head": "路由器氏",
+            "relation": "更新距离",
+            "tail": "Net2"
+        },
+        {
+            "head": "路由器氏",
+            "relation": "替换下一跳路由器",
+            "tail": "Net3"
+        }
+    ],
+    [
+        {
+            "head": "RIP",
+            "relation": "使用于",
+            "tail": "路由"
+        },
+        {
+            "head": "RIP",
+            "relation": "交换",
+            "tail": "路由信息"
+        },
+        {
+            "head": "RIP",
+            "relation": "更新",
+            "tail": "路由表"
+        },
+        {
+            "head": "RIP2",
+            "relation": "支持",
+            "tail": "CIDR"
+        },
+        {
+            "head": "RIP2",
+            "relation": "提供",
+            "tail": "鉴别过程"
+        },
+        {
+            "head": "RIP报文",
+            "relation": "作为",
+            "tail": "UDP数据部分"
+        },
+        {
+            "head": "RIP",
+            "relation": "使用",
+            "tail": "端口520"
+        }
+    ],
+    [
+        {
+            "head": "RIP",
+            "relation": "使用",
+            "tail": "UDP用户数据报"
+        },
+        {
+            "head": "RIP报文",
+            "relation": "包含",
+            "tail": "路由部分"
+        },
+        {
+            "head": "路由部分",
+            "relation": "需要填入",
+            "tail": "自治系统号ASN"
+        },
+        {
+            "head": "路由部分",
+            "relation": "需要填入",
+            "tail": "目的网络地址及其子网掩码"
+        },
+        {
+            "head": "路由部分",
+            "relation": "需要填入",
+            "tail": "下一跳路由器地址"
+        },
+        {
+            "head": "路由部分",
+            "relation": "需要填入",
+            "tail": "到此网络的距离"
+        },
+        {
+            "head": "RIP报文",
+            "relation": "最多可包含",
+            "tail": "25个路由条目"
+        },
+        {
+            "head": "RIP",
+            "relation": "存在问题",
+            "tail": "坏消息传播得慢"
+        }
+    ],
+    [
+        {
+            "head": "路由器R1",
+            "relation": "发送更新信息给",
+            "tail": "路由器R2"
+        },
+        {
+            "head": "路由器R1",
+            "relation": "修改路由表为",
+            "tail": "Netl,3,R2"
+        },
+        {
+            "head": "路由器R2",
+            "relation": "发送更新报文给",
+            "tail": "路由器R1"
+        },
+        {
+            "head": "路由器R2",
+            "relation": "修改路由表为",
+            "tail": "Netl,4,R广"
+        },
+        {
+            "head": "路由器R1",
+            "relation": "误认为可经过",
+            "tail": "路由器R2到达网Netl"
+        },
+        {
+            "head": "路由器R2",
+            "relation": "误认为可经过",
+            "tail": "路由器R广到达网Netl"
+        }
+    ],
+    [
+        {
+            "head": "RIP",
+            "relation": "传播特性",
+            "tail": "好消息传播得快，坏消息传播得慢"
+        },
+        {
+            "head": "RIP",
+            "relation": "缺点",
+            "tail": "坏消息传播时间较长（数分钟）"
+        },
+        {
+            "head": "自治系统号ASN",
+            "relation": "位数",
+            "tail": "16位扩展到32位"
+        },
+        {
+            "head": "32位ASN",
+            "relation": "表示方式",
+            "tail": "两段点分十进制记法"
+        },
+        {
+            "head": "RIP",
+            "relation": "优点",
+            "tail": "实现简单，开销较小"
+        }
+    ],
+    [
+        {
+            "head": "协议RIP",
+            "relation": "优点",
+            "tail": "实现简单,开销较小"
+        },
+        {
+            "head": "协议RIP",
+            "relation": "缺点",
+            "tail": "限制网络规模,使用最大距离为15,交换完整路由表导致开销增加,更新过程收敛时间过长"
+        },
+        {
+            "head": "协议OSPF",
+            "relation": "特点",
+            "tail": "链路状态协议,使用洪泛法发送信息"
+        },
+        {
+            "head": "协议RIP",
+            "relation": "对比",
+            "tail": "规模较小网络中仍占多数"
+        },
+        {
+            "head": "协议OSPF",
+            "relation": "替代",
+            "tail": "用于较大规模网络"
+        }
+    ],
+    [
+        {
+            "head": "OSPF",
+            "relation": "工作原理",
+            "tail": "频繁交换链路状态信息"
+        },
+        {
+            "head": "RIP",
+            "relation": "发送信息",
+            "tail": "到所有网络的距离和下一跳路由器"
+        },
+        {
+            "head": "链路状态",
+            "relation": "包含",
+            "tail": "与本路由器相邻的所有路由器的链路"
+        },
+        {
+            "head": "度量",
+            "relation": "表示",
+            "tail": "费用、距离、时延、带宽"
+        },
+        {
+            "head": "OSPF",
+            "relation": "使用",
+            "tail": "洪泛法发送链路状态信息"
+        },
+        {
+            "head": "RIP",
+            "relation": "仅向",
+            "tail": "相邻的几个路由器发送信息"
+        }
+    ],
+    [
+        {
+            "head": "OSPF",
+            "relation": "建立",
+            "tail": "链路状态数据库"
+        },
+        {
+            "head": "链路状态数据库",
+            "relation": "包含",
+            "tail": "全网的拓扑结构图"
+        },
+        {
+            "head": "链路状态数据库",
+            "relation": "同步",
+            "tail": "全网范围内"
+        },
+        {
+            "head": "路由器",
+            "relation": "使用",
+            "tail": "链路状态数据库中的数据"
+        },
+        {
+            "head": "路由器",
+            "relation": "构造",
+            "tail": "路由表"
+        },
+        {
+            "head": "OSPF",
+            "relation": "更新",
+            "tail": "较快地进行"
+        },
+        {
+            "head": "OSPF",
+            "relation": "使各个路由器",
+            "tail": "及时更新其路由表"
+        }
+    ],
+    [
+        {
+            "head": "OSPF",
+            "relation": "包含",
+            "tail": "区域"
+        },
+        {
+            "head": "OSPF",
+            "relation": "划分",
+            "tail": "主干区域"
+        },
+        {
+            "head": "OSPF",
+            "relation": "使用",
+            "tail": "区域边界路由器"
+        }
+    ],
+    [
+        {
+            "head": "OSPF",
+            "relation": "包含",
+            "tail": "区域边界路由器"
+        },
+        {
+            "head": "OSPF",
+            "relation": "包含",
+            "tail": "主干路由器"
+        },
+        {
+            "head": "OSPF",
+            "relation": "划分为",
+            "tail": "两种不同区域"
+        },
+        {
+            "head": "OSPF",
+            "relation": "采用",
+            "tail": "分层次划分区域方法"
+        },
+        {
+            "head": "OSPF",
+            "relation": "具有",
+            "tail": "多个基本特点"
+        }
+    ],
+    [
+        {
+            "head": "OSPF",
+            "relation": "允许",
+            "tail": "指派不同代价"
+        },
+        {
+            "head": "OSPF",
+            "relation": "支持",
+            "tail": "多路径负载均衡"
+        },
+        {
+            "head": "OSPF",
+            "relation": "交换",
+            "tail": "鉴别分组"
+        },
+        {
+            "head": "OSPF",
+            "relation": "支持",
+            "tail": "可变长度子网划分"
+        },
+        {
+            "head": "OSPF",
+            "relation": "支持",
+            "tail": "无分类编址CIDR"
+        }
+    ],
+    [
+        {
+            "head": "OSPF",
+            "relation": "支持",
+            "tail": "可变长度子网划分和无分类编址CIDR"
+        },
+        {
+            "head": "OSPF",
+            "relation": "使用",
+            "tail": "链路状态序号"
+        },
+        {
+            "head": "链路状态序号",
+            "relation": "增长速率",
+            "tail": "每5秒1次"
+        },
+        {
+            "head": "OSPF",
+            "relation": "包含",
+            "tail": "五种分组类型"
+        },
+        {
+            "head": "问候(Hello)分组",
+            "relation": "用于",
+            "tail": "发现和维持邻站可达性"
+        },
+        {
+            "head": "数据库描述(DatabaseDescription)分组",
+            "relation": "提供",
+            "tail": "链路状态数据库摘要信息"
+        },
+        {
+            "head": "链路状态请求(LinkStateRequest)分组",
+            "relation": "请求发送",
+            "tail": "某些链路状态项目详细信息"
+        },
+        {
+            "head": "链路状态更新(LinkStateUpdate)分组",
+            "relation": "用于",
+            "tail": "全网更新链路状态"
+        }
+    ],
+    [
+        {
+            "head": "链路状态确认",
+            "relation": "是对",
+            "tail": "链路更新分组的确认"
+        },
+        {
+            "head": "OSPF分组",
+            "relation": "作为",
+            "tail": "IP数据报的数据部分来传送"
+        },
+        {
+            "head": "OSPF分组首部",
+            "relation": "包含",
+            "tail": "类型1至类型5的OSPF分组"
+        },
+        {
+            "head": "相邻路由器",
+            "relation": "每隔",
+            "tail": "10秒钟交换一次问候分组"
+        },
+        {
+            "head": "可达邻站的链路状态",
+            "relation": "信息存入",
+            "tail": "链路状态数据库"
+        }
+    ],
+    [
+        {
+            "head": "OSPF分组",
+            "relation": "包含",
+            "tail": "问候分组"
+        },
+        {
+            "head": "路由器",
+            "relation": "发送",
+            "tail": "问候分组"
+        },
+        {
+            "head": "40秒",
+            "relation": "无收到",
+            "tail": "相邻路由器问候分组"
+        },
+        {
+            "head": "链路状态数据库",
+            "relation": "同步",
+            "tail": "完全邻接的路由器"
+        },
+        {
+            "head": "路由器",
+            "relation": "广播",
+            "tail": "本地链路状态信息"
+        },
+        {
+            "head": "OSPF",
+            "relation": "使用",
+            "tail": "数据库描述分组"
+        }
+    ],
+    [
+        {
+            "head": "OSPF",
+            "relation": "使用",
+            "tail": "数据库描述分组"
+        },
+        {
+            "head": "路由器",
+            "relation": "交换",
+            "tail": "链路状态摘要信息"
+        },
+        {
+            "head": "路由器",
+            "relation": "请求",
+            "tail": "链路状态详细信息"
+        },
+        {
+            "head": "OSPF",
+            "relation": "使用",
+            "tail": "可靠的洪泛法"
+        },
+        {
+            "head": "路由器",
+            "relation": "发送",
+            "tail": "链路状态更新分组"
+        },
+        {
+            "head": "路由器",
+            "relation": "转发",
+            "tail": "收到的更新分组"
+        },
+        {
+            "head": "路由器",
+            "relation": "发送",
+            "tail": "确认分组"
+        }
+    ],
+    [
+        {
+            "head": "OSPF协议",
+            "relation": "使用",
+            "tail": "链路状态数据库"
+        },
+        {
+            "head": "OSPF协议",
+            "relation": "发送",
+            "tail": "更新分组"
+        },
+        {
+            "head": "OSPF协议",
+            "relation": "采用",
+            "tail": "洪泛法"
+        },
+        {
+            "head": "OSPF协议",
+            "relation": "响应时间",
+            "tail": "小于100ms"
+        },
+        {
+            "head": "指定的路由器",
+            "relation": "代表",
+            "tail": "局域网上所有链路向连接到该网络上的各路由器发送状态信息"
+        }
+    ],
+    [
+        {
+            "head": "BGP",
+            "relation": "版本",
+            "tail": "BGP-4"
+        },
+        {
+            "head": "BGP",
+            "relation": "标准文档",
+            "tail": "RFC4271"
+        },
+        {
+            "head": "BGP",
+            "relation": "作用",
+            "tail": "外部网关协议"
+        },
+        {
+            "head": "RIP",
+            "relation": "类型",
+            "tail": "内部网关协议"
+        },
+        {
+            "head": "OSPF",
+            "relation": "类型",
+            "tail": "内部网关协议"
+        },
+        {
+            "head": "AS",
+            "relation": "简称",
+            "tail": "自治系统"
+        },
+        {
+            "head": "互连网",
+            "relation": "组成",
+            "tail": "BGP连接的AS"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "包含",
+            "tail": "路由器"
+        },
+        {
+            "head": "路由器",
+            "relation": "维护",
+            "tail": "转发表"
+        },
+        {
+            "head": "转发表",
+            "relation": "包含",
+            "tail": "网络前缀"
+        },
+        {
+            "head": "自治系统",
+            "relation": "运行",
+            "tail": "内部路由选择协议"
+        },
+        {
+            "head": "BGP",
+            "relation": "使用",
+            "tail": "不同路由选择策略"
+        },
+        {
+            "head": "链路状态协议",
+            "relation": "需要",
+            "tail": "维持大数据库"
+        },
+        {
+            "head": "Dijkstra算法",
+            "relation": "计算",
+            "tail": "最短路径"
+        }
+    ],
+    [
+        {
+            "head": "路由选择",
+            "relation": "考虑",
+            "tail": "策略"
+        },
+        {
+            "head": "代价",
+            "relation": "表示",
+            "tail": "路径长度或质量"
+        },
+        {
+            "head": "可达性",
+            "relation": "信息交换内容",
+            "tail": "可到达网络前缀N经过自治系统ASx"
+        }
+    ],
+    [
+        {
+            "head": "边界网关协议BGP",
+            "relation": "用于",
+            "tail": "选择路由"
+        },
+        {
+            "head": "自治系统AS",
+            "relation": "包含",
+            "tail": "路由器"
+        },
+        {
+            "head": "路由选择策略",
+            "relation": "考虑因素",
+            "tail": "政治、安全或经济方面"
+        },
+        {
+            "head": "边界网关协议BGP",
+            "relation": "目标",
+            "tail": "选择较好的路由而非最佳路由"
+        }
+    ],
+    [
+        {
+            "head": "BGP",
+            "relation": "采用",
+            "tail": "路径向量路由选择协议"
+        },
+        {
+            "head": "BGP",
+            "relation": "区别于",
+            "tail": "距离向量协议和链路状态协议"
+        },
+        {
+            "head": "边界路由器",
+            "relation": "功能",
+            "tail": "内部路由器和边界网关"
+        },
+        {
+            "head": "AS",
+            "relation": "包含",
+            "tail": "至少一个边界路由器"
+        },
+        {
+            "head": "eBGP",
+            "relation": "连接类型",
+            "tail": "外部边界路由器之间的TCP连接"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "端口号",
+            "tail": "179"
+        }
+    ],
+    [
+        {
+            "head": "BGP",
+            "relation": "运行于",
+            "tail": "AS之间"
+        },
+        {
+            "head": "BGP",
+            "relation": "也需要运行于",
+            "tail": "AS内部"
+        },
+        {
+            "head": "eBGP",
+            "relation": "连接类型",
+            "tail": "AS之间的外部BGP连接"
+        },
+        {
+            "head": "iBGP",
+            "relation": "连接类型",
+            "tail": "AS内部的内部BGP连接"
+        },
+        {
+            "head": "TCP",
+            "relation": "用于传输",
+            "tail": "BGP报文"
+        },
+        {
+            "head": "边界路由器R1",
+            "relation": "知道",
+            "tail": "到达AS1中的前缀X的BGP路由"
+        },
+        {
+            "head": "边界路由器R1",
+            "relation": "通过eBGP连接",
+            "tail": "向AS2内部其他路由器转发BGP路由"
+        }
+    ],
+    [
+        {
+            "head": "AS",
+            "relation": "包含",
+            "tail": "iBGP"
+        },
+        {
+            "head": "iBGP",
+            "relation": "要求",
+            "tail": "全连通"
+        },
+        {
+            "head": "eBGP",
+            "relation": "定义为",
+            "tail": "不同AS的两个对等端之间的BGP连接"
+        },
+        {
+            "head": "iBGP",
+            "relation": "定义为",
+            "tail": "同一AS的两个对等端之间的BGP连接"
+        },
+        {
+            "head": "BGP",
+            "relation": "遵循",
+            "tail": "RFC4271"
+        }
+    ],
+    [
+        {
+            "head": "BGP",
+            "relation": "遵循",
+            "tail": "协议"
+        },
+        {
+            "head": "BGP",
+            "relation": "使用",
+            "tail": "报文格式"
+        },
+        {
+            "head": "BGP",
+            "relation": "具有",
+            "tail": "属性类型"
+        },
+        {
+            "head": "eBGP",
+            "relation": "通告路由给",
+            "tail": "不同AS的对等端"
+        },
+        {
+            "head": "iBGP",
+            "relation": "通告路由给",
+            "tail": "同一AS内的对等端"
+        },
+        {
+            "head": "iBGP",
+            "relation": "不转告",
+            "tail": "同一个AS内不同iBGP的对等端"
+        },
+        {
+            "head": "IGP",
+            "relation": "运行在",
+            "tail": "AS内部"
+        },
+        {
+            "head": "BGP",
+            "relation": "运行在",
+            "tail": "iBGP和eBGP之上"
+        },
+        {
+            "head": "OSPF",
+            "relation": "是",
+            "tail": "IGP协议之一"
+        },
+        {
+            "head": "RIP",
+            "relation": "是",
+            "tail": "IGP协议之一"
+        }
+    ],
+    [
+        {
+            "head": "BGP路由",
+            "relation": "包含属性",
+            "tail": "AS-PATH"
+        },
+        {
+            "head": "BGP路由",
+            "relation": "包含属性",
+            "tail": "NEXT-HOP"
+        },
+        {
+            "head": "AS-PATH",
+            "relation": "定义为",
+            "tail": "通告的BGP路由所经过的AS治系统路径"
+        },
+        {
+            "head": "NEXT-HOP",
+            "relation": "定义为",
+            "tail": "通告的BGP路由起点"
+        }
+    ],
+    [
+        {
+            "head": "边界路由器",
+            "relation": "属于",
+            "tail": "AS2"
+        },
+        {
+            "head": "BGP路由",
+            "relation": "起点转换为",
+            "tail": "R2-R1-X"
+        },
+        {
+            "head": "内部网关协议",
+            "relation": "找到下一跳",
+            "tail": "R3"
+        },
+        {
+            "head": "路由器R2",
+            "relation": "增加转发表项",
+            "tail": "前缀X可达，下一跳为R3"
+        },
+        {
+            "head": "路由器R3",
+            "relation": "增加转发表项",
+            "tail": "前缀X可达，下一跳为R2"
+        }
+    ],
+    [
+        {
+            "head": "前缀匹配",
+            "relation": "使用记法",
+            "tail": "CIDR"
+        },
+        {
+            "head": "路由器",
+            "relation": "更新转发表",
+            "tail": "BGP路由通告"
+        },
+        {
+            "head": "下一跳",
+            "relation": "表示为",
+            "tail": "进入接口的IP地址"
+        },
+        {
+            "head": "AS",
+            "relation": "分类",
+            "tail": "末梢AS、穿越AS和对等AS"
+        }
+    ],
+    [
+        {
+            "head": "末梢AS",
+            "relation": "类型",
+            "tail": "小的AS"
+        },
+        {
+            "head": "末梢AS",
+            "relation": "特点",
+            "tail": "直接连接的AS发送或接收分组，不转发其他AS的分组"
+        },
+        {
+            "head": "末梢AS",
+            "relation": "付费",
+            "tail": "向所连接的AS付费才能发送或接收分组"
+        },
+        {
+            "head": "多归属AS",
+            "relation": "类型",
+            "tail": "末梢AS"
+        },
+        {
+            "head": "多归属AS",
+            "relation": "特点",
+            "tail": "连接到两个或两个以上的AS，增加连接的可靠性"
+        }
+    ],
+    [
+        {
+            "head": "AS",
+            "relation": "不允许穿越",
+            "tail": "末梢AS"
+        },
+        {
+            "head": "BGP路由",
+            "relation": "通告给",
+            "tail": "对等AS"
+        },
+        {
+            "head": "主干AS",
+            "relation": "为其他AS转发分组",
+            "tail": "有偿"
+        },
+        {
+            "head": "穿越AS",
+            "relation": "连接多个AS",
+            "tail": ""
+        },
+        {
+            "head": "对等AS",
+            "relation": "发送或接收分组不收费",
+            "tail": ""
+        },
+        {
+            "head": "BGP路由",
+            "relation": "避免出现兜圈子",
+            "tail": ""
+        },
+        {
+            "head": "AS3",
+            "relation": "向AS1通告可到达AS6的路径",
+            "tail": "[AS3, AS2, AS1, AS6]"
+        },
+        {
+            "head": "AS1",
+            "relation": "收到BGP路由后添加自身AS号",
+            "tail": "[AS1, AS3, AS6]"
+        },
+        {
+            "head": "AS2",
+            "relation": "向AS3通报更新后的BGP路由",
+            "tail": "[AS2, AS1, AS3, AS6]"
+        }
+    ],
+    [
+        {
+            "head": "AS3",
+            "relation": "检查",
+            "tail": "BGP路由的AS-PATH"
+        },
+        {
+            "head": "AS3",
+            "relation": "删除",
+            "tail": "存在自身AS号的BGP路由"
+        },
+        {
+            "head": "AS2",
+            "relation": "接收",
+            "tail": "另一条到达AS6的BGP路由"
+        },
+        {
+            "head": "BGP",
+            "relation": "选择",
+            "tail": "本地偏好LOCAL-PREF值最高的路由"
+        }
+    ],
+    [
+        {
+            "head": "本地偏好",
+            "relation": "属性",
+            "tail": "LOCAL-PREF"
+        },
+        {
+            "head": "LOCAL-PREF",
+            "relation": "值最高",
+            "tail": "优先选择路由"
+        },
+        {
+            "head": "AS1",
+            "relation": "连接到",
+            "tail": "AS2和AS3"
+        },
+        {
+            "head": "AS1",
+            "relation": "设置",
+            "tail": "LOCAL-PREF值为300"
+        },
+        {
+            "head": "AS1",
+            "relation": "设置",
+            "tail": "LOCAL-PREF值为200"
+        },
+        {
+            "head": "分组",
+            "relation": "转发到",
+            "tail": "AS4"
+        },
+        {
+            "head": "路由",
+            "relation": "优先选择",
+            "tail": "从本地离开的BGP路由"
+        }
+    ],
+    [
+        {
+            "head": "BGP",
+            "relation": "使用",
+            "tail": "热土豆路由选择算法"
+        },
+        {
+            "head": "LOCAL-PREF",
+            "relation": "影响",
+            "tail": "路由优先级"
+        },
+        {
+            "head": "AS跳数",
+            "relation": "用于",
+            "tail": "选择BGP路由"
+        },
+        {
+            "head": "负载调整",
+            "relation": "无法通过",
+            "tail": "协议BGP实现"
+        }
+    ],
+    [
+        {
+            "head": "热土豆路由选择算法",
+            "relation": "应用于",
+            "tail": "BGP路由选择"
+        },
+        {
+            "head": "AS1",
+            "relation": "执行",
+            "tail": "热土豆路由选择算法"
+        },
+        {
+            "head": "分组",
+            "relation": "比喻为",
+            "tail": "烫手的热土豆"
+        },
+        {
+            "head": "R1",
+            "relation": "选择",
+            "tail": "BGP路由2作为下一跳"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "选择下一跳",
+            "tail": "R2"
+        },
+        {
+            "head": "BGP路由",
+            "relation": "转发路径",
+            "tail": "R3一BGP路由1"
+        },
+        {
+            "head": "BGP标识符",
+            "relation": "唯一标识符",
+            "tail": "BGPID"
+        },
+        {
+            "head": "BGPID",
+            "relation": "使用IP地址",
+            "tail": "数值最大的一个"
+        },
+        {
+            "head": "报文类型",
+            "relation": "包含OPEN",
+            "tail": "打开报文"
+        },
+        {
+            "head": "报文类型",
+            "relation": "包含UPDATE",
+            "tail": "更新报文"
+        }
+    ],
+    [
+        {
+            "head": "UPDATE报文",
+            "relation": "用于通告",
+            "tail": "路由信息"
+        },
+        {
+            "head": "KEEPALIVE报文",
+            "relation": "用于证实",
+            "tail": "连通性"
+        },
+        {
+            "head": "NOTIFICATION报文",
+            "relation": "发送",
+            "tail": "差错通知"
+        },
+        {
+            "head": "OPEN报文",
+            "relation": "建立",
+            "tail": "BGP连接"
+        },
+        {
+            "head": "KEEPALIVE报文",
+            "relation": "表示接受",
+            "tail": "TCP连接"
+        },
+        {
+            "head": "UPDATE报文",
+            "relation": "撤销或增加",
+            "tail": "路由信息"
+        },
+        {
+            "head": "BGP协议",
+            "relation": "核心",
+            "tail": "UPDATE报文"
+        },
+        {
+            "head": "KEEPALIVE报文",
+            "relation": "周期性交换",
+            "tail": "表示协议正常工作"
+        }
+    ],
+    [
+        {
+            "head": "BGP",
+            "relation": "使用",
+            "tail": "KEEPALIVE报文"
+        },
+        {
+            "head": "路由器",
+            "relation": "维护",
+            "tail": "保持时间计时器(HoldTimer)"
+        },
+        {
+            "head": "BGP报文",
+            "relation": "包含",
+            "tail": "通用首部"
+        },
+        {
+            "head": "KEEPALIVE报文",
+            "relation": "减少",
+            "tail": "网络开销"
+        },
+        {
+            "head": "保持时间(HoldTime)",
+            "relation": "决定",
+            "tail": "KEEPALIVE报文发送间隔"
+        }
+    ],
+    [
+        {
+            "head": "BGP连接",
+            "relation": "发送",
+            "tail": "KEEPALIVE报文"
+        },
+        {
+            "head": "BGP",
+            "relation": "解决",
+            "tail": "距离向量路由选择算法中的‘坏消息传播得慢’问题"
+        },
+        {
+            "head": "ASN",
+            "relation": "范围扩大到",
+            "tail": "4294967295"
+        },
+        {
+            "head": "BGP报文",
+            "relation": "使用",
+            "tail": "TCP报文的数据部分"
+        },
+        {
+            "head": "路由器",
+            "relation": "具有多个",
+            "tail": "输入端口和输出端口"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "执行",
+            "tail": "分组转发"
+        },
+        {
+            "head": "路由器",
+            "relation": "包含",
+            "tail": "路由选择部分"
+        },
+        {
+            "head": "路由器",
+            "relation": "包含",
+            "tail": "分组转发部分"
+        },
+        {
+            "head": "路由选择部分",
+            "relation": "称为",
+            "tail": "控制层面"
+        },
+        {
+            "head": "路由选择处理机",
+            "relation": "构造",
+            "tail": "路由表"
+        },
+        {
+            "head": "路由选择处理机",
+            "relation": "更新维护",
+            "tail": "路由表"
+        },
+        {
+            "head": "路由器",
+            "relation": "包含",
+            "tail": "交换结构"
+        },
+        {
+            "head": "分组转发部分",
+            "relation": "由",
+            "tail": "一组输入端口和输出端口组成"
+        }
+    ],
+    [
+        {
+            "head": "端口",
+            "relation": "属于",
+            "tail": "硬件接口"
+        },
+        {
+            "head": "小型路由器",
+            "relation": "具有",
+            "tail": "几个端口"
+        },
+        {
+            "head": "边缘路由器MX2020",
+            "relation": "具有",
+            "tail": "80Tbit/s系统容量"
+        },
+        {
+            "head": "10Gbit/s端口",
+            "relation": "包含",
+            "tail": "960个子端口"
+        },
+        {
+            "head": "交换结构",
+            "relation": "称为",
+            "tail": "交换组织"
+        },
+        {
+            "head": "交换结构",
+            "relation": "根据",
+            "tail": "转发表处理分组"
+        },
+        {
+            "head": "转发",
+            "relation": "涉及",
+            "tail": "单个路由器"
+        },
+        {
+            "head": "路由选择",
+            "relation": "涉及",
+            "tail": "多个路由器"
+        },
+        {
+            "head": "路由表",
+            "relation": "由",
+            "tail": "许多路由器协同工作产生"
+        },
+        {
+            "head": "路由选择",
+            "relation": "动态改变",
+            "tail": "网络拓扑变化"
+        }
+    ],
+    [
+        {
+            "head": "复杂的路由算法",
+            "relation": "得出",
+            "tail": "拓扑变化情况"
+        },
+        {
+            "head": "路由表",
+            "relation": "包含",
+            "tail": "目的网络到下一跳的映射"
+        },
+        {
+            "head": "转发表",
+            "relation": "包含",
+            "tail": "从要到达的目的网络到输出端口和MAC地址信息"
+        },
+        {
+            "head": "路由表",
+            "relation": "用软件实现",
+            "tail": ""
+        },
+        {
+            "head": "转发表",
+            "relation": "可用硬件实现",
+            "tail": ""
+        },
+        {
+            "head": "物理层",
+            "relation": "进行",
+            "tail": "比特的接收"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "按照协议接收",
+            "tail": "帧"
+        },
+        {
+            "head": "网络层处理模块",
+            "relation": "接收",
+            "tail": "分组"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "包含",
+            "tail": "输入端口"
+        },
+        {
+            "head": "路由器",
+            "relation": "包含",
+            "tail": "输出端口"
+        },
+        {
+            "head": "路由器",
+            "relation": "包含",
+            "tail": "线路接口卡"
+        },
+        {
+            "head": "分组",
+            "relation": "通过",
+            "tail": "交换结构"
+        },
+        {
+            "head": "查找转发表",
+            "relation": "依据",
+            "tail": "目的地址"
+        },
+        {
+            "head": "转发分组",
+            "relation": "根据",
+            "tail": "转发表结果"
+        },
+        {
+            "head": "路由器",
+            "relation": "更新",
+            "tail": "路由选择处理机"
+        },
+        {
+            "head": "影子副本",
+            "relation": "用于",
+            "tail": "转发表的副本"
+        },
+        {
+            "head": "交换结构",
+            "relation": "实现",
+            "tail": "分散化"
+        },
+        {
+            "head": "路由器",
+            "relation": "以",
+            "tail": "线速"
+        }
+    ],
+    [
+        {
+            "head": "OC-48",
+            "relation": "传输速率",
+            "tail": "2.5Gbit/s"
+        },
+        {
+            "head": "分组长度",
+            "relation": "影响",
+            "tail": "线速处理能力"
+        },
+        {
+            "head": "路由器",
+            "relation": "处理速率单位",
+            "tail": "Mpps"
+        },
+        {
+            "head": "查找转发表",
+            "relation": "重要性",
+            "tail": "提高路由设计研究课题"
+        },
+        {
+            "head": "输入端口队列",
+            "relation": "产生",
+            "tail": "时延"
+        },
+        {
+            "head": "交换结构",
+            "relation": "功能",
+            "tail": "接收分组"
+        },
+        {
+            "head": "缓存区",
+            "relation": "位置",
+            "tail": "网络层处理模块"
+        },
+        {
+            "head": "输出链路发送速率",
+            "relation": "影响",
+            "tail": "分组排队"
+        }
+    ],
+    [
+        {
+            "head": "分组",
+            "relation": "在",
+            "tail": "输入端口和输出端口排队"
+        },
+        {
+            "head": "队列",
+            "relation": "存储",
+            "tail": "来不及发送的分组"
+        },
+        {
+            "head": "交换结构",
+            "relation": "将",
+            "tail": "分组从一个输入端口转移到某个合适的输出端口"
+        },
+        {
+            "head": "交换方法",
+            "relation": "包括",
+            "tail": "三种常用的交换方法"
+        },
+        {
+            "head": "溢出",
+            "relation": "导致",
+            "tail": "队列的存储空间减少到零"
+        },
+        {
+            "head": "故障",
+            "relation": "引起",
+            "tail": "分组丢失"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "使用",
+            "tail": "计算机"
+        },
+        {
+            "head": "路由选择处理机",
+            "relation": "处理",
+            "tail": "分组首部目的地址"
+        },
+        {
+            "head": "路由器",
+            "relation": "查找",
+            "tail": "路由表"
+        },
+        {
+            "head": "存储器",
+            "relation": "复制",
+            "tail": "分组到缓存中"
+        },
+        {
+            "head": "交换速率",
+            "relation": "受限于",
+            "tail": "存储器带宽"
+        },
+        {
+            "head": "路由器",
+            "relation": "通过",
+            "tail": "总线互连网络进行交换"
+        },
+        {
+            "head": "Cisco Catalyst 8500系列交换机",
+            "relation": "采用",
+            "tail": "共享存储器方法"
+        }
+    ],
+    [
+        {
+            "head": "总线",
+            "relation": "用于",
+            "tail": "交换数据报"
+        },
+        {
+            "head": "路由器",
+            "relation": "限制",
+            "tail": "转发带宽"
+        },
+        {
+            "head": "6500路由器",
+            "relation": "具有",
+            "tail": "32Gbit/s 总线速率"
+        },
+        {
+            "head": "纵横交换结构",
+            "relation": "又称",
+            "tail": "互连网络"
+        },
+        {
+            "head": "总线",
+            "relation": "共享",
+            "tail": "在同一时间只允许一个分组传送"
+        }
+    ],
+    [
+        {
+            "head": "纵横交换结构",
+            "relation": "包含",
+            "tail": "无阻塞的交换结构"
+        },
+        {
+            "head": "分组转发",
+            "relation": "通过",
+            "tail": "交叉点"
+        },
+        {
+            "head": "输入端口A",
+            "relation": "发送到",
+            "tail": "输出端口Y"
+        },
+        {
+            "head": "路由器",
+            "relation": "使用",
+            "tail": "纵横交换结构"
+        },
+        {
+            "head": "12000系列交换路由器",
+            "relation": "由",
+            "tail": "思科公司制造"
+        },
+        {
+            "head": "互连网络速度",
+            "relation": "达到",
+            "tail": "60Gbit/s"
+        }
+    ],
+    [
+        {
+            "head": "思科公司",
+            "relation": "生产",
+            "tail": "12000系列交换路由器"
+        },
+        {
+            "head": "12000系列交换路由器",
+            "relation": "支持",
+            "tail": "60Gbit/s互连网络"
+        },
+        {
+            "head": "IP多播",
+            "relation": "首次提出时间",
+            "tail": "1988年"
+        },
+        {
+            "head": "IP多播",
+            "relation": "首次试验地点",
+            "tail": "IETF会议声音的多播"
+        },
+        {
+            "head": "IP多播",
+            "relation": "参与人数",
+            "tail": "20个网点"
+        },
+        {
+            "head": "IP多播",
+            "relation": "当前状态",
+            "tail": "互联网热门课题"
+        },
+        {
+            "head": "一对多通信",
+            "relation": "需要",
+            "tail": "实时信息交付"
+        },
+        {
+            "head": "一对多通信",
+            "relation": "需要",
+            "tail": "软件更新"
+        },
+        {
+            "head": "一对多通信",
+            "relation": "需要",
+            "tail": "交互式会议"
+        }
+    ],
+    [
+        {
+            "head": "单播",
+            "relation": "用于传输",
+            "tail": "视频分组"
+        },
+        {
+            "head": "多播",
+            "relation": "用于传输",
+            "tail": "视频分组"
+        },
+        {
+            "head": "路由器",
+            "relation": "需要复制",
+            "tail": "收到的分组"
+        },
+        {
+            "head": "局域网",
+            "relation": "具有硬件多播功能",
+            "tail": "不需要复制分组"
+        },
+        {
+            "head": "视频服务器",
+            "relation": "通过单播方式向90台主机传送",
+            "tail": "视频分组"
+        },
+        {
+            "head": "视频服务器",
+            "relation": "通过多播方式向同一个多播组的90个成员传送",
+            "tail": "视频分组"
+        }
+    ],
+    [
+        {
+            "head": "单播",
+            "relation": "传输方式",
+            "tail": "视频节目"
+        },
+        {
+            "head": "多播组成员",
+            "relation": "数量",
+            "tail": "90个主机"
+        },
+        {
+            "head": "多播",
+            "relation": "减轻资源消耗",
+            "tail": "网络中各种资源"
+        },
+        {
+            "head": "路由器",
+            "relation": "实现",
+            "tail": "互联网范围的多播"
+        },
+        {
+            "head": "多播路由器",
+            "relation": "定义",
+            "tail": "能够识别多播数据报"
+        },
+        {
+            "head": "单播IP数据报",
+            "relation": "转发能力",
+            "tail": "多播路由器"
+        },
+        {
+            "head": "MBONE",
+            "relation": "试验开始时间",
+            "tail": "1992年"
+        },
+        {
+            "head": "MBONE",
+            "relation": "功能",
+            "tail": "把分组传播给地点分散但属于一个组的许多台主机"
+        }
+    ]
+]

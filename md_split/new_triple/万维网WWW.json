@@ -1,0 +1,2127 @@
+[
+    {
+        "head": "TELNET",
+        "relation": "使用",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "TELNET",
+        "relation": "传输",
+        "tail": "用户击键"
+    },
+    {
+        "head": "TELNET",
+        "relation": "返回",
+        "tail": "远地主机输出"
+    },
+    {
+        "head": "TELNET",
+        "relation": "模拟",
+        "tail": "终端仿真协议"
+    },
+    {
+        "head": "TELNET",
+        "relation": "运行",
+        "tail": "客户进程"
+    },
+    {
+        "head": "TELNET",
+        "relation": "运行",
+        "tail": "服务器进程"
+    },
+    {
+        "head": "TELNET",
+        "relation": "适应",
+        "tail": "计算机和操作系统差异"
+    },
+    {
+        "head": "TELNET",
+        "relation": "定义了",
+        "tail": "数据和命令通过互联网传输的规则"
+    },
+    {
+        "head": "NVT",
+        "relation": "是",
+        "tail": "网络虚拟终端"
+    },
+    {
+        "head": "NVT",
+        "relation": "用于转换",
+        "tail": "客户端与服务器之间的格式"
+    },
+    {
+        "head": "TELNET",
+        "relation": "使用",
+        "tail": "NVT"
+    },
+    {
+        "head": "NVT",
+        "relation": "定义",
+        "tail": "CR-LF"
+    },
+    {
+        "head": "TELNET客户",
+        "relation": "转换",
+        "tail": "CR-LF"
+    },
+    {
+        "head": "TELNET服务器",
+        "relation": "转换",
+        "tail": "远地机器的行结束字符"
+    },
+    {
+        "head": "万维网WWW",
+        "relation": "简称为",
+        "tail": "Web"
+    },
+    {
+        "head": "万维网",
+        "relation": "提供",
+        "tail": "分布式服务"
+    },
+    {
+        "head": "万维网站点",
+        "relation": "包含",
+        "tail": "文档"
+    },
+    {
+        "head": "文档",
+        "relation": "含有",
+        "tail": "链接"
+    },
+    {
+        "head": "链接",
+        "relation": "指向",
+        "tail": "站点B的某个文档"
+    },
+    {
+        "head": "链接",
+        "relation": "指向",
+        "tail": "站点C"
+    },
+    {
+        "head": "链接",
+        "relation": "指向",
+        "tail": "站点D"
+    },
+    {
+        "head": "链接",
+        "relation": "指向",
+        "tail": "站点A"
+    },
+    {
+        "head": "链接",
+        "relation": "指向",
+        "tail": "存储在本站点硬盘中的文档"
+    },
+    {
+        "head": "万维网",
+        "relation": "出现时间",
+        "tail": "1989年3月"
+    },
+    {
+        "head": "NetscapeNavigator浏览器",
+        "relation": "上市时间",
+        "tail": "1993年2月"
+    },
+    {
+        "head": "InternetExplorer",
+        "relation": "公司",
+        "tail": "微软"
+    },
+    {
+        "head": "Chrome浏览器",
+        "relation": "公司",
+        "tail": "谷歌"
+    },
+    {
+        "head": "QQ浏览器",
+        "relation": "公司",
+        "tail": "讯飞"
+    },
+    {
+        "head": "Safari浏览器",
+        "relation": "公司",
+        "tail": "苹果"
+    },
+    {
+        "head": "Mosaic",
+        "relation": "开发时间",
+        "tail": "1995年"
+    },
+    {
+        "head": "万维网",
+        "relation": "类型",
+        "tail": "分布式超媒体系统"
+    },
+    {
+        "head": "万维网",
+        "relation": "组成部分",
+        "tail": "超文本"
+    },
+    {
+        "head": "超文本",
+        "relation": "包含",
+        "tail": "指向其他文档的链接"
+    },
+    {
+        "head": "万维网",
+        "relation": "基于",
+        "tail": "超文本"
+    },
+    {
+        "head": "超媒体",
+        "relation": "区别于",
+        "tail": "超文本文档仅包含文本信息"
+    },
+    {
+        "head": "非分布式系统",
+        "relation": "保证",
+        "tail": "链接的有效性和一致性"
+    },
+    {
+        "head": "万维网",
+        "relation": "分布于",
+        "tail": "互联网上"
+    },
+    {
+        "head": "万维网",
+        "relation": "工作方式",
+        "tail": "客户服务器"
+    },
+    {
+        "head": "浏览器",
+        "relation": "是",
+        "tail": "用户主机上的万维网客户端程序"
+    },
+    {
+        "head": "万维网文档",
+        "relation": "驻留于",
+        "tail": "主机"
+    },
+    {
+        "head": "服务器程序",
+        "relation": "运行于",
+        "tail": "文档所驻留的主机"
+    },
+    {
+        "head": "客户程序",
+        "relation": "向",
+        "tail": "服务器程序发出请求"
+    },
+    {
+        "head": "服务器程序",
+        "relation": "向",
+        "tail": "客户程序送回文档"
+    },
+    {
+        "head": "万维网文档",
+        "relation": "称为",
+        "tail": "页面"
+    },
+    {
+        "head": "互联网",
+        "relation": "必须解决的问题之一",
+        "tail": "怎样标志分布在整个互联网上的万维网文档？"
+    },
+    {
+        "head": "互联网",
+        "relation": "必须解决的问题之一",
+        "tail": "用什么样的协议来实现万维网上各种链接？"
+    },
+    {
+        "head": "互联网",
+        "relation": "必须解决的问题之一",
+        "tail": "怎样使不同作者创作的不同风格的万维网文档都能够在互联网上的各种主机上显示出来，同时使用户清楚地知道在什么地方存在着链接？"
+    },
+    {
+        "head": "互联网",
+        "relation": "必须解决的问题之一",
+        "tail": "怎样使用户能够很方便地找到所需的信息？"
+    },
+    {
+        "head": "统一资源定位符URL",
+        "relation": "用于标识",
+        "tail": "万维网上的文档"
+    },
+    {
+        "head": "超文本传送协议HTTP",
+        "relation": "定义了",
+        "tail": "客户程序与服务器程序之间的交互规则"
+    },
+    {
+        "head": "超文本标记语言HTML",
+        "relation": "用于设计",
+        "tail": "万维网页面并实现链接功能"
+    },
+    {
+        "head": "统一资源定位符",
+        "relation": "表示",
+        "tail": "互连网上的资源位置"
+    },
+    {
+        "head": "URL",
+        "relation": "提供",
+        "tail": "资源的抽象识别方法"
+    },
+    {
+        "head": "URL",
+        "relation": "指向",
+        "tail": "可访问对象的位置"
+    },
+    {
+        "head": "URL",
+        "relation": "包含",
+        "tail": "协议信息"
+    },
+    {
+        "head": "URL",
+        "relation": "包含",
+        "tail": "协议"
+    },
+    {
+        "head": "URL",
+        "relation": "包含",
+        "tail": "主机名"
+    },
+    {
+        "head": "URL",
+        "relation": "包含",
+        "tail": "端口号"
+    },
+    {
+        "head": "URL",
+        "relation": "包含",
+        "tail": "路径"
+    },
+    {
+        "head": "协议",
+        "relation": "常用",
+        "tail": "超文本传送协议HTTP"
+    },
+    {
+        "head": "协议",
+        "relation": "常用",
+        "tail": "文件传送协议FTP"
+    },
+    {
+        "head": "浏览器",
+        "relation": "支持",
+        "tail": "省略URL前缀"
+    },
+    {
+        "head": "浏览器",
+        "relation": "自动补全",
+        "tail": "URL"
+    },
+    {
+        "head": "URL",
+        "relation": "包含",
+        "tail": "http://"
+    },
+    {
+        "head": "URL",
+        "relation": "省略",
+        "tail": "主机名前的www"
+    },
+    {
+        "head": "URL",
+        "relation": "指明",
+        "tail": "互联网上的某个主页"
+    },
+    {
+        "head": "主页",
+        "relation": "定义为",
+        "tail": "WWW服务器的最高级别的页面"
+    },
+    {
+        "head": "主页",
+        "relation": "定义为",
+        "tail": "某一个组织或部门的一个定制的页面或目录"
+    },
+    {
+        "head": "主页",
+        "relation": "定义为",
+        "tail": "由某一个人自己设计的描述他本人情况的WWW页面"
+    },
+    {
+        "head": "清华大学",
+        "relation": "拥有主页",
+        "tail": "http://www.tsinghua.edu.cn"
+    },
+    {
+        "head": "清华大学",
+        "relation": "设有院系",
+        "tail": "院系设置"
+    },
+    {
+        "head": "URL",
+        "relation": "表示",
+        "tail": "文件路径"
+    },
+    {
+        "head": "URL",
+        "relation": "包含",
+        "tail": "协议和主机名"
+    },
+    {
+        "head": "URL",
+        "relation": "使用",
+        "tail": "HTML文件"
+    },
+    {
+        "head": "URL",
+        "relation": "支持",
+        "tail": "FTP应用"
+    },
+    {
+        "head": "URL",
+        "relation": "支持",
+        "tail": "USENET新闻组应用"
+    },
+    {
+        "head": "浏览器",
+        "relation": "用于",
+        "tail": "访问万维网页面"
+    },
+    {
+        "head": "浏览器",
+        "relation": "是",
+        "tail": "万维网客户进程"
+    },
+    {
+        "head": "HTTP",
+        "relation": "定义了",
+        "tail": "浏览器向服务器请求文档的方式"
+    },
+    {
+        "head": "HTTP",
+        "relation": "传送",
+        "tail": "超文本跳转所需信息及多媒体文件"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "用于",
+        "tail": "建立浏览器与服务器之间的通信"
+    },
+    {
+        "head": "URL",
+        "relation": "标识",
+        "tail": "万维网文档的地址"
+    },
+    {
+        "head": "HTTP响应报文",
+        "relation": "包含",
+        "tail": "服务器返回给浏览器的信息"
+    },
+    {
+        "head": "服务器",
+        "relation": "监听",
+        "tail": "端口80"
+    },
+    {
+        "head": "浏览器",
+        "relation": "向",
+        "tail": "万维网服务器发出连接建立请求"
+    },
+    {
+        "head": "万维网服务器",
+        "relation": "返回",
+        "tail": "响应"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "被释放",
+        "tail": "完成任务后"
+    },
+    {
+        "head": "浏览器和服务器",
+        "relation": "遵循",
+        "tail": "规定的格式和规则"
+    },
+    {
+        "head": "超文本传送协议HTTP",
+        "relation": "规定",
+        "tail": "交互格式和规则"
+    },
+    {
+        "head": "HTTP报文请求",
+        "relation": "由",
+        "tail": "ASCII码串构成"
+    },
+    {
+        "head": "通用互连扩展",
+        "relation": "类似",
+        "tail": "MIME"
+    },
+    {
+        "head": "HTTP",
+        "relation": "使用",
+        "tail": "TCP"
+    },
+    {
+        "head": "浏览器",
+        "relation": "访问",
+        "tail": "页面"
+    },
+    {
+        "head": "URL",
+        "relation": "标识",
+        "tail": "页面地址"
+    },
+    {
+        "head": "HTTP/1.0",
+        "relation": "版本",
+        "tail": "RFC1945"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "版本",
+        "tail": "RFC7231"
+    },
+    {
+        "head": "HTTP/2",
+        "relation": "版本",
+        "tail": "RFC7540"
+    },
+    {
+        "head": "HTTP",
+        "relation": "无状态",
+        "tail": "服务器响应"
+    },
+    {
+        "head": "HTTP",
+        "relation": "具有",
+        "tail": "无状态特性"
+    },
+    {
+        "head": "服务器",
+        "relation": "响应",
+        "tail": "相同的页面"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "通过",
+        "tail": "三报文握手建立"
+    },
+    {
+        "head": "HTTP请求",
+        "relation": "发送给",
+        "tail": "万维网服务器"
+    },
+    {
+        "head": "文档",
+        "relation": "传输时间与",
+        "tail": "文档大小成正比"
+    },
+    {
+        "head": "往返时间(RTT)",
+        "relation": "用于",
+        "tail": "连接TCP连接和请求响应"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "包含",
+        "tail": "三报文握手"
+    },
+    {
+        "head": "HTTP/1.0",
+        "relation": "具有缺点",
+        "tail": "每请求两倍RTT开销"
+    },
+    {
+        "head": "万维网文档",
+        "relation": "通过",
+        "tail": "TCP连接请求"
+    },
+    {
+        "head": "浏览器",
+        "relation": "可以打开",
+        "tail": "5~10个并行的TCP连接"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "解决",
+        "tail": "每请求两倍RTT开销问题"
+    },
+    {
+        "head": "持续连接",
+        "relation": "定义为",
+        "tail": "万维网服务器在发送响应后保持连接一段时间"
+    },
+    {
+        "head": "浏览器",
+        "relation": "发送",
+        "tail": "HTTP请求报文"
+    },
+    {
+        "head": "服务器",
+        "relation": "响应",
+        "tail": "HTTP响应报文"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "支持",
+        "tail": "持续连接"
+    },
+    {
+        "head": "非流水线方式",
+        "relation": "特点",
+        "tail": "客户在收到前一个响应后才发出下一个请求"
+    },
+    {
+        "head": "流水线方式",
+        "relation": "特点",
+        "tail": "客户在收到HTTP的响应报文之前就能够接着发送新的请求报文"
+    },
+    {
+        "head": "RTT时间",
+        "relation": "减少",
+        "tail": "使用流水线方式时"
+    },
+    {
+        "head": "协议HTTP/2",
+        "relation": "是升级版本",
+        "tail": "协议HTTP/1.1"
+    },
+    {
+        "head": "协议HTTP/2",
+        "relation": "不改变",
+        "tail": "HTTP方法／状态码／语义"
+    },
+    {
+        "head": "HTTP/2",
+        "relation": "缩短响应时间",
+        "tail": "流水线工作方式"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "具有",
+        "tail": "流水线的工作方式"
+    },
+    {
+        "head": "HTTP/2",
+        "relation": "缩短",
+        "tail": "服务器响应时间"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "释放",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "HTTP/2",
+        "relation": "复用",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "发送",
+        "tail": "请求和响应报文首部"
+    },
+    {
+        "head": "HTTP/2",
+        "relation": "减少",
+        "tail": "首部开销"
+    },
+    {
+        "head": "浏览器",
+        "relation": "支持",
+        "tail": "HTTP/2"
+    },
+    {
+        "head": "服务器",
+        "relation": "兼容",
+        "tail": "HTTP/1.1"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "是",
+        "tail": "万维网高速缓存"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "工作于",
+        "tail": "客户端或服务器端"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "可以减少",
+        "tail": "互联网访问时延"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "支持",
+        "tail": "请求报文的接收"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "处理",
+        "tail": "HTTP请求报文"
+    },
+    {
+        "head": "浏览器",
+        "relation": "发送",
+        "tail": "HTTP请求报文"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "建立",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "存储",
+        "tail": "所请求的对象"
+    },
+    {
+        "head": "源点服务器",
+        "relation": "返回",
+        "tail": "HTTP响应报文"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "作为",
+        "tail": "服务器"
+    },
+    {
+        "head": "代理服务器",
+        "relation": "作为",
+        "tail": "客户"
+    },
+    {
+        "head": "通信量",
+        "relation": "减少",
+        "tail": "专线链路(RI-R2)"
+    },
+    {
+        "head": "时延",
+        "relation": "减小",
+        "tail": "互联网访问"
+    },
+    {
+        "head": "内容分发网络(CDN)",
+        "relation": "由",
+        "tail": "代理服务器方式构成"
+    },
+    {
+        "head": "Akamai",
+        "relation": "提供",
+        "tail": "最大规模在线视频服务"
+    },
+    {
+        "head": "Akamai",
+        "relation": "拥有",
+        "tail": "24万台服务器"
+    },
+    {
+        "head": "Akamai",
+        "relation": "位置节点数",
+        "tail": "3900个"
+    },
+    {
+        "head": "用户",
+        "relation": "使用",
+        "tail": "Akamai服务"
+    },
+    {
+        "head": "Akamai",
+        "relation": "合作",
+        "tail": "全球多家电信运营商"
+    },
+    {
+        "head": "通信流量",
+        "relation": "高达",
+        "tail": "每秒40TB"
+    },
+    {
+        "head": "HTTP",
+        "relation": "包含",
+        "tail": "请求报文"
+    },
+    {
+        "head": "HTTP",
+        "relation": "包含",
+        "tail": "响应报文"
+    },
+    {
+        "head": "请求报文",
+        "relation": "包括",
+        "tail": "开始行"
+    },
+    {
+        "head": "请求报文的开始行",
+        "relation": "称为",
+        "tail": "请求行"
+    },
+    {
+        "head": "响应报文的开始行",
+        "relation": "称为",
+        "tail": "状态行"
+    },
+    {
+        "head": "HTTP",
+        "relation": "基于",
+        "tail": "文本"
+    },
+    {
+        "head": "HTTP报文",
+        "relation": "包含",
+        "tail": "首部"
+    },
+    {
+        "head": "HTTP请求报文",
+        "relation": "包含",
+        "tail": "请求行"
+    },
+    {
+        "head": "请求行",
+        "relation": "由",
+        "tail": "方法、请求资源URL和HTTP版本组成"
+    },
+    {
+        "head": "方法",
+        "relation": "表示",
+        "tail": "对所请求对象的操作"
+    },
+    {
+        "head": "HTTP请求报文",
+        "relation": "类型决定于",
+        "tail": "采用的方法"
+    },
+    {
+        "head": "请求报文中常用方法",
+        "relation": "包括",
+        "tail": "GET、POST等"
+    },
+    {
+        "head": "HTTP",
+        "relation": "包含",
+        "tail": "请求报文"
+    },
+    {
+        "head": "GET",
+        "relation": "用于",
+        "tail": "读取资源"
+    },
+    {
+        "head": "HEAD",
+        "relation": "用于",
+        "tail": "获取首部信息"
+    },
+    {
+        "head": "POST",
+        "relation": "用于",
+        "tail": "添加信息"
+    },
+    {
+        "head": "PUT",
+        "relation": "用于",
+        "尾": "存储文档"
+    },
+    {
+        "head": "DELETE",
+        "relation": "用于",
+        "tail": "删除资源"
+    },
+    {
+        "head": "TRACE",
+        "relation": "用于",
+        "tail": "环回测试"
+    },
+    {
+        "head": "CONNECT",
+        "relation": "用于",
+        "tail": "代理服务器"
+    },
+    {
+        "head": "GET",
+        "relation": "请求方法",
+        "tail": "HTTP/1.1"
+    },
+    {
+        "head": "dir/index.htm",
+        "relation": "请求资源路径",
+        "tail": "相对URL"
+    },
+    {
+        "head": "www.xyz.edu.cn",
+        "relation": "主机域名",
+        "tail": "Host首部行"
+    },
+    {
+        "head": "Connection: close",
+        "relation": "关闭连接",
+        "tail": "指示服务器在传送完所请求的对象后即关闭TCP连接"
+    },
+    {
+        "head": "User-Agent: Mozilla/5.0",
+        "relation": "用户代理",
+        "tail": "表明使用火狐浏览器Firefox"
+    },
+    {
+        "head": "Accept-Language: cn",
+        "relation": "语言偏好",
+        "tail": "优先得到中文版本的文档"
+    },
+    {
+        "head": "HTTP响应报文",
+        "relation": "包含状态行",
+        "tail": "第一行包括三项内容：HTTP版本、状态码和短语解释"
+    },
+    {
+        "head": "HTTP状态码",
+        "relation": "包含",
+        "tail": "通知信息"
+    },
+    {
+        "head": "HTTP状态码",
+        "relation": "包含",
+        "tail": "成功"
+    },
+    {
+        "head": "HTTP状态码",
+        "relation": "包含",
+        "tail": "重定向"
+    },
+    {
+        "head": "HTTP状态码",
+        "relation": "包含",
+        "tail": "客户的差错"
+    },
+    {
+        "head": "HTTP状态码",
+        "relation": "包含",
+        "tail": "服务器的差错"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "返回状态码",
+        "tail": "202 Accepted"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "返回状态码",
+        "tail": "400 Bad Request"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "返回状态码",
+        "tail": "404 Not Found"
+    },
+    {
+        "head": "HTTP/1.1",
+        "relation": "返回状态码",
+        "tail": "301 Moved Permanently"
+    },
+    {
+        "head": "HTTP/1.1 301 Moved Permanently",
+        "relation": "包含响应头",
+        "tail": "Location: http://www.xyz.edu/ee/index.html"
+    },
+    {
+        "head": "服务器",
+        "relation": "跟踪用户",
+        "tail": "Cookie"
+    },
+    {
+        "head": "Cookie",
+        "relation": "传递状态信息",
+        "tail": "HTTP服务器和客户端之间"
+    },
+    {
+        "head": "网站",
+        "relation": "使用",
+        "tail": "Cookie"
+    },
+    {
+        "head": "用户A",
+        "relation": "浏览",
+        "tail": "某个使用Cookie的网站"
+    },
+    {
+        "head": "服务器",
+        "relation": "在后端数据库中产生项目",
+        "tail": "唯一识别码"
+    },
+    {
+        "head": "Set-cookie",
+        "relation": "包含",
+        "tail": "识别码值"
+    },
+    {
+        "head": "Cookie文件",
+        "relation": "存储",
+        "tail": "识别码值"
+    },
+    {
+        "head": "HTTP请求报文",
+        "relation": "携带",
+        "tail": "Cookie"
+    },
+    {
+        "head": "服务器",
+        "relation": "跟踪",
+        "tail": "用户活动"
+    },
+    {
+        "head": "服务器",
+        "relation": "维护",
+        "tail": "购物列表"
+    },
+    {
+        "head": "服务器",
+        "relation": "维护",
+        "tail": "购物列表"
+    },
+    {
+        "head": "浏览器",
+        "relation": "发送",
+        "tail": "HTTP请求报文"
+    },
+    {
+        "head": "网站服务器",
+        "relation": "根据",
+        "tail": "访问记录"
+    },
+    {
+        "head": "Cookie首部行",
+        "relation": "推荐",
+        "tail": "商品"
+    },
+    {
+        "head": "浏览器",
+        "relation": "携带",
+        "tail": "Cookie首部行"
+    },
+    {
+        "head": "服务器",
+        "relation": "验证",
+        "tail": "用户身份"
+    },
+    {
+        "head": "计算机",
+        "relation": "产生",
+        "tail": "HTTP请求报文"
+    },
+    {
+        "head": "Cookie首部行",
+        "relation": "包含",
+        "tail": "个人信息"
+    },
+    {
+        "head": "Cookie",
+        "relation": "不是",
+        "tail": "计算机病毒"
+    },
+    {
+        "head": "Cookie",
+        "relation": "是",
+        "tail": "文本文件"
+    },
+    {
+        "head": "Cookie",
+        "relation": "不能",
+        "tail": "传播计算机病毒"
+    },
+    {
+        "head": "Cookie",
+        "relation": "不能",
+        "tail": "获取用户硬盘信息"
+    },
+    {
+        "head": "网站服务器",
+        "relation": "可能知道",
+        "tail": "用户隐私信息"
+    },
+    {
+        "head": "网站",
+        "relation": "保护",
+        "tail": "用户隐私"
+    },
+    {
+        "head": "万维网",
+        "relation": "使用",
+        "tail": "超文本标记语言HTML"
+    },
+    {
+        "head": "超文本标记语言HTML",
+        "relation": "由",
+        "tail": "万维网联盟W3C"
+    },
+    {
+        "head": "HTML",
+        "relation": "定义于",
+        "tail": "1993年"
+    },
+    {
+        "head": "HTML5.0",
+        "relation": "最新版本",
+        "tail": ""
+    },
+    {
+        "head": "HTML",
+        "relation": "支持",
+        "tail": "多媒体（audio, video)"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "使用",
+        "tail": "文本编辑器"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "后缀",
+        "tail": ".html或.htm"
+    },
+    {
+        "head": "浏览器",
+        "relation": "解释",
+        "tail": "HTML标签"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "文件类型",
+        "tail": "ASCII码文件"
+    },
+    {
+        "head": "HTML",
+        "relation": "包含",
+        "tail": "标签"
+    },
+    {
+        "head": "浏览器",
+        "relation": "支持",
+        "tail": "HTML标签"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "开始于",
+        "tail": "<HTML>"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "结束于",
+        "tail": "</HTML>"
+    },
+    {
+        "head": "段落",
+        "relation": "由",
+        "tail": "<P>和</P>表示"
+    },
+    {
+        "head": "题头",
+        "relation": "由",
+        "tail": "<H1>表示"
+    },
+    {
+        "head": "浏览器",
+        "relation": "读取",
+        "tail": "HTML文档"
+    },
+    {
+        "head": "浏览器",
+        "relation": "根据",
+        "tail": "显示器尺寸和分辨率"
+    },
+    {
+        "head": "IE浏览器",
+        "relation": "显示",
+        "tail": "文档标题和主体部分"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "包含",
+        "tail": "标签"
+    },
+    {
+        "head": "标签",
+        "relation": "定义",
+        "tail": "题头(heading)"
+    },
+    {
+        "head": "Word文字处理器",
+        "relation": "转换为",
+        "tail": "HTML格式文档"
+    },
+    {
+        "head": "软件工具",
+        "relation": "制作",
+        "tail": "万维网页面"
+    },
+    {
+        "head": "HTML",
+        "relation": "支持",
+        "tail": "GIF"
+    },
+    {
+        "head": "HTML",
+        "relation": "支持",
+        "tail": "JPEG"
+    },
+    {
+        "head": "位图文件",
+        "relation": "占用",
+        "tail": "500~700KB存储空间"
+    },
+    {
+        "head": "位图文件",
+        "relation": "转换为",
+        "tail": ".gif格式"
+    },
+    {
+        "head": "链接",
+        "relation": "起点",
+        "tail": "文字或图像"
+    },
+    {
+        "head": "链接",
+        "relation": "用于",
+        "tail": "激活"
+    },
+    {
+        "head": "远程链接",
+        "relation": "指向",
+        "tail": "其他网站上的页面"
+    },
+    {
+        "head": "本地链接",
+        "relation": "指向",
+        "tail": "本计算机中的文件或本文件中的某处"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "包含",
+        "tail": "链接"
+    },
+    {
+        "head": "Word处理器",
+        "relation": "提供",
+        "tail": "插入超链接功能"
+    },
+    {
+        "head": "XML",
+        "relation": "用于",
+        "tail": "标记数据和定义数据类型"
+    },
+    {
+        "head": "XML",
+        "relation": "是",
+        "tail": "标记电子文件"
+    },
+    {
+        "head": "XML",
+        "relation": "具有",
+        "tail": "结构性的标记语言"
+    },
+    {
+        "head": "XML",
+        "relation": "是一种",
+        "tail": "允许用户定义自己的标记语言的标准"
+    },
+    {
+        "head": "XML",
+        "relation": "相对于HTML的优点",
+        "tail": "数据与显示分离"
+    },
+    {
+        "head": "XML",
+        "relation": "可以转换为",
+        "tail": "客户信息、订单等"
+    },
+    {
+        "head": "XHTML",
+        "relation": "是",
+        "tail": "可扩展超文本标记语言"
+    },
+    {
+        "head": "XHTML",
+        "relation": "与HTML4.01的关系",
+        "tail": "几乎相同"
+    },
+    {
+        "head": "XHTML",
+        "relation": "是一个W3C标准",
+        "tail": "2000年1月制定"
+    },
+    {
+        "head": "CSS",
+        "relation": "是一种",
+        "tail": "样式表语言"
+    },
+    {
+        "head": "万维网文档",
+        "relation": "属于",
+        "tail": "静态文档"
+    },
+    {
+        "head": "浏览器",
+        "relation": "请求",
+        "tail": "万维网服务器"
+    },
+    {
+        "head": "万维网服务器",
+        "relation": "运行",
+        "tail": "应用程序"
+    },
+    {
+        "head": "动态文档",
+        "relation": "由",
+        "tail": "应用程 序创建"
+    },
+    {
+        "head": "静态文档",
+        "relation": "优点",
+        "tail": "简单"
+    },
+    {
+        "head": "静态文档",
+        "relation": "缺点",
+        "尾": "不够灵活"
+    },
+    {
+        "head": "万维网服务器",
+        "relation": "运行",
+        "tail": "应用程序"
+    },
+    {
+        "head": "浏览器请求",
+        "relation": "触发",
+        "tail": "动态文档生成"
+    },
+    {
+        "head": "动态文档",
+        "relation": "输出格式",
+        "tail": "HTML"
+    },
+    {
+        "head": "动态文档",
+        "relation": "优点",
+        "tail": "报告最新信息"
+    },
+    {
+        "head": "动态文档",
+        "relation": "创建难度",
+        "tail": "高于静态文档"
+    },
+    {
+        "head": "开发人员",
+        "relation": "需要",
+        "tail": "编程能力"
+    },
+    {
+        "head": "程序",
+        "relation": "通过",
+        "tail": "测试验证"
+    },
+    {
+        "head": "万维网服务器",
+        "relation": "需要扩充功能",
+        "tail": "处理动态文档"
+    },
+    {
+        "head": "通用网关接口CGI",
+        "relation": "定义了",
+        "tail": "动态文档创建规则"
+    },
+    {
+        "head": "CGI程序",
+        "relation": "遵循",
+        "tail": "CGI标准"
+    },
+    {
+        "head": "CGI程序",
+        "relation": "访问",
+        "tail": "数据库或图形软件包"
+    },
+    {
+        "head": "CGI程序",
+        "relation": "是",
+        "tail": "网关"
+    },
+    {
+        "head": "CGI程序",
+        "relation": "使用",
+        "tail": "已定义好的变量和调用"
+    },
+    {
+        "head": "CGI程序",
+        "relation": "被称为",
+        "tail": "脚本(script)"
+    },
+    {
+        "head": "脚本(script)",
+        "relation": "由",
+        "tail": "解释程序解释或执行"
+    },
+    {
+        "head": "脚本(script)",
+        "relation": "包括",
+        "tail": "Perl, REXX, JavaScript, Tcl/Tk"
+    },
+    {
+        "head": "脚本(script)",
+        "relation": "也可用",
+        "tail": "C, C++ 编写"
+    },
+    {
+        "head": "CGI程序",
+        "relation": "称为",
+        "tail": "cgi-bin程序"
+    },
+    {
+        "head": "CGI程序",
+        "relation": "存放于",
+        "tail": "/cgi-bin目录下"
+    },
+    {
+        "head": "动态文档",
+        "relation": "无法提供",
+        "tail": "动画效果"
+    },
+    {
+        "head": "动态文档",
+        "relation": "不能及时刷新",
+        "tail": "屏幕"
+    },
+    {
+        "head": "服务器推送",
+        "relation": "提供",
+        "tail": "连续更新"
+    },
+    {
+        "head": "活动文档",
+        "relation": "提供",
+        "tail": "屏幕连续更新"
+    },
+    {
+        "head": "服务器",
+        "relation": "运行",
+        "tail": "应用程序"
+    },
+    {
+        "head": "浏览器",
+        "relation": "请求",
+        "tail": "活动文档"
+    },
+    {
+        "head": "网络带宽",
+        "relation": "分配给",
+        "tail": "TCP连接"
+    },
+    {
+        "head": "服务器推送技术",
+        "relation": "要求",
+        "tail": "维持不释放的TCP连接"
+    },
+    {
+        "head": "活动文档",
+        "relation": "转移给",
+        "tail": "浏览器端"
+    },
+    {
+        "head": "服务器",
+        "relation": "返回",
+        "tail": "活动文档程序副本"
+    },
+    {
+        "head": "活动文档程序",
+        "relation": "与用户交互",
+        "tail": "直接"
+    },
+    {
+        "head": "活动文档程序",
+        "relation": "改变",
+        "tail": "屏幕显示"
+    },
+    {
+        "head": "服务器",
+        "relation": "不需要连续更新传送",
+        "tail": "活动文档技术"
+    },
+    {
+        "head": "网络带宽",
+        "relation": "要求不高",
+        "tail": "活动文档技术"
+    },
+    {
+        "head": "浏览器",
+        "relation": "看作",
+        "tail": "静态文档"
+    },
+    {
+        "head": "服务器上的活动文档内容",
+        "relation": "不变",
+        "tail": ""
+    },
+    {
+        "head": "浏览器",
+        "relation": "缓存",
+        "tail": "活动文档副本"
+    },
+    {
+        "head": "活动文档",
+        "relation": "可处理成",
+        "tail": "压缩形式"
+    },
+    {
+        "head": "支持软件",
+        "relation": "事先存放",
+        "tail": "浏览器中"
+    },
+    {
+        "head": "Java语言",
+        "relation": "用于创建和运行",
+        "tail": "活动文档"
+    },
+    {
+        "head": "HTML文档",
+        "relation": "嵌入了",
+        "tail": "Java小应用程序"
+    },
+    {
+        "head": "用户",
+        "relation": "下载",
+        "tail": "嵌入了Java小应用程序的HTML文档"
+    },
+    {
+        "head": "万维网",
+        "relation": "是",
+        "tail": "大规模的、联机式的信息储藏所"
+    },
+    {
+        "head": "浏览器",
+        "relation": "用于",
+        "tail": "点击图像或下拉菜单查看Java小应用程序效果"
+    },
+    {
+        "head": "Java小应用程序",
+        "relation": "也称",
+        "tail": "applet"
+    },
+    {
+        "head": "万维网服务器",
+        "relation": "发送",
+        "tail": "包含Java小应用程序的HTML文档"
+    },
+    {
+        "head": "全文检索搜索",
+        "relation": "用于",
+        "tail": "找到所需信息"
+    },
+    {
+        "head": "分类目录搜索",
+        "relation": "用于",
+        "tail": "找到所需信息"
+    },
+    {
+        "head": "搜索引擎",
+        "relation": "是",
+        "tail": "技术型检索工具"
+    },
+    {
+        "head": "全文检索搜索引擎",
+        "relation": "属于",
+        "tail": "搜索引擎"
+    },
+    {
+        "head": "Spider程序",
+        "relation": "用于",
+        "tail": "收集信息"
+    },
+    {
+        "head": "谷歌",
+        "relation": "提供",
+        "tail": "网页搜索服务"
+    },
+    {
+        "head": "谷歌",
+        "relation": "提供",
+        "tail": "图片搜索服务"
+    },
+    {
+        "head": "谷歌",
+        "relation": "提供",
+        "tail": "视频搜索服务"
+    },
+    {
+        "head": "谷歌",
+        "relation": "提供",
+        "tail": "地图搜索服务"
+    },
+    {
+        "head": "谷歌",
+        "relation": "提供",
+        "tail": "新闻搜索服务"
+    },
+    {
+        "head": "谷歌",
+        "relation": "提供",
+        "tail": "购物搜索服务"
+    },
+    {
+        "head": "谷歌",
+        "relation": "创建",
+        "tail": "数据中心"
+    },
+    {
+        "head": "谷歌",
+        "relation": "全球用户需求响应",
+        "tail": "在美国及世界各地建立数据中心"
+    },
+    {
+        "head": "谷歌搜索技术",
+        "relation": "特点",
+        "tail": "全文检索搜索引擎"
+    },
+    {
+        "head": "微软必应",
+        "relation": "竞争对手",
+        "tail": "全文检索搜索引引擎"
+    },
+    {
+        "head": "百度",
+        "relation": "竞争对手",
+        "tail": "全文检索搜索引引擎"
+    },
+    {
+        "head": "分类目录搜索引擎",
+        "relation": "信息来源",
+        "tail": "网站提交的关键词和描述"
+    },
+    {
+        "head": "分类目录搜索引擎",
+        "relation": "查询方式",
+        "tail": "按分类逐级查询"
+    },
+    {
+        "head": "分类目录搜索",
+        "relation": "结果形式",
+        "tail": "收录网站主页URL地址"
+    },
+    {
+        "head": "全文检索",
+        "relation": "用于",
+        "tail": "谷歌"
+    },
+    {
+        "head": "分类目录搜索引擎",
+        "relation": "代表网站",
+        "tail": "雅虎(www.yahoo.com)"
+    },
+    {
+        "head": "分类目录搜索引擎",
+        "relation": "国内著名网站",
+        "tail": "雅虎中国(en.yahoo.com)"
+    },
+    {
+        "head": "分类目录搜索引擎",
+        "尾": "新浪(sina.com.cn)",
+        "relation": "国内著名网站"
+    },
+    {
+        "头": "分类目录搜索引擎",
+        "尾": "搜狐(www.sohu.com)",
+        "relation": "国内著名网站"
+    },
+    {
+        "头": "分类目录搜索引擎",
+        "尾": "网易(www.163.com)",
+        "relation": "国内著名网站"
+    },
+    {
+        "head": "搜索引擎",
+        "relation": "提供",
+        "tail": "全文检索"
+    },
+    {
+        "head": "搜索引擎",
+        "relation": "提供",
+        "tail": "分类目录搜索"
+    },
+    {
+        "head": "搜索引擎",
+        "relation": "针对",
+        "tail": "特定领域"
+    },
+    {
+        "head": "垂直搜索引擎",
+        "relation": "提供",
+        "tail": "关键字搜索"
+    },
+    {
+        "head": "Google",
+        "relation": "使用",
+        "tail": "先进硬件和软件"
+    },
+    {
+        "head": "搜索引擎",
+        "relation": "分为",
+        "tail": "垂直搜索、元搜索引擎"
+    },
+    {
+        "head": "元搜索引擎",
+        "relation": "提高",
+        "tail": "搜索速度、智能化处理结果"
+    },
+    {
+        "head": "Google",
+        "relation": "缩短",
+        "tail": "查找响应时间"
+    },
+    {
+        "head": "Google",
+        "relation": "使用",
+        "tail": "PageRank"
+    },
+    {
+        "head": "PageRank",
+        "relation": "确定",
+        "tail": "网页重要性"
+    },
+    {
+        "head": "搜索引擎",
+        "relation": "检查",
+        "tail": "链接结构"
+    },
+    {
+        "head": "用户",
+        "relation": "查阅",
+        "tail": "搜索结果前几个项目"
+    },
+    {
+        "head": "PageRank",
+        "relation": "使用方法",
+        "tail": "迭代计算"
+    },
+    {
+        "head": "PageRank",
+        "relation": "依赖于",
+        "tail": "稀疏矩阵计算"
+    },
+    {
+        "head": "PageRank",
+        "relation": "目标",
+        "tail": "网页重要性评估"
+    },
+    {
+        "head": "PageRank",
+        "relation": "考虑因素",
+        "tail": "链接数目和权重"
+    },
+    {
+        "head": "PageRank",
+        "relation": "收敛特性",
+        "tail": "算法保证"
+    },
+    {
+        "head": "Google搜索结果",
+        "relation": "确定依据",
+        "tail": "整体重要性和相关性"
+    },
+    {
+        "head": "万维网",
+        "relation": "包含应用",
+        "tail": "博客"
+    },
+    {
+        "head": "万维网",
+        "relation": "包含应用",
+        "tail": "微博"
+    },
+    {
+        "head": "博客",
+        "relation": "定义为",
+        "tail": "网络日志"
+    },
+    {
+        "head": "博客",
+        "relation": "别名",
+        "tail": "部落格"
+    },
+    {
+        "head": "weblog",
+        "relation": "创造时间",
+        "tail": "1997年"
+    },
+    {
+        "head": "blog",
+        "relation": "创造时间",
+        "tail": "1999年"
+    },
+    {
+        "head": "blog",
+        "relation": "术语类型",
+        "tail": "名词和动词"
+    },
+    {
+        "head": "blogger",
+        "relation": "定义",
+        "tail": "博客的拥有者或内容撰写者"
+    },
+    {
+        "head": "博客",
+        "relation": "网络交流方式",
+        "tail": "电子邮件、BBS、即时传信IM之后"
+    },
+    {
+        "head": "BBS",
+        "relation": "是",
+        "tail": "早期的网络交流方式"
+    },
+    {
+        "head": "即时传信IM(InstantMessaging)",
+        "relation": "是",
+        "tail": "早期的网络交流方式"
+    },
+    {
+        "head": "博客",
+        "relation": "属于",
+        "tail": "网络交流方式"
+    },
+    {
+        "head": "新浪网站首页",
+        "relation": "包含",
+        "tail": "博客入口"
+    },
+    {
+        "head": "博客",
+        "relation": "方便用户",
+        "tail": "查看或发表"
+    },
+    {
+        "head": "新浪博客网站",
+        "relation": "提供",
+        "tail": "博客发布平台"
+    },
+    {
+        "head": "博客",
+        "relation": "与个人网站不同",
+        "tail": "建立成本低，技术要求低"
+    },
+    {
+        "head": "播客",
+        "relation": "是",
+        "tail": "苹果手机预装软件"
+    },
+    {
+        "head": "微博",
+        "relation": "是",
+        "tail": "微型博客"
+    },
+    {
+        "head": "微博",
+        "relation": "又称为",
+        "tail": "微博客"
+    },
+    {
+        "head": "微博",
+        "relation": "简写为",
+        "tail": "围脖"
+    },
+    {
+        "head": "新浪微博",
+        "relation": "提供服务",
+        "tail": "微博客"
+    },
+    {
+        "head": "新浪微博",
+        "relation": "用户数最多",
+        "tail": "中国微博网站"
+    },
+    {
+        "head": "新浪微博",
+        "relation": "覆盖范围广",
+        "tail": "知名文体明星、企业高管、媒体人士"
+    },
+    {
+        "head": "新浪微博",
+        "relation": "支持更新方式",
+        "tail": "网页、WAP网、手机客户端"
+    },
+    {
+        "head": "微博",
+        "relation": "字数限制",
+        "tail": "140英文字符"
+    },
+    {
+        "head": "微博",
+        "relation": "功能",
+        "tail": "插入图片、视频、音乐"
+    },
+    {
+        "head": "新浪微博",
+        "relation": "月活跃用户",
+        "tail": "4.65亿"
+    },
+    {
+        "head": "政务微博",
+        "relation": "是",
+        "tail": "信息公开的手段"
+    },
+    {
+        "head": "政务微博",
+        "relation": "具有",
+        "tail": "传递信息、沟通上下、解决问题的功能性特点"
+    },
+    {
+        "head": "微博",
+        "relation": "具备",
+        "tail": "实时性、现场感及快捷性"
+    },
+    {
+        "head": "微博",
+        "relation": "对用户",
+        "tail": "技术要求门槛低"
+    },
+    {
+        "head": "微博",
+        "relation": "通过",
+        "tail": "API实现即时更新个人信息"
+    },
+    {
+        "head": "微博",
+        "relation": "具有",
+        "tail": "发布、转发信息的功能"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "电子邮件"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "即时传信(在线聊天)"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "博客撰写"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "共享相册"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "上传视频"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "网页游戏"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "创建社团"
+    },
+    {
+        "head": "社交网站",
+        "relation": "包含功能",
+        "tail": "刊登广告"
+    },
+    {
+        "head": "社交网站",
+        "relation": "前身",
+        "tail": "BBS和微博"
+    },
+    {
+        "head": "脸书(Facebook)",
+        "relation": "用户定位",
+        "tail": "大学生"
+    },
+    {
+        "head": "脸书(Facebook)",
+        "relation": "特点",
+        "tail": "方便寻找朋友或联系老同学"
+    },
+    {
+        "head": "Facebook",
+        "relation": "月度活跃用户",
+        "tail": "11.5亿人"
+    },
+    {
+        "head": "Facebook",
+        "relation": "移动电话用户占比",
+        "tail": "半数以上"
+    },
+    {
+        "head": "Facebook",
+        "relation": "访问量最大的网站",
+        "tail": "2010年3月在美国超过谷歌"
+    },
+    {
+        "head": "YouTube",
+        "relation": "月度活跃用户",
+        "tail": "10亿人"
+    },
+    {
+        "head": "YouTube",
+        "relation": "被收购方",
+        "tail": "Google"
+    },
+    {
+        "head": "优酷",
+        "relation": "类型",
+        "tail": "视频分享网站"
+    },
+    {
+        "head": "Twitter",
+        "relation": "服务类型",
+        "tail": "微博"
+    },
+    {
+        "head": "推特",
+        "relation": "提供服务",
+        "tail": "社交网络"
+    },
+    {
+        "head": "推特",
+        "relation": "创建时间",
+        "tail": "2006年"
+    },
+    {
+        "head": "推特",
+        "relation": "消息长度限制",
+        "tail": "140个英文字符"
+    },
+    {
+        "head": "推特",
+        "relation": "消息类型",
+        "tail": "Tweet"
+    },
+    {
+        "head": "新浪微博",
+        "relation": "性质",
+        "tail": "社交网络"
+    },
+    {
+        "head": "腾讯微博",
+        "relation": "性质",
+        "tail": "社交网络"
+    },
+    {
+        "head": "领英",
+        "relation": "性质",
+        "tail": "职业性社交网站"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "聊天"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "传送文字短信"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "传送图片"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "传送录音电话"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "传送视频短片"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "实时音频或视频聊天"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "网上购物"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "转账"
+    },
+    {
+        "head": "微信",
+        "relation": "功能",
+        "tail": "打车"
+    },
+    {
+        "head": "微信",
+        "relation": "使用平台",
+        "tail": "手机"
+    },
+    {
+        "head": "微信",
+        "relation": "更新",
+        "tail": "电脑"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "使用于",
+        "tail": "互联网"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "发送到",
+        "tail": "邮件服务器"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "存放在",
+        "tail": "收件人邮箱(mailbox)"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "提高",
+        "tail": "劳动生产率30％以上"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "可传送",
+        "tail": "文字信息"
+    },
+    {
+        "head": "电子邮件",
+        "relation": "可附带",
+        "tail": "声音和图像"
+    },
+    {
+        "head": "SMTP(SimpleMailTransferProtocol)",
+        "relation": "更新于",
+        "tail": "2008年"
+    },
+    {
+        "head": "互联网文本报文格式[RFC5322]",
+        "relation": "标准之一",
+        "tail": "电子邮件"
+    },
+    {
+        "head": "SMTP",
+        "relation": "传输协议",
+        "tail": "RFC5321"
+    },
+    {
+        "head": "POP3",
+        "relation": "邮件读取协议",
+        "tail": "PostOfficeProtocol版本3"
+    },
+    {
+        "head": "MIME",
+        "relation": "互联网邮件扩充",
+        "tail": "草案标准RFC2045"
+    },
+    {
+        "head": "TCP",
+        "relation": "连接方式",
+        "tail": "互联网"
+    }
+]

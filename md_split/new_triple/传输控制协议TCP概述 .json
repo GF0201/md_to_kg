@@ -1,0 +1,242 @@
+[
+    {
+        "head": "传输控制协议TCP",
+        "relation": "属于",
+        "tail": "运输层协议"
+    },
+    {
+        "head": "传输控制协议TCP",
+        "relation": "特点",
+        "tail": "面向连接"
+    },
+    {
+        "head": "传输控制协议TCP",
+        "relation": "提供服务",
+        "tail": "可靠交付服务"
+    },
+    {
+        "head": "传输控制协议TCP",
+        "relation": "支持",
+        "tail": "全双工通信"
+    },
+    {
+        "head": "传输控制协议TCP",
+        "relation": "包含",
+        "tail": "发送级缓存"
+    },
+    {
+        "head": "传输控制协议TCP",
+        "relation": "包含",
+        "tail": "接收缓存"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "设有",
+        "tail": "发送级存和接收缓存"
+    },
+    {
+        "head": "应用程序",
+        "relation": "将数据传送给",
+        "tail": "TCP的缓存"
+    },
+    {
+        "head": "TCP",
+        "relation": "在合适的时候把数据发送出去",
+        "tail": ""
+    },
+    {
+        "head": "TCP",
+        "relation": "把收到的数据放入缓存",
+        "tail": ""
+    },
+    {
+        "head": "上层的应用进程",
+        "relation": "在合适的时候读取缓存中的数据",
+        "tail": ""
+    },
+    {
+        "head": "流(stream)",
+        "relation": "指的是",
+        "tail": "流入到进程或从进程流出的字序列"
+    },
+    {
+        "head": "TCP",
+        "relation": "把应用程序交下来的数据仅仅看成是一连串的无结构的字流",
+        "tail": ""
+    },
+    {
+        "head": "TCP",
+        "relation": "不保证接收方应用程序所收到的数据块和发送方应用程序所发出的数据块具有对应大小的关系",
+        "tail": ""
+    },
+    {
+        "head": "TCP报文段",
+        "relation": "包含",
+        "tail": "字节流"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "是",
+        "tail": "虚连接"
+    },
+    {
+        "head": "TCP报文段",
+        "relation": "经过",
+        "tail": "IP层"
+    },
+    {
+        "head": "TCP报文段",
+        "relation": "经过",
+        "tail": "数据链路层"
+    },
+    {
+        "head": "TCP",
+        "relation": "使用于",
+        "tail": "物理链路"
+    },
+    {
+        "head": "TCP",
+        "relation": "发送报文段",
+        "tail": "根据窗口值和网络拥塞程度"
+    },
+    {
+        "head": "UDP",
+        "relation": "发送报文长度",
+        "tail": "由应用进程给出"
+    },
+    {
+        "head": "TCP",
+        "relation": "将数据块划分或积累",
+        "tail": "构成报文段"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "作为基本抽象",
+        "tail": "面向连接特性"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "具有两个端点",
+        "tail": "每一条TCP连接"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "由确定",
+        "tail": "两个套接字"
+    },
+    {
+        "head": "套接字",
+        "relation": "表示为",
+        "tail": "(IP地址:端口号)"
+    },
+    {
+        "head": "套接字",
+        "relation": "构成于",
+        "tail": "主机的IP地址和端口号"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "唯一确定于",
+        "tail": "两个端点（即套接字对）"
+    },
+    {
+        "head": "套接字对",
+        "relation": "包含",
+        "tail": "(IP1:port1),(IP2:port2)"
+    },
+    {
+        "head": "套接字",
+        "relation": "是",
+        "tail": "TCP连接的端点"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "由",
+        "tail": "协议软件提供"
+    },
+    {
+        "head": "IP地址:端口号",
+        "relation": "标识",
+        "tail": "TCP连接的端点"
+    },
+    {
+        "head": "套接字",
+        "relation": "相当于",
+        "tail": "插座"
+    },
+    {
+        "head": "socket",
+        "relation": "表示",
+        "tail": "端口号拼接到IP地址"
+    },
+    {
+        "head": "TCP",
+        "relation": "发送报文段给",
+        "tail": "IP层"
+    },
+    {
+        "head": "IP层",
+        "relation": "提供",
+        "tail": "尽最大努力服务"
+    },
+    {
+        "head": "TCP",
+        "relation": "提供",
+        "tail": "不可靠的传输"
+    },
+    {
+        "head": "可靠传输协议",
+        "relation": "使用",
+        "tail": "重传机制"
+    },
+    {
+        "head": "发送方",
+        "relation": "发送",
+        "tail": "分组"
+    },
+    {
+        "head": "接收方",
+        "relation": "接收并确认",
+        "tail": "分组"
+    },
+    {
+        "head": "停止等待协议",
+        "relation": "实现",
+        "tail": "可靠传输"
+    },
+    {
+        "head": "全双工通信",
+        "relation": "双方角色",
+        "tail": "发送方和接收方"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "通信链路"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "使用",
+        "tail": "可靠传输协议"
+    },
+    {
+        "head": "可靠传输协议",
+        "relation": "包括",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "运输层",
+        "relation": "传送",
+        "tail": "报文段"
+    },
+    {
+        "head": "网络层",
+        "relation": "传送",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "分组",
+        "relation": "等同于",
+        "tail": "协议数据单元"
+    }
+]

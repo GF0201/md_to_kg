@@ -1,0 +1,806 @@
+[
+    [
+        {
+            "head": "窗口大小",
+            "relation": "通知",
+            "tail": "接收方"
+        },
+        {
+            "head": "窗口大小",
+            "relation": "积累",
+            "tail": "报文段"
+        },
+        {
+            "head": "网络资源",
+            "relation": "包括",
+            "tail": "链路容量"
+        },
+        {
+            "head": "网络资源",
+            "relation": "包括",
+            "tail": "交换点中的缓存"
+        },
+        {
+            "head": "网络资源",
+            "relation": "包括",
+            "tail": "处理机"
+        },
+        {
+            "head": "需求",
+            "relation": "超过",
+            "tail": "可用部分"
+        },
+        {
+            "head": "网络性能",
+            "relation": "变坏",
+            "tail": "拥塞"
+        },
+        {
+            "head": "吞吐量",
+            "relation": "下降",
+            "tail": "输入负荷增大"
+        }
+    ],
+    [
+        {
+            "head": "资源增加",
+            "relation": "不能解决",
+            "tail": "网络拥塞问题"
+        },
+        {
+            "head": "缓存容量扩大",
+            "relation": "可能导致",
+            "tail": "排队等待时间增加"
+        },
+        {
+            "head": "处理机运算速度提高",
+            "relation": "不解决问题",
+            "tail": "网络拥塞问题"
+        },
+        {
+            "head": "链路更换为高速率",
+            "relation": "不解决问题",
+            "tail": "网络拥塞问题"
+        },
+        {
+            "head": "缓存容量扩大",
+            "relation": "浪费资源",
+            "tail": "网络"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "处理",
+            "tail": "分组"
+        },
+        {
+            "head": "拥塞控制",
+            "relation": "防止",
+            "tail": "数据注入到网络中"
+        },
+        {
+            "head": "拥塞控制",
+            "relation": "确保",
+            "tail": "网络负荷承受能力"
+        },
+        {
+            "head": "拥塞控制",
+            "relation": "是",
+            "tail": "全局性过程"
+        },
+        {
+            "head": "流量控制",
+            "relation": "与",
+            "tail": "拥塞控制关系密切"
+        }
+    ],
+    [
+        {
+            "head": "拥塞控制",
+            "relation": "涉及",
+            "tail": "所有主机、路由器和降低传输性因素"
+        },
+        {
+            "head": "TCP连接的端点",
+            "relation": "猜想",
+            "tail": "网络某处发生拥塞"
+        },
+        {
+            "head": "流量控制",
+            "relation": "针对",
+            "tail": "点对点通信量"
+        },
+        {
+            "head": "流量控制",
+            "relation": "关注",
+            "tail": "接收端和发送端的速率"
+        },
+        {
+            "head": "光纤网络",
+            "relation": "链路传输速率为",
+            "tail": "1000Gbit/s"
+        },
+        {
+            "head": "巨型计算机",
+            "relation": "向个人电脑传送文件速率",
+            "tail": "1Gbit/s"
+        }
+    ],
+    [
+        {
+            "head": "链路传输速率",
+            "relation": "等于",
+            "tail": "1Mbit/s"
+        },
+        {
+            "head": "大型计算机数量",
+            "relation": "等于",
+            "tail": "1000台"
+        },
+        {
+            "head": "单个计算机发送速率",
+            "relation": "等于",
+            "tail": "100kbit/s"
+        },
+        {
+            "head": "网络输入负载",
+            "relation": "超过",
+            "tail": "网络承受能力"
+        },
+        {
+            "head": "拥塞控制",
+            "relation": "作用于",
+            "tail": "发送端"
+        },
+        {
+            "head": "流量控制",
+            "relation": "作用于",
+            "tail": "接收端"
+        },
+        {
+            "head": "水桶模型",
+            "relation": "用于解释",
+            "tail": "流量控制"
+        },
+        {
+            "head": "管道堵塞模型",
+            "relation": "用于解释",
+            "tail": "拥塞控制"
+        }
+    ],
+    [
+        {
+            "head": "拥塞控制",
+            "relation": "需要",
+            "tail": "额外开销"
+        },
+        {
+            "head": "流量控制",
+            "relation": "比喻为",
+            "tail": "拧小水龙头"
+        },
+        {
+            "head": "吞吐量",
+            "relation": "代表",
+            "tail": "单位时间内从网络输出的分组数目"
+        },
+        {
+            "head": "提供的负载",
+            "relation": "代表",
+            "tail": "单位时间内输入给网络的分组数目"
+        },
+        {
+            "head": "拥塞控制策略",
+            "relation": "需要衡量",
+            "tail": "得失"
+        }
+    ],
+    [
+        {
+            "head": "理想拥塞控制",
+            "relation": "维持",
+            "tail": "最大吞吐量"
+        },
+        {
+            "head": "实际网络",
+            "relation": "进入",
+            "tail": "轻度拥塞状态"
+        },
+        {
+            "head": "实际网络",
+            "relation": "进入",
+            "tail": "拥塞状态"
+        },
+        {
+            "head": "实际网络",
+            "relation": "达到",
+            "tail": "死锁"
+        }
+    ],
+    [
+        {
+            "head": "拥塞控制",
+            "relation": "解决方法",
+            "tail": "增大可用资源或减少用户需求"
+        },
+        {
+            "head": "死锁",
+            "relation": "现象",
+            "tail": "吞吐量下降到零，网络无法工作"
+        },
+        {
+            "head": "拥塞控制",
+            "relation": "动态性",
+            "tail": "是一个动态问题"
+        },
+        {
+            "head": "高速化",
+            "relation": "趋势",
+            "tail": "当前网络正朝着高速化的方向发展"
+        },
+        {
+            "head": "缓存",
+            "relation": "影响因素",
+            "tail": "可能导致分组丢失"
+        },
+        {
+            "head": "分组丢失",
+            "relation": "原因",
+            "tail": "是网络发生拥塞的征兆"
+        },
+        {
+            "head": "拥塞控制机制",
+            "relation": "可能引起问题",
+            "tail": "成为引起网络性能恶化或死锁的原因"
+        }
+    ],
+    [
+        {
+            "head": "开环控制",
+            "relation": "属于",
+            "tail": "控制方法"
+        },
+        {
+            "head": "闭环控制",
+            "relation": "属于",
+            "tail": "控制方法"
+        },
+        {
+            "head": "反馈环路",
+            "relation": "是",
+            "tail": "闭环控制基础"
+        },
+        {
+            "head": "监测网络系统",
+            "relation": "用于",
+            "tail": "检测拥塞发生"
+        },
+        {
+            "head": "拥塞发生的信息",
+            "relation": "传递到",
+            "tail": "产生分组的源站"
+        },
+        {
+            "head": "路由器转发的分组",
+            "relation": "包含",
+            "tail": "比特或字段"
+        },
+        {
+            "head": "探测分组",
+            "relation": "用于",
+            "tail": "询问拥塞是否发生"
+        },
+        {
+            "head": "缺少缓存空间而被丢弃的分组的百分数",
+            "relation": "是",
+            "tail": "网络拥塞指标之一"
+        },
+        {
+            "head": "平均队列长度",
+            "relation": "是",
+            "tail": "网络拥塞指标之一"
+        },
+        {
+            "head": "超时重传的分组数",
+            "relation": "是",
+            "tail": "网络拥塞指标之一"
+        },
+        {
+            "head": "平均分组时延",
+            "relation": "是",
+            "尾部": "网络拥塞指标之一"
+        }
+    ],
+    [
+        {
+            "head": "慢开始",
+            "relation": "属于",
+            "tail": "拥塞控制算法"
+        },
+        {
+            "head": "快重传",
+            "relation": "属于",
+            "tail": "拥塞控制算法"
+        },
+        {
+            "head": "快恢复",
+            "relation": "属于",
+            "tail": "拥塞控制算法"
+        },
+        {
+            "head": "拥塞避免",
+            "relation": "属于",
+            "tail": "拥塞控制方法"
+        },
+        {
+            "head": "拥塞窗口cwnd",
+            "relation": "是",
+            "tail": "状态变量"
+        }
+    ],
+    [
+        {
+            "head": "拥塞窗口",
+            "relation": "控制",
+            "tail": "发送方"
+        },
+        {
+            "head": "接收窗口",
+            "relation": "影响",
+            "tail": "发送方的发送窗口"
+        },
+        {
+            "head": "超时",
+            "relation": "指示",
+            "tail": "网络拥塞"
+        },
+        {
+            "head": "慢开始算法",
+            "relation": "用于",
+            "tail": "控制拥塞窗口大小"
+        }
+    ],
+    [
+        {
+            "head": "慢开始算法",
+            "relation": "包含",
+            "tail": "初始拥塞窗口cwnd"
+        },
+        {
+            "head": "初始拥塞窗口cwnd",
+            "relation": "设置为",
+            "tail": "不超过2x4个SMSS的数值"
+        },
+        {
+            "head": "初始拥塞窗口cwnd",
+            "relation": "设置为",
+            "tail": "3xSMSS字节"
+        },
+        {
+            "head": "慢开始算法",
+            "relation": "用于",
+            "tail": "探测网络当前的负荷情况"
+        },
+        {
+            "head": "初始拥塞窗口cwnd",
+            "relation": "由小到大逐渐增大",
+            "tail": "注入到网络中的数据字节"
+        }
+    ],
+    [
+        {
+            "head": "初始拥塞窗口cwnd",
+            "relation": "设置为",
+            "tail": "4xSMSS字"
+        },
+        {
+            "head": "慢开始算法",
+            "relation": "规定增加量",
+            "tail": "min(N, SMSS)"
+        },
+        {
+            "head": "拥塞窗口cwnd",
+            "relation": "每次增加",
+            "tail": "一个SMSS的数值"
+        },
+        {
+            "head": "慢开始算法",
+            "relation": "逐步增大",
+            "tail": "发送方的拥塞窗口cwnd"
+        }
+    ],
+    [
+        {
+            "head": "慢开始算法",
+            "relation": "规定发送方每收到一个确认就增加拥塞窗口",
+            "tail": "往返时延RTT后发送两个报文段"
+        },
+        {
+            "head": "拥塞窗口cwnd",
+            "relation": "初始设置为1",
+            "tail": "试探网络拥塞情况"
+        },
+        {
+            "head": "慢开始算法",
+            "relation": "不是指增长速率慢",
+            "tail": "而是逐步增大cwnd"
+        }
+    ],
+    [
+        {
+            "head": "拥塞窗口cwnd",
+            "relation": "用于",
+            "tail": "控制报文段注入速度"
+        },
+        {
+            "head": "慢开始算法",
+            "relation": "启动条件",
+            "tail": "cwnd<ssthresh"
+        },
+        {
+            "head": "慢开始门限ssthresh",
+            "relation": "作用",
+            "tail": "防止网络拥塞"
+        },
+        {
+            "head": "拥塞避免算法",
+            "relation": "增长方式",
+            "tail": "线性规律缓慢增长"
+        },
+        {
+            "head": "往返时间RTT",
+            "relation": "影响因素",
+            "tail": "拥塞窗口cwnd大小变化"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "使用",
+            "tail": "拥塞控制"
+        },
+        {
+            "head": "TCP",
+            "relation": "调整",
+            "tail": "拥塞窗口cwnd"
+        },
+        {
+            "head": "往返时延RTT",
+            "relation": "影响",
+            "tail": "拥塞窗口cwnd变化"
+        }
+    ],
+    [
+        {
+            "head": "拥塞窗口cwnd",
+            "relation": "在...变化情况",
+            "tail": "往返时延RTT"
+        },
+        {
+            "head": "慢开始门限ssthresh",
+            "relation": "初始设置为",
+            "tail": "16个报文段"
+        },
+        {
+            "head": "拥塞窗口cwnd",
+            "relation": "在...增长到",
+            "tail": "慢开始门限值ssthresh时"
+        },
+        {
+            "head": "拥塞避免算法",
+            "relation": "让拥塞窗口按线性规律增长",
+            "tail": "但并非完全避免拥塞"
+        },
+        {
+            "head": "网络出现超时",
+            "relation": "标志为",
+            "tail": "发生拥塞"
+        },
+        {
+            "head": "ssthresh",
+            "relation": "调整为",
+            "tail": "cwnd/2=12"
+        }
+    ],
+    [
+        {
+            "head": "慢开始算法",
+            "relation": "执行",
+            "tail": "拥塞窗口值加1"
+        },
+        {
+            "head": "sthresh",
+            "relation": "调整为",
+            "tail": "12"
+        },
+        {
+            "head": "cwnd",
+            "relation": "等于",
+            "tail": "16"
+        },
+        {
+            "head": "3-ACK",
+            "relation": "触发",
+            "tail": "拥塞避免算法"
+        },
+        {
+            "head": "个别报文段丢失",
+            "relation": "导致",
+            "tail": "超时"
+        },
+        {
+            "head": "发送方",
+            "relation": "误认为",
+            "tail": "网络发生拥塞"
+        }
+    ],
+    [
+        {
+            "head": "快重传算法",
+            "relation": "提高",
+            "tail": "整个网络的吞吐量"
+        },
+        {
+            "head": "接收方",
+            "relation": "立即发送",
+            "tail": "对已收到报文段的重复确认"
+        },
+        {
+            "head": "发送方",
+            "relation": "尽早知道",
+            "tail": "个别报文段丢失"
+        },
+        {
+            "head": "接收方",
+            "relation": "立即发送",
+            "tail": "对M2的重复确认"
+        },
+        {
+            "head": "发送方",
+            "relation": "进行重传",
+            "tail": "M3"
+        }
+    ],
+    [
+        {
+            "head": "快重传",
+            "relation": "触发",
+            "tail": "重复确认M2"
+        },
+        {
+            "head": "拥塞窗口cwnd",
+            "relation": "调整为",
+            "tail": "ssthresh=8"
+        },
+        {
+            "head": "ssthresh",
+            "relation": "初始设置为",
+            "tail": "cwnd/2"
+        },
+        {
+            "head": "快恢复算法",
+            "relation": "执行于",
+            "tail": "点O"
+        },
+        {
+            "头": "TCPReno版本",
+            "关系": "区别于",
+            "尾": "老的TCPTahoe版本"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "使用",
+            "tail": "AIMD算法"
+        },
+        {
+            "head": "拥塞避免阶段",
+            "relation": "采用",
+            "tail": "线性规律增大"
+        },
+        {
+            "head": "超时或3个重复的确认",
+            "relation": "导致",
+            "tail": "乘法减小"
+        },
+        {
+            "head": "慢开始阶段",
+            "relation": "出现网络拥塞",
+            "tail": "采取措施"
+        },
+        {
+            "head": "TCP连接建立",
+            "relation": "经历",
+            "tail": "慢开始"
+        }
+    ],
+    [
+        {
+            "head": "ACK",
+            "relation": "触发",
+            "tail": "TCP连接释放"
+        },
+        {
+            "head": "接收方窗口",
+            "relation": "称为",
+            "tail": "通知窗口(advertised window)"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "由",
+            "tail": "Min(rwnd, cwnd)决定"
+        },
+        {
+            "head": "rwnd",
+            "relation": "表示",
+            "tail": "接收方窗口值"
+        },
+        {
+            "head": "cwnd",
+            "relation": "表示",
+            "tail": "拥塞窗口值"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "执行",
+            "tail": "分组丢弃策略"
+        },
+        {
+            "head": "队列",
+            "relation": "遵循",
+            "tail": "FIFO规则"
+        },
+        {
+            "head": "尾部丢弃策略",
+            "relation": "导致",
+            "tail": "分组被丢弃"
+        },
+        {
+            "head": "TCP拥塞控制",
+            "relation": "受网络层影响",
+            "tail": "路由器的队列长度有限"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "导致",
+            "tail": "尾部丢弃"
+        },
+        {
+            "head": "尾部丢弃",
+            "relation": "引起",
+            "tail": "分组丢失"
+        },
+        {
+            "head": "分组丢失",
+            "relation": "触发",
+            "tail": "超时重传"
+        },
+        {
+            "head": "超时重传",
+            "relation": "进入",
+            "tail": "慢开始状态"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "经历",
+            "tail": "慢开始状态"
+        },
+        {
+            "head": "尾部丢弃",
+            "relation": "影响",
+            "tail": "多条TCP连接"
+        },
+        {
+            "head": "多条TCP连接",
+            "relation": "进入",
+            "tail": "慢开始状态"
+        },
+        {
+            "head": "这种情况",
+            "relation": "称为",
+            "tail": "全局同步"
+        },
+        {
+            "head": "全局同步",
+            "relation": "导致",
+            "tail": "通信量下降"
+        },
+        {
+            "head": "网络恢复正常",
+            "relation": "导致",
+            "tail": "通信量增大"
+        }
+    ],
+    [
+        {
+            "head": "全局同步",
+            "relation": "导致",
+            "tail": "通信量下降"
+        },
+        {
+            "head": "主动队列管理AQM",
+            "relation": "目的是避免",
+            "tail": "网络全局同步现象"
+        },
+        {
+            "head": "RED",
+            "relation": "是",
+            "tail": "随机早期检测的实现方法之一"
+        },
+        {
+            "head": "RED",
+            "relation": "需要维持",
+            "tail": "队列长度最小门限和最大门限"
+        },
+        {
+            "head": "平均队列长度",
+            "relation": "小于",
+            "tail": "最小门限时，新分组被放入队列排队"
+        }
+    ],
+    [
+        {
+            "head": "RED机制",
+            "relation": "用于",
+            "tail": "避免全局性的拥塞控制"
+        },
+        {
+            "head": "队列长度",
+            "relation": "决定",
+            "tail": "丢弃概率p的选择"
+        },
+        {
+            "head": "最小门限",
+            "relation": "影响",
+            "tail": "分组是否排队"
+        },
+        {
+            "head": "最大门限",
+            "relation": "影响",
+            "tail": "分组是否被丢弃"
+        },
+        {
+            "head": "丢弃概率p",
+            "relation": "用于",
+            "tail": "随机丢弃个别分组"
+        },
+        {
+            "head": "RED机制",
+            "relation": "在",
+            "tail": "互连网中推荐使用"
+        },
+        {
+            "head": "RFC7567",
+            "relation": "指出",
+            "tail": "RED的使用效果不理想"
+        }
+    ],
+    [
+        {
+            "head": "主动队列管理(AQM)",
+            "relation": "是",
+            "tail": "对分组排队进行智能管理的方法"
+        },
+        {
+            "head": "RED",
+            "relation": "已被替代",
+            "tail": "新的算法"
+        },
+        {
+            "head": "TCP",
+            "relation": "面向连接的协议",
+            "tail": ""
+        },
+        {
+            "head": "运输连接",
+            "relation": "用于传送",
+            "tail": "TCP报文"
+        }
+    ]
+]

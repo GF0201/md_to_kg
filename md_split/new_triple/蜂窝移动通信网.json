@@ -1,0 +1,1607 @@
+[
+    {
+        "head": "ZigBee网络",
+        "relation": "包含节点类型",
+        "tail": "FFD节点"
+    },
+    {
+        "head": "ZigBee网络",
+        "relation": "包含节点类型",
+        "tail": "RFD节点"
+    },
+    {
+        "head": "FFD节点",
+        "relation": "充当角色",
+        "tail": "协调器"
+    },
+    {
+        "head": "ZigBee网络",
+        "relation": "支持最大节点数",
+        "tail": "65000个节点"
+    },
+    {
+        "head": "RFD节点",
+        "relation": "只能与",
+        "tail": "FFD节点交换数据"
+    },
+    {
+        "head": "高速WPAN",
+        "relation": "标准",
+        "tail": "IEEE802.15.3"
+    },
+    {
+        "head": "高速WPAN",
+        "relation": "支持的数据率范围",
+        "tail": "11~55Mbit/s"
+    },
+    {
+        "head": "IEEE802.15.3a工作组",
+        "relation": "提出",
+        "tail": "超高速WPAN"
+    },
+    {
+        "head": "UWB(Ultra-WideBand)技术",
+        "relation": "用于",
+        "tail": "超高速WPAN"
+    },
+    {
+        "head": "香农公式",
+        "relation": "表明",
+        "tail": "信道带宽与传输速率成正比"
+    },
+    {
+        "head": "超宽带技术",
+        "relation": "工作在",
+        "tail": "3.1~10.6GHz微波频段"
+    },
+    {
+        "head": "UWB信号",
+        "relation": "带宽要求",
+        "tail": "超过500MHz"
+    },
+    {
+        "head": "蜂窝移动通信系统",
+        "relation": "又称为",
+        "tail": "小区制移动通信"
+    },
+    {
+        "head": "蜂窝无线通信技术",
+        "relation": "发展迅速",
+        "tail": ""
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "relation": "信号覆盖面",
+        "tail": "超过Wi-Fi线局域网"
+    },
+    {
+        "head": "蜂窝线通信",
+        "relation": "用于",
+        "tail": "打电话"
+    },
+    {
+        "head": "蜂窝线通信",
+        "relation": "发展为",
+        "tail": "接入互联网的主要用户设备"
+    },
+    {
+        "head": "数据",
+        "relation": "构成",
+        "tail": "互联网流量主要成分"
+    },
+    {
+        "head": "移动环境",
+        "relation": "需要",
+        "tail": "蜂窝线通信网"
+    },
+    {
+        "head": "蜂窝线通信技术",
+        "relation": "复杂",
+        "tail": "需学习额外课程"
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "relation": "连接",
+        "tail": "互联网"
+    },
+    {
+        "head": "蜂窝移动通信系统",
+        "relation": "包含代次",
+        "tail": "1G"
+    },
+    {
+        "head": "蜂窝移动通信系统",
+        "relation": "包含代次",
+        "tail": "2G"
+    },
+    {
+        "head": "2G蜂窝移动通信系统",
+        "relation": "使用技术",
+        "tail": "数字技术"
+    },
+    {
+        "head": "2G蜂窝移动通信系统",
+        "relation": "代表性体制",
+        "tail": "GSM系统"
+    },
+    {
+        "head": "蜂窝移动通信系统",
+        "relation": "包含体制",
+        "tail": "CDMA"
+    },
+    {
+        "head": "小区",
+        "relation": "由基站控制",
+        "tail": "基站"
+    },
+    {
+        "head": "基站",
+        "relation": "覆盖范围",
+        "tail": "本小区"
+    },
+    {
+        "head": "基站天线",
+        "relation": "影响",
+        "tail": "信号传播条件"
+    },
+    {
+        "head": "频率复用",
+        "relation": "通过",
+        "tail": "小区"
+    },
+    {
+        "head": "蜂窝通信系统",
+        "relation": "由",
+        "tail": "大量小区构成"
+    },
+    {
+        "head": "核心网",
+        "relation": "包含",
+        "tail": "移动交换中心"
+    },
+    {
+        "head": "GSM系统",
+        "relation": "使用",
+        "tail": "数字技术"
+    },
+    {
+        "head": "GSM系统",
+        "relation": "提供",
+        "tail": "基本的话音通信服务"
+    },
+    {
+        "head": "空口",
+        "relation": "采用",
+        "tail": "FDMA/TDMA混合系统"
+    },
+    {
+        "head": "FDMA/TDMA混合系统",
+        "relation": "包含",
+        "tail": "频分复用"
+    },
+    {
+        "head": "FDMA/TDMA混合系统",
+        "relation": "包含",
+        "tail": "时分复用"
+    },
+    {
+        "head": "子频带",
+        "relation": "划分为",
+        "tail": "125个带宽为200kHz的子频带"
+    },
+    {
+        "head": "TDM帧",
+        "relation": "划分为",
+        "tail": "8个时隙"
+    },
+    {
+        "head": "通话用户",
+        "relation": "占用",
+        "tail": "一个特定时隙"
+    },
+    {
+        "head": "蜂窝内",
+        "relation": "可以挑选出",
+        "tail": "一些频道"
+    },
+    {
+        "head": "相隔一定距离的蜂窝",
+        "relation": "能够重复使用相同频率的频道",
+        "tail": ""
+    },
+    {
+        "head": "上行",
+        "relation": "指",
+        "tail": "从移动站到基站"
+    },
+    {
+        "head": "下行",
+        "relation": "指",
+        "tail": "从基站到移动站"
+    },
+    {
+        "head": "上行",
+        "relation": "方向",
+        "tail": "从移动站到基站"
+    },
+    {
+        "head": "下行",
+        "relation": "方向",
+        "tail": "从基站到移动站"
+    },
+    {
+        "head": "GSM",
+        "relation": "包含",
+        "tail": "基站子系统和网络子系统"
+    },
+    {
+        "head": "基站子系统",
+        "relation": "包括",
+        "tail": "几十个基站和一个基站控制器BSC"
+    },
+    {
+        "head": "基站控制器BSC",
+        "relation": "服务",
+        "tail": "基站子系统中的几十个基站"
+    },
+    {
+        "head": "移动用户",
+        "relation": "通信",
+        "tail": "通过基站与基站控制器进行"
+    },
+    {
+        "head": "基站控制器BSC",
+        "relation": "分配",
+        "tail": "线信道"
+    },
+    {
+        "head": "基站控制器BSC",
+        "relation": "确定",
+        "tail": "移动用户所在的小区"
+    },
+    {
+        "head": "基站控制器BSC",
+        "relation": "处理",
+        "tail": "移动用户在本基站子系统内漫游时的信道切换"
+    },
+    {
+        "head": "核心网",
+        "relation": "包括",
+        "tail": "移动交换中心MSC和网关移动交换中心GMSC"
+    },
+    {
+        "head": "移动交换中心MSC",
+        "relation": "管理",
+        "tail": "基站控制器BSC"
+    },
+    {
+        "head": "蜂窝移动通信系统",
+        "relation": "依靠",
+        "tail": "复杂的信令系统"
+    },
+    {
+        "head": "通用分组无线服务",
+        "relation": "引入于",
+        "tail": "GSM"
+    },
+    {
+        "head": "增强型数据速率GSM演进",
+        "relation": "提供最大速率",
+        "tail": "384kbit/s"
+    },
+    {
+        "head": "分组控制单元",
+        "relation": "负责处理",
+        "tail": "数据通信业务"
+    },
+    {
+        "head": "通用分组无线服务",
+        "relation": "提供最大速率",
+        "tail": "171.2kbit/s"
+    },
+    {
+        "head": "空口调制方式",
+        "relation": "由高最小频移键控GMSK提高到",
+        "tail": "8PSK"
+    },
+    {
+        "head": "分组控制单元",
+        "relation": "通常集成于",
+        "tail": "BSC"
+    },
+    {
+        "head": "电路交换域",
+        "relation": "组成",
+        "tail": "GSM核心网部分"
+    },
+    {
+        "head": "分组交换域",
+        "relation": "包括",
+        "tail": "服务GPRS支持节点SGSN和网关GPRS支持节点GGSN"
+    },
+    {
+        "head": "SGSN",
+        "relation": "功能",
+        "tail": "转发IP数据报"
+    },
+    {
+        "head": "SGSN",
+        "relation": "交互对象",
+        "tail": "移动交换中心MSC"
+    },
+    {
+        "head": "GGSN",
+        "relation": "功能",
+        "tail": "网络接入控制"
+    },
+    {
+        "head": "GGSN",
+        "role": "别称",
+        "tail": "GPRS路由器"
+    },
+    {
+        "head": "移动交换中心",
+        "relation": "属于",
+        "tail": "电路交换域"
+    },
+    {
+        "head": "GMSC",
+        "relation": "连接",
+        "tail": "公用电话网"
+    },
+    {
+        "head": "分组交换域",
+        "relation": "支持",
+        "tail": "GPRS"
+    },
+    {
+        "head": "IMT-2000",
+        "relation": "标准名称",
+        "tail": "第三代蜂窝移动通信系统"
+    },
+    {
+        "head": "3G蜂窝移动通信系统",
+        "relation": "工作频段",
+        "tail": "2000MHz"
+    },
+    {
+        "head": "中国通信标准化协会CCSA",
+        "relation": "成立",
+        "tail": "1998年"
+    },
+    {
+        "head": "3GPP",
+        "relation": "制定",
+        "tail": "通用移动通信系统UMTS"
+    },
+    {
+        "head": "UMTS",
+        "relation": "要求",
+        "tail": "下行和上行数据率超过384kbit/s"
+    },
+    {
+        "head": "3GPP",
+        "relation": "引入",
+        "tail": "无线接入网概念"
+    },
+    {
+        "head": "3GPP",
+        "relation": "引入了",
+        "tail": "无线接入网"
+    },
+    {
+        "head": "无线接入网",
+        "relation": "全名是",
+        "tail": "通用移动通信系统陆地线接入网UTRAN"
+    },
+    {
+        "head": "UTRAN",
+        "relation": "由",
+        "tail": "多个线网络系统组成"
+    },
+    {
+        "head": "线网络系统",
+        "relation": "包含",
+        "tail": "一个线网络控制器RNC和许多基站"
+    },
+    {
+        "head": "RNC",
+        "relation": "正式名称是",
+        "tail": "无线网络控制器"
+    },
+    {
+        "head": "基站",
+        "relation": "正式名称是",
+        "tail": "节点B(Node-B)"
+    },
+    {
+        "head": "RNC",
+        "relation": "通过电路交换域的MSC连接到",
+        "tail": "蜂窝话音网络"
+    },
+    {
+        "head": "RNC",
+        "relation": "通过分组交换域的SGSN和GGSN连接到",
+        "tail": "互联网"
+    },
+    {
+        "head": "3GUMTS",
+        "relation": "把移动站称为",
+        "tail": "用户设备UE"
+    },
+    {
+        "head": "UE",
+        "relation": "与",
+        "tail": "基站NB之一间是线链路"
+    },
+    {
+        "head": "3G核心网",
+        "relation": "由",
+        "tail": "GSM系统中GPRS核心网进行平滑演进"
+    },
+    {
+        "head": "3G",
+        "relation": "演进自",
+        "tail": "GSM"
+    },
+    {
+        "head": "SGSN和GGSN",
+        "relation": "支持",
+        "tail": "2G/3G功能"
+    },
+    {
+        "head": "ITU",
+        "relation": "制定标准",
+        "tail": "非政府机构辅助"
+    },
+    {
+        "head": "IETF",
+        "relation": "制定标准",
+        "tail": "互联网"
+    },
+    {
+        "head": "3GPP",
+        "relation": "制定标准",
+        "tail": "从4G到5G系统"
+    },
+    {
+        "head": "GGSN",
+        "relation": "隐藏",
+        "tail": "UMTS外部移动性"
+    },
+    {
+        "head": "3GUMTS",
+        "relation": "区别于",
+        "tail": "2G的GSM"
+    },
+    {
+        "head": "3GUMTS",
+        "relation": "使用",
+        "tail": "dCDMA, TD-SCDMA, DS-WCDMA"
+    },
+    {
+        "head": "每个移动用户",
+        "relation": "使用的带宽",
+        "tail": "比GSM增大很多"
+    },
+    {
+        "head": "3GUMTS",
+        "relation": "支持",
+        "tail": "多种移动宽带多媒体业务"
+    },
+    {
+        "head": "WCDMA",
+        "relation": "引入",
+        "tail": "HSPA+"
+    },
+    {
+        "head": "HSPA+",
+        "relation": "传输数据后",
+        "tail": "下行数据率可达21Mbit/s(5MHz带宽)"
+    },
+    {
+        "head": "3GUMTS",
+        "relation": "支持",
+        "tail": "浏览网页, 传送高清图片和视频短片, 即时视频通信, 进行多视频会议等"
+    },
+    {
+        "head": "网关移动交换中心",
+        "relation": "包含",
+        "tail": "SGSN"
+    },
+    {
+        "head": "网关移动交换中心",
+        "relation": "包含",
+        "tail": "GGSN"
+    },
+    {
+        "head": "3GUMTS蜂窝通信系统",
+        "relation": "包含",
+        "tail": "分组交换域"
+    },
+    {
+        "head": "3GUMTS蜂窝通信系统",
+        "relation": "包含",
+        "tail": "网关GPRS"
+    },
+    {
+        "head": "3GUMTS蜂窝通信系统",
+        "relation": "包含",
+        "tail": "支持节点"
+    },
+    {
+        "head": "3GUMTS蜂窝通信系统",
+        "relation": "包含",
+        "tail": "核心网"
+    },
+    {
+        "head": "TD-SCDMA",
+        "relation": "属于",
+        "tail": "UMTS标准"
+    },
+    {
+        "head": "WCDMA",
+        "relation": "属于",
+        "tail": "UMTS标准"
+    },
+    {
+        "head": "3GPP组织",
+        "relation": "提出",
+        "tail": "WCDMA"
+    },
+    {
+        "head": "3GPP组织",
+        "relation": "提出",
+        "tail": "TD-SCDMA"
+    },
+    {
+        "head": "中国电信",
+        "relation": "使用",
+        "tail": "CDMA2000"
+    },
+    {
+        "head": "中国移动",
+        "relation": "使用",
+        "tail": "TD-SCDMA"
+    },
+    {
+        "head": "3GPP",
+        "relation": "制定标准",
+        "tail": "SCDMA和WCDMA"
+    },
+    {
+        "head": "CDMA2000系统",
+        "relation": "核心网及接入网与",
+        "tail": "TD-SCDMA/WCDMA不同"
+    },
+    {
+        "head": "4G蜂窝移动通信系统",
+        "relation": "名称定为",
+        "tail": "!MT-Advanced"
+    },
+    {
+        "head": "!MT-Advanced",
+        "relation": "取消了",
+        "tail": "电路交换"
+    },
+    {
+        "head": "!MT-Advanced",
+        "relation": "使用分组交换技术",
+        "tail": "传送数据和话音"
+    },
+    {
+        "head": "!MT-Advanced",
+        "relation": "目标峰值数据率",
+        "tail": "1Gbit/s"
+    },
+    {
+        "head": "移动通信",
+        "relation": "达到数据率",
+        "tail": "100Mbit/s"
+    },
+    {
+        "head": "智能手机用户",
+        "relation": "需要",
+        "tail": "即时通信应用软件"
+    },
+    {
+        "head": "即时通信应用软件",
+        "relation": "分享内容",
+        "tail": "视频短片或高清照片"
+    },
+    {
+        "head": "移动通信系统",
+        "relation": "提高数据率",
+        "tail": "100Mbit/s和50Mbit/s"
+    },
+    {
+        "head": "ITU-R",
+        "relation": "提出标准",
+        "tail": "4G"
+    },
+    {
+        "head": "3GPPR8版本",
+        "relation": "发布标准",
+        "tail": "长期演进LTE"
+    },
+    {
+        "head": "信道带宽20MHz",
+        "relation": "数据率要求",
+        "tail": "100Mbit/s和50Mbit/s"
+    },
+    {
+        "head": "ITU-R",
+        "relation": "定义",
+        "tail": "4G标准比3G高出很多"
+    },
+    {
+        "head": "电信企业",
+        "relation": "实现难度",
+        "tail": "很难"
+    },
+    {
+        "head": "商家",
+        "relation": "显示标识",
+        "tail": "LTE为4G"
+    },
+    {
+        "head": "LTE",
+        "relation": "被称为",
+        "tail": "3.9G或3.95G"
+    },
+    {
+        "head": "LTE体系结构",
+        "relation": "包含部分",
+        "tail": "简图"
+    },
+    {
+        "head": "LTE",
+        "relation": "包含",
+        "tail": "用户设备UE"
+    },
+    {
+        "head": "LTE",
+        "relation": "包含",
+        "tail": "演进的UTRAN E-UTRAN"
+    },
+    {
+        "head": "LTE",
+        "relation": "包含",
+        "tail": "演进的分组核心网EPC"
+    },
+    {
+        "head": "EPC",
+        "relation": "分为",
+        "tail": "控制层面"
+    },
+    {
+        "head": "EPC",
+        "relation": "分为",
+        "tail": "用户层面"
+    },
+    {
+        "head": "信令",
+        "relation": "传输于",
+        "tail": "虚线表示"
+    },
+    {
+        "head": "用户数据",
+        "relation": "传输于",
+        "tail": "实线表示"
+    },
+    {
+        "head": "LTE",
+        "relation": "使用",
+        "tail": "20MHz带宽"
+    },
+    {
+        "head": "3G UMTS空口",
+        "relation": "使用",
+        "tail": "5MHz带宽"
+    },
+    {
+        "head": "下行信道CeNB-UE",
+        "relation": "采用",
+        "tail": "OFDMA复用方式"
+    },
+    {
+        "head": "上行信道UE-eNB",
+        "relation": "采用",
+        "tail": "不同的复用方式"
+    },
+    {
+        "head": "正交频分复用OFDM技术",
+        "relation": "提高",
+        "tail": "频谱利用率"
+    },
+    {
+        "head": "OFDM",
+        "relation": "降低",
+        "tail": "误比特率"
+    },
+    {
+        "head": "用户设备",
+        "relation": "发送",
+        "tail": "10ms帧"
+    },
+    {
+        "head": "信道频率",
+        "relation": "包含于",
+        "tail": "时隙"
+    },
+    {
+        "head": "时隙",
+        "relation": "持续时间",
+        "tail": "0.5ms"
+    },
+    {
+        "head": "帧",
+        "relation": "划分为",
+        "tail": "20个时隙"
+    },
+    {
+        "head": "LTE用户设备",
+        "relation": "被分配",
+        "tail": "信道频率中的一个时隙"
+    },
+    {
+        "head": "每个帧",
+        "relation": "包含时间长度",
+        "tail": "10ms"
+    },
+    {
+        "head": "时隙",
+        "relation": "分配给",
+        "tail": "用户设备"
+    },
+    {
+        "head": "数据率",
+        "relation": "取决于",
+        "tail": "时隙数量"
+    },
+    {
+        "head": "LTE",
+        "relation": "采用",
+        "tail": "高阶调制64QAM"
+    },
+    {
+        "head": "码元",
+        "relation": "携带信息量",
+        "tail": "6bit"
+    },
+    {
+        "head": "LTE",
+        "relation": "使用",
+        "tail": "MIMO技术"
+    },
+    {
+        "head": "E-UTRAN",
+        "relation": "取代",
+        "tail": "UTRAN和RNC"
+    },
+    {
+        "head": "eNB",
+        "relation": "具有",
+        "tail": "3G中的基站和RNC功能"
+    },
+    {
+        "head": "eNB",
+        "relation": "是",
+        "tail": "功能最复杂的设备"
+    },
+    {
+        "head": "E-UTRAN",
+        "relation": "采用",
+        "tail": "扁平结构"
+    },
+    {
+        "head": "从站eNB",
+        "relation": "通过",
+        "tail": "X2接口"
+    },
+    {
+        "head": "无线块",
+        "relation": "处理",
+        "tail": "信号调制或解调"
+    },
+    {
+        "head": "基站eNB",
+        "relation": "负责",
+        "tail": "无线资源管理"
+    },
+    {
+        "head": "MME",
+        "relation": "发起",
+        "tail": "寻呼信息调度和传输"
+    },
+    {
+        "head": "UE",
+        "relation": "发送数据到",
+        "tail": "S-GW"
+    },
+    {
+        "head": "从站eNB",
+        "relation": "在用户设备UE与核心网之间传送",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "分组网关",
+        "relation": "是",
+        "tail": "P-GW"
+    },
+    {
+        "head": "P-GW",
+        "relation": "由",
+        "tail": "GGSN升级而来"
+    },
+    {
+        "head": "P-GW",
+        "relation": "属于",
+        "tail": "核心网"
+    },
+    {
+        "head": "P-GW",
+        "relation": "是",
+        "tail": "外部数据网的接口"
+    },
+    {
+        "head": "P-GW",
+        "relation": "负责",
+        "tail": "分配IP地址和确保服务质量QoS"
+    },
+    {
+        "head": "用户设备UE的数据报文",
+        "relation": "通过",
+        "tail": "GTP-U隧道"
+    },
+    {
+        "head": "数据报文",
+        "relation": "到达",
+        "tail": "S-GW"
+    },
+    {
+        "head": "数据报文",
+        "relation": "最终到达",
+        "tail": "P-GW"
+    },
+    {
+        "head": "P-GW",
+        "relation": "保证",
+        "tail": "服务质量QoS"
+    },
+    {
+        "head": "LTE网络",
+        "relation": "保证",
+        "tail": "分组时延不超过100ms"
+    },
+    {
+        "head": "LTE网络",
+        "relation": "采用",
+        "tail": "IP网络"
+    },
+    {
+        "head": "音视频通信",
+        "relation": "依赖",
+        "tail": "数据通信"
+    },
+    {
+        "head": "路由交换",
+        "relation": "不再使用",
+        "tail": "LTE网络"
+    },
+    {
+        "head": "网络复杂度",
+        "relation": "降低",
+        "tail": "采用IP网络"
+    },
+    {
+        "head": "服务网关S-GW",
+        "relation": "是",
+        "tail": "Se1-vingGateWay"
+    },
+    {
+        "head": "服务网关S-GW",
+        "relation": "由",
+        "tail": "SGSN演进而来"
+    },
+    {
+        "head": "服务网关S-GW",
+        "relation": "负责",
+        "tail": "用户层面的数据分组的转发和路由选择"
+    },
+    {
+        "head": "服务网关S-GW",
+        "relation": "还负责",
+        "tail": "eNB到S-GW以及S-GW到P-GW的隧道管理"
+    },
+    {
+        "head": "服务网关S-GW",
+        "relation": "是",
+        "tail": "数据层面中移动性的描点"
+    },
+    {
+        "head": "用户设备UE",
+        "relation": "在通信过程中可能会进行",
+        "tail": "LTE系统不同的eNB之间切换或漫游到3GPP的不同接入系统中"
+    },
+    {
+        "head": "S-GW",
+        "relation": "与",
+        "tail": "P-GW可以在同一归属用户服务器lISS中实现"
+    },
+    {
+        "head": "数据库",
+        "relation": "包含",
+        "tail": "用户从数据"
+    },
+    {
+        "head": "MME",
+        "relation": "负责",
+        "tail": "估令交换"
+    },
+    {
+        "head": "eNB",
+        "relation": "通信",
+        "tail": "MME"
+    },
+    {
+        "head": "MME",
+        "relation": "获取",
+        "tail": "HSS用户信息"
+    },
+    {
+        "head": "PCRF",
+        "relation": "属于",
+        "tail": "构件单元"
+    },
+    {
+        "head": "LTE",
+        "relation": "兼容",
+        "tail": "3G和2G"
+    },
+    {
+        "head": "手机",
+        "relation": "支持",
+        "tail": "4G/3G/2G功能"
+    },
+    {
+        "head": "LTE",
+        "relation": "处理",
+        "tail": "电话通信业务"
+    },
+    {
+        "head": "CSFB",
+        "relation": "确保",
+        "tail": "电话通信质量"
+    },
+    {
+        "head": "VoLTE",
+        "relation": "是",
+        "tail": "高清电话业务"
+    },
+    {
+        "head": "VoLTE",
+        "relation": "提供",
+        "tail": "高质量电话通信和视频电话"
+    },
+    {
+        "head": "IMS",
+        "relation": "属于",
+        "tail": "IP服务范围"
+    },
+    {
+        "head": "IMS",
+        "relation": "不是",
+        "tail": "LTE的一部分"
+    },
+    {
+        "head": "IMS",
+        "relation": "是",
+        "tail": "分组交换网络系统"
+    },
+    {
+        "head": "用户设备UE",
+        "relation": "开机后登记到",
+        "tail": "LTE网络"
+    },
+    {
+        "head": "数据路径",
+        "relation": "由两部分组成",
+        "tail": "空口线链路和核心网中的隧道"
+    },
+    {
+        "head": "数据通信",
+        "relation": "使用",
+        "tail": "GPRS隧道协议GTP"
+    },
+    {
+        "head": "GTP",
+        "relation": "表示",
+        "tail": "用户层面"
+    },
+    {
+        "head": "GTP-U",
+        "relation": "传输",
+        "tail": "用户层面数据"
+    },
+    {
+        "head": "GTP-C",
+        "relation": "传输",
+        "tail": "信令"
+    },
+    {
+        "head": "P-GW",
+        "relation": "分配",
+        "tail": "IP地址"
+    },
+    {
+        "head": "UE",
+        "relation": "移动",
+        "tail": "不改变IP地址"
+    },
+    {
+        "head": "GTP",
+        "relation": "使用",
+        "tail": "GPRS隧道协议"
+    },
+    {
+        "head": "空口接口",
+        "relation": "包含",
+        "tail": "eNBS-GW"
+    },
+    {
+        "head": "UE",
+        "relation": "发送",
+        "tail": "连接请求"
+    },
+    {
+        "head": "eNB",
+        "relation": "接收",
+        "tail": "连接请求"
+    },
+    {
+        "head": "eNB",
+        "relation": "建立",
+        "tail": "空口链路"
+    },
+    {
+        "head": "eNB",
+        "relation": "建立",
+        "tail": "GTP-U隧道"
+    },
+    {
+        "head": "S-GW",
+        "relation": "保留",
+        "tail": "IP地址信息"
+    },
+    {
+        "head": "P-GW",
+        "relation": "认为",
+        "tail": "IP地址暂时归UE使用"
+    },
+    {
+        "head": "UE",
+        "relation": "发送",
+        "tail": "IP分组"
+    },
+    {
+        "head": "GTP-U隧道",
+        "relation": "存在于",
+        "tail": "S-GW-P-GW之间"
+    },
+    {
+        "head": "GTP-U隧道",
+        "relation": "存在于",
+        "tail": "eNB-S-GW之间"
+    },
+    {
+        "head": "UE",
+        "relation": "访问",
+        "tail": "互联网中的百度网站BD"
+    },
+    {
+        "head": "IP分组",
+        "relation": "传输于",
+        "tail": "L2"
+    },
+    {
+        "head": "PDCP子层",
+        "relation": "支持",
+        "tail": "IP分组在L2线链路的传输"
+    },
+    {
+        "head": "PDCP子层",
+        "relation": "压缩",
+        "tail": "IP首部"
+    },
+    {
+        "head": "RLC子层",
+        "relation": "提供",
+        "tail": "不同可靠性等级运行模式"
+    },
+    {
+        "head": "AM模式",
+        "relation": "属于",
+        "tail": "确认模式"
+    },
+    {
+        "head": "协议数据单元",
+        "relation": "重组于",
+        "tail": "RLC子层"
+    },
+    {
+        "head": "RLC子层",
+        "relation": "具有",
+        "tail": "分组重排序功能"
+    },
+    {
+        "head": "RLC子层",
+        "relation": "具有",
+        "tail": "重复数据检测功能"
+    },
+    {
+        "head": "RLC子层",
+        "relation": "使用",
+        "tail": "差错检测协议ARQ进行数据重传"
+    },
+    {
+        "head": "MAC子层",
+        "relation": "在",
+        "tail": "RLC子层逻辑信道和物理层传输信道之间完成复用和分用功能"
+    },
+    {
+        "head": "MAC子层",
+        "relation": "采用",
+        "tail": "混合自动重传请求HARQ协议"
+    },
+    {
+        "head": "eNB调度程序",
+        "relation": "动态分配",
+        "tail": "无线资源给UE"
+    },
+    {
+        "head": "物理层",
+        "relation": "对",
+        "tail": "MAC子层传送来的数据进行编码和调制"
+    },
+    {
+        "head": "物理层",
+        "relation": "将比特插入到每帧中适当的时隙中",
+        "tail": ""
+    },
+    {
+        "head": "物理层",
+        "relation": "进行解调和解码",
+        "tail": "把收到的比特上传给MAC子层"
+    },
+    {
+        "head": "物理层",
+        "relation": "采用",
+        "tail": "自适应调制编码AMC技术"
+    },
+    {
+        "head": "基站eNB",
+        "relation": "根据用户终端反馈的信道状况动态地调整",
+        "tail": "物理层使用的调制方式(QPSK或16QAM)"
+    },
+    {
+        "head": "物理信道",
+        "relation": "传输速率",
+        "tail": "峰值速率"
+    },
+    {
+        "head": "基站eNB",
+        "relation": "PDCP",
+        "tail": "解封数据"
+    },
+    {
+        "head": "GTP-U",
+        "relation": "封装",
+        "tail": "隧道端点标识符TEID"
+    },
+    {
+        "head": "HARQ",
+        "relation": "纠错技术",
+        "tail": "软合并"
+    },
+    {
+        "head": "差错帧",
+        "relation": "处理方式",
+        "tail": "缓存和重传"
+    },
+    {
+        "head": "IP分组",
+        "relation": "封装在",
+        "tail": "GTP-U隧道"
+    },
+    {
+        "head": "S-GW",
+        "relation": "解封并重新封装",
+        "tail": "IP分组"
+    },
+    {
+        "head": "TEID2",
+        "relation": "写入",
+        "tail": "GTP首部"
+    },
+    {
+        "head": "IP分组",
+        "relation": "目的地址",
+        "tail": "P-GW"
+    },
+    {
+        "head": "UE",
+        "relation": "分配给",
+        "tail": "不同的GTP隧道端点标识符TEID"
+    },
+    {
+        "head": "P-GW",
+        "relation": "解封并转发",
+        "tail": "IP分组到互联网百度网站"
+    },
+    {
+        "head": "LTE",
+        "relation": "使用",
+        "tail": "协议GTP"
+    },
+    {
+        "head": "协议GTP",
+        "relation": "封装",
+        "tail": "UE的IP分组"
+    },
+    {
+        "head": "GTP隧道",
+        "relation": "传输",
+        "tail": "UE的IP分组"
+    },
+    {
+        "head": "P-GW",
+        "relation": "转发",
+        "tail": "从互联网来的IP分组"
+    },
+    {
+        "head": "S-GW",
+        "relation": "转发",
+        "tail": "从P-GW来的IP分组"
+    },
+    {
+        "head": "eNB",
+        "relation": "发送",
+        "tail": "到目的UE的IP分组"
+    },
+    {
+        "head": "GTP隧道",
+        "relation": "引入",
+        "tail": "2G的GSM"
+    },
+    {
+        "head": "IP分组",
+        "relation": "包含于",
+        "tail": "互联网"
+    },
+    {
+        "head": "百度服务器",
+        "relation": "发送",
+        "tail": "数据包"
+    },
+    {
+        "head": "P-GW",
+        "relation": "通过",
+        "tail": "UE的IP地址"
+    },
+    {
+        "head": "GTP-U分组",
+        "relation": "封装于",
+        "tail": "IP分组"
+    },
+    {
+        "head": "S-GW",
+        "relation": "转发",
+        "tail": "GTP-U分组"
+    },
+    {
+        "head": "eNB",
+        "relation": "接收并解封",
+        "tail": "GTP-U分组"
+    },
+    {
+        "head": "UE",
+        "relation": "通过空口链路接收",
+        "tail": "数据包"
+    },
+    {
+        "head": "SGW",
+        "relation": "连接",
+        "tail": "eNB"
+    },
+    {
+        "head": "GTP-U隧道",
+        "relation": "不存在于",
+        "tail": "SGW和eNB之间"
+    },
+    {
+        "head": "UE",
+        "relation": "处于",
+        "tail": "空口空闲状态"
+    },
+    {
+        "head": "MME",
+        "relation": "触发",
+        "tail": "寻呼UE"
+    },
+    {
+        "head": "TA",
+        "relation": "是",
+        "tail": "位置更新和寻呼的基本单位"
+    },
+    {
+        "head": "TAI",
+        "relation": "标识",
+        "tail": "跟踪区TA"
+    },
+    {
+        "head": "MME",
+        "relation": "广播",
+        "tail": "寻呼UE"
+    },
+    {
+        "head": "TA区域",
+        "relation": "覆盖",
+        "tail": "多个小区"
+    },
+    {
+        "head": "UE",
+        "relation": "周期性报告",
+        "tail": "跟踪区标识TAI"
+    },
+    {
+        "head": "跟踪区标识TAI",
+        "relation": "用于",
+        "tail": "MME寻呼UE"
+    },
+    {
+        "head": "跟踪区列表TAL",
+        "relation": "包含",
+        "tail": "多个TA"
+    },
+    {
+        "head": "组AreaList",
+        "relation": "由",
+        "tail": "16个TA组成"
+    },
+    {
+        "head": "UE",
+        "relation": "发送",
+        "tail": "TAL范围内漫游时无需TA报告"
+    },
+    {
+        "head": "MME",
+        "relation": "在",
+        "tail": "TAL小范围内寻呼UE"
+    },
+    {
+        "head": "UE",
+        "relation": "报告位置给",
+        "tail": "MME"
+    },
+    {
+        "head": "MME",
+        "relation": "发送跟踪区列表",
+        "tail": "TAL1"
+    },
+    {
+        "head": "TA3",
+        "relation": "包含在",
+        "tail": "TAL1"
+    },
+    {
+        "head": "TA3",
+        "relation": "包含在",
+        "tail": "TAL2"
+    },
+    {
+        "head": "UE",
+        "relation": "发送TA更新报文给",
+        "tail": "MME"
+    },
+    {
+        "head": "MME",
+        "relation": "发送更新的跟踪区列表",
+        "tail": "TA4"
+    },
+    {
+        "head": "MME",
+        "relation": "发送",
+        "tail": "更新的TAL"
+    },
+    {
+        "head": "UE",
+        "relation": "拥有",
+        "tail": "跟踪区列表TAL"
+    },
+    {
+        "head": "MME",
+        "relation": "对UE进行寻呼时",
+        "tail": "只需向UE所在跟踪区列表内的基站eNB发送寻呼报文"
+    },
+    {
+        "head": "eNB",
+        "relation": "寻呼到",
+        "tail": "UE"
+    },
+    {
+        "head": "UE",
+        "relation": "响应",
+        "tail": "小区"
+    },
+    {
+        "head": "eNB",
+        "relation": "建立与S-GW之间的",
+        "tail": "GTP-U隧道"
+    },
+    {
+        "head": "S-GW",
+        "relation": "转发",
+        "tail": "缓存的IP分组给eNB"
+    },
+    {
+        "head": "UE",
+        "relation": "处于",
+        "tail": "空闲状态"
+    },
+    {
+        "head": "UE",
+        "relation": "进行测量",
+        "tail": "小区导频信号强度"
+    },
+    {
+        "head": "eNB",
+        "relation": "发现有更合适的小区",
+        "tail": "触发UE进行切换"
+    },
+    {
+        "head": "eNB",
+        "relation": "建立与S-GW之间的",
+        "tail": "空口链路"
+    },
+    {
+        "head": "eNB",
+        "relation": "释放旧小区的",
+        "tail": "空口链路"
+    },
+    {
+        "head": "GTP-U隧道",
+        "relation": "存在于",
+        "tail": "S-GW和P-GW之间"
+    },
+    {
+        "head": "S-GW",
+        "relation": "覆盖范围",
+        "tail": "很大"
+    },
+    {
+        "head": "信令传送",
+        "relation": "使用",
+        "tail": "SCTP协议"
+    },
+    {
+        "head": "SCTP",
+        "relation": "结合了",
+        "tail": "UDP和TCP的优点"
+    },
+    {
+        "head": "SCTP",
+        "relation": "是",
+        "tail": "面向报文的可靠传输协议"
+    },
+    {
+        "head": "WiMAX标准",
+        "relation": "属于",
+        "tail": "4G无线网络技术"
+    },
+    {
+        "head": "WiMAX",
+        "relation": "是",
+        "tail": "全球微波接入的互操作性"
+    },
+    {
+        "head": "WiMAX",
+        "relation": "被取消介绍",
+        "tail": "本书这一版"
+    },
+    {
+        "head": "LTE-Advanced",
+        "relation": "简称为",
+        "tail": "LTE-A"
+    },
+    {
+        "head": "3GPP RIO",
+        "relation": "制定",
+        "tail": "LTE-Advanced"
+    },
+    {
+        "head": "LTE-A",
+        "relation": "达到",
+        "tail": "ITU-R 4G标准"
+    },
+    {
+        "head": "LTE-A",
+        "relation": "在全球商用网络数量",
+        "tail": "超过100个"
+    },
+    {
+        "head": "LTE-APro",
+        "relation": "吞吐量超过",
+        "tail": "3Gbit/s"
+    },
+    {
+        "head": "LTE-APro",
+        "relation": "俗称",
+        "tail": "4.5G"
+    },
+    {
+        "head": "R13",
+        "relation": "制定",
+        "tail": "LTE-APro"
+    },
+    {
+        "head": "5G标准",
+        "relation": "由",
+        "tail": "3GPP R15/16发布"
+    },
+    {
+        "head": "移动IP",
+        "relation": "包含概念",
+        "tail": "边移动边进行通信"
+    },
+    {
+        "head": "移动IP",
+        "relation": "对比对象",
+        "tail": "计算机网络"
+    },
+    {
+        "head": "便携式笔记本电脑",
+        "relation": "出现时间",
+        "tail": "后来"
+    },
+    {
+        "head": "动态主机配置协议DHCP",
+        "relation": "作用",
+        "tail": "自动获取IP地址"
+    },
+    {
+        "head": "用户",
+        "relation": "上网方式",
+        "tail": "不同地点使用不同的IP地址"
+    },
+    {
+        "head": "移动IP",
+        "relation": "解决",
+        "tail": "移动站保持IP地址不变"
+    },
+    {
+        "head": "C.Perkins",
+        "relation": "提出",
+        "tail": "RFC2002"
+    },
+    {
+        "head": "Perkins",
+        "relation": "改进",
+        "tail": "移动IP思路"
+    },
+    {
+        "head": "当前最先进文档",
+        "relation": "是",
+        "tail": "RFC5944,6275"
+    },
+    {
+        "head": "RFC5944,6275",
+        "relation": "状态",
+        "tail": "建议标准"
+    },
+    {
+        "head": "TCP连接",
+        "relation": "影响",
+        "tail": "移动站漫游时的连接稳定性"
+    }
+]

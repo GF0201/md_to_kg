@@ -1,0 +1,493 @@
+[
+    [
+        {
+            "head": "五层协议栈",
+            "relation": "包含",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "使用信道类型",
+            "tail": "点对点信道"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "使用信道类型",
+            "tail": "广播信道"
+        },
+        {
+            "head": "点对点信道",
+            "relation": "通信方式",
+            "tail": "一对一"
+        },
+        {
+            "head": "广播信道",
+            "relation": "通信方式",
+            "tail": "一对多"
+        },
+        {
+            "head": "局域网",
+            "relation": "属于",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "共享信道的局域网",
+            "relation": "使用协议",
+            "tail": "CSMA/CD协议"
+        },
+        {
+            "head": "点对点信道",
+            "relation": "最常用协议",
+            "tail": "PPP协议"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "基本问题",
+            "tail": "封装成帧"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "基本问题",
+            "tail": "透明传输"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "基本问题",
+            "tail": "差错检测"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "包含问题",
+            "tail": "封装成帧、透明传输和差错检测"
+        },
+        {
+            "head": "以太网MAC层",
+            "relation": "硬件地址类型",
+            "tail": "硬件地址"
+        },
+        {
+            "head": "主机H1",
+            "relation": "通信目标",
+            "tail": "主机H2"
+        },
+        {
+            "head": "路由器R3",
+            "relation": "网络节点",
+            "tail": "转发分组"
+        },
+        {
+            "head": "协议栈",
+            "relation": "层次结构",
+            "tail": "物理层、数据链路层、网络层"
+        },
+        {
+            "head": "路由器",
+            "relation": "使用协议栈",
+            "tail": "三层（物理层、网络层、传输层）"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "包含",
+            "tail": "帧"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "使用",
+            "tail": "点对点信道"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "涉及",
+            "tail": "逻辑链路"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "与",
+            "tail": "物理层交互"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "传输",
+            "tail": "分组或包"
+        }
+    ],
+    [
+        {
+            "head": "数据通信",
+            "relation": "涉及",
+            "tail": "链路"
+        },
+        {
+            "head": "链路",
+            "relation": "包含",
+            "tail": "路径组成部分"
+        },
+        {
+            "head": "数据链路",
+            "relation": "需要",
+            "tail": "通信协议"
+        },
+        {
+            "head": "实现协议的硬件和软件",
+            "relation": "构成",
+            "tail": "数据链路"
+        },
+        {
+            "head": "路由器之间交换路由信息",
+            "relation": "可能使用",
+            "tail": "运输层协议"
+        },
+        {
+            "head": "物理层",
+            "relation": "传输",
+            "tail": "比特流"
+        },
+        {
+            "head": "节点A和节点B",
+            "relation": "通过",
+            "tail": "点对点信道"
+        },
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "首部和尾部"
+        }
+    ],
+    [
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "帧首部"
+        },
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "帧尾部"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "传输",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "分组",
+            "relation": "等同于",
+            "tail": "帧"
+        },
+        {
+            "head": "互联网",
+            "relation": "基于",
+            "tail": "分组交换"
+        },
+        {
+            "head": "首部和尾部",
+            "relation": "提供",
+            "tail": "控制信息"
+        },
+        {
+            "head": "最大传送单元",
+            "relation": "定义为",
+            "tail": "MTU"
+        }
+    ],
+    [
+        {
+            "head": "IP数据报",
+            "relation": "包含于",
+            "tail": "帧"
+        },
+        {
+            "head": "MTU",
+            "relation": "限制",
+            "tail": "帧大小"
+        },
+        {
+            "head": "帧首部",
+            "relation": "位于",
+            "tail": "帧头部"
+        },
+        {
+            "head": "帧尾部",
+            "relation": "位于",
+            "tail": "帧尾部"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "处理",
+            "tail": "帧"
+        }
+    ],
+    [
+        {
+            "head": "帧定界符",
+            "relation": "包含",
+            "tail": "开始符SOH"
+        },
+        {
+            "head": "帧定界符",
+            "relation": "包含",
+            "tail": "传输结束符EOT"
+        },
+        {
+            "head": "透明传输",
+            "relation": "使用",
+            "tail": "开始符SOH 传输结束符EOT"
+        }
+    ],
+    [
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "数据部分"
+        },
+        {
+            "head": "透明传输",
+            "relation": "使用",
+            "tail": "控制字符 SOH EOT"
+        },
+        {
+            "head": "帧定界控制字符",
+            "relation": "用于",
+            "tail": "传输结束"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "处理",
+            "tail": "二进制代码"
+        },
+        {
+            "head": "计算机程序",
+            "relation": "使用",
+            "tail": "ASCII码"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "负责",
+            "tail": "透明传送数据"
+        },
+        {
+            "head": "控制字符",
+            "relation": "包括",
+            "tail": "SOH, EOT"
+        },
+        {
+            "head": "转义字符",
+            "relation": "使用",
+            "tail": "ESC"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "处理",
+            "tail": "字节填充, 字符填充"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含技术",
+            "tail": "转义字符"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "使用机制",
+            "tail": "字节填充"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "实现目标",
+            "tail": "透明传输"
+        },
+        {
+            "head": "差错检测",
+            "relation": "用于提高",
+            "tail": "比特差错"
+        },
+        {
+            "head": "误码率(BER)",
+            "relation": "衡量指标",
+            "tail": "信噪比"
+        }
+    ],
+    [
+        {
+            "head": "循环冗余检验",
+            "relation": "包含运算方法",
+            "tail": "模2运算"
+        },
+        {
+            "head": "循环冗余检验",
+            "relation": "使用于",
+            "tail": "除数P"
+        }
+    ],
+    [
+        {
+            "head": "模2除法",
+            "relation": "用于生成",
+            "tail": "CRC"
+        },
+        {
+            "head": "FCS",
+            "relation": "是",
+            "tail": "CRC的全称"
+        },
+        {
+            "head": "冗余码",
+            "relation": "包括",
+            "tail": "FCS"
+        },
+        {
+            "head": "帧检验序列",
+            "relation": "等同于",
+            "tail": "FCS"
+        },
+        {
+            "head": "CRC",
+            "relation": "用于实现",
+            "tail": "检错方法"
+        }
+    ],
+    [
+        {
+            "head": "循环冗余检验",
+            "relation": "包含",
+            "tail": "模2运算"
+        },
+        {
+            "head": "循环冗余检验",
+            "relation": "使用于",
+            "tail": "CRC检验"
+        },
+        {
+            "head": "CRC检验",
+            "relation": "涉及",
+            "tail": "除数P"
+        },
+        {
+            "head": "CRC检验",
+            "relation": "产生",
+            "tail": "余数R"
+        }
+    ],
+    [
+        {
+            "head": "帧",
+            "relation": "包含",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "循环冗余检验",
+            "relation": "用于",
+            "tail": "检测错误"
+        },
+        {
+            "head": "CRC",
+            "relation": "生成",
+            "tail": "生成多项式"
+        },
+        {
+            "head": "FCS",
+            "relation": "是",
+            "tail": "循环冗余检验的校验码"
+        }
+    ],
+    [
+        {
+            "head": "数据链路层",
+            "relation": "使用差错检测技术",
+            "tail": "循环冗余检验CRC"
+        },
+        {
+            "head": "循环冗余检验CRC",
+            "relation": "用于检测",
+            "tail": "传输差错"
+        },
+        {
+            "head": "循环冗余检验CRC",
+            "relation": "检测",
+            "tail": "比特差错"
+        },
+        {
+            "head": "循环冗余检验CRC",
+            "relation": "检测",
+            "tail": "帧丢失"
+        },
+        {
+            "head": "循环冗余检验CRC",
+            "relation": "检测",
+            "tail": "帧重复"
+        },
+        {
+            "head": "循环冗余检验CRC",
+            "relation": "检测",
+            "tail": "帧失序"
+        }
+    ],
+    [
+        {
+            "head": "帧重复",
+            "relation": "导致",
+            "tail": "传输差错"
+        },
+        {
+            "head": "帧失序",
+            "relation": "影响",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "帧丢失",
+            "relation": "引起",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "CRC检验",
+            "relation": "用于",
+            "tail": "检测传输差错"
+        }
+    ],
+    [
+        {
+            "head": "OSI数据链路层",
+            "relation": "包含",
+            "tail": "帧编号"
+        },
+        {
+            "head": "确认",
+            "relation": "触发",
+            "tail": "重传机制"
+        },
+        {
+            "head": "CRC检错",
+            "relation": "用于",
+            "tail": "通信线路质量检测"
+        },
+        {
+            "head": "PPP协议",
+            "relation": "提供",
+            "tail": "可靠传输"
+        }
+    ],
+    [
+        {
+            "head": "点对点协议PPP",
+            "relation": "属于",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "高级数据链路控制HDLC",
+            "relation": "工作于",
+            "tail": "数据链路层"
+        },
+        {
+            "head": "点对点协议PPP",
+            "relation": "用于",
+            "tail": "ISP"
+        }
+    ]
+]

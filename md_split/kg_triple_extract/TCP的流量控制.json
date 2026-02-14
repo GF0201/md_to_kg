@@ -1,0 +1,349 @@
+[
+    [
+        {
+            "head": "滑动窗口机制",
+            "relation": "实现",
+            "tail": "流量控制"
+        },
+        {
+            "head": "发送方",
+            "relation": "需要遵循",
+            "tail": "接收方速率限制"
+        },
+        {
+            "head": "TCP连接",
+            "relation": "支持",
+            "tail": "滑动窗口机制"
+        }
+    ],
+    [
+        {
+            "head": "A",
+            "relation": "发送",
+            "tail": "序号101至200"
+        },
+        {
+            "head": "B",
+            "relation": "接收窗口大小",
+            "tail": "400字节"
+        },
+        {
+            "head": "TCP",
+            "relation": "使用",
+            "tail": "流量控制"
+        },
+        {
+            "head": "发送方",
+            "relation": "发送窗口不超过",
+            "tail": "接收方的接收窗口"
+        },
+        {
+            "head": "ACK",
+            "relation": "确认",
+            "tail": "序号201至500共300字节"
+        },
+        {
+            "head": "A",
+            "relation": "超时重传",
+            "tail": "旧的数据"
+        }
+    ],
+    [
+        {
+            "head": "报文段",
+            "relation": "包含",
+            "tail": "100字"
+        },
+        {
+            "head": "序号s",
+            "relation": "初始值为",
+            "tail": "I"
+        },
+        {
+            "head": "主机B",
+            "relation": "进行",
+            "tail": "三次流量控制"
+        },
+        {
+            "head": "窗口rwnd",
+            "relation": "变化为",
+            "tail": "300, 100, 0"
+        },
+        {
+            "head": "确认位ACK",
+            "relation": "设置为",
+            "tail": "1"
+        },
+        {
+            "head": "确认字段ack",
+            "relation": "有意义时",
+            "tail": "ACK=1"
+        },
+        {
+            "head": "主机B",
+            "relation": "发送",
+            "tail": "零窗口的报文段"
+        },
+        {
+            "head": "主机B",
+            "relation": "发送",
+            "tail": "rwnd=400的报文段"
+        },
+        {
+            "head": "死锁局面",
+            "relation": "由",
+            "tail": "互相等待引起"
+        }
+    ],
+    [
+        {
+            "head": "持续计时器",
+            "relation": "启动于",
+            "tail": "收到零窗口通知"
+        },
+        {
+            "head": "TCP连接的一方",
+            "relation": "发送",
+            "tail": "零窗口探测报文段"
+        },
+        {
+            "head": "零窗口探测报文段",
+            "relation": "携带",
+            "tail": "1字节数据"
+        },
+        {
+            "head": "TCP连接的一方",
+            "relation": "通过接收",
+            "tail": "窗口值打破僵局"
+        },
+        {
+            "head": "应用进程",
+            "relation": "将数据传送到",
+            "tail": "TCP的发送缓存"
+        },
+        {
+            "head": "TCP报文段",
+            "relation": "由TCP控制发送",
+            "tail": "基于变量MSS"
+        },
+        {
+            "head": "最大报文段长度MSS",
+            "relation": "等于",
+            "tail": "一个变量值"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "支持",
+            "tail": "推送操作"
+        },
+        {
+            "head": "计时器",
+            "relation": "触发",
+            "tail": "发送报文段"
+        },
+        {
+            "head": "TELNET连接",
+            "relation": "使用",
+            "tail": "TCP协议"
+        },
+        {
+            "head": "用户",
+            "relation": "发送",
+            "tail": "一个字符"
+        },
+        {
+            "head": "IP首部",
+            "relation": "构成",
+            "tail": "40字节长的确认IP数据报"
+        },
+        {
+            "head": "线路带宽",
+            "relation": "影响",
+            "tail": "传输效率"
+        },
+        {
+            "head": "适当推迟发送确认",
+            "relation": "提高",
+            "tail": "传输效率"
+        }
+    ],
+    [
+        {
+            "head": "Nagle算法",
+            "relation": "用于优化",
+            "tail": "TCP发送效率"
+        },
+        {
+            "head": "Nagle算法",
+            "relation": "减少",
+            "tail": "网络带宽使用"
+        },
+        {
+            "head": "Nagle算法",
+            "relation": "规定",
+            "tail": "当数据达到窗口大小一半或最大长度时发送报文段"
+        },
+        {
+            "head": "糊涂窗口综合征",
+            "relation": "影响",
+            "tail": "TCP性能"
+        }
+    ],
+    [
+        {
+            "head": "TCP接收方",
+            "relation": "缓存已满",
+            "tail": "交互式应用进程"
+        },
+        {
+            "head": "发送方",
+            "relation": "发送数据报",
+            "tail": "40字节长"
+        },
+        {
+            "head": "接收方",
+            "relation": "等待确认",
+            "tail": "接收缓存空间"
+        },
+        {
+            "head": "接收方",
+            "relation": "设置窗口大小",
+            "tail": "1个字节"
+        },
+        {
+            "head": "发送方",
+            "relation": "发送数据报",
+            "tail": "41字节长"
+        },
+        {
+            "head": "接收方",
+            "relation": "发回确认",
+            "tail": "窗口设置为1个字节"
+        },
+        {
+            "head": "解决方法",
+            "relation": "等待一段时间",
+            "tail": "接收缓存空间足够或一半空闲"
+        },
+        {
+            "head": "TCP规定",
+            "relation": "必须接收报文段",
+            "tail": "零窗口探刷报又段、确认报义段和携沿紧急数拟的报文段"
+        },
+        {
+            "head": "发送方",
+            "relation": "不要发送太小的报文段",
+            "tail": "积累足够大的报文段或达到接收方缓存空间的一半大小"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "链路容量"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "交换点缓存"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "处理机"
+        },
+        {
+            "head": "需求",
+            "relation": "超过",
+            "tail": "可用部分"
+        },
+        {
+            "head": "拥塞",
+            "relation": "由",
+            "tail": "需求超过可用部分引起"
+        },
+        {
+            "head": "关系式",
+            "relation": "描述",
+            "tail": "需求>可用部分"
+        },
+        {
+            "head": "网络性能",
+            "relation": "变坏",
+            "tail": "资源供应不足"
+        },
+        {
+            "head": "吞吐量",
+            "relation": "随输入负荷增大而下降",
+            "tail": "拥塞时"
+        }
+    ],
+    [
+        {
+            "head": "网络拥塞",
+            "relation": "由因素引起",
+            "tail": "缓存容量太小"
+        },
+        {
+            "head": "网络拥塞",
+            "relation": "由因素引起",
+            "tail": "处理机处理速度低"
+        },
+        {
+            "head": "扩大缓存存储空间",
+            "relation": "导致",
+            "tail": "网络资源浪费"
+        },
+        {
+            "head": "提高处理机速率",
+            "relation": "缓解",
+            "tail": "分组排队等待时间增加"
+        },
+        {
+            "head": "系统部分匹配",
+            "relation": "是",
+            "tail": "问题解决的关键"
+        }
+    ],
+    [
+        {
+            "head": "路由器",
+            "relation": "处理",
+            "tail": "分组"
+        },
+        {
+            "head": "拥塞控制",
+            "relation": "防止",
+            "tail": "过多数据注入网络"
+        },
+        {
+            "head": "流量控制",
+            "relation": "关系密切",
+            "tail": "拥塞控制"
+        }
+    ],
+    [
+        {
+            "head": "网络",
+            "relation": "包含",
+            "tail": "拥塞控制"
+        },
+        {
+            "head": "TCP连接的端点",
+            "relation": "进行",
+            "tail": "拥塞控制"
+        },
+        {
+            "head": "拥塞控制",
+            "relation": "涉及",
+            "tail": "所有主机和路由器"
+        },
+        {
+            "head": "流量控制",
+            "relation": "针对",
+            "tail": "端到点通信量的控制"
+        }
+    ]
+]

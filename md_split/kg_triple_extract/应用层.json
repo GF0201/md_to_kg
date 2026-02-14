@@ -1,0 +1,249 @@
+[
+    [
+        {
+            "head": "应用层协议",
+            "relation": "提供",
+            "tail": "通信规则"
+        },
+        {
+            "head": "运输层",
+            "relation": "为",
+            "tail": "应用进程提供端到端通信服务"
+        },
+        {
+            "head": "应用进程",
+            "relation": "通过",
+            "tail": "应用层协议使用网络通信服务"
+        },
+        {
+            "head": "报文类型",
+            "relation": "包括",
+            "tail": "请求报文和响应报文"
+        },
+        {
+            "head": "报文语法",
+            "relation": "定义在",
+            "tail": "应用层协议中"
+        },
+        {
+            "head": "字段语义",
+            "relation": "描述在",
+            "tail": "应用层协议中"
+        },
+        {
+            "head": "发送报文规则",
+            "relation": "规定在",
+            "tail": "应用层协议中"
+        },
+        {
+            "head": "响应规则",
+            "relation": "定义在",
+            "tail": "应用层协议中"
+        }
+    ],
+    [
+        {
+            "head": "应用层协议",
+            "relation": "定义于",
+            "tail": "RFC文档"
+        },
+        {
+            "head": "HTTP",
+            "relation": "是",
+            "tail": "万维网的应用层协议"
+        },
+        {
+            "head": "浏览器",
+            "relation": "遵守",
+            "tail": "RFC7230标准"
+        },
+        {
+            "head": "P2P文件共享系统",
+            "relation": "使用",
+            "tail": "专用应用层协议"
+        },
+        {
+            "head": "万维网应用",
+            "relation": "基于",
+            "tail": "客户／服务器体系结构"
+        },
+        {
+            "head": "HTTP",
+            "relation": "定义了",
+            "tail": "报文类型、格式和序列规则"
+        },
+        {
+            "head": "浏览器",
+            "relation": "显示",
+            "tail": "万维网页面"
+        }
+    ],
+    [
+        {
+            "head": "万维网浏览器",
+            "relation": "显示",
+            "tail": "万维网页面"
+        },
+        {
+            "head": "万维网服务器",
+            "relation": "实现方式",
+            "tail": "多线程或多进程"
+        },
+        {
+            "head": "HTTP",
+            "relation": "定义",
+            "tail": "格式和序列等规则"
+        },
+        {
+            "head": "P2P对等通信方式",
+            "relation": "本质",
+            "tail": "客户服务器方式"
+        },
+        {
+            "head": "客户",
+            "relation": "角色",
+            "tail": "服务请求方"
+        },
+        {
+            "head": "服务器",
+            "relation": "角色",
+            "tail": "服务提供方"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "解析",
+            "tail": "IP地址"
+        },
+        {
+            "head": "文件传送协议",
+            "relation": "应用层协议",
+            "tail": ""
+        },
+        {
+            "head": "远程登录协议",
+            "relation": "应用层协议",
+            "tail": ""
+        },
+        {
+            "head": "万维网",
+            "relation": "推动",
+            "tail": "互联网发展"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "用户使用",
+            "tail": ""
+        },
+        {
+            "head": "网络管理",
+            "relation": "涉及问题",
+            "tail": ""
+        },
+        {
+            "head": "网络编程",
+            "relation": "基本概念",
+            "tail": ""
+        }
+    ],
+    [
+        {
+            "head": "域名系统DNS",
+            "relation": "提供服务",
+            "tail": "互联网"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "解析",
+            "tail": "域名到IP地址"
+        },
+        {
+            "head": "万维网",
+            "relation": "使用",
+            "tail": "HTTP协议"
+        },
+        {
+            "head": "搜索引擎",
+            "relation": "类型",
+            "tail": "两种不同"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "传送过程",
+            "tail": "SMTP协议和POP3协议"
+        },
+        {
+            "head": "动态主机配置协议DHCP",
+            "relation": "特点",
+            "tail": "自动分配IP地址"
+        },
+        {
+            "head": "网络管理",
+            "relation": "组成部分",
+            "tail": "SNMP、SMI、MIB"
+        },
+        {
+            "head": "IMAP协议",
+            "relation": "使用场合",
+            "tail": "邮件客户端同步"
+        },
+        {
+            "head": "系统调用",
+            "relation": "概念",
+            "tail": "操作系统接口"
+        },
+        {
+            "head": "P2P文件系统",
+            "relation": "特点",
+            "tail": "对等网络"
+        }
+    ],
+    [
+        {
+            "head": "域名系统DNS",
+            "relation": "用于",
+            "tail": "将互联网上的主机名字转换为IP地址"
+        },
+        {
+            "head": "hosts文件",
+            "relation": "包含",
+            "tail": "主机名字和相应的IP地址"
+        },
+        {
+            "head": "ARPANET时代",
+            "relation": "使用",
+            "tail": "一个叫作hosts的文件"
+        },
+        {
+            "head": "机器处理IP数据报时",
+            "relation": "使用",
+            "tail": "IP地址而不是域名"
+        },
+        {
+            "head": "互联网规模很大",
+            "relation": "使得",
+            "tail": "不能只使用一个域名服务器"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "采用",
+            "tail": "层次树状结构的命名方法"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "是",
+            "tail": "联机分布式数据库系统"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "采用",
+            "tail": "客户服务器方式"
+        },
+        {
+            "head": "域名解析",
+            "relation": "通过",
+            "tail": "互联网上的通信"
+        }
+    ]
+]

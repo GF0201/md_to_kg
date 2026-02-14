@@ -1,0 +1,847 @@
+[
+    [
+        {
+            "head": "客户端",
+            "relation": "使用",
+            "tail": "socket"
+        },
+        {
+            "head": "服务器端",
+            "relation": "使用",
+            "tail": "socket"
+        },
+        {
+            "head": "i_bind",
+            "relation": "调用",
+            "tail": "i_socket"
+        },
+        {
+            "head": "connect",
+            "relation": "建立",
+            "tail": "连接"
+        },
+        {
+            "head": "UDP服务器",
+            "relation": "提供",
+            "tail": "无连接服务"
+        },
+        {
+            "head": "P2P应用",
+            "relation": "具有",
+            "tail": "P2P体系结构"
+        },
+        {
+            "head": "交互",
+            "relation": "通过",
+            "tail": "对等方式进行"
+        },
+        {
+            "head": "文件分发",
+            "relation": "属于",
+            "tail": "P2P应用范围"
+        }
+    ],
+    [
+        {
+            "head": "P2P文件分发",
+            "relation": "不使用",
+            "tail": "集中式的媒体服务器"
+        },
+        {
+            "head": "P2P文件分发",
+            "relation": "由",
+            "tail": "普通用户的计算机充当媒体服务器"
+        },
+        {
+            "head": "P2P文件分发",
+            "relation": "传送",
+            "tail": "音频文件MP3和视频文件(10~1000MB,或更大)"
+        },
+        {
+            "head": "P2P文件分发",
+            "relation": "占据",
+            "tail": "互联网流量最大的份额"
+        },
+        {
+            "head": "Napster",
+            "relation": "最早使用",
+            "tail": "P2P工作方式"
+        },
+        {
+            "head": "Napster",
+            "relation": "使MP3成为",
+            "tail": "网络音乐事实上的标准"
+        }
+    ],
+    [
+        {
+            "head": "Napster",
+            "relation": "提供",
+            "tail": "音乐文件检索功能"
+        },
+        {
+            "head": "目录服务器",
+            "relation": "存储",
+            "tail": "用户音乐文件信息"
+        },
+        {
+            "head": "用户",
+            "relation": "向",
+            "tail": "目录服务器报告数据库"
+        },
+        {
+            "head": "目录服务器",
+            "relation": "检索",
+            "tail": "用户请求的MP3文件位置"
+        },
+        {
+            "head": "用户",
+            "relation": "从",
+            "tail": "IP地址下载音乐文件"
+        },
+        {
+            "head": "Napster",
+            "relation": "采用",
+            "tail": "P2P方式传输文件"
+        },
+        {
+            "head": "Napster",
+            "relation": "采用",
+            "tail": "客户-服务器方式定位文件"
+        }
+    ],
+    [
+        {
+            "head": "Napster",
+            "relation": "使用",
+            "tail": "客户—服务器方式"
+        },
+        {
+            "head": "Napster",
+            "relation": "使用",
+            "tail": "P2P方式"
+        },
+        {
+            "head": "文件传输",
+            "relation": "采用",
+            "tail": "P2P方式"
+        },
+        {
+            "head": "文件定位",
+            "relation": "采用",
+            "tail": "客户—服务器方式"
+        },
+        {
+            "head": "Napster目录服务器",
+            "relation": "提供",
+            "tail": "用户查询服务"
+        },
+        {
+            "head": "用户X",
+            "relation": "接收",
+            "tail": "IP地址"
+        },
+        {
+            "head": "对等方A",
+            "relation": "作为",
+            "tail": "服务器"
+        },
+        {
+            "head": "文件传输",
+            "relation": "使用",
+            "tail": "PING报文"
+        }
+    ],
+    [
+        {
+            "head": "Napster网站",
+            "relation": "侵犯",
+            "tail": "版权"
+        },
+        {
+            "head": "Napster网站",
+            "relation": "不存储",
+            "tail": "MP3文件"
+        },
+        {
+            "head": "CD光盘",
+            "relation": "包含",
+            "tail": "音乐"
+        },
+        {
+            "head": "wav格式",
+            "relation": "采用",
+            "tail": "标准的PCM编码"
+        },
+        {
+            "head": "MP3格式",
+            "relation": "压缩比",
+            "tail": "1:4到1:12"
+        },
+        {
+            "head": "Gnutella",
+            "relation": "使用",
+            "tail": "全分布式结构"
+        },
+        {
+            "head": "Gnutella",
+            "relation": "不使用",
+            "tail": "集中式目录服务器"
+        },
+        {
+            "head": "Gnutella",
+            "relation": "采用",
+            "tail": "洪泛法"
+        }
+    ],
+    [
+        {
+            "head": "Gnutella",
+            "relation": "使用",
+            "tail": "洪泛法"
+        },
+        {
+            "head": "Gnutella",
+            "relation": "不依赖",
+            "tail": "集中式目录服务器"
+        },
+        {
+            "head": "查询",
+            "relation": "采用",
+            "tail": "有限一范围的洪泛查询"
+        },
+        {
+            "head": "BitTorrent",
+            "relation": "开发时间",
+            "tail": "2001年"
+        },
+        {
+            "head": "BitTorrent",
+            "relation": "简称",
+            "tail": "BT"
+        },
+        {
+            "head": "参与文件分发的对等方集合",
+            "relation": "称为",
+            "tail": "洪流(torrent)"
+        },
+        {
+            "head": "P2P共享文件程序",
+            "relation": "包括",
+            "tail": "KaZaA, 电骡eMule, 比特洪流BT(BitTorrent)"
+        }
+    ],
+    [
+        {
+            "head": "BT",
+            "relation": "包含",
+            "tail": "追踪器"
+        },
+        {
+            "head": "对等方",
+            "relation": "加入",
+            "tail": "洪流"
+        },
+        {
+            "head": "对等方",
+            "relation": "向",
+            "tail": "追踪器登记"
+        },
+        {
+            "head": "追踪器",
+            "relation": "跟踪",
+            "tail": "对等方"
+        },
+        {
+            "head": "洪流",
+            "relation": "包含",
+            "tail": "几个到几千个对等方"
+        }
+    ],
+    [
+        {
+            "head": "A",
+            "relation": "建立TCP连接",
+            "tail": "三个相邻对等方(B,C和D)"
+        },
+        {
+            "head": "覆盖网络",
+            "relation": "包含",
+            "tail": "实际网络"
+        },
+        {
+            "head": "相邻对等方",
+            "relation": "是",
+            "tail": "与A建立了TCP连接的对等方"
+        }
+    ],
+    [
+        {
+            "head": "覆盖网络",
+            "relation": "包含",
+            "tail": "对等方"
+        },
+        {
+            "head": "对等方A",
+            "relation": "通过",
+            "tail": "TCP连接"
+        },
+        {
+            "head": "对等方A",
+            "relation": "向",
+            "tail": "相邻对等方索取文件块列表"
+        },
+        {
+            "head": "对等方A",
+            "relation": "根据",
+            "tail": "收到的文件块列表决定"
+        },
+        {
+            "head": "对等方A",
+            "relation": "请求",
+            "tail": "缺少的文件块"
+        },
+        {
+            "head": "P2P网络",
+            "relation": "传输方式",
+            "tail": "从不同对等方获得数据块"
+        },
+        {
+            "head": "P2P网络",
+            "relation": "组装成",
+            "tail": "整个文件"
+        }
+    ],
+    [
+        {
+            "head": "最稀有的优先",
+            "relation": "技术方法",
+            "tail": "文件块请求"
+        },
+        {
+            "head": "不稀有的文件块",
+            "relation": "状态描述",
+            "tail": "副本很多"
+        },
+        {
+            "head": "很稀有的",
+            "relation": "属性描述",
+            "tail": "副本最少的文件块"
+        },
+        {
+            "head": "BT算法",
+            "relation": "技术名称",
+            "tail": "数据率最高相邻对等方优先"
+        }
+    ],
+    [
+        {
+            "head": "A",
+            "relation": "测量",
+            "tail": "相邻对等方接收数据的速率"
+        },
+        {
+            "head": "A",
+            "relation": "确定",
+            "tail": "4个相邻对等方"
+        },
+        {
+            "head": "A",
+            "relation": "发送文件块给",
+            "tail": "已疏通的或无障碍的一(unchoked)对等方"
+        },
+        {
+            "head": "每隔10秒",
+            "relation": "重新计算",
+            "tail": "数据率"
+        },
+        {
+            "head": "每隔30秒",
+            "relation": "随机找",
+            "tail": "相邻对等方B"
+        },
+        {
+            "head": "A",
+            "relation": "向其发送文件块给",
+            "tail": "相邻对等方B"
+        },
+        {
+            "head": "B",
+            "relation": "有可能成为",
+            "tail": "前4位上传文件块的提供者"
+        },
+        {
+            "head": "B",
+            "relation": "发送文件块给",
+            "tail": "A"
+        },
+        {
+            "head": "如果B发送文件块速率足够快",
+            "relation": "有可能进入",
+            "tail": "前4位上传文件块的提供者"
+        }
+    ],
+    [
+        {
+            "head": "上传",
+            "relation": "方向",
+            "tail": "从主机向互联网"
+        },
+        {
+            "head": "下载",
+            "relation": "方向",
+            "tail": "从互联网到主机"
+        },
+        {
+            "head": "服务器文件",
+            "relation": "用途",
+            "tail": "供互联网用户享用"
+        },
+        {
+            "head": "链路",
+            "relation": "传输速率单位",
+            "tail": "bit/s"
+        },
+        {
+            "head": "主机与互联网连接的链路",
+            "relation": "上传速率",
+            "tail": "u1"
+        },
+        {
+            "head": "主机与互联网连接的链路",
+            "relation": "下载速率",
+            "tail": "u2"
+        },
+        {
+            "head": "互联网核心部分",
+            "relation": "不会产生拥塞",
+            "tail": ""
+        },
+        {
+            "head": "瓶颈",
+            "relation": "可能发生在",
+            "tail": "服务器接入链路或某些主机的接入链路"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "包含",
+            "tail": "客户－服务器"
+        },
+        {
+            "head": "文件分发",
+            "relation": "依赖于",
+            "tail": "上传速率和下载速率"
+        },
+        {
+            "head": "最短时间",
+            "relation": "由",
+            "tail": "上传速率决定"
+        },
+        {
+            "head": "最短时间",
+            "relation": "由",
+            "tail": "下载速率决定"
+        },
+        {
+            "head": "瓶颈",
+            "relation": "存在于",
+            "tail": "服务器端接入链路"
+        },
+        {
+            "head": "瓶颈",
+            "relation": "存在于",
+            "tail": "主机接入链路"
+        }
+    ],
+    [
+        {
+            "head": "文件分发时间",
+            "relation": "取决于",
+            "tail": "接入链路"
+        },
+        {
+            "head": "最少时间Tp2p",
+            "relation": "不可能小于",
+            "tail": "Flus"
+        },
+        {
+            "head": "P2P方式",
+            "relation": "减少",
+            "tail": "服务器重复发送文件F"
+        },
+        {
+            "head": "下载速率最慢的主机",
+            "relation": "下载文件所需时间",
+            "tail": "Fldrmn"
+        }
+    ],
+    [
+        {
+            "head": "文件分发",
+            "relation": "最少时间下限",
+            "tail": "TP2P>max{Fldmin, t, N*(6-3)/U}"
+        },
+        {
+            "head": "上传速率",
+            "relation": "系统总和",
+            "tail": "UT=Us+UI+...+UN"
+        },
+        {
+            "head": "文件分发时间",
+            "relation": "近似值",
+            "tail": "TP2P≈N*F/U"
+        },
+        {
+            "head": "对等方数目",
+            "relation": "影响因素",
+            "tail": "N非常大时, TP2P≈NF/U"
+        },
+        {
+            "head": "下载速率",
+            "relation": "服务器上传速率比较",
+            "tail": "不小于服务器的上传速率"
+        }
+    ],
+    [
+        {
+            "head": "客户－服务器",
+            "relation": "采用方式",
+            "tail": "上传速率Us"
+        },
+        {
+            "head": "Tp2p",
+            "relation": "等于",
+            "tail": "0.75Flu"
+        },
+        {
+            "head": "N",
+            "relation": "下载文件F最少时间",
+            "tail": "3小时"
+        },
+        {
+            "head": "散列函数",
+            "relation": "用于",
+            "tail": "定位对等方及其资源"
+        }
+    ],
+    [
+        {
+            "head": "Gnutella",
+            "relation": "是",
+            "tail": "P2P文件共享应用程序"
+        },
+        {
+            "head": "Gnutella",
+            "relation": "采用",
+            "tail": "全分布方法定位内容"
+        },
+        {
+            "head": "Gnutella",
+            "relation": "解决了",
+            "tail": "集中式目录服务器瓶颈问题"
+        },
+        {
+            "head": "Gnutella",
+            "relation": "在",
+            "tail": "非结构化的覆盖网络中采用查询洪泛的方法进行查找"
+        },
+        {
+            "head": "较好的查找方法",
+            "relation": "是",
+            "tail": "构建分布式数据库以定位对等方及其资源"
+        },
+        {
+            "head": "分布式数据库",
+            "relation": "包含",
+            "tail": "要查找的资源名K和存放该对象的节点的IP地址N"
+        },
+        {
+            "head": "资源名K",
+            "relation": "称为",
+            "tail": "关键字"
+        },
+        {
+            "head": "节点的IP地址N",
+            "relation": "可能附带",
+            "tail": "端口号"
+        }
+    ],
+    [
+        {
+            "head": "分布式散列表",
+            "relation": "是",
+            "tail": "DHT"
+        },
+        {
+            "head": "DHT",
+            "relation": "也称为",
+            "tail": "分布式哈希表"
+        },
+        {
+            "head": "DHT",
+            "relation": "由",
+            "tail": "大量对等方共同维护"
+        },
+        {
+            "head": "具体算法",
+            "relation": "包括",
+            "tail": "Chord, ContentAddressableNetwork, Kademilia"
+        }
+    ],
+    [
+        {
+            "head": "Pastry",
+            "relation": "提出时间",
+            "tail": "2001年"
+        },
+        {
+            "head": "CANChord算法",
+            "relation": "提出机构",
+            "tail": "美国麻省理工大学"
+        },
+        {
+            "head": "分布式散列表DHT",
+            "relation": "利用技术",
+            "tail": "散列函数"
+        },
+        {
+            "head": "资源名标识符KID",
+            "relation": "由来",
+            "tail": "散列函数SHA-1"
+        },
+        {
+            "head": "节点标识符NID",
+            "relation": "由来",
+            "tail": "散列函数SHA-1"
+        },
+        {
+            "head": "标识符KID和NID",
+            "relation": "数值范围",
+            "tail": "[0,2^160]"
+        },
+        {
+            "head": "Chord环",
+            "relation": "节点排列方式",
+            "tail": "按标识符值顺时针排列"
+        }
+    ],
+    [
+        {
+            "head": "Chord环",
+            "relation": "包含",
+            "tail": "节点"
+        },
+        {
+            "head": "KID",
+            "relation": "映射到",
+            "tail": "NID"
+        },
+        {
+            "head": "顺时针方向",
+            "relation": "确定",
+            "tail": "下一个NID"
+        },
+        {
+            "head": "资源标识符",
+            "relation": "由",
+            "tail": "Chord环上与其最接近的下个节点提供服务"
+        },
+        {
+            "head": "地理上",
+            "relation": "不一定对应",
+            "tail": "网络上的相邻节点"
+        }
+    ],
+    [
+        {
+            "head": "Chord环",
+            "relation": "包含",
+            "tail": "后继节点"
+        },
+        {
+            "head": "Chord环",
+            "relation": "包含",
+            "tail": "前任节点"
+        },
+        {
+            "head": "Chord环",
+            "relation": "使用",
+            "tail": "DHT"
+        },
+        {
+            "head": "节点",
+            "relation": "维护",
+            "tail": "后继节点指针变量"
+        },
+        {
+            "head": "节点",
+            "relation": "维护",
+            "tail": "前任节点指针变量"
+        },
+        {
+            "head": "查找资源",
+            "relation": "通过",
+            "tail": "顺序遍历"
+        },
+        {
+            "head": "平均需要沿环发送",
+            "relation": "找到",
+            "tail": "所查询的资源"
+        }
+    ],
+    [
+        {
+            "head": "Chord环",
+            "relation": "包含",
+            "tail": "指针表"
+        },
+        {
+            "head": "标识符",
+            "relation": "具有",
+            "tail": "m位"
+        },
+        {
+            "head": "节点n上的指针表",
+            "relation": "设置不超过",
+            "tail": "m个指针"
+        },
+        {
+            "head": "节点N4的指针表",
+            "relation": "指向",
+            "tail": "多个后继节点"
+        },
+        {
+            "head": "节点N4到N20",
+            "relation": "通过",
+            "tail": "弦"
+        },
+        {
+            "head": "节点N4要查找K29",
+            "relation": "使用",
+            "tail": "指针表"
+        }
+    ],
+    [
+        {
+            "head": "P2P技术",
+            "relation": "属于",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "分布式数据库",
+            "relation": "用于",
+            "tail": "P2P网络"
+        },
+        {
+            "head": "节点N4的指针表",
+            "relation": "包含",
+            "tail": "节点N20的指针表"
+        },
+        {
+            "head": "资源K29",
+            "relation": "存储于",
+            "tail": "节点N30"
+        },
+        {
+            "head": "查询机制",
+            "relation": "用于",
+            "tail": "P2P网络中的资源定位"
+        },
+        {
+            "head": "对等方",
+            "relation": "频繁加入或退出",
+            "tail": "P2P网络"
+        },
+        {
+            "head": "维护指针和指针表",
+            "relation": "是",
+            "tail": "分布式数据库的必要工作"
+        }
+    ],
+    [
+        {
+            "head": "带宽",
+            "relation": "属于",
+            "tail": "主干网"
+        },
+        {
+            "head": "收费标准",
+            "relation": "影响",
+            "tail": "网民接受度和运营商盈利"
+        },
+        {
+            "head": "应用程序",
+            "relation": "解决",
+            "tail": "互联网应用问题"
+        },
+        {
+            "head": "应用进程",
+            "relation": "通过",
+            "tail": "通信和协同工作"
+        },
+        {
+            "head": "应用层协议",
+            "relation": "规定",
+            "tail": "通信规则"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "是",
+            "tail": "互联网命名系统"
+        },
+        {
+            "head": "客户服务器方式",
+            "relation": "基于",
+            "tail": "许多协议"
+        },
+        {
+            "head": "域名解析",
+            "relation": "由",
+            "tail": "域名服务器程序完成"
+        },
+        {
+            "head": "互联网",
+            "relation": "采用",
+            "tail": "层次树状结构命名方法"
+        },
+        {
+            "head": "主机",
+            "relation": "包含",
+            "tail": "路由器"
+        },
+        {
+            "head": "域名",
+            "relation": "具有",
+            "tail": "层次结构的名字"
+        },
+        {
+            "head": "域名服务器",
+            "relation": "分为",
+            "tail": "根域名服务器、顶级域名服务器、权限域名服务器和本地域名服务器"
+        }
+    ],
+    [
+        {
+            "head": "文件传送协议FTP",
+            "relation": "使用",
+            "tail": "TCP可靠的运输服务"
+        },
+        {
+            "head": "文件传送协议FTP",
+            "relation": "采用",
+            "tail": "客户服务器方式"
+        },
+        {
+            "head": "一个FTP服务器进程",
+            "relation": "为多个",
+            "tail": "客户进程提供服务"
+        },
+        {
+            "head": "进行文件传输时",
+            "relation": "建立",
+            "tail": "两个并行的TCP连接：控制连接和数据连接"
+        }
+    ]
+]

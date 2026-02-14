@@ -1,0 +1,862 @@
+[
+    {
+        "head": "路由器R1",
+        "relation": "接收并减小TTL值",
+        "tail": "数据报P1"
+    },
+    {
+        "head": "路由器R2",
+        "relation": "接收并减小TTL值",
+        "tail": "数据报P2"
+    },
+    {
+        "head": "源主机",
+        "relation": "发送ICMP时间超过差错报告报文",
+        "tail": "路由器或目的主机"
+    },
+    {
+        "head": "目的主机",
+        "relation": "发送ICMP终点不可达差错报告报文",
+        "tail": "源主机"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "封装",
+        "tail": "UDP用户数据报"
+    },
+    {
+        "head": "路由器和目的主机",
+        "relation": "提供路由信息",
+        "tail": "源主机"
+    },
+    {
+        "head": "tracert命令",
+        "relation": "用于",
+        "tail": "测量IP数据报的往返时间"
+    },
+    {
+        "head": "TTL值",
+        "relation": "影响",
+        "tail": "路由器发送次数"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "经过",
+        "tail": "路由器数量"
+    },
+    {
+        "head": "网络拥塞程度",
+        "relation": "影响",
+        "tail": "往返时间长短"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "部"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "使用",
+        "tail": "ns"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "使用",
+        "tail": "ms"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "FIS"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "IIIS"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "m$"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "使用",
+        "tail": "AS"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "FlS"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "202.9?"
+    },
+    {
+        "head": "IP地址",
+        "relation": "属于",
+        "tail": "219.158."
+    },
+    {
+        "head": "IPv4",
+        "relation": "是",
+        "tail": "IP协议"
+    },
+    {
+        "head": "IPv6",
+        "relation": "解决",
+        "tail": "IP地址耗尽问题"
+    },
+    {
+        "head": "IPv6",
+        "relation": "具有",
+        "tail": "更大地址空间"
+    },
+    {
+        "head": "RFC8200",
+        "relation": "发布",
+        "tail": "IPv6正式标准"
+    },
+    {
+        "head": "IPv6",
+        "relation": "支持",
+        "tail": "无连接的传送"
+    },
+    {
+        "head": "IPv6",
+        "relation": "称",
+        "tail": "分组"
+    },
+    {
+        "head": "IPv6",
+        "relation": "不兼容",
+        "tail": "IPv4首部格式"
+    },
+    {
+        "head": "IPv6",
+        "relation": "地址空间增大到",
+        "tail": "128位"
+    },
+    {
+        "head": "IPv6",
+        "relation": "地址空间",
+        "tail": "比IPv4大4倍"
+    },
+    {
+        "head": "IPv6",
+        "relation": "路由器处理",
+        "tail": "不进行扩展首部处理（除逐跳扩展首部外）"
+    },
+    {
+        "head": "IPv6",
+        "relation": "选项",
+        "tail": "放在有效载荷中"
+    },
+    {
+        "head": "IPv6",
+        "relation": "支持",
+        "tail": "协议扩充"
+    },
+    {
+        "head": "IPv6",
+        "relation": "支持",
+        "tail": "即插即用"
+    },
+    {
+        "head": "IPv6",
+        "relation": "支持",
+        "tail": "资源预分配"
+    },
+    {
+        "head": "IPv6",
+        "relation": "支持",
+        "tail": "实时视像应用"
+    },
+    {
+        "head": "IPv6",
+        "relation": "首部长度",
+        "tail": "固定为40字节"
+    },
+    {
+        "head": "IPv6",
+        "relation": "数据报结构",
+        "tail": "基本首部+扩展首部+有效载荷"
+    },
+    {
+        "head": "IPv4",
+        "relation": "功能",
+        "tail": "固定不变"
+    },
+    {
+        "head": "IPv4",
+        "relation": "首部长度",
+        "tail": "4字节对齐"
+    },
+    {
+        "head": "IPv6",
+        "relation": "取消了",
+        "tail": "首部长度字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "取消了",
+        "tail": "服务类型字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "取消了",
+        "tail": "总长度字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "改用",
+        "tail": "有效载荷长度字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "取消了",
+        "tail": "标识、标志和片偏移字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "将TTL字段改称为",
+        "tail": "跳数限制字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "取消了",
+        "tail": "协议字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "改用",
+        "tail": "下一个首部字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "取消了",
+        "tail": "检验和字段"
+    },
+    {
+        "head": "IPv6",
+        "relation": "使用",
+        "tail": "扩展首部来实现选项功能"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "基本首部"
+    },
+    {
+        "head": "基本首部",
+        "relation": "长度",
+        "tail": "40B"
+    },
+    {
+        "head": "IPv6",
+        "relation": "支持",
+        "tail": "资源预分配"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "流标号"
+    },
+    {
+        "head": "流标号",
+        "relation": "用于",
+        "tail": "实时音频/视频传输"
+    },
+    {
+        "head": "流标号",
+        "relation": "不适用于",
+        "tail": "传统电子邮件或非实时数据"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "扩展首部"
+    },
+    {
+        "head": "IPv6数据报",
+        "relation": "具有",
+        "tail": "有效载荷长度"
+    },
+    {
+        "head": "有效载荷长度",
+        "relation": "指示",
+        "tail": "1IPv6数据报除基本首部以外的字节数"
+    },
+    {
+        "head": "下一个首部字段",
+        "relation": "标识",
+        "tail": "基本首部后面的数据应交付IP层上面的哪一个高层协议"
+    },
+    {
+        "head": "跳数限制",
+        "relation": "防止",
+        "tail": "数据报在网络中无限期地存在"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "源地址"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "目的地址"
+    },
+    {
+        "head": "IPv6",
+        "relation": "定义",
+        "tail": "扩展首部"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包括",
+        "tail": "逐跳选项"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包括",
+        "tail": "路由选择"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包括",
+        "tail": "分片"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包括",
+        "tail": "封装安全有效载荷"
+    },
+    {
+        "head": "IPv4",
+        "relation": "包含",
+        "tail": "选项"
+    },
+    {
+        "head": "IPv6",
+        "relation": "改进",
+        "tail": "IPv4首部中的选项功能"
+    },
+    {
+        "head": "IPv6数据报",
+        "relation": "包含",
+        "tail": "单播"
+    },
+    {
+        "head": "IPv6数据报",
+        "relation": "包含",
+        "tail": "多播"
+    },
+    {
+        "head": "IPv6数据报",
+        "relation": "包含",
+        "tail": "任播"
+    },
+    {
+        "head": "IPv6",
+        "relation": "定义为",
+        "tail": "无广播术语"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "主机和路由器"
+    },
+    {
+        "head": "点",
+        "relation": "可以有多个",
+        "tail": "接口"
+    },
+    {
+        "head": "IPv6地址",
+        "relation": "包含于",
+        "tail": "128位"
+    },
+    {
+        "head": "IPv6地址空间",
+        "relation": "大于",
+        "tail": "3.4x10^38"
+    },
+    {
+        "head": "IPv6地址分配速度",
+        "relation": "需要时间",
+        "tail": "10年"
+    },
+    {
+        "head": "IPv6地址块",
+        "relation": "数量级为",
+        "tail": "3.5x10^12个"
+    },
+    {
+        "head": "IPv4地址数量",
+        "relation": "少于",
+        "tail": "4.3x10^9个"
+    },
+    {
+        "head": "IPv6",
+        "relation": "使用",
+        "tail": "冒号十六进制记法"
+    },
+    {
+        "head": "IPv4地址",
+        "relation": "数量少于",
+        "tail": "IPv6地址"
+    },
+    {
+        "head": "IPv6地址",
+        "relation": "长度为",
+        "tail": "128位"
+    },
+    {
+        "head": "点分十进制记法",
+        "relation": "不方便表示",
+        "tail": "长的IPv6地址"
+    },
+    {
+        "head": "冒号十六进制记法",
+        "relation": "简化了",
+        "tail": "IPv6地址表示方式"
+    },
+    {
+        "head": "冒号十六进制记法",
+        "relation": "包含技术",
+        "tail": "零压缩"
+    },
+    {
+        "head": "冒号十六进制记法",
+        "relation": "允许使用",
+        "tail": "点分十进制记法后缀"
+    },
+    {
+        "head": "零压缩",
+        "relation": "用于",
+        "tail": "地址中连续的零串"
+    },
+    {
+        "head": "冒号十六进制记法",
+        "relation": "特别有用",
+        "tail": "已建议的分配策略"
+    },
+    {
+        "head": "点分十进制记法",
+        "relation": "结合使用",
+        "tail": "冒号十六进制记法"
+    },
+    {
+        "head": "多播地址",
+        "relation": "表示为",
+        "tail": "FFOl::101"
+    },
+    {
+        "head": "环回地址",
+        "relation": "表示为",
+        "tail": "::1"
+    },
+    {
+        "head": "未指明地址",
+        "relation": "表示为",
+        "tail": "::"
+    },
+    {
+        "head": "前缀",
+        "relation": "记为",
+        "tail": "12AB:0000:0000:CD30:0000:0000:0000:0000/60"
+    },
+    {
+        "head": "CIDR斜线表示法",
+        "relation": "用于",
+        "tail": "IPv6地址表示"
+    },
+    {
+        "head": "前缀",
+        "relation": "由",
+        "tail": "15个字符组成（十六进制）"
+    },
+    {
+        "head": "前缀",
+        "relation": "包含",
+        "tail": "4位二进制数字"
+    },
+    {
+        "head": "IPv6",
+        "relation": "取消了",
+        "tail": "子网掩码"
+    },
+    {
+        "head": "CIDR记法",
+        "relation": "适用于",
+        "tail": "IPv6"
+    },
+    {
+        "head": "2001:0DB8:0:CD30:123:4567:89AB:CDEF",
+        "relation": "属于",
+        "tail": "IPv6地址"
+    },
+    {
+        "head": "2001:0DB8:0:CD30:",
+        "relation": "是",
+        "tail": "子网号"
+    },
+    {
+        "head": "未指明地址",
+        "relation": "表示为",
+        "tail": "::"
+    },
+    {
+        "head": "环回地址",
+        "relation": "前缀为",
+        "tail": "/128"
+    },
+    {
+        "head": "多播地址",
+        "relation": "前缀为",
+        "tail": "/104"
+    },
+    {
+        "head": "本地站点单播地址",
+        "relation": "前缀为",
+        "tail": "/64"
+    },
+    {
+        "head": "全球单播地址",
+        "relation": "前缀为",
+        "tail": "/48"
+    },
+    {
+        "head": "IP地址",
+        "relation": "包含",
+        "tail": "环回地址"
+    },
+    {
+        "head": "IPv6环回地址",
+        "relation": "具体为",
+        "tail": "0:0:0:0:0:0:0:1"
+    },
+    {
+        "head": "多播地址",
+        "relation": "用于",
+        "tail": "网络通信"
+    },
+    {
+        "head": "本地站点单播地址",
+        "relation": "占比例",
+        "tail": "IPv6地址总数的1/256"
+    },
+    {
+        "head": "内部网络",
+        "relation": "使用协议",
+        "tail": "TCP/IP"
+    },
+    {
+        "head": "主机",
+        "relation": "进行通信",
+        "tail": "本地站点单播地址"
+    },
+    {
+        "head": "本地链路单播地址",
+        "relation": "占比例",
+        "tail": "IPv6地址总数的1/1024"
+    },
+    {
+        "head": "全球单播地址",
+        "relation": "使用最多",
+        "tail": "IPv6单播地址"
+    },
+    {
+        "head": "IPv6单播地址",
+        "relation": "包含",
+        "tail": "128位"
+    },
+    {
+        "head": "IPv6单播地址划分",
+        "relation": "灵活采用",
+        "tail": "子网前缀和接口标识符"
+    },
+    {
+        "head": "IPv6单播地址划分",
+        "relation": "可划分为",
+        "tail": "全球路由选择前缀、子网前缀和接口标识符"
+    },
+    {
+        "head": "IPv4向IPv6过渡",
+        "relation": "不可行",
+        "tail": "一次性全面切换"
+    },
+    {
+        "head": "路由器",
+        "relation": "使用",
+        "tail": "IPv6"
+    },
+    {
+        "head": "向IPv6过渡",
+        "relation": "采用",
+        "tail": "逐步演进办法"
+    },
+    {
+        "head": "IPv6系统",
+        "relation": "必须",
+        "tail": "接收和转发IPv4分组"
+    },
+    {
+        "head": "IPv6系统",
+        "relation": "必须",
+        "tail": "为IPv4分组选择路由"
+    },
+    {
+        "head": "过渡策略",
+        "relation": "包括",
+        "tail": "双协议栈"
+    },
+    {
+        "head": "过渡策略",
+        "relation": "包括",
+        "tail": "隧道技术"
+    },
+    {
+        "head": "双协议栈",
+        "relation": "指",
+        "tail": "主机同时装有IPv6和IPv4两种协议栈"
+    },
+    {
+        "head": "双协议栈主机",
+        "relation": "能够",
+        "tail": "与IPv6系统通信"
+    },
+    {
+        "head": "双协议栈主机",
+        "relation": "能够",
+        "tail": "与IPv4系统通信"
+    },
+    {
+        "head": "双协议栈主机",
+        "relation": "具有",
+        "tail": "IPv6地址和IPv4地址"
+    },
+    {
+        "head": "双协议栈",
+        "relation": "用于",
+        "tail": "从IPv4到IPv6的过渡"
+    },
+    {
+        "head": "DNS",
+        "relation": "查询",
+        "tail": "确定目的主机地址类型"
+    },
+    {
+        "head": "隧道技术",
+        "relation": "实现",
+        "tail": "向IPv6过渡的方法之一"
+    },
+    {
+        "head": "IPv6数据报",
+        "relation": "封装为",
+        "tail": "IPv4数据报的数据部分"
+    },
+    {
+        "head": "路由器B、C、D和E",
+        "relation": "传输路径",
+        "tail": "IPv4网络中"
+    },
+    {
+        "head": "IPv6",
+        "relation": "包含",
+        "tail": "数据报"
+    },
+    {
+        "head": "路由器C和D",
+        "relation": "传输路径",
+        "tail": "IPv6数据报"
+    },
+    {
+        "head": "隧道技术",
+        "relation": "用于",
+        "tail": "从IPv4到IPv6的过渡"
+    },
+    {
+        "head": "双协议栈主机",
+        "relation": "需要知道",
+        "tail": "IPv4数据报封装的是IPv6数据报"
+    },
+    {
+        "head": "IPv4首部",
+        "relation": "设置为",
+        "tail": "41(表示数据部分是IPv6数据报)"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "不保证",
+        "tail": "数据报的可靠交付"
+    },
+    {
+        "head": "IPv6",
+        "relation": "需要使用",
+        "tail": "ICMP"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "替代",
+        "tail": "ICMPv4"
+    },
+    {
+        "head": "ARP",
+        "relation": "被合并到",
+        "tail": "ICMPv6"
+    },
+    {
+        "head": "IGMP",
+        "relation": "被合并到",
+        "tail": "ICMPv6"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "面向",
+        "tail": "报文"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "报告",
+        "tail": "差错"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "获取",
+        "tail": "信息"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "探测",
+        "tail": "邻站"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "管理",
+        "tail": "多播通信"
+    },
+    {
+        "head": "ICMPv6报文",
+        "relation": "定义为",
+        "tail": "ICMPv6"
+    },
+    {
+        "head": "ICMPv6报文",
+        "relation": "定义为",
+        "tail": "邻站发现ND"
+    },
+    {
+        "head": "ICMPv6报文",
+        "relation": "定义为",
+        "tail": "多播听众交付MLD"
+    },
+    {
+        "head": "ICMPv6",
+        "relation": "包含",
+        "tail": "报文"
+    },
+    {
+        "head": "ND协议",
+        "relation": "发送",
+        "tail": "邻站发现报文"
+    },
+    {
+        "head": "MLD协议",
+        "relation": "接收",
+        "tail": "组成员关系报文"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "属于",
+        "tail": "网络层控制层面"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "规定",
+        "tail": "路由器如何交换信息并生成出路由表"
+    },
+    {
+        "head": "理想的路由算法",
+        "relation": "核心",
+        "tail": "路由选择协议"
+    },
+    {
+        "head": "理想路由算法",
+        "relation": "应具有特点",
+        "tail": "正确和完整、计算上简单"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "应简单",
+        "tail": "计算上"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "适应变化",
+        "tail": "通信量和网络拓扑"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "具有",
+        "tail": "适应性"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "应稳定",
+        "tail": "在网络通信量和网络拓扑相对稳定情况下"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "应公平",
+        "tail": "对所有用户"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "应最佳",
+        "tail": "找出最好的路由"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "可靠性"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "关注",
+        "tail": "最小的分组平均时延"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "关注",
+        "tail": "最大吞吐量"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "目标",
+        "tail": "接近理想的算法"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "考虑",
+        "tail": "可靠性"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "考虑",
+        "tail": "最小的分组平均时延"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "考虑",
+        "tail": "最大吞吐量"
+    },
+    {
+        "head": "路由选择算法",
+        "relation": "考虑",
+        "tail": "稳健性"
+    }
+]

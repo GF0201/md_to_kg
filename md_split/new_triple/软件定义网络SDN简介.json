@@ -1,0 +1,593 @@
+[
+    {
+        "head": "段路由选择协议",
+        "relation": "是",
+        "tail": "一种源路由选择协议"
+    },
+    {
+        "head": "段路由选择协议",
+        "relation": "使用",
+        "tail": "标签作为转发指令标识符"
+    },
+    {
+        "head": "段路由选择协议",
+        "relation": "不需要",
+        "tail": "LDP协议"
+    },
+    {
+        "head": "段路由选择协议",
+        "relation": "简化了",
+        "tail": "设备运行的协议数量"
+    },
+    {
+        "head": "段路由选择协议",
+        "relation": "由源点指定路径",
+        "tail": "为发送的报文"
+    },
+    {
+        "head": "路径",
+        "relation": "被转换成",
+        "tail": "有序的段列表(SegmentList)"
+    },
+    {
+        "head": "段列表",
+        "relation": "封装在",
+        "tail": "MPLS标签栈中"
+    },
+    {
+        "head": "网络中的其他节点",
+        "relation": "根据指令进行转发",
+        "tail": "即标签"
+    },
+    {
+        "head": "控制器",
+        "relation": "负责分配",
+        "tail": "SR标签"
+    },
+    {
+        "head": "控制器",
+        "relation": "掌握",
+        "tail": "全网的拓扑信息和链路状态信息"
+    },
+    {
+        "head": "控制器",
+        "relation": "计算出路径",
+        "tail": "分组应传送的整个路径"
+    },
+    {
+        "head": "SRv6",
+        "relation": "基于",
+        "tail": "IPv6"
+    },
+    {
+        "head": "SR-MPLS",
+        "relation": "基于",
+        "tail": "MPLS"
+    },
+    {
+        "head": "SDN",
+        "relation": "由",
+        "tail": "斯坦福大学提出"
+    },
+    {
+        "head": "OpenFlow",
+        "relation": "实现",
+        "tail": "控制层面与数据层面通信"
+    },
+    {
+        "head": "SDN",
+        "relation": "包含",
+        "tail": "控制层面和数据层面分离"
+    },
+    {
+        "head": "OpenFlow",
+        "relation": "是",
+        "tail": "控制层面和数据层面的接口协议"
+    },
+    {
+        "head": "OpenFlow",
+        "relation": "版本",
+        "tail": "1.3"
+    },
+    {
+        "head": "开放网络基金会ONF",
+        "relation": "负责制定",
+        "tail": "SDN的技术规范"
+    },
+    {
+        "head": "SDN",
+        "relation": "不规定必须使用",
+        "tail": "OpenFlow"
+    },
+    {
+        "head": "传统数据层面任务",
+        "relation": "根据",
+        "tail": "转发表来转发分组"
+    },
+    {
+        "head": "匹配",
+        "relation": "查找",
+        "tail": "转发表中的网络前缀，进行最长前缀匹配"
+    },
+    {
+        "head": "动作",
+        "relation": "把分组从指明的接口",
+        "tail": "转发出去"
+    },
+    {
+        "head": "SDN广义转发",
+        "relation": "能够对不同层次首部中的字段进行匹配"
+    },
+    {
+        "head": "SDN广义转发",
+        "relation": "不仅包含",
+        "tail": "转发分组"
+    },
+    {
+        "head": "SDN广义转发",
+        "relation": "还可以实现负载均衡"
+    },
+    {
+        "head": "SDN广义转发",
+        "relation": "可以重写IP首部"
+    },
+    {
+        "head": "SDN广义转发",
+        "relation": "可以阻挡或丢弃分组"
+    },
+    {
+        "head": "OpenFlow交换机",
+        "relation": "是",
+        "tail": "分组交换机"
+    },
+    {
+        "head": "流表",
+        "relation": "包含",
+        "tail": "匹配+动作"
+    },
+    {
+        "head": "远程控制器",
+        "relation": "管理",
+        "tail": "OpenFlow交换机中的流表"
+    },
+    {
+        "head": "OpenFlow协议",
+        "relation": "用于",
+        "tail": "SDN远程控制器与网络设备之间的通信"
+    },
+    {
+        "head": "安全信道",
+        "relation": "传输",
+        "tail": "OpenFlow协议"
+    },
+    {
+        "head": "OpenFlow协议",
+        "relation": "定义了",
+        "tail": "流表"
+    },
+    {
+        "head": "OpenFlow交换机",
+        "relation": "包含",
+        "tail": "一个或多个流表"
+    },
+    {
+        "head": "流表项",
+        "relation": "包括",
+        "tail": "三个字段：首部字段值、计数器和动作"
+    },
+    {
+        "head": "分组",
+        "relation": "匹配",
+        "tail": "流表中的首部字段值"
+    },
+    {
+        "head": "OpenFlow",
+        "relation": "支持",
+        "tail": "流表"
+    },
+    {
+        "head": "流表",
+        "relation": "包含",
+        "tail": "匹配字段"
+    },
+    {
+        "head": "匹配字段",
+        "relation": "涉及",
+        "tail": "链路层、网络层、运输层"
+    },
+    {
+        "head": "OpenFlow",
+        "relation": "处理",
+        "tail": "分组首部"
+    },
+    {
+        "head": "动作",
+        "relation": "包括",
+        "tail": "转发、丢弃、复制、重写"
+    },
+    {
+        "head": "计数器",
+        "relation": "记录",
+        "tail": "匹配次数和时间"
+    },
+    {
+        "head": "OpenFlow",
+        "relation": "控制",
+        "tail": "分组交换机"
+    },
+    {
+        "head": "流表项",
+        "relation": "包含",
+        "tail": "匹配动作转发(3)"
+    },
+    {
+        "head": "IP地址",
+        "relation": "使用",
+        "tail": "通配符＊"
+    },
+    {
+        "head": "分组交换机S3",
+        "relation": "根据规则转发",
+        "tail": "从S1到S2"
+    },
+    {
+        "head": "转发规则",
+        "relation": "定义为",
+        "tail": "来或发往的分组先从S3转发到S1,然后再从S1转发到S2"
+    },
+    {
+        "head": "交换机S1",
+        "relation": "包含流表项",
+        "tail": "入端口＝I;IP源地址＝10.3.*.*;IP目的地址＝10.2**"
+    },
+    {
+        "head": "交换机S2",
+        "relation": "包含流表项",
+        "tail": "匹配IP源地址＝10.3.*.*;IP目的地址＝10.2.0.3"
+    },
+    {
+        "head": "交换机S2",
+        "relation": "包含流表项",
+        "tail": "匹配IP源地址＝10.3.*.*;IP目的地址＝10.2.0.4"
+    },
+    {
+        "head": "负载均衡",
+        "relation": "实现方式",
+        "tail": "在交换机S2的流表项中设置合适的匹配项目"
+    },
+    {
+        "head": "交换机S2",
+        "relation": "包含流表项",
+        "tail": "匹配入端口＝3;IP目的地址＝10.1.*.*"
+    },
+    {
+        "head": "交换机S2",
+        "relation": "包含流表项",
+        "tail": "匹配入端口＝4;IP目的地址＝JO.I.**"
+    },
+    {
+        "head": "交换机S2",
+        "relation": "设置防火墙",
+        "tail": "接收来自与交换机S3相连的主机分组"
+    },
+    {
+        "head": "流表项",
+        "relation": "包含匹配条件",
+        "tail": "IP源地址＝10.3.*.*;IP目的地址＝10.2.0.3"
+    },
+    {
+        "head": "流表项",
+        "relation": "包含匹配条件",
+        "tail": "IP源地址＝10.3.*.*;IP目的地址＝I0.2.0.4"
+    },
+    {
+        "head": "广义转发",
+        "relation": "提供优点",
+        "tail": "多样性和灵活性"
+    },
+    {
+        "head": "SDN",
+        "relation": "包含控制层面",
+        "tail": "网络控制应用程序"
+    },
+    {
+        "head": "SDN",
+        "relation": "包含控制层面",
+        "tail": "路由选择"
+    },
+    {
+        "head": "SDN",
+        "relation": "包含控制层面",
+        "tail": "接入控制"
+    },
+    {
+        "head": "SDN体系结构",
+        "relation": "包含",
+        "tail": "基于流的转发"
+    },
+    {
+        "head": "交换机",
+        "relation": "执行",
+        "tail": "转发规则"
+    },
+    {
+        "head": "SDN控制器",
+        "relation": "管理",
+        "tail": "流表项安装"
+    },
+    {
+        "head": "数据层面",
+        "relation": "与",
+        "tail": "控制层面分离"
+    },
+    {
+        "head": "传统路由器",
+        "relation": "包含",
+        "tail": "数据层面和控制层面耦合"
+    },
+    {
+        "head": "SDN体系结构",
+        "relation": "使用术语",
+        "tail": "decouple"
+    },
+    {
+        "head": "数据层面",
+        "relation": "包含",
+        "tail": "简单快速的网络交换机"
+    },
+    {
+        "head": "控制层面",
+        "relation": "由",
+        "tail": "服务器和软件组成"
+    },
+    {
+        "head": "SDN控制器",
+        "relation": "是",
+        "tail": "网络操作系统"
+    },
+    {
+        "head": "SDN控制器",
+        "relation": "维护",
+        "tail": "准确的网络状态信息"
+    },
+    {
+        "head": "控制应用程序",
+        "relation": "从",
+        "tail": "SDN控制器获取信息"
+    },
+    {
+        "head": "控制应用程序",
+        "relation": "对",
+        "tail": "底层网络设备进行监视、编程和控制"
+    },
+    {
+        "head": "SDN控制器",
+        "relation": "实现",
+        "tail": "集中控制逻辑"
+    },
+    {
+        "head": "实际应用中",
+        "relation": "使用",
+        "tail": "多个分散的服务器"
+    },
+    {
+        "head": "网络",
+        "relation": "通过",
+        "tail": "可编程的网络控制应用程序成为可编程的"
+    },
+    {
+        "head": "可编程网络",
+        "relation": "包含",
+        "tail": "SDN控制层面"
+    },
+    {
+        "head": "SDN控制器",
+        "relation": "执行",
+        "tail": "网络控制应用程序"
+    },
+    {
+        "head": "路由选择网络控制应用程序",
+        "relation": "确定",
+        "tail": "端到端路径"
+    },
+    {
+        "head": "网络控制应用程序",
+        "relation": "进行",
+        "tail": "接入控制"
+    },
+    {
+        "head": "网络控制应用程序",
+        "relation": "执行",
+        "tail": "负载均衡措施"
+    },
+    {
+        "head": "传统网络",
+        "relation": "不同",
+        "tail": "可编程网络"
+    },
+    {
+        "head": "大型计算机",
+        "relation": "演变到",
+        "tail": "个人电脑"
+    },
+    {
+        "head": "SDN",
+        "relation": "包含",
+        "tail": "控制器"
+    },
+    {
+        "head": "SDN",
+        "relation": "包含",
+        "tail": "数据层面"
+    },
+    {
+        "head": "控制器",
+        "relation": "提供",
+        "tail": "南向API"
+    },
+    {
+        "head": "控制器",
+        "relation": "提供",
+        "tail": "北向API"
+    },
+    {
+        "head": "控制器",
+        "relation": "划分为",
+        "tail": "三个层次"
+    },
+    {
+        "head": "SDN",
+        "relation": "使系统",
+        "tail": "更加开放"
+    },
+    {
+        "head": "SDN",
+        "relation": "使功能",
+        "tail": "更加丰富"
+    },
+    {
+        "head": "控制器",
+        "relation": "与数据层面设备通信",
+        "tail": "通过南向API"
+    },
+    {
+        "head": "控制器",
+        "relation": "与网络控制应用程序通信",
+        "tail": "通过北向API"
+    },
+    {
+        "head": "控制器",
+        "层次": "计算",
+        "tail": "最低开销路径"
+    },
+    {
+        "head": "REST",
+        "relation": "是",
+        "tail": "表述性状态传递"
+    },
+    {
+        "head": "Intent",
+        "relation": "描述",
+        "tail": "操作"
+    },
+    {
+        "head": "OpenSourceController",
+        "relation": "代表",
+        "tail": "开源控制器"
+    },
+    {
+        "head": "TCP/IP体系",
+        "relation": "提供",
+        "tail": "网络层服务"
+    },
+    {
+        "head": "网络层",
+        "relation": "仅提供",
+        "tail": "简单灵活的、无连接的服务"
+    },
+    {
+        "head": "IP网",
+        "relation": "是",
+        "tail": "虚拟的统一网络"
+    },
+    {
+        "head": "IP地址",
+        "relation": "处理",
+        "tail": "主机之间的通信问题"
+    },
+    {
+        "head": "直接交付",
+        "relation": "方式之一",
+        "tail": "在本网络上的交付"
+    },
+    {
+        "head": "间接交付",
+        "relation": "方式之一",
+        "tail": "到其他网络的交付"
+    },
+    {
+        "head": "IP地址",
+        "relation": "唯一性",
+        "tail": "在整个互联网范围内"
+    },
+    {
+        "head": "分类的IP地址",
+        "relation": "包括",
+        "tail": "A类、B类和C类地址（单播地址）"
+    },
+    {
+        "head": "分类的IP地址",
+        "relation": "还包括",
+        "tail": "D类地址（多播地址）"
+    },
+    {
+        "head": "E类地址",
+        "relation": "未使用",
+        "tail": ""
+    },
+    {
+        "head": "IP地址",
+        "relation": "由",
+        "tail": "网络号字段和主机号字段组成"
+    },
+    {
+        "head": "网络号字段",
+        "relation": "最前面的位指明",
+        "tail": "IP地址的类别"
+    },
+    {
+        "head": "CIDR记法",
+        "relation": "表示",
+        "tail": "无分类域间路由选择"
+    },
+    {
+        "head": "CIDR地址块",
+        "relation": "由",
+        "tail": "前缀相同的连续的IP地址构成"
+    },
+    {
+        "head": "32位地址掩码",
+        "relation": "由",
+        "tail": "一串1和一串0组成"
+    },
+    {
+        "head": "网络地址",
+        "relation": "通过",
+        "tail": "按位进行AND运算得出"
+    },
+    {
+        "head": "IP地址结构",
+        "relation": "是",
+        "tail": "分等级的"
+    },
+    {
+        "head": "IP地址",
+        "relation": "标识",
+        "tail": "主机和链路的接口"
+    },
+    {
+        "head": "路由器",
+        "relation": "根据",
+        "tail": "目的主机所连接的网络前缀转发分组"
+    },
+    {
+        "head": "多归属主机",
+        "relation": "具有",
+        "tail": "两个或多个IP地址"
+    },
+    {
+        "head": "局域网",
+        "relation": "属于",
+        "tail": "网络"
+    },
+    {
+        "head": "MAC地址",
+        "relation": "用于",
+        "tail": "数据链路层和物理层"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "包含",
+        "tail": "首部和数据两部分"
+    }
+]

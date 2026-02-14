@@ -1,0 +1,385 @@
+[
+    [
+        {
+            "head": "计算机网络",
+            "relation": "面临威胁",
+            "tail": "被动攻击"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "面临威胁",
+            "tail": "主动攻击"
+        },
+        {
+            "head": "网络安全问题",
+            "relation": "包括",
+            "tail": "数据加密模型"
+        },
+        {
+            "head": "对称密钥密码体制",
+            "relation": "特点",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "特点",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "鉴别",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "报文鉴别码",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "数字签名",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "证书",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "证书链",
+            "relation": "概念",
+            "tail": "未详细描述"
+        },
+        {
+            "head": "IPsec协议族",
+            "relation": "要点",
+            "tail": "网络层安全协议"
+        },
+        {
+            "head": "TLS",
+            "relation": "要点",
+            "tail": "运输层安全协议"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "安全措施",
+            "tail": "应用层"
+        }
+    ],
+    [
+        {
+            "head": "被动攻击",
+            "relation": "包含",
+            "tail": "截获"
+        },
+        {
+            "head": "被动攻击",
+            "relation": "称为",
+            "tail": "流量分析(trafficanalysis)"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "包括",
+            "tail": "篡改攻击"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "包含",
+            "tail": "中断传送的报文"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "包含",
+            "tail": "伪造报文"
+        }
+    ],
+    [
+        {
+            "head": "计算机病毒",
+            "relation": "属于",
+            "tail": "恶意软件"
+        },
+        {
+            "head": "计算机蠕虫",
+            "relation": "属于",
+            "tail": "恶意软件"
+        },
+        {
+            "head": "特洛伊木马",
+            "relation": "属于",
+            "tail": "恶意软件"
+        },
+        {
+            "head": "逻辑炸弹",
+            "relation": "属于",
+            "tail": "恶意软件"
+        },
+        {
+            "head": "后门入侵",
+            "relation": "属于",
+            "tail": "攻击手段"
+        }
+    ],
+    [
+        {
+            "head": "索尼游戏网络",
+            "relation": "遭受攻击",
+            "tail": "盗贼"
+        },
+        {
+            "head": "房门缺陷",
+            "relation": "导致",
+            "tail": "个人信息泄露"
+        },
+        {
+            "head": "个人信息",
+            "relation": "包含",
+            "tail": "姓名"
+        },
+        {
+            "head": "个人信息",
+            "relation": "包含",
+            "tail": "生日"
+        },
+        {
+            "head": "个人信息",
+            "relation": "包含",
+            "tail": "E-mail地址"
+        },
+        {
+            "head": "个人信息",
+            "relation": "包含",
+            "tail": "密码"
+        },
+        {
+            "head": "流氓软件",
+            "relation": "传播途径",
+            "tail": "计算机病毒"
+        },
+        {
+            "head": "计算机病毒",
+            "relation": "类型",
+            "tail": "Morris病毒"
+        },
+        {
+            "head": "互联网蠕虫事件",
+            "relation": "历史事件",
+            "tail": "Morris病毒"
+        }
+    ],
+    [
+        {
+            "head": "拒绝服务",
+            "relation": "属于",
+            "tail": "DoS"
+        },
+        {
+            "head": "分布式拒绝服务",
+            "relation": "是",
+            "tail": "DDoS"
+        },
+        {
+            "head": "分布式拒绝服务",
+            "relation": "攻击方式",
+            "tail": "网络带宽攻击"
+        },
+        {
+            "head": "分布式拒绝服务",
+            "relation": "目标",
+            "tail": "连通性攻击"
+        }
+    ],
+    [
+        {
+            "head": "黑客",
+            "relation": "攻击目标",
+            "tail": "根服务器系统"
+        },
+        {
+            "head": "以太网交换机",
+            "relation": "处理对象",
+            "tail": "MAC地址"
+        },
+        {
+            "head": "以太网交换机",
+            "relation": "维护信息",
+            "tail": "交换表"
+        }
+    ],
+    [
+        {
+            "head": "交换机中毒",
+            "relation": "属于",
+            "tail": "被动攻击"
+        },
+        {
+            "head": "以太网交换机",
+            "relation": "易受",
+            "tail": "主动攻击"
+        },
+        {
+            "head": "计算机网络通信安全",
+            "relation": "依赖于",
+            "tail": "数据加密技术"
+        },
+        {
+            "head": "计算机网络通信安全",
+            "relation": "依赖于",
+            "tail": "鉴别技术"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "通信协议"
+        },
+        {
+            "head": "形式化方法",
+            "relation": "用于",
+            "tail": "安全性威胁分析"
+        },
+        {
+            "head": "机密性",
+            "relation": "受到威胁",
+            "tail": "被动攻击"
+        },
+        {
+            "head": "密码技术",
+            "relation": "保障",
+            "tail": "机密性"
+        }
+    ],
+    [
+        {
+            "head": "端点鉴别",
+            "relation": "用于保障",
+            "tail": "信息的完整性"
+        },
+        {
+            "head": "主动攻击",
+            "relation": "威胁",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "报文发送方身份",
+            "relation": "验证",
+            "tail": "防止信息篡改"
+        }
+    ],
+    [
+        {
+            "head": "身份鉴别",
+            "relation": "用于保障",
+            "tail": "访问控制"
+        },
+        {
+            "head": "报文鉴别",
+            "relation": "确保",
+            "tail": "完整性"
+        },
+        {
+            "head": "数据加密模型",
+            "relation": "提供",
+            "tail": "多级安全"
+        }
+    ],
+    [
+        {
+            "head": "加密算法",
+            "relation": "用于",
+            "tail": "保护密文"
+        },
+        {
+            "head": "解密算法",
+            "relation": "用于",
+            "tail": "恢复明文"
+        },
+        {
+            "head": "密钥",
+            "relation": "由",
+            "tail": "加密密钥和解密密钥组成"
+        },
+        {
+            "head": "攻击者",
+            "relation": "试图获取",
+            "tail": "解密密钥"
+        },
+        {
+            "head": "入侵者",
+            "relation": "通过",
+            "tail": "安全信道进行攻击"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "安全信道"
+        },
+        {
+            "head": "密码体制",
+            "relation": "属于",
+            "tail": "密码学"
+        },
+        {
+            "head": "密码编码学",
+            "relation": "属于",
+            "tail": "密码学"
+        },
+        {
+            "head": "密码分析学",
+            "relation": "属于",
+            "tail": "密码学"
+        },
+        {
+            "head": "无条件安全",
+            "relation": "是",
+            "tail": "通信保密的一种方式"
+        },
+        {
+            "head": "计算上不可破",
+            "relation": "等同于",
+            "tail": "无条件安全"
+        },
+        {
+            "head": "信息论",
+            "relation": "应用于",
+            "tail": "通信保密"
+        }
+    ],
+    [
+        {
+            "head": "数据加密标准",
+            "relation": "属于",
+            "tail": "对称密钥密码体制"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "与",
+            "tail": "对称密钥密码体制"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含技术",
+            "tail": "密钥"
+        },
+        {
+            "head": "密钥",
+            "relation": "用于加密算法",
+            "tail": "DES加密"
+        },
+        {
+            "head": "密钥空间",
+            "relation": "影响",
+            "tail": "芯片发展"
+        },
+        {
+            "head": "三重DES",
+            "relation": "简称",
+            "tail": "3DES"
+        }
+    ]
+]

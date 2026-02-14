@@ -1,0 +1,586 @@
+[
+    [
+        {
+            "head": "NAT路由器",
+            "relation": "处理",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "专用网",
+            "relation": "通信发起方",
+            "tail": "主机"
+        },
+        {
+            "head": "NAT路由器",
+            "relation": "确定",
+            "tail": "本地IP地址"
+        },
+        {
+            "head": "NAPT",
+            "relation": "使用",
+            "tail": "端口号"
+        },
+        {
+            "head": "传统NAT",
+            "relation": "不使用",
+            "tail": "端口号"
+        },
+        {
+            "head": "NAPT",
+            "relation": "称为",
+            "tail": "网络地址与端口号转换"
+        },
+        {
+            "head": "运输层",
+            "relation": "讨论内容",
+            "tail": "下一章5.1.3节"
+        }
+    ],
+    [
+        {
+            "head": "NAPT",
+            "relation": "包含",
+            "tail": "地址转换机制"
+        },
+        {
+            "head": "NAPT",
+            "relation": "使用",
+            "tail": "TCP端口号"
+        },
+        {
+            "head": "NAPT",
+            "relation": "转换",
+            "tail": "IP地址和端口号"
+        },
+        {
+            "head": "NAPT",
+            "relation": "支持",
+            "tail": "UDP端口号"
+        }
+    ],
+    [
+        {
+            "head": "NAPT",
+            "relation": "实现",
+            "tail": "IP地址转换"
+        },
+        {
+            "head": "NAPT",
+            "relation": "使用",
+            "tail": "NAPT转换表"
+        },
+        {
+            "head": "NAT路由器",
+            "relation": "替换",
+            "tail": "源IP地址或目的IP地址"
+        },
+        {
+            "head": "普通路由器",
+            "relation": "在转发时保持不变",
+            "tail": "源IP地址和目的IP地址"
+        },
+        {
+            "head": "NAPT路由器",
+            "relation": "工作于",
+            "tail": "网络层和运输层"
+        },
+        {
+            "head": "MPLS工作组",
+            "relation": "成立时间",
+            "tail": "1997年"
+        },
+        {
+            "head": "MPLS",
+            "relation": "目标",
+            "tail": "开发新协议"
+        }
+    ],
+    [
+        {
+            "head": "多协议标签交换MPLS",
+            "relation": "是",
+            "tail": "互联网建议标准"
+        },
+        {
+            "head": "MPLS",
+            "relation": "采用",
+            "tail": "面向连接技术"
+        },
+        {
+            "head": "分组",
+            "relation": "携带",
+            "tail": "标签"
+        },
+        {
+            "head": "交换机",
+            "relation": "读取",
+            "tail": "分组的标签"
+        },
+        {
+            "head": "交换机",
+            "relation": "用以检索",
+            "tail": "分组转发表"
+        },
+        {
+            "head": "MPLS",
+            "relation": "与",
+            "tail": "异步传递方式ATM联系起来"
+        },
+        {
+            "head": "ATM",
+            "relation": "采用",
+            "tail": "面向连接的工作方式"
+        }
+    ],
+    [
+        {
+            "head": "MPLS",
+            "relation": "取代",
+            "tail": "ATM技术和B-ISDN"
+        },
+        {
+            "head": "MPLS",
+            "relation": "增强",
+            "tail": "IP技术"
+        },
+        {
+            "head": "MPLS",
+            "relation": "支持",
+            "tail": "面向连接的服务质量"
+        },
+        {
+            "head": "MPLS",
+            "relation": "支持",
+            "tail": "流量工程"
+        },
+        {
+            "head": "MPLS",
+            "relation": "支持",
+            "tail": "虚拟专用网VPN"
+        },
+        {
+            "head": "MPLS",
+            "relation": "转发过程",
+            "tail": "标签交换"
+        }
+    ],
+    [
+        {
+            "head": "MPLS",
+            "relation": "使用于",
+            "tail": "多种链路层协议"
+        },
+        {
+            "head": "MPLS",
+            "relation": "包含",
+            "tail": "标签交换路由器LSR"
+        },
+        {
+            "head": "LSR",
+            "relation": "具有",
+            "tail": "标签交换功能"
+        },
+        {
+            "head": "LSR",
+            "relation": "具有",
+            "tail": "路由选择功能"
+        },
+        {
+            "head": "MPLS域",
+            "relation": "包含",
+            "tail": "支持MPLS技术的路由器"
+        }
+    ],
+    [
+        {
+            "head": "MPLS",
+            "relation": "使用",
+            "tail": "标签分配协议LDP"
+        },
+        {
+            "head": "LSR",
+            "relation": "交换",
+            "tail": "报文"
+        },
+        {
+            "head": "LSR",
+            "relation": "构造",
+            "tail": "转发表"
+        },
+        {
+            "head": "MPLS",
+            "relation": "面向",
+            "tail": "连接"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "进入",
+            "tail": "MPLS域"
+        },
+        {
+            "head": "ingress节点",
+            "relation": "给",
+            "tail": "打上标签"
+        }
+    ],
+    [
+        {
+            "head": "标签交换路由器",
+            "relation": "执行",
+            "tail": "转发"
+        },
+        {
+            "head": "标签交换路由器",
+            "relation": "更换",
+            "tail": "标签对换"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "被打上",
+            "tail": "标签"
+        },
+        {
+            "head": "分类",
+            "relation": "使用于",
+            "tail": "网络层"
+        },
+        {
+            "head": "分类",
+            "relation": "使用于",
+            "tail": "运输层"
+        },
+        {
+            "head": "分类",
+            "relation": "使用于",
+            "tail": "应用层"
+        },
+        {
+            "head": "标签交换路由器B",
+            "relation": "从接口0收到",
+            "tail": "入标签为3的IP数据报"
+        },
+        {
+            "head": "标签交换路由器B",
+            "relation": "查找转发表",
+            "tail": "确定转发路径和出标签"
+        }
+    ],
+    [
+        {
+            "head": "标签交换",
+            "relation": "属于",
+            "tail": "MPLS"
+        },
+        {
+            "head": "LSR",
+            "relation": "执行",
+            "tail": "标签对换"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "经过",
+            "tail": "MPLS域"
+        },
+        {
+            "head": "MPLS出口点",
+            "relation": "移除",
+            "tail": "MPLS标签"
+        },
+        {
+            "head": "显式路由选择",
+            "relation": "用于",
+            "tail": "确定转发路径"
+        }
+    ],
+    [
+        {
+            "head": "转发等价类FEC",
+            "relation": "是",
+            "tail": "路由器按照同样方式对待的IP数据报集合"
+        },
+        {
+            "head": "转发等价类FEC",
+            "relation": "包含",
+            "tail": "目的IP地址与特定前缀匹配的数据报"
+        },
+        {
+            "head": "转发等价类FEC",
+            "relation": "包含",
+            "tail": "源地址和目的地址相同的IP数据报"
+        },
+        {
+            "head": "转发等价类FEC",
+            "relation": "包含",
+            "tail": "具有某种服务质量需求的IP数据报"
+        },
+        {
+            "head": "入口节点",
+            "relation": "为",
+            "tail": "指派相同标签给属于同一FEC的数据报"
+        },
+        {
+            "head": "FEC和标签",
+            "relation": "是一一对应关系",
+            "tail": ""
+        }
+    ],
+    [
+        {
+            "head": "FEC",
+            "relation": "用于实现",
+            "tail": "负载均衡"
+        },
+        {
+            "head": "路由选择协议",
+            "relation": "导致",
+            "tail": "最短路径过载"
+        },
+        {
+            "head": "MPLS",
+            "relation": "支持设置FEC路径",
+            "tail": "实现负载均衡"
+        },
+        {
+            "head": "流量工程TE",
+            "relation": "定义为",
+            "tail": "对网络通信进行测量、建模和控制，以优化网络性能"
+        }
+    ],
+    [
+        {
+            "head": "流量工程",
+            "relation": "目标",
+            "tail": "优化网络运行性能"
+        },
+        {
+            "head": "MPLS",
+            "relation": "位置",
+            "tail": "第二层和第三层之间"
+        },
+        {
+            "head": "MPLS首部",
+            "relation": "封装技术",
+            "tail": "插入IP数据报前"
+        },
+        {
+            "head": "以太网帧",
+            "relation": "类型字段",
+            "tail": "884716（单播）/884816（多播）"
+        },
+        {
+            "head": "MPLS首部格式",
+            "relation": "包含",
+            "tail": "标签"
+        }
+    ],
+    [
+        {
+            "head": "MPLS首部",
+            "relation": "包含",
+            "tail": "标签值"
+        },
+        {
+            "head": "标签值",
+            "relation": "占用",
+            "tail": "20位"
+        },
+        {
+            "head": "MPLS首部",
+            "relation": "包含",
+            "tail": "试验位"
+        },
+        {
+            "head": "MPLS首部",
+            "relation": "包含",
+            "tail": "S位"
+        },
+        {
+            "head": "MPLS首部",
+            "relation": "包含",
+            "tail": "生存时间TTL"
+        },
+        {
+            "head": "生存时间TTL",
+            "relation": "占用",
+            "tail": "3位"
+        },
+        {
+            "head": "MPLS",
+            "relation": "用于",
+            "tail": "快速转发分组"
+        },
+        {
+            "head": "LDP",
+            "relation": "是",
+            "tail": "控制协议"
+        },
+        {
+            "head": "LDP",
+            "relation": "存在",
+            "tail": "复杂性问题"
+        },
+        {
+            "head": "MPLS",
+            "relation": "支持",
+            "tail": "流量调度"
+        }
+    ],
+    [
+        {
+            "head": "段路由选择协议",
+            "relation": "是",
+            "tail": "一种新的源路由选择协议"
+        },
+        {
+            "head": "段路由选择协议",
+            "relation": "保留了",
+            "tail": "MPLS的主要特点"
+        },
+        {
+            "head": "段路由选择协议",
+            "relation": "简化了",
+            "tail": "设备运行的协议数量"
+        },
+        {
+            "head": "段路由选择协议",
+            "relation": "使用",
+            "tail": "转发指令的一种标识符"
+        },
+        {
+            "head": "段路由选择协议",
+            "relation": "将路径转换成",
+            "tail": "有序的段列表"
+        },
+        {
+            "head": "段路由选择协议",
+            "relation": "封装在",
+            "tail": "分组首部"
+        },
+        {
+            "head": "段路由选择协议",
+            "relation": "执行首部中的指令",
+            "tail": "进行转发"
+        }
+    ],
+    [
+        {
+            "head": "SDN控制器",
+            "relation": "收集并掌握",
+            "tail": "全网拓扑信息"
+        },
+        {
+            "head": "SDN控制器",
+            "relation": "计算出",
+            "tail": "分组路径"
+        },
+        {
+            "head": "SDN控制器",
+            "relation": "分配给分组",
+            "tail": "SR标签"
+        },
+        {
+            "head": "网络点",
+            "relation": "根据携带的标签转发到",
+            "tail": "下一个网络点"
+        },
+        {
+            "head": "SRv6",
+            "relation": "利用",
+            "tail": "IPv6字段作为标签寻址"
+        },
+        {
+            "head": "SR-MPLS",
+            "relation": "基于",
+            "tail": "MPLS"
+        },
+        {
+            "head": "SDN",
+            "relation": "最初由斯坦福大学提出",
+            "tail": "2009年"
+        },
+        {
+            "head": "SDN",
+            "relation": "成功案例",
+            "tail": "谷歌数据中心网络B4"
+        },
+        {
+            "head": "SDN专用广域网",
+            "relation": "提高",
+            "tail": "网络带宽利用率"
+        },
+        {
+            "head": "SDN专用广域网",
+            "relation": "提高",
+            "tail": "网络运行稳定性"
+        },
+        {
+            "head": "SDN专用广域网",
+            "relation": "简化",
+            "tail": "网络管理"
+        },
+        {
+            "head": "SDN专用广域网",
+            "relation": "降低",
+            "tail": "运行费用"
+        }
+    ],
+    [
+        {
+            "head": "SDN",
+            "relation": "是",
+            "tail": "体系结构"
+        },
+        {
+            "head": "SDN",
+            "relation": "包含",
+            "tail": "控制层面和数据层面分离"
+        },
+        {
+            "head": "OpenFlow",
+            "relation": "是",
+            "tail": "通信接口"
+        },
+        {
+            "head": "OpenFlow",
+            "relation": "实现",
+            "tail": "控制层面与数据层面通信"
+        },
+        {
+            "head": "SDN",
+            "relation": "不是",
+            "tail": "协议或产品"
+        },
+        {
+            "head": "控制层面",
+            "relation": "通过",
+            "tail": "软件控制数据层面设备"
+        },
+        {
+            "head": "控制层面",
+            "relation": "使用",
+            "tail": "OpenFlow进行直接访问和操纵"
+        }
+    ],
+    [
+        {
+            "head": "控制层面",
+            "relation": "是接口协议",
+            "tail": "协议OpenFlow"
+        },
+        {
+            "head": "网络操作系统",
+            "relation": "包含",
+            "tail": "控制层面"
+        },
+        {
+            "head": "数据层面",
+            "relation": "通过",
+            "tail": "协议OpenFlow"
+        },
+        {
+            "head": "协议OpenFlow",
+            "relation": "是版本",
+            "tail": "OpenFlow1.0"
+        }
+    ]
+]

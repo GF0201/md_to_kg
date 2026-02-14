@@ -1,0 +1,970 @@
+[
+    [
+        {
+            "head": "香农公式",
+            "relation": "考虑",
+            "tail": "信号损伤"
+        },
+        {
+            "head": "香农公式",
+            "relation": "未考虑",
+            "tail": "脉冲干扰和失真"
+        },
+        {
+            "head": "信道",
+            "relation": "影响",
+            "tail": "极限传输速率"
+        },
+        {
+            "head": "传输媒体",
+            "relation": "分为",
+            "tail": "导引型和非导引型"
+        },
+        {
+            "head": "导引型传输媒体",
+            "relation": "包括",
+            "tail": "双绞线"
+        },
+        {
+            "head": "双绞线",
+            "relation": "由",
+            "tail": "两根铜导线组成"
+        },
+        {
+            "head": "电磁波",
+            "relation": "在",
+            "tail": "导引型传输媒体中沿固体媒体传播"
+        },
+        {
+            "head": "电磁波",
+            "relation": "在",
+            "tail": "非导引型传输媒体中进行无线传输"
+        }
+    ],
+    [
+        {
+            "head": "双绞线",
+            "relation": "用于",
+            "tail": "电话系统"
+        },
+        {
+            "head": "双绞线",
+            "relation": "构成",
+            "tail": "以太网"
+        },
+        {
+            "head": "双绞线",
+            "relation": "传输距离",
+            "tail": "几公里"
+        },
+        {
+            "head": "双绞线",
+            "relation": "抗电磁干扰",
+            "tail": "增加绞合度"
+        },
+        {
+            "head": "双绞线",
+            "relation": "减少串扰",
+            "tail": "增加绞合度"
+        }
+    ],
+    [
+        {
+            "head": "双绞线",
+            "relation": "类型",
+            "tail": "UTP"
+        },
+        {
+            "head": "屏蔽双绞线",
+            "relation": "简称",
+            "tail": "STP"
+        },
+        {
+            "head": "屏蔽双绞线",
+            "relation": "标记",
+            "tail": "x/UTP"
+        },
+        {
+            "head": "x/UTP",
+            "relation": "屏蔽层类型",
+            "tail": "F(铝销屏蔽层)"
+        },
+        {
+            "head": "x/UTP",
+            "relation": "屏蔽层类型",
+            "tail": "S(金属编织层)"
+        },
+        {
+            "head": "x/UTP",
+            "relation": "屏蔽层类型",
+            "tail": "SF(双重屏蔽)"
+        },
+        {
+            "head": "屏蔽双绞线",
+            "relation": "标记",
+            "tail": "FTP"
+        },
+        {
+            "head": "屏蔽双绞线",
+            "relation": "标记",
+            "tail": "U/FTP"
+        },
+        {
+            "head": "屏蔽双绞线",
+            "relation": "标记",
+            "tail": "FIFTP"
+        },
+        {
+            "head": "屏蔽双绞线",
+            "relation": "标记",
+            "tail": "S/FTP"
+        },
+        {
+            "head": "屏蔽双绞线",
+            "relation": "必须条件",
+            "tail": "接地线"
+        },
+        {
+            "head": "5类线",
+            "relation": "特性",
+            "tail": "高于3类线的绞合度"
+        }
+    ],
+    [
+        {
+            "head": "屏蔽双绞线",
+            "relation": "必须有",
+            "tail": "接地线"
+        },
+        {
+            "head": "5类线",
+            "relation": "具有更高的",
+            "tail": "绞合度"
+        },
+        {
+            "head": "3类线",
+            "relation": "具有更低的",
+            "tail": "绞合度"
+        },
+        {
+            "head": "绞合度",
+            "relation": "影响",
+            "tail": "数据率"
+        },
+        {
+            "head": "U/FTP",
+            "relation": "在抗干扰能力上优于",
+            "tail": "F/UTP"
+        },
+        {
+            "head": "FIFTP",
+            "relation": "是最好",
+            "tail": "的抗干扰性能"
+        },
+        {
+            "head": "lOGBASE-T电缆",
+            "relation": "包括",
+            "tail": "U/FTP, F/UTP, FIFTP"
+        },
+        {
+            "head": "EIA/TIA-568标准",
+            "relation": "发布于",
+            "tail": "1991年"
+        },
+        {
+            "head": "EIA/TIA-568标准",
+            "relation": "定义了",
+            "tail": "商用建筑电信布线标准"
+        }
+    ],
+    [
+        {
+            "head": "ANSI/EIA-568-D",
+            "relation": "规定了",
+            "tail": "室内电缆标准"
+        },
+        {
+            "head": "ANSI/EIA-568-D",
+            "relation": "包括了",
+            "tail": "光缆"
+        },
+        {
+            "head": "ANSI/EIA-568-D",
+            "relation": "适用于",
+            "tail": "局域网"
+        },
+        {
+            "head": "双绞线",
+            "relation": "发展为",
+            "tail": "8类线"
+        },
+        {
+            "head": "8类线",
+            "relation": "带宽达到",
+            "tail": "2000MHz"
+        },
+        {
+            "head": "8类线",
+            "relation": "用于",
+            "tail": "40吉比特以太网"
+        }
+    ],
+    [
+        {
+            "head": "绞合线",
+            "relation": "包含于",
+            "tail": "双绞线"
+        },
+        {
+            "head": "3类线缆",
+            "relation": "传输速率",
+            "tail": "10Mbit/s"
+        },
+        {
+            "head": "5E线缆",
+            "relation": "传输速率",
+            "tail": "1Gbit/s"
+        },
+        {
+            "head": "6A线缆",
+            "relation": "传输速率",
+            "tail": "10Gbit/s"
+        },
+        {
+            "head": "双绞线",
+            "relation": "适用于",
+            "tail": "传统以太网(10Mbit/s)"
+        },
+        {
+            "head": "5E线缆",
+            "relation": "优于",
+            "tail": "3类线缆"
+        },
+        {
+            "head": "6A线缆",
+            "relation": "改善了",
+            "tail": "串扰等性能"
+        },
+        {
+            "head": "双绞线",
+            "relation": "传输速率与频率关系",
+            "tail": "衰减随频率升高而增大"
+        }
+    ],
+    [
+        {
+            "head": "同轴电缆",
+            "relation": "组成",
+            "tail": "内导体铜质芯线、绝缘层、外导体屏蔽层、保护套层"
+        },
+        {
+            "head": "同轴电缆",
+            "relation": "抗干扰特性",
+            "tail": "好"
+        },
+        {
+            "head": "同轴电缆",
+            "relation": "广泛用于",
+            "tail": "传输较高速率的数据"
+        },
+        {
+            "head": "双绞线",
+            "relation": "替代",
+            "tail": "同轴电缆作为局域网的传输媒体"
+        },
+        {
+            "head": "同轴电缆",
+            "relation": "主要用在",
+            "tail": "有线电视网的居民小区中"
+        },
+        {
+            "head": "同轴电缆",
+            "relation": "带宽取决于",
+            "tail": "电缆的质量"
+        },
+        {
+            "head": "高质量同轴电缆",
+            "relation": "带宽接近",
+            "tail": "1GHz"
+        },
+        {
+            "head": "光纤通信",
+            "relation": "利用",
+            "tail": "光导纤维传递光脉冲"
+        },
+        {
+            "head": "光纤通信",
+            "relation": "重要领域",
+            "tail": "现代通信技术"
+        }
+    ],
+    [
+        {
+            "head": "光纤通信",
+            "relation": "使用",
+            "tail": "光导纤维"
+        },
+        {
+            "head": "光纤通信",
+            "relation": "传输介质",
+            "tail": "光纤"
+        },
+        {
+            "head": "光源",
+            "relation": "产生",
+            "tail": "光脉冲"
+        },
+        {
+            "head": "发光二极管",
+            "relation": "作为",
+            "tail": "光源"
+        },
+        {
+            "head": "半导体激光器",
+            "relation": "作为",
+            "tail": "光源"
+        },
+        {
+            "head": "光电二极管",
+            "relation": "构成",
+            "tail": "光检测器"
+        },
+        {
+            "head": "光纤",
+            "relation": "由",
+            "tail": "石英玻璃制成"
+        },
+        {
+            "head": "纤芯",
+            "relation": "直径范围",
+            "tail": "8~100µm"
+        },
+        {
+            "head": "包层",
+            "relation": "折射率",
+            "tail": "低于纤芯"
+        },
+        {
+            "head": "光线",
+            "relation": "通过",
+            "tail": "全反射在光纤中传输"
+        },
+        {
+            "head": "现代生产工艺",
+            "relation": "制造",
+            "tail": "超低损耗光纤"
+        }
+    ],
+    [
+        {
+            "head": "光纤通信",
+            "relation": "依赖于",
+            "tail": "全反射"
+        },
+        {
+            "head": "多模光纤",
+            "relation": "传输方式",
+            "tail": "光线不断全反射"
+        },
+        {
+            "head": "单模光纤",
+            "relation": "传输方式",
+            "tail": "光线直线传播"
+        },
+        {
+            "head": "多模光纤",
+            "relation": "适用范围",
+            "tail": "近距离传输"
+        },
+        {
+            "head": "单模光纤",
+            "relation": "适用范围",
+            "tail": "长距离传输（100公里）"
+        },
+        {
+            "head": "单模光纤",
+            "relation": "光源要求",
+            "tail": "半导体激光器"
+        }
+    ],
+    [
+        {
+            "head": "光纤",
+            "relation": "具有",
+            "tail": "通信容量大"
+        },
+        {
+            "head": "光纤",
+            "relation": "适用于",
+            "tail": "远距离传输"
+        },
+        {
+            "head": "光纤",
+            "relation": "抗干扰",
+            "tail": "电磁干扰"
+        },
+        {
+            "head": "光纤",
+            "relation": "抗干扰",
+            "tail": "雷电"
+        },
+        {
+            "head": "光纤通信",
+            "relation": "使用波段",
+            "tail": "850nm, 1300nm, 1550nm"
+        },
+        {
+            "head": "光纤",
+            "relation": "具有",
+            "tail": "25000~30000GHz带宽"
+        },
+        {
+            "head": "光缆",
+            "relation": "包含",
+            "tail": "数十至数百根光纤"
+        },
+        {
+            "head": "光缆",
+            "relation": "增加",
+            "tail": "机械强度"
+        }
+    ],
+    [
+        {
+            "head": "光纤",
+            "relation": "广泛应用于",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "光纤",
+            "relation": "提供",
+            "tail": "高带宽"
+        },
+        {
+            "head": "光纤",
+            "relation": "具有",
+            "tail": "保密性"
+        },
+        {
+            "head": "OM5光纤",
+            "relation": "支持数据传输速度",
+            "tail": "40Gbit/s和100Gbit/s"
+        },
+        {
+            "head": "OM5光纤",
+            "relation": "使用技术",
+            "tail": "短波分复用SWDM(ShortWDM)"
+        },
+        {
+            "head": "架空明线",
+            "relation": "通信质量差",
+            "tail": ""
+        },
+        {
+            "head": "架空明线",
+            "relation": "已停止铺设",
+            "tail": "许多国家"
+        }
+    ],
+    [
+        {
+            "head": "非导引型传输媒体",
+            "relation": "包括",
+            "tail": "自由空间"
+        },
+        {
+            "head": "非导引型传输媒体",
+            "relation": "利用",
+            "tail": "无线电波在自由空间的传播"
+        },
+        {
+            "head": "通信方式",
+            "relation": "不使用",
+            "tail": "各种导引型传输媒体"
+        },
+        {
+            "head": "信息技术发展",
+            "relation": "导致",
+            "tail": "社会各方面的节奏变快"
+        },
+        {
+            "head": "人们要求",
+            "relation": "进行",
+            "tail": "移动电话通信"
+        },
+        {
+            "head": "人们要求",
+            "relation": "进行",
+            "tail": "计算机数据通信(俗称上网)"
+        },
+        {
+            "head": "无线传输",
+            "relation": "可使用",
+            "tail": "多个频段"
+        }
+    ],
+    [
+        {
+            "head": "无线电微波通信",
+            "relation": "占有重要地位",
+            "tail": "当前数据通信"
+        },
+        {
+            "head": "微波频率范围",
+            "relation": "为",
+            "tail": "300MHz~300GHz"
+        },
+        {
+            "head": "主要使用频率范围",
+            "relation": "在",
+            "tail": "2GHz~40GHz"
+        },
+        {
+            "head": "微波传播方式",
+            "relation": "主要是",
+            "tail": "直线传播"
+        },
+        {
+            "head": "地球表面",
+            "relation": "限制",
+            "tail": "微波传播距离"
+        },
+        {
+            "head": "低频波段",
+            "relation": "对应",
+            "tail": "LF"
+        },
+        {
+            "head": "中频波段",
+            "relation": "对应",
+            "tail": "MF"
+        },
+        {
+            "head": "高频波段",
+            "relation": "对应",
+            "tail": "HF"
+        },
+        {
+            "head": "甚高频波段",
+            "relation": "对应",
+            "tail": "V"
+        },
+        {
+            "head": "特高频波段",
+            "relation": "对应",
+            "tail": "U"
+        },
+        {
+            "head": "超高频波段",
+            "relation": "对应",
+            "tail": "S"
+        },
+        {
+            "head": "极高频波段",
+            "relation": "对应",
+            "tail": "E"
+        }
+    ],
+    [
+        {
+            "head": "微波",
+            "relation": "传播方式",
+            "tail": "直线传播"
+        },
+        {
+            "head": "微波",
+            "relation": "传播距离",
+            "tail": "50km左右"
+        },
+        {
+            "head": "天线塔高度",
+            "relation": "影响",
+            "tail": "传播距离"
+        },
+        {
+            "head": "基站",
+            "relation": "信号路径",
+            "tail": "多径效应"
+        },
+        {
+            "head": "微波频段",
+            "relation": "应用场景",
+            "tail": "无线蜂窝通信系统"
+        },
+        {
+            "head": "短波通信",
+            "relation": "主要依靠",
+            "tail": "电离层反射"
+        },
+        {
+            "head": "电离层",
+            "relation": "影响因素",
+            "tail": "不稳定"
+        },
+        {
+            "head": "短波信道",
+            "relation": "质量问题",
+            "tail": "衰落现象和多径效应"
+        },
+        {
+            "head": "数字信号传输",
+            "relation": "要求",
+            "tail": "误码率不大于可容许范围"
+        },
+        {
+            "head": "比特错误率",
+            "relation": "定义",
+            "tail": "误码率"
+        }
+    ],
+    [
+        {
+            "head": "信噪比",
+            "relation": "影响",
+            "tail": "误码率"
+        },
+        {
+            "head": "调制方式",
+            "relation": "与",
+            "tail": "数据率共同影响误码率"
+        },
+        {
+            "head": "提高发射功率",
+            "relation": "可以提升",
+            "tail": "信噪比"
+        },
+        {
+            "head": "提高发射功率",
+            "relation": "缩短",
+            "tail": "电池使用时间"
+        },
+        {
+            "head": "增大电池体积和重量",
+            "relation": "使手机携带",
+            "tail": "不方便"
+        },
+        {
+            "head": "过大发射功率",
+            "relation": "干扰",
+            "tail": "临近手机通信"
+        },
+        {
+            "head": "过大发射功率",
+            "relation": "影响",
+            "tail": "人体健康"
+        }
+    ],
+    [
+        {
+            "head": "信噪比",
+            "relation": "影响",
+            "tail": "误码率"
+        },
+        {
+            "head": "数据率",
+            "relation": "影响",
+            "tail": "误码率"
+        },
+        {
+            "head": "调制技术",
+            "relation": "决定",
+            "tail": "误码率"
+        },
+        {
+            "head": "信噪比",
+            "relation": "变化",
+            "tail": "移动用户位置改变"
+        },
+        {
+            "head": "物理层",
+            "relation": "需要",
+            "tail": "自适应能力"
+        },
+        {
+            "head": "中继站",
+            "relation": "用于",
+            "tail": "远距离通信"
+        }
+    ],
+    [
+        {
+            "head": "微波接力",
+            "relation": "使用频率范围",
+            "tail": "4GHz~6GHz"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "传输信息类型",
+            "tail": "电话、电报、图像、数据"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "信道容量大原因",
+            "tail": "频率很高，频段范围宽"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "抗干扰能力强原因",
+            "tail": "工业和天电干扰主要成分低于微波频率"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "建设投资少原因",
+            "tail": "与电缆载波通信比较"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "适用场景",
+            "tail": "跨越山区、江河"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "缺点之一",
+            "tail": "相邻站之间必须直视"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "信号失真原因",
+            "tail": "路径略有差别"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "受气候影响",
+            "tail": "传播有时会受到恶劣气候的影响"
+        },
+        {
+            "head": "微波接力通信",
+            "relation": "隐蔽性和保密性差原因",
+            "tail": "与电缆通信系统比较"
+        }
+    ],
+    [
+        {
+            "head": "卫星通信",
+            "relation": "使用",
+            "tail": "中继器"
+        },
+        {
+            "head": "同步地球卫星",
+            "relation": "作为",
+            "tail": "中继站"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "优点",
+            "tail": "通信距离远"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "费用与距离无关",
+            "tail": "通信费用"
+        },
+        {
+            "head": "同步地球卫星",
+            "relation": "覆盖面积",
+            "tail": "全球三分之二"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "频带",
+            "tail": "宽"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "通信容量",
+            "tail": "大"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "传播时延",
+            "tail": "250~300ms"
+        }
+    ],
+    [
+        {
+            "head": "卫星通信",
+            "relation": "适用于",
+            "tail": "偏远地区通信"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "适用于",
+            "tail": "海洋中的通信"
+        },
+        {
+            "head": "卫星通信",
+            "relation": "不适用于",
+            "tail": "交互式的网上游戏"
+        },
+        {
+            "head": "传播时延",
+            "relation": "不同于",
+            "tail": "地面微波接力通信链路的传播时延"
+        },
+        {
+            "head": "同步卫星",
+            "relation": "寿命",
+            "tail": "10~15年"
+        },
+        {
+            "head": "低轨道卫星通信系统",
+            "relation": "高度",
+            "tail": "2000公里以下"
+        }
+    ],
+    [
+        {
+            "head": "低轨道卫星",
+            "relation": "用于",
+            "tail": "通信"
+        },
+        {
+            "head": "SpaceX",
+            "relation": "提出",
+            "tail": "星链计划"
+        },
+        {
+            "head": "Starlink",
+            "relation": "目标",
+            "tail": "1.2万颗通信卫星"
+        },
+        {
+            "head": "鸿雁星座",
+            "relation": "由",
+            "tail": "中国航天科技集团公司建设"
+        },
+        {
+            "head": "手持通信设备",
+            "relation": "利用",
+            "tail": "低轨道卫星进行通信"
+        },
+        {
+            "head": "无线移动通信",
+            "relation": "与",
+            "tail": "互联网同步发展"
+        }
+    ],
+    [
+        {
+            "head": "无线局域网",
+            "relation": "使用频段",
+            "tail": "ISM频段"
+        },
+        {
+            "head": "ISM频段",
+            "relation": "包含频率",
+            "tail": "2.4GHz"
+        },
+        {
+            "head": "ISM频段",
+            "relation": "包含频率",
+            "tail": "5.8GHz"
+        },
+        {
+            "head": "无线局域网",
+            "relation": "使用频段",
+            "tail": "2.4835GHz"
+        },
+        {
+            "head": "无线局域网",
+            "relation": "使用频段",
+            "tail": "5.725GHz"
+        },
+        {
+            "head": "无线通信",
+            "relation": "可以自由使用",
+            "tail": "ISM频段"
+        },
+        {
+            "head": "计算机局域网",
+            "relation": "依赖技术",
+            "tail": "无线信道"
+        },
+        {
+            "head": "无线电频谱",
+            "relation": "需要许可",
+            "tail": "政府有关无线电频谱管理机构"
+        }
+    ],
+    [
+        {
+            "head": "频分复用",
+            "relation": "属于",
+            "tail": "信道复用技术"
+        },
+        {
+            "head": "时分复用",
+            "relation": "属于",
+            "tail": "信道复用技术"
+        },
+        {
+            "head": "统计时分复用",
+            "relation": "属于",
+            "tail": "信道复用技术"
+        },
+        {
+            "head": "复用器",
+            "relation": "用于",
+            "tail": "信号传输"
+        },
+        {
+            "head": "分用器",
+            "relation": "用于",
+            "tail": "信息分离"
+        }
+    ],
+    [
+        {
+            "head": "频分复用",
+            "relation": "是",
+            "tail": "一种复用技术"
+        },
+        {
+            "head": "时分复用",
+            "relation": "是",
+            "tail": "另一种复用技术"
+        },
+        {
+            "head": "调制",
+            "relation": "用于",
+            "tail": "频分复用"
+        },
+        {
+            "head": "帧",
+            "relation": "构成",
+            "tail": "时分复用"
+        },
+        {
+            "head": "TDM",
+            "relation": "代表",
+            "tail": "时分复用"
+        },
+        {
+            "head": "FDM",
+            "relation": "代表",
+            "tail": "频分复用"
+        }
+    ],
+    [
+        {
+            "head": "频分多址接入",
+            "relation": "是",
+            "tail": "FDMA的简称"
+        },
+        {
+            "head": "时分多址接入",
+            "relation": "是",
+            "tail": "TDMA的简称"
+        },
+        {
+            "head": "频分信道",
+            "relation": "支持",
+            "tail": "多个用户同时使用不同频带"
+        },
+        {
+            "head": "时分信道",
+            "relation": "支持",
+            "tail": "多个用户轮流使用同一时隙"
+        }
+    ]
+]

@@ -1,0 +1,451 @@
+[
+    [
+        {
+            "head": "连续ARQ协议",
+            "relation": "规定",
+            "tail": "发送窗口每收到一个确认向前滑动一个分组的位置"
+        },
+        {
+            "head": "发送窗口",
+            "relation": "作用",
+            "tail": "提高信道利用率"
+        },
+        {
+            "head": "分组序号",
+            "relation": "顺序",
+            "tail": "从小到大发送"
+        },
+        {
+            "head": "累积确认方式",
+            "relation": "采用",
+            "tail": "接收方对按序到达的最后—个分组发送确认"
+        }
+    ],
+    [
+        {
+            "head": "累积确认",
+            "relation": "包含优点",
+            "tail": "容易实现"
+        },
+        {
+            "head": "累积确认",
+            "relation": "缺点",
+            "tail": "不向发送方及时反映接收方已经正确收到所有分组的信息"
+        },
+        {
+            "head": "Go-back-N协议",
+            "relation": "表示需要再退回来重传已发送过的N个分组",
+            "tail": ""
+        },
+        {
+            "head": "ARQ协议",
+            "relation": "会导致负面的影响",
+            "tail": "当通信线路质量不好时"
+        },
+        {
+            "head": "TCP报文段",
+            "relation": "分为",
+            "tail": "首部和数据两部分"
+        },
+        {
+            "head": "TCP的全部功能",
+            "relation": "体现在",
+            "tail": "首部中各字段的作用"
+        },
+        {
+            "head": "TCP首部各字段",
+            "relation": "作用于",
+            "tail": "掌握TCP的工作原理"
+        }
+    ],
+    [
+        {
+            "head": "TCP报文段首部",
+            "relation": "包含",
+            "tail": "固定部分"
+        },
+        {
+            "head": "TCP报文段首部",
+            "relation": "长度",
+            "tail": "20字节"
+        },
+        {
+            "head": "TCP报文段首部",
+            "relation": "选项",
+            "tail": "4n字节 (n是整数)"
+        },
+        {
+            "head": "源端口和目的端口",
+            "relation": "占用",
+            "tail": "2个字节"
+        },
+        {
+            "head": "序号",
+            "relation": "范围",
+            "tail": "[0, 2^32 - 1]"
+        },
+        {
+            "head": "TCP",
+            "relation": "面向",
+            "tail": "字流"
+        }
+    ],
+    [
+        {
+            "head": "报文段序号",
+            "relation": "表示",
+            "tail": "数据的第一个字的序号"
+        },
+        {
+            "head": "下一个报文段序号",
+            "relation": "从",
+            "tail": "当前报文段最后一个字的序号加1"
+        },
+        {
+            "head": "确认号",
+            "relation": "期望收到对方下一个报文段的第一个数据字的序号"
+        },
+        {
+            "head": "确认号值",
+            "relation": "为",
+            "tail": "701"
+        }
+    ],
+    [
+        {
+            "head": "序号字段",
+            "relation": "包含于",
+            "tail": "TCP报文段"
+        },
+        {
+            "head": "数据偏移",
+            "relation": "指示",
+            "tail": "TCP首部长度"
+        },
+        {
+            "head": "保留位",
+            "relation": "用于",
+            "tail": "未来使用"
+        },
+        {
+            "head": "控制位",
+            "relation": "说明",
+            "tail": "本报文段性质"
+        }
+    ],
+    [
+        {
+            "head": "紧急URG",
+            "relation": "指示",
+            "tail": "紧急指针字段有效"
+        },
+        {
+            "head": "URGent",
+            "relation": "定义",
+            "tail": "紧急标志位"
+        },
+        {
+            "head": "紧急数据",
+            "relation": "插入",
+            "tail": "报文段数据最前面"
+        },
+        {
+            "head": "发送应用进程",
+            "relation": "通知",
+            "tail": "发送方TCP有紧急数据要传送"
+        },
+        {
+            "head": "紧急指针",
+            "relation": "配合使用",
+            "tail": "URG置1时"
+        }
+    ],
+    [
+        {
+            "head": "紧急指针",
+            "relation": "定义了",
+            "tail": "TCP报文段"
+        },
+        {
+            "head": "确认号",
+            "relation": "有效条件是",
+            "tail": "ACK=1"
+        },
+        {
+            "head": "推送PSH",
+            "relation": "用于",
+            "tail": "交互式通信"
+        },
+        {
+            "head": "复位RST",
+            "relation": "表示",
+            "tail": "严重差错"
+        }
+    ],
+    [
+        {
+            "head": "连接建立",
+            "relation": "使用",
+            "tail": "SYN"
+        },
+        {
+            "head": "连接请求报文段",
+            "relation": "包含",
+            "tail": "SYN=1, ACK=0"
+        },
+        {
+            "head": "连接接受报文",
+            "relation": "包含",
+            "tail": "SYN=1, ACK=1"
+        },
+        {
+            "head": "连接释放",
+            "relation": "使用",
+            "tail": "FIN"
+        },
+        {
+            "head": "窗口值",
+            "relation": "范围",
+            "tail": "[0, 2^16-1]"
+        },
+        {
+            "head": "接收窗口",
+            "relation": "指示",
+            "tail": "允许发送的数据量"
+        },
+        {
+            "head": "数据缓存空间",
+            "relation": "限制",
+            "tail": "窗口值设置"
+        }
+    ],
+    [
+        {
+            "head": "窗口字段",
+            "relation": "指示",
+            "tail": "允许发送的数据量"
+        },
+        {
+            "head": "接收缓存容量",
+            "relation": "限制",
+            "tail": "数据接收"
+        },
+        {
+            "head": "检验和",
+            "relation": "计算范围",
+            "tail": "首部和数据"
+        },
+        {
+            "head": "伪首部",
+            "relation": "用于",
+            "tail": "TCP报文段的检验和"
+        },
+        {
+            "head": "紧急指针",
+            "relation": "指出",
+            "tail": "紧急数据位置"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "包含",
+            "tail": "紧急数据"
+        },
+        {
+            "head": "TCP",
+            "relation": "处理完",
+            "tail": "紧急数据后通知应用程序恢复操作"
+        },
+        {
+            "head": "TCP首部",
+            "relation": "长度",
+            "tail": "20字节（无选项时）"
+        },
+        {
+            "head": "TCP首部",
+            "relation": "包含",
+            "tail": "紧急指针"
+        },
+        {
+            "head": "MSS",
+            "relation": "定义为",
+            "tail": "每个TCP报文段中的数据字段最大长度"
+        },
+        {
+            "head": "TCP报文段",
+            "relation": "包含",
+            "tail": "首部和数据字段"
+        },
+        {
+            "head": "MSS",
+            "relation": "不考虑接收方的",
+            "tail": "接收缓存大小限制"
+        },
+        {
+            "head": "TCP报文段长度",
+            "relation": "减去",
+            "tail": "首部长度后等于数据字段最大长度"
+        }
+    ],
+    [
+        {
+            "head": "IP数据报",
+            "relation": "包含",
+            "tail": "首部"
+        },
+        {
+            "head": "TCP报文段",
+            "relation": "传输",
+            "tail": "数据"
+        },
+        {
+            "head": "MSS",
+            "relation": "影响",
+            "tail": "网络利用率"
+        },
+        {
+            "head": "IP层",
+            "relation": "传输",
+            "tail": "数据报"
+        },
+        {
+            "head": "数据链路层",
+            "relation": "增加",
+            "tail": "开销"
+        },
+        {
+            "head": "MSS",
+            "relation": "应尽可能大",
+            "tail": "提高网络传输效率"
+        },
+        {
+            "head": "IP数据报路径",
+            "relation": "动态变化",
+            "tail": "分片需求可能改变"
+        },
+        {
+            "head": "连接建立过程",
+            "relation": "填写",
+            "tail": "MSS字段"
+        },
+        {
+            "head": "默认值",
+            "relation": "未填写时使用",
+            "tail": "MSS"
+        }
+    ],
+    [
+        {
+            "head": "MSS",
+            "relation": "默认值",
+            "tail": "536字节"
+        },
+        {
+            "head": "窗口大小",
+            "relation": "最大值",
+            "tail": "64KB"
+        },
+        {
+            "head": "窗口扩大选项",
+            "relation": "长度",
+            "tail": "3字节"
+        },
+        {
+            "head": "窗口扩大选项",
+            "relation": "包含",
+            "tail": "移位值S"
+        },
+        {
+            "head": "新的窗口值",
+            "relation": "等于",
+            "tail": "TCP首部中的窗口字段+移位值S"
+        }
+    ],
+    [
+        {
+            "head": "窗口扩大选项",
+            "relation": "用于协商",
+            "tail": "TCP连接建立时"
+        },
+        {
+            "head": "窗口大小",
+            "relation": "最大值",
+            "tail": "230"
+        },
+        {
+            "head": "时间戳选项",
+            "relation": "包含字段",
+            "tail": "时间戳值字段"
+        },
+        {
+            "head": "时间戳选项",
+            "relation": "包含字段",
+            "tail": "时间戳回送回答字段"
+        },
+        {
+            "head": "时间戳值字段",
+            "relation": "长度",
+            "tail": "4字节"
+        },
+        {
+            "head": "时间戳回送回答字段",
+            "relation": "长度",
+            "tail": "4字节"
+        },
+        {
+            "head": "时间戳选项",
+            "relation": "用于计算",
+            "tail": "往返时间RTT"
+        },
+        {
+            "head": "时间戳选项",
+            "relation": "用于防止",
+            "tail": "序号绕回PAWS"
+        }
+    ],
+    [
+        {
+            "head": "TCP",
+            "relation": "使用",
+            "tail": "序号"
+        },
+        {
+            "head": "高速网络",
+            "relation": "导致",
+            "tail": "序号重复"
+        },
+        {
+            "head": "时间戳",
+            "relation": "用于",
+            "tail": "区分新旧报文段"
+        },
+        {
+            "head": "滑动窗口",
+            "relation": "实现",
+            "tail": "可靠传输"
+        },
+        {
+            "head": "字节单位",
+            "relation": "作为",
+            "tail": "滑动窗口的单位"
+        }
+    ],
+    [
+        {
+            "head": "滑动窗口",
+            "relation": "使用单位",
+            "tail": "字节"
+        },
+        {
+            "head": "滑动窗口",
+            "relation": "工作原理",
+            "tail": "根据序号确认数据段"
+        },
+        {
+            "head": "信道",
+            "relation": "类型",
+            "tail": "长粗管道"
+        }
+    ]
+]

@@ -1,0 +1,2032 @@
+[
+    {
+        "head": "无线蜂窝电话通信技术",
+        "relation": "发展速度",
+        "tail": "飞速"
+    },
+    {
+        "head": "移动电话用户数",
+        "relation": "超过",
+        "tail": "固定电话用户数"
+    },
+    {
+        "head": "全球移动电话普及率",
+        "relation": "达到",
+        "tail": "96.8%"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "反映",
+        "tail": "移动通信需求"
+    },
+    {
+        "head": "互联网",
+        "relation": "过去是",
+        "tail": "PC互联网"
+    },
+    {
+        "head": "现在互联网",
+        "relation": "应是",
+        "tail": "移动互联网"
+    },
+    {
+        "head": "无线局域网WLAN",
+        "relation": "重点讨论",
+        "tail": "MAC层协议CSMA/CA原理"
+    },
+    {
+        "head": "WPAN",
+        "relation": "简述",
+        "tail": ""
+    },
+    {
+        "head": "WMAN",
+        "relation": "简述",
+        "tail": ""
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "relation": "属于",
+        "tail": "通信领域内容"
+    },
+    {
+        "head": "技术发展",
+        "relation": "改变",
+        "tail": "蜂窝移动通信网与计算机网络关联"
+    },
+    {
+        "head": "无线局域网WLAN",
+        "relation": "包含",
+        "tail": "移动接入功能"
+    },
+    {
+        "head": "智能手机",
+        "relation": "成为",
+        "tail": "计算机网络主机"
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "relation": "使用",
+        "tail": "IP技术"
+    },
+    {
+        "head": "无线局域网WLAN",
+        "relation": "使用",
+        "tail": "CSMA/CA协议"
+    },
+    {
+        "head": "CSMA/CA协议",
+        "relation": "区别于",
+        "tail": "CSMA/CD"
+    },
+    {
+        "head": "无线局域网MAC帧",
+        "relation": "包含",
+        "tail": "地址类型"
+    },
+    {
+        "head": "蜂窝移动通信网",
+        "relation": "与",
+        "tail": "互联网互连"
+    },
+    {
+        "head": "无线局域网WLAN",
+        "relation": "发展历史",
+        "tail": "价格贵、数据传输速率低、安全性较差、使用登记手续复杂"
+    },
+    {
+        "head": "无线局域网WLAN",
+        "relation": "进入市场时间",
+        "tail": "20世纪80年代末"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "简写为",
+        "tail": "WLAN"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "提供",
+        "tail": "移动接入功能"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "节省",
+        "tail": "投资"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "建网速度",
+        "tail": "较快"
+    },
+    {
+        "head": "便携站",
+        "relation": "表示",
+        "tail": "便于移动但位置固定"
+    },
+    {
+        "head": "移动站",
+        "relation": "表示",
+        "tail": "能够移动并在移动中通信"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "分为",
+        "tail": "两大类"
+    },
+    {
+        "head": "基础设施",
+        "relation": "包含",
+        "tail": "有基础设施的和无基础设施的"
+    },
+    {
+        "head": "IEEE802.11",
+        "relation": "制定于",
+        "tail": "1997年"
+    },
+    {
+        "head": "WLAN国家标准",
+        "relation": "颁布时间",
+        "tail": "2003年5月"
+    },
+    {
+        "head": "WLAN标准",
+        "relation": "基于",
+        "tail": "ISO/IEC8802-11系列国际标准"
+    },
+    {
+        "head": "接入点(AP)",
+        "relation": "是",
+        "tail": "无线局域网的基础设施"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "使用",
+        "tail": "星形拓扑"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "包含",
+        "tail": "接入点AP"
+    },
+    {
+        "head": "接入点AP",
+        "relation": "称为",
+        "tail": "WAP"
+    },
+    {
+        "head": "接入点AP",
+        "relation": "功能",
+        "tail": "链路层设备"
+    },
+    {
+        "head": "接入点AP",
+        "tail": "连接",
+        "relation": "到"
+    },
+    {
+        "head": "有线以太网",
+        "relation": "通过",
+        "tail": "100Mbit/s或1Gbit/s端口"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "使用",
+        "tail": "CSMA/CA协议"
+    },
+    {
+        "head": "Wi-Fi",
+        "relation": "由",
+        "tail": "Wi-Fi联盟标记"
+    },
+    {
+        "head": "Wi-Fi",
+        "relation": "不是",
+        "tail": "Wireless-Fidelity"
+    },
+    {
+        "head": "Wi-Fi",
+        "relation": "认证机构",
+        "tail": "Wi-Fi联盟"
+    },
+    {
+        "head": "产品",
+        "relation": "注册商标",
+        "tail": "Wi-Fi联盟"
+    },
+    {
+        "head": "基本服务集BSS",
+        "relation": "包含",
+        "tail": "接入点和移动站"
+    },
+    {
+        "head": "接入点",
+        "relation": "分配",
+        "tail": "服务集标识符SSID和服务信道"
+    },
+    {
+        "head": "SSID",
+        "relation": "定义为",
+        "tail": "使用该AP的无线局域网的名字"
+    },
+    {
+        "head": "Windows系统",
+        "relation": "包含",
+        "tail": "控制面板"
+    },
+    {
+        "head": "控制面板",
+        "relation": "包含",
+        "tail": "网络和Internet"
+    },
+    {
+        "head": "网络和Internet",
+        "relation": "链接到",
+        "tail": "网络和共享中心"
+    },
+    {
+        "head": "网络和共享中心",
+        "relation": "提供选项",
+        "tail": "连接到网络"
+    },
+    {
+        "head": "连接到网络",
+        "relation": "显示",
+        "tail": "无线局域网的SSID"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "包含",
+        "tail": "网络名SSID"
+    },
+    {
+        "head": "设备AP",
+        "relation": "具有",
+        "tail": "MAC地址BSSID"
+    },
+    {
+        "head": "基本服务集BSS",
+        "relation": "定义范围",
+        "tail": "基本服务区BSA"
+    },
+    {
+        "head": "基本服务区BSA",
+        "relation": "类比于",
+        "tail": "蜂窝小区"
+    },
+    {
+        "head": "基本服务区BSA",
+        "relation": "直径不超过",
+        "tail": "100米"
+    },
+    {
+        "head": "线局域网",
+        "relation": "使用频段",
+        "tail": "2.4GHz和5GHz"
+    },
+    {
+        "head": "信道",
+        "relation": "定义于",
+        "tail": "802.llb标准"
+    },
+    {
+        "head": "信道",
+        "relation": "带宽",
+        "tail": "约22MHz"
+    },
+    {
+        "head": "相邻信道",
+        "relation": "中心频率差",
+        "tail": "5MHz"
+    },
+    {
+        "head": "非重叠信道集合",
+        "relation": "包括",
+        "tail": "1,6和11"
+    },
+    {
+        "head": "接入点设备",
+        "relation": "典型实例",
+        "tail": "线路由器"
+    },
+    {
+        "head": "服务集接入点",
+        "relation": "工作参数设置",
+        "tail": "SSID和信道"
+    },
+    {
+        "head": "基本服务集",
+        "relation": "组成方式",
+        "tail": "孤立或通过AP连接"
+    },
+    {
+        "head": "基本服务集",
+        "relation": "构成",
+        "tail": "孤立的单个服务集"
+    },
+    {
+        "head": "基本服务集",
+        "relation": "通过接入点AP连接到",
+        "tail": "分配系统DS"
+    },
+    {
+        "head": "扩展服务集",
+        "relation": "由",
+        "tail": "多个基本服务集组成"
+    },
+    {
+        "head": "扩展服务集",
+        "relation": "标识符",
+        "tail": "扩展服务集标识符ESSID"
+    },
+    {
+        "head": "扩展服务集标识符ESSID",
+        "relation": "长度限制",
+        "tail": "不超过32字符的字符串名字"
+    },
+    {
+        "head": "分配系统",
+        "relation": "使",
+        "tail": "扩展服务集对上层表现像基本服务集一样"
+    },
+    {
+        "head": "分配系统",
+        "relation": "使用网络类型",
+        "tail": "以太网、点对点链路或其他线网络"
+    },
+    {
+        "head": "扩展服务集",
+        "relation": "为用户提供接入",
+        "tail": "802.x局域网"
+    },
+    {
+        "head": "门户",
+        "relation": "实现",
+        "tail": "非802.11线局域网的接入"
+    },
+    {
+        "head": "门户",
+        "relation": "相当于",
+        "tail": "扩展服务集内几个不同的基个网桥"
+    },
+    {
+        "head": "移动站",
+        "relation": "通信通过",
+        "tail": "接入点"
+    },
+    {
+        "head": "AP1",
+        "relation": "传输方式",
+        "tail": "有线"
+    },
+    {
+        "head": "AP1和AP2间",
+        "relation": "传输方式",
+        "tail": "有线"
+    },
+    {
+        "head": "移动站B",
+        "relation": "通信路径",
+        "tail": "AP1-AP2"
+    },
+    {
+        "head": "扩展服务集",
+        "relation": "包含",
+        "tail": "基本服务集"
+    },
+    {
+        "head": "ESSID",
+        "relation": "标识",
+        "tail": "扩展服务集"
+    },
+    {
+        "head": "IEEE802.11",
+        "relation": "包含",
+        "tail": "基本服务集BSS"
+    },
+    {
+        "head": "IEEE802.11",
+        "relation": "包含",
+        "tail": "扩展服务集ESS"
+    },
+    {
+        "head": "基本服务集BSS",
+        "relation": "覆盖范围由",
+        "tail": "移动站发射的电磁波确定"
+    },
+    {
+        "head": "接入点AP1和AP2",
+        "relation": "选择信道",
+        "tail": "相隔5个或更多信道"
+    },
+    {
+        "head": "移动站A",
+        "relation": "漫游到位置A1时",
+        "tail": "能够同时收到两个接入点信号"
+    },
+    {
+        "head": "移动站A",
+        "relation": "漫游到位置A2时",
+        "tail": "只能和接入点AP2联系"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "定义了",
+        "tail": "漫游的基本工具"
+    },
+    {
+        "head": "移动站",
+        "relation": "必须与",
+        "tail": "接入点AP建立关联"
+    },
+    {
+        "head": "已关联的AP",
+        "relation": "向",
+        "tail": "移动站发送数据帧"
+    },
+    {
+        "head": "移动站",
+        "relation": "通过",
+        "tail": "关联的AP发送数据帧"
+    },
+    {
+        "head": "被动扫描",
+        "relation": "过程包括",
+        "tail": "接入点AP周期性发出信标帧"
+    },
+    {
+        "head": "信标帧",
+        "relation": "包含",
+        "tail": "服务集标识符SSID以及支持的速率等"
+    },
+    {
+        "head": "移动站A",
+        "relation": "向",
+        "tail": "接入点AP2发出关联请求帧"
+    },
+    {
+        "head": "接入点AP2",
+        "relation": "同意",
+        "tail": "移动站A关联请求"
+    },
+    {
+        "head": "接入点AP2",
+        "relation": "发送",
+        "tail": "关联响应帧给移动站A"
+    },
+    {
+        "head": "移动站A",
+        "relation": "建立",
+        "tail": "与接入点AP2的关联"
+    },
+    {
+        "head": "BSS",
+        "relation": "提供服务",
+        "tail": "更多移动站"
+    },
+    {
+        "head": "多个接入点AP",
+        "relation": "安装在",
+        "tail": "一个BSS内"
+    },
+    {
+        "head": "移动站A",
+        "relation": "发出",
+        "tail": "广播的探测请求帧"
+    },
+    {
+        "head": "接入点AP2",
+        "relation": "回答",
+        "tail": "探测响应帧给移动站A"
+    },
+    {
+        "head": "主动扫描",
+        "relation": "步骤包括",
+        "tail": "多个步骤"
+    },
+    {
+        "head": "基本服务集",
+        "relation": "包含",
+        "tail": "接入点"
+    },
+    {
+        "head": "移动站",
+        "relation": "选择",
+        "tail": "信号最强的接入点"
+    },
+    {
+        "head": "移动站",
+        "relation": "可能收到",
+        "tail": "其他接入点信号"
+    },
+    {
+        "head": "关联建立后",
+        "relation": "通过",
+        "tail": "DHCP模块获取IP地址"
+    },
+    {
+        "head": "移动站",
+        "relation": "发送",
+        "tail": "DHCP发现报文"
+    },
+    {
+        "head": "关联",
+        "relation": "使用",
+        "tail": "802.11关联协议进行对话"
+    },
+    {
+        "head": "移动站",
+        "relation": "鉴别自身",
+        "tail": "接入点"
+    },
+    {
+        "head": "接入点",
+        "relation": "嵌入",
+        "tail": "DHCP模块"
+    },
+    {
+        "head": "关联建立后",
+        "relation": "成为",
+        "tail": "AP子网中的一台主机"
+    },
+    {
+        "head": "移动站",
+        "relation": "使用",
+        "tail": "重建关联服务"
+    },
+    {
+        "head": "移动站",
+        "relation": "使用",
+        "tail": "分离服务"
+    },
+    {
+        "head": "移动站",
+        "relation": "可以进行",
+        "tail": "主动扫描和被动扫描"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "未规定",
+        "tail": "选择哪种扫描方式"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "提供服务",
+        "tail": "热点(hotspot)"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "覆盖区域",
+        "tail": "热区(hotzone)"
+    },
+    {
+        "head": "接入点(AP)",
+        "relation": "连接",
+        "tail": "无线局域网"
+    },
+    {
+        "head": "计算机",
+        "relation": "内置",
+        "tail": "无线局域网适配器"
+    },
+    {
+        "head": "802.11",
+        "relation": "实现",
+        "tail": "物理层和MAC层功能"
+    },
+    {
+        "head": "WEP",
+        "relation": "加密方案",
+        "tail": "有线等效的保密"
+    },
+    {
+        "head": "WPA",
+        "relation": "加密方案",
+        "tail": "无线局域网受保护"
+    },
+    {
+        "head": "无线局域网",
+        "relation": "包含",
+        "tail": "接入点AP"
+    },
+    {
+        "head": "自组网络",
+        "relation": "又叫作",
+        "tail": "adhoc网络"
+    },
+    {
+        "head": "自组网络",
+        "relation": "没有",
+        "tail": "固定基础设施"
+    },
+    {
+        "head": "自组网络",
+        "relation": "由",
+        "tail": "移动站相互通信组成"
+    },
+    {
+        "head": "自组网络",
+        "relation": "通信方式",
+        "tail": "存储转发"
+    },
+    {
+        "head": "自组网络",
+        "relation": "涉及",
+        "tail": "路由选择协议"
+    },
+    {
+        "head": "自组网络",
+        "relation": "需要",
+        "tail": "多播协议"
+    },
+    {
+        "head": "自组网络",
+        "relation": "面临",
+        "tail": "安全问题"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "包含节点类型",
+        "tail": "转发节点"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "具备功能",
+        "tail": "路由器转发分组"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "应用场景",
+        "tail": "军事领域通信"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "应用场景",
+        "tail": "地面车辆群通信"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "应用场景",
+        "tail": "舰艇群通信"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "应用场景",
+        "tail": "机群通信"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "应用场景",
+        "tail": "信息交换"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "应用场景",
+        "tail": "抢险救灾通信"
+    },
+    {
+        "head": "无线传感器网络WSN",
+        "relation": "属于子集",
+        "tail": "移动自组网络"
+    },
+    {
+        "head": "无线传感器网络",
+        "relation": "属于",
+        "tail": "自组网络"
+    },
+    {
+        "head": "无线传感器网络",
+        "relation": "用于",
+        "tail": "数据采集、处理和传输"
+    },
+    {
+        "head": "无线传感器网络",
+        "relation": "要求",
+        "tail": "低功耗"
+    },
+    {
+        "head": "无线传感器网络",
+        "relation": "限制",
+        "tail": "协议栈大小"
+    },
+    {
+        "head": "无线传感器网络",
+        "relation": "需要",
+        "tail": "网络安全"
+    },
+    {
+        "head": "无线传感器网络",
+        "relation": "要求",
+        "tail": "节点自动配置"
+    },
+    {
+        "head": "无线传感器网络",
+        "relation": "要求",
+        "tail": "网络动态重组"
+    },
+    {
+        "head": "处理器",
+        "relation": "广泛应用于",
+        "tail": "家电设备、运输工具以及工厂的机器"
+    },
+    {
+        "head": "物联网(IoT)",
+        "relation": "包含",
+        "tail": "环境监测与保护"
+    },
+    {
+        "head": "物联网(IoT)",
+        "relation": "包含",
+        "tail": "战争中对敌情的侦查"
+    },
+    {
+        "head": "传感器节点",
+        "relation": "组成部分",
+        "tail": "CPU、存储器、传感器硬件、无线收发器和电池"
+    },
+    {
+        "head": "线传感器网络",
+        "relation": "应用于",
+        "tail": "医疗监测"
+    },
+    {
+        "head": "线传感器网络",
+        "relation": "应用于",
+        "tail": "工业安全监测"
+    },
+    {
+        "head": "线传感器网络",
+        "relation": "应用于",
+        "tail": "城市交通管理"
+    },
+    {
+        "head": "线传感器网络",
+        "relation": "应用于",
+        "tail": "建筑环境控制"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "与",
+        "tail": "移动IP不同"
+    },
+    {
+        "head": "移动自组网络",
+        "relation": "具有",
+        "tail": "特定路由选择协议"
+    },
+    {
+        "head": "末梢网络",
+        "relation": "工作模式",
+        "tail": "通信进入和发出但不允许外部穿越"
+    },
+    {
+        "head": "固定接入",
+        "relation": "属于",
+        "tail": "网络用户"
+    },
+    {
+        "head": "移动接入",
+        "relation": "允许",
+        "tail": "车辆速度通信"
+    },
+    {
+        "head": "便携接入",
+        "relation": "适用于",
+        "tail": "受限网络覆盖面积"
+    },
+    {
+        "head": "游牧接入",
+        "relation": "要求",
+        "tail": "地理位置不变"
+    },
+    {
+        "head": "802.11局域网",
+        "relation": "包含复杂",
+        "tail": "物理层"
+    },
+    {
+        "head": "802.llb",
+        "relation": "属于",
+        "tail": "早期无线局域网标准"
+    },
+    {
+        "head": "802.lla/g",
+        "relation": "属于",
+        "tail": "双模适配器"
+    },
+    {
+        "head": "802.1la/b/g/n/ac",
+        "relation": "属于",
+        "tail": "多模适配器"
+    },
+    {
+        "head": "Wi-Fi4/5/6",
+        "relation": "作为别名",
+        "tail": "802.1ln/ac/ax"
+    },
+    {
+        "head": "Wi-Fi1/2/3",
+        "relation": "作为别名",
+        "tail": "早期无线局域网标准"
+    },
+    {
+        "head": "802.11b",
+        "relation": "标准别名",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "802.11b",
+        "relation": "频段",
+        "tail": "24GHz"
+    },
+    {
+        "head": "802.11b",
+        "relation": "最高数据率",
+        "tail": "11Mbit/s"
+    },
+    {
+        "head": "802.11b",
+        "relation": "物理层技术",
+        "tail": "扩频"
+    },
+    {
+        "head": "802.11a",
+        "relation": "标准别名",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "802.11a",
+        "relation": "频段",
+        "tail": "25GHz"
+    },
+    {
+        "head": "802.11a",
+        "relation": "最高数据率",
+        "tail": "54Mbit/s"
+    },
+    {
+        "head": "802.11a",
+        "relation": "物理层技术",
+        "tail": "OFDM"
+    },
+    {
+        "head": "802.11g",
+        "relation": "标准别名",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "802.11g",
+        "relation": "频段",
+        "tail": "324GHz"
+    },
+    {
+        "head": "802.11g",
+        "relation": "最高数据率",
+        "tail": "54Mbit/s"
+    },
+    {
+        "head": "802.11g",
+        "relation": "物理层技术",
+        "tail": "OFDM"
+    },
+    {
+        "head": "802.11n",
+        "relation": "标准别名",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "802.11n",
+        "relation": "频段",
+        "tail": "424GHz"
+    },
+    {
+        "head": "802.11n",
+        "relation": "最高数据率",
+        "tail": "600Mbit/s"
+    },
+    {
+        "head": "802.11n",
+        "relation": "物理层技术",
+        "tail": "OFDM"
+    },
+    {
+        "head": "802.11ac",
+        "relation": "标准别名",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "802.11ac",
+        "relation": "频段",
+        "tail": "55GHz"
+    },
+    {
+        "head": "802.11ac",
+        "relation": "最高数据率",
+        "tail": "7Gbit/s"
+    },
+    {
+        "head": "802.11ax",
+        "relation": "标准别名",
+        "tail": "Wi-Fi"
+    },
+    {
+        "head": "802.11ax",
+        "relation": "频段",
+        "tail": "24GHz"
+    },
+    {
+        "head": "802.11ax",
+        "relation": "最高数据率",
+        "tail": "96Gbit/s"
+    },
+    {
+        "head": "802.11ax",
+        "relation": "物理层技术",
+        "tail": "MIMO"
+    },
+    {
+        "head": "802.11ax",
+        "relation": "侧重解决",
+        "tail": "密货环境下提高吞吐量密度"
+    },
+    {
+        "head": "MIMO",
+        "relation": "侧重解决",
+        "tail": "密货环境下提高吞吐量密度"
+    },
+    {
+        "head": "OFDM",
+        "relation": "提高",
+        "tail": "单位面积的吞吐量"
+    },
+    {
+        "head": "802.11ax",
+        "relation": "向下兼容",
+        "tail": "802.11a/b/g/n/ac"
+    },
+    {
+        "head": "802.11ax",
+        "relation": "解决的问题",
+        "tail": "保持手机的畅通在密集环境下"
+    },
+    {
+        "head": "EHT",
+        "relation": "最高数据率有望达到",
+        "tail": "30Gbit/s"
+    },
+    {
+        "head": "EHT",
+        "relation": "特点",
+        "tail": "降低延迟和抖动"
+    },
+    {
+        "head": "Wi-Fi7",
+        "relation": "对应标准",
+        "tail": "802.11be"
+    },
+    {
+        "head": "Wi-Fi7",
+        "relation": "目标",
+        "tail": "实时游戏"
+    },
+    {
+        "head": "802.11",
+        "relation": "工作频段",
+        "tail": "900MHz"
+    },
+    {
+        "head": "802.11",
+        "relation": "最高数据率",
+        "tail": "18Mbit/s"
+    },
+    {
+        "head": "802.11",
+        "relation": "传输距离",
+        "tail": "1km"
+    },
+    {
+        "head": "802.11",
+        "relation": "最初使用技术",
+        "tail": "跳频扩频FHSS"
+    },
+    {
+        "head": "802.11",
+        "relation": "最初使用技术",
+        "tail": "红外技术IR"
+    },
+    {
+        "head": "HiperLAN",
+        "relation": "由",
+        "tail": "ETSI RESlO工作组"
+    },
+    {
+        "head": "HiperLAN",
+        "relation": "与",
+        "tail": "IEEE标准互操作"
+    },
+    {
+        "head": "802.11",
+        "relation": "使用",
+        "tail": "MAC层协议"
+    },
+    {
+        "head": "CSMA/CA",
+        "relation": "应用于",
+        "tail": "802.11局域网的MAC层"
+    },
+    {
+        "head": "CSMA/CD",
+        "relation": "不适用于",
+        "tail": "线局域网"
+    },
+    {
+        "head": "碰撞检测",
+        "relation": "要求",
+        "tail": "不间断地检测信道"
+    },
+    {
+        "head": "OFDM",
+        "relation": "是",
+        "tail": "正交频分复用的缩写"
+    },
+    {
+        "head": "MIMO",
+        "relation": "是",
+        "tail": "多入多出的缩写"
+    },
+    {
+        "head": "MIMO",
+        "relation": "实现",
+        "tail": "空间分集"
+    },
+    {
+        "head": "MIMO",
+        "relation": "使用",
+        "tail": "最多4个发射天线和4个接收天线"
+    },
+    {
+        "head": "802.11适配器",
+        "relation": "实现",
+        "tail": "碰撞检测"
+    },
+    {
+        "head": "信号强度",
+        "relation": "范围",
+        "tail": "动态变化大"
+    },
+    {
+        "head": "电磁波",
+        "relation": "传播特性",
+        "tail": "向所有方向传播，距离有限"
+    },
+    {
+        "head": "隐蔽站问题",
+        "relation": "描述",
+        "tail": "移动站在传输过程中遇到障碍物时的信号传播受限现象"
+    },
+    {
+        "head": "隐蔽站问题",
+        "relation": "导致",
+        "tail": "碰撞"
+    },
+    {
+        "head": "站点A",
+        "relation": "是",
+        "tail": "C的隐蔽站"
+    },
+    {
+        "head": "站点C",
+        "relation": "是",
+        "tail": "A的隐蔽站"
+    },
+    {
+        "head": "移动站之间有障碍物",
+        "relation": "可能导致",
+        "tail": "隐蔽站问题"
+    },
+    {
+        "head": "CSMA/CD",
+        "relation": "包含要点",
+        "tail": "发送前检测信道"
+    },
+    {
+        "head": "CSMA/CD",
+        "relation": "包含要点",
+        "tail": "边发送边检测信道"
+    },
+    {
+        "head": "CSMA/CD",
+        "relation": "包含要点",
+        "tail": "发现碰撞立即停止发送并退避重传"
+    },
+    {
+        "head": "以太网局域网",
+        "relation": "使用协议",
+        "tail": "CSMA"
+    },
+    {
+        "head": "以太网局域网",
+        "relation": "无法实现",
+        "tail": "碰撞检测"
+    },
+    {
+        "head": "以太网局域网",
+        "relation": "导致问题",
+        "tail": "信道资源浪费严重"
+    },
+    {
+        "head": "802.11局域网",
+        "relation": "使用",
+        "tail": "CSMA/CA协议"
+    },
+    {
+        "head": "CSMA/CA协议",
+        "relation": "包含",
+        "tail": "CollisionAvoidance"
+    },
+    {
+        "head": "CSMA/CA协议",
+        "relation": "与",
+        "tail": "以太网不同"
+    },
+    {
+        "head": "802.11局域网",
+        "relation": "使用",
+        "tail": "停止等待协议"
+    },
+    {
+        "head": "链路层确认",
+        "relation": "用于",
+        "tail": "解决碰撞后重传"
+    },
+    {
+        "head": "802.11",
+        "relation": "包含",
+        "tail": "MAC层"
+    },
+    {
+        "head": "MAC层",
+        "relation": "包括",
+        "tail": "两个子层"
+    },
+    {
+        "head": "DCF",
+        "relation": "是",
+        "tail": "分布协调功能"
+    },
+    {
+        "head": "DCF",
+        "relation": "采用",
+        "tail": "CSMA机制"
+    },
+    {
+        "head": "DCF",
+        "relation": "提供",
+        "tail": "争用服务"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "规定",
+        "tail": "所有实现必须有DCF功能"
+    },
+    {
+        "head": "DCF",
+        "relation": "定义了",
+        "tail": "两个时间间隔"
+    },
+    {
+        "head": "两个时间间隔",
+        "relation": "包括",
+        "tail": "短帧间间隔SIFS"
+    },
+    {
+        "head": "功能帧间间隔",
+        "relation": "定义于",
+        "tail": "802.11标准"
+    },
+    {
+        "head": "点协调功能PCF",
+        "relation": "用于",
+        "tail": "集中控制BSS内的活动"
+    },
+    {
+        "head": "自组网络",
+        "relation": "没有",
+        "tail": "PCF子层"
+    },
+    {
+        "head": "CSMA/CA协议",
+        "relation": "复杂度",
+        "tail": "较高"
+    },
+    {
+        "head": "IEEE 802.11-2007标准",
+        "relation": "包含页数",
+        "tail": "1232页"
+    },
+    {
+        "head": "时间间隔DIFS",
+        "relation": "用于防止碰撞",
+        "tail": "802.11标准"
+    },
+    {
+        "head": "站点A",
+        "relation": "发送数据帧DATA",
+        "tail": "给站点B"
+    },
+    {
+        "head": "站点B",
+        "relation": "发回确认ACK",
+        "tail": "给站点A"
+    },
+    {
+        "head": "SIFS",
+        "relation": "用于检验差错",
+        "tail": "CRC检验"
+    },
+    {
+        "head": "虚拟载波监听",
+        "relation": "实现机制",
+        "tail": "软件"
+    },
+    {
+        "head": "站点A",
+        "relation": "发送数据时间",
+        "tail": "写入DATA帧首部"
+    },
+    {
+        "head": "NAV",
+        "relation": "表示",
+        "tail": "信道忙持续时间"
+    },
+    {
+        "head": "载波监听",
+        "relation": "实现机制",
+        "tail": "硬件"
+    },
+    {
+        "head": "信号强度",
+        "relation": "判断依据",
+        "tail": "其他移动站发送数据"
+    },
+    {
+        "head": "DCFIFS",
+        "relation": "定义了",
+        "tail": "信道空闲时间"
+    },
+    {
+        "head": "SIFS",
+        "relation": "表示",
+        "tail": "短的信道空闲间隔"
+    },
+    {
+        "head": "DIFS",
+        "relation": "比",
+        "tail": "SIFS更长的时间间隔"
+    },
+    {
+        "head": "ACK",
+        "relation": "保证优先发送",
+        "tail": "确认帧"
+    },
+    {
+        "head": "CSMA/CA",
+        "relation": "规定了",
+        "tail": "统一的退避算法"
+    },
+    {
+        "head": "站点C和D",
+        "relation": "检测到",
+        "tail": "信道忙"
+    },
+    {
+        "head": "争用期",
+        "relation": "等于",
+        "tail": "争用窗口"
+    },
+    {
+        "head": "争用窗口",
+        "relation": "包含",
+        "tail": "时隙"
+    },
+    {
+        "head": "争用窗口大小",
+        "relation": "为",
+        "tail": "15个时隙"
+    },
+    {
+        "head": "时隙长度",
+        "relation": "由",
+        "tail": "信道忙检测确定"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "规定",
+        "tail": "一个时隙时间为9µs"
+    },
+    {
+        "head": "SIFS",
+        "relation": "等于",
+        "tail": "10µs"
+    },
+    {
+        "head": "DIFS",
+        "relation": "比",
+        "tail": "SIFS多两个时隙"
+    },
+    {
+        "head": "退避算法",
+        "relation": "规定了",
+        "tail": "站点在进入争用期时的随机生成退避时隙数"
+    },
+    {
+        "head": "站点C",
+        "relation": "退避时隙数为",
+        "tail": "3"
+    },
+    {
+        "head": "站点D",
+        "relation": "退避时隙数为",
+        "tail": "9"
+    },
+    {
+        "head": "站点C",
+        "relation": "在经过",
+        "tail": "3个退避时隙后获得发送权"
+    },
+    {
+        "head": "信道",
+        "relation": "转为",
+        "tail": "忙状态"
+    },
+    {
+        "head": "站点D",
+        "relation": "冻结其剩余的",
+        "tail": "6个退避时隙"
+    },
+    {
+        "head": "推迟接入",
+        "relation": "发生在",
+        "tail": "信道处于忙的状态"
+    },
+    {
+        "head": "退避计时器",
+        "relation": "在冻结状态",
+        "tail": "等待争用期的到来"
+    },
+    {
+        "head": "站点D",
+        "relation": "推迟到下一个",
+        "tail": "争用信道时间的到来"
+    },
+    {
+        "head": "退避计时器",
+        "relation": "进行倒计时",
+        "tail": "在信道空闲且处于DIFS后面的时间间隔中"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "规定",
+        "tail": "争用窗口CW的初始值"
+    },
+    {
+        "head": "CSMA/CA协议",
+        "relation": "要求",
+        "tail": "未收到确认帧时重传"
+    },
+    {
+        "head": "争用窗口CW",
+        "relation": "初始值建议",
+        "tail": "最小15，最大1023"
+    },
+    {
+        "head": "随机退避时隙数",
+        "relation": "范围变化",
+        "tail": "重传次数增加而增大"
+    },
+    {
+        "head": "DIFS",
+        "relation": "信道空闲检测阈值",
+        "tail": "立即发送数据"
+    },
+    {
+        "head": "发送数据",
+        "relation": "必须经过",
+        "tail": "争用期的公平竞争"
+    },
+    {
+        "head": "未收到确认的数据帧",
+        "relation": "需要重传",
+        "tail": "数据帧"
+    },
+    {
+        "head": "连续发送数据",
+        "relation": "必须进入",
+        "tail": "争用期"
+    },
+    {
+        "head": "随机退避时隙数",
+        "relation": "可能导致",
+        "tail": "碰撞"
+    },
+    {
+        "head": "信道预约",
+        "relation": "用于解决",
+        "tail": "隐蔽站带来的碰撞问题"
+    },
+    {
+        "head": "A站",
+        "relation": "发送",
+        "tail": "请求发送RTS"
+    },
+    {
+        "head": "AP",
+        "relation": "接收",
+        "tail": "RTS帧"
+    },
+    {
+        "head": "AP",
+        "relation": "发送",
+        "tail": "允许发送CTS"
+    },
+    {
+        "head": "CTS帧",
+        "relation": "包含",
+        "tail": "SIFS"
+    },
+    {
+        "head": "CTS帧",
+        "relation": "包含",
+        "tail": "时间戳"
+    },
+    {
+        "head": "RTS帧",
+        "relation": "发送",
+        "tail": "A站"
+    },
+    {
+        "head": "CTS帧",
+        "relation": "发送",
+        "tail": "AP和B站"
+    },
+    {
+        "head": "DATA帧",
+        "relation": "包含",
+        "tail": "时间戳"
+    },
+    {
+        "head": "NAV",
+        "relation": "设置",
+        "tail": "未收到RTS/CTS的站"
+    },
+    {
+        "head": "RTS/CTS",
+        "relation": "减少",
+        "tail": "隐蔽站干扰"
+    },
+    {
+        "head": "RTS",
+        "relation": "用于",
+        "tail": "信道预约"
+    },
+    {
+        "head": "CTS",
+        "relation": "用于",
+        "tail": "信道预约"
+    },
+    {
+        "head": "SIFS",
+        "relation": "属于",
+        "tail": "时间间隔"
+    },
+    {
+        "head": "数据帧",
+        "relation": "长度",
+        "tail": "2346字节"
+    },
+    {
+        "head": "控制帧",
+        "relation": "长度",
+        "tail": "20字节或14字节"
+    },
+    {
+        "head": "信道预约",
+        "relation": "减少",
+        "tail": "碰撞导致的资源浪费"
+    },
+    {
+        "head": "数据帧",
+        "relation": "超过某一数值时",
+        "tail": "使用RTS和CTS有利"
+    },
+    {
+        "head": "有线局域网",
+        "relation": "MAC帧长",
+        "tail": "短些"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "包含",
+        "tail": "线局域网"
+    },
+    {
+        "head": "信噪比",
+        "relation": "影响",
+        "tail": "误码率"
+    },
+    {
+        "head": "调制技术",
+        "relation": "影响",
+        "tail": "数据发送速率"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "未规定",
+        "tail": "数据率自适应算法"
+    },
+    {
+        "head": "厂商",
+        "relation": "实现",
+        "tail": "自适应改变数据率"
+    },
+    {
+        "head": "TCP协议",
+        "relation": "类似",
+        "tail": "拥塞控制处理思路"
+    },
+    {
+        "head": "802.11局域网",
+        "relation": "包含",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "分为",
+        "tail": "三种类型"
+    },
+    {
+        "head": "控制帧",
+        "relation": "属于",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "数据帧",
+        "relation": "属于",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "管理帧",
+        "relation": "属于",
+        "tail": "MAC帧"
+    },
+    {
+        "head": "802.11局域网",
+        "relation": "包含",
+        "tail": "数据帧"
+    },
+    {
+        "head": "802.11局域网",
+        "relation": "包含",
+        "tail": "控制帧"
+    },
+    {
+        "head": "802.11局域网",
+        "relation": "包含",
+        "tail": "管理帧"
+    },
+    {
+        "head": "802.11数据帧",
+        "relation": "由",
+        "tail": "MAC首部组成"
+    },
+    {
+        "head": "MAC首部",
+        "relation": "长度",
+        "tail": "30字节"
+    },
+    {
+        "head": "802.11数据帧",
+        "relation": "包含",
+        "tail": "帧控制字段"
+    },
+    {
+        "head": "帧控制字段",
+        "relation": "包含子类型",
+        "tail": "0000"
+    },
+    {
+        "head": "帧控制字段",
+        "relation": "包含子类型",
+        "tail": "1011"
+    },
+    {
+        "head": "帧控制字段",
+        "relation": "包含子类型",
+        "tail": "1100"
+    },
+    {
+        "head": "帧控制字段",
+        "relation": "包含子类型",
+        "tail": "1110"
+    },
+    {
+        "head": "MAC首部",
+        "relation": "包含于",
+        "tail": "802.11数据帧"
+    },
+    {
+        "head": "帧主体",
+        "relation": "包含于",
+        "tail": "802.11数据帧"
+    },
+    {
+        "head": "FCS",
+        "relation": "位于",
+        "tail": "MAC尾部"
+    },
+    {
+        "head": "地址1",
+        "relation": "是",
+        "tail": "接收地址"
+    },
+    {
+        "head": "地址2",
+        "relation": "是",
+        "tail": "发送地址"
+    },
+    {
+        "head": "地址3和4",
+        "relation": "取决于",
+        "tail": "来自AP和去往AP字段的数值"
+    },
+    {
+        "head": "BSSID",
+        "relation": "等于",
+        "tail": "AP的MAC地址"
+    },
+    {
+        "head": "移动网络",
+        "relation": "使用",
+        "tail": "地址"
+    },
+    {
+        "head": "802.11标准",
+        "relation": "包含",
+        "tail": "分配系统DS"
+    },
+    {
+        "head": "接入点AP",
+        "relation": "代替",
+        "tail": "DS"
+    },
+    {
+        "head": "站点A",
+        "relation": "发送数据帧给",
+        "tail": "站点B"
+    },
+    {
+        "head": "数据帧",
+        "relation": "包含",
+        "tail": "帧控制字段"
+    },
+    {
+        "head": "地址1",
+        "relation": "接收地址",
+        "tail": "AP的地址BSSID"
+    },
+    {
+        "head": "地址2",
+        "relation": "发送地址",
+        "tail": "站点A的MAC地址"
+    },
+    {
+        "head": "地址3",
+        "relation": "目的地址",
+        "tail": "站点B的MAC地址"
+    },
+    {
+        "head": "接入点AP",
+        "relation": "转发数据帧给",
+        "tail": "站点B"
+    },
+    {
+        "head": "数据帧",
+        "relation": "包含",
+        "tail": "去往AP=1, 来自AP=0"
+    },
+    {
+        "head": "AP-B的数据帧首部",
+        "relation": "接收地址",
+        "tail": "目的地址MACB"
+    },
+    {
+        "head": "AP-B的数据帧首部",
+        "relation": "发送地址",
+        "tail": "接入点AP的地址BSSID"
+    },
+    {
+        "head": "站点A",
+        "relation": "发送数据帧给",
+        "tail": "接入点AP1"
+    },
+    {
+        "head": "接入点AP1",
+        "relation": "转发802.11帧到",
+        "tail": "接入点AP2"
+    },
+    {
+        "head": "站点A",
+        "relation": "使用ARP协议获取",
+        "tail": "默认路由器R的接口1地址MACR-1"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "装入",
+        "tail": "802.3帧"
+    },
+    {
+        "head": "802.11数据帧首部",
+        "relation": "包含字段",
+        "tail": "接收地址BSSID1"
+    },
+    {
+        "head": "802.11数据帧首部",
+        "relation": "包含字段",
+        "tail": "发送地址MACA"
+    },
+    {
+        "head": "802.11数据帧首部",
+        "relation": "包含字段",
+        "tail": "目的地址MACR-1"
+    },
+    {
+        "head": "802.11帧",
+        "relation": "包含",
+        "tail": "BSSID"
+    },
+    {
+        "head": "接入点AP1",
+        "relation": "转换为",
+        "tail": "802.3帧"
+    },
+    {
+        "head": "802.3帧",
+        "relation": "目的地址",
+        "tail": "MACR-1"
+    },
+    {
+        "head": "802.3帧",
+        "relation": "源地址",
+        "tail": "MACA"
+    },
+    {
+        "head": "路由器R",
+        "relation": "根据",
+        "tail": "IP数据报首部"
+    },
+    {
+        "head": "路由器R",
+        "relation": "查找",
+        "tail": "转发表"
+    },
+    {
+        "head": "路由器R",
+        "relation": "转发给",
+        "tail": "地址为IPB的设备"
+    },
+    {
+        "head": "路由器R",
+        "relation": "使用协议",
+        "tail": "ARP"
+    },
+    {
+        "head": "路由器R",
+        "relation": "获得硬件地址",
+        "tail": "MACB"
+    },
+    {
+        "head": "接入点AP2",
+        "relation": "转换为",
+        "tail": "802.11帧"
+    },
+    {
+        "head": "802.11帧",
+        "relation": "帧控制字段",
+        "tail": "去往AP=0, 来自AP=1"
+    },
+    {
+        "head": "802.11帧首部",
+        "relation": "包含",
+        "tail": "地址1"
+    },
+    {
+        "head": "802.11帧首部",
+        "relation": "包含",
+        "tail": "地址2"
+    },
+    {
+        "head": "802.11帧首部",
+        "relation": "包含",
+        "tail": "地址3"
+    },
+    {
+        "head": "序号控制字段",
+        "relation": "占位",
+        "tail": "16位"
+    },
+    {
+        "head": "序号子字段",
+        "relation": "占位",
+        "tail": "12位"
+    },
+    {
+        "head": "分片子字段",
+        "relation": "占位",
+        "tail": "4位"
+    },
+    {
+        "head": "持续期字段",
+        "relation": "占位",
+        "tail": "16位"
+    },
+    {
+        "head": "CSMA/CA协议",
+        "relation": "允许",
+        "tail": "信道预约"
+    },
+    {
+        "head": "帧控制字段",
+        "relation": "包含",
+        "tail": "11个子字段"
+    },
+    {
+        "head": "持续期",
+        "relation": "由",
+        "tail": "最高位为0时表示"
+    },
+    {
+        "head": "协议版本字段",
+        "relation": "当前值",
+        "tail": "0"
+    },
+    {
+        "head": "类型字段",
+        "relation": "区分",
+        "tail": "帧的功能"
+    },
+    {
+        "head": "子类型字段",
+        "relation": "区分",
+        "tail": "帧的种子类型"
+    },
+    {
+        "head": "控制帧",
+        "relation": "包含",
+        "tail": "RTS, CTS"
+    },
+    {
+        "head": "误比特率",
+        "relation": "影响",
+        "tail": "数据帧长度选择"
+    },
+    {
+        "head": "传输效率",
+        "relation": "提高",
+        "tail": "减少数据帧长度"
+    },
+    {
+        "head": "帧",
+        "relation": "划分为",
+        "tail": "分片"
+    },
+    {
+        "head": "信道质量差",
+        "relation": "需要",
+        "tail": "预约信道"
+    },
+    {
+        "head": "RTS和CTS帧",
+        "relation": "用于",
+        "tail": "预约信道"
+    },
+    {
+        "head": "停止等待协议",
+        "relation": "发送",
+        "tail": "分片"
+    },
+    {
+        "head": "ACK",
+        "relation": "确认",
+        "tail": "分片传输"
+    },
+    {
+        "head": "移动站",
+        "relation": "使用功率管理模式",
+        "tail": "活跃状态或待机状态"
+    },
+    {
+        "head": "功率管理字段",
+        "relation": "指示",
+        "tail": "移动站的功率管理模式"
+    },
+    {
+        "head": "接入点AP",
+        "relation": "总是处于",
+        "tail": "活跃状态"
+    },
+    {
+        "head": "MAC帧",
+        "relation": "包含",
+        "tail": "功率管理字段"
+    },
+    {
+        "head": "接入点AP",
+        "relation": "保存",
+        "tail": "处在待机状态的移动站名单"
+    },
+    {
+        "head": "帧",
+        "relation": "被缓存",
+        "tail": "在AP中"
+    },
+    {
+        "head": "信标帧",
+        "relation": "周期性发送",
+        "tail": "由AP"
+    },
+    {
+        "head": "移动站",
+        "relation": "设置计时器",
+        "tail": "为接收信标帧"
+    },
+    {
+        "head": "WEP字段",
+        "relation": "表明",
+        "tail": "对MAC帧的帧主体字段采用了加密算法"
+    },
+    {
+        "head": "WEP加密算法",
+        "relation": "存在安全漏洞",
+        "tail": "IEEE802.11i解决"
+    },
+    {
+        "head": "Wi-Fi联盟",
+        "relation": "制定",
+        "tail": "WPA"
+    },
+    {
+        "head": "Wi-Fi联盟",
+        "relation": "制定",
+        "tail": "WPA2"
+    },
+    {
+        "head": "WPA2",
+        "relation": "增加支持",
+        "tail": "AES加密算法"
+    },
+    {
+        "head": "WPA2",
+        "relation": "符合",
+        "tail": "IEEE802.11i-2004"
+    },
+    {
+        "head": "MAC帧首部",
+        "relation": "保留名称",
+        "tail": "WEP字段"
+    },
+    {
+        "head": "WPAN",
+        "relation": "定义",
+        "tail": "个人工作地电子设备连接"
+    },
+    {
+        "head": "WPAN",
+        "relation": "范围",
+        "tail": "约10m"
+    },
+    {
+        "head": "WPAN",
+        "relation": "是",
+        "tail": "低功率、小范围、低速率和低价格的电缆替代技术"
+    },
+    {
+        "head": "WPAN",
+        "relation": "工作在",
+        "tail": "2.4GHz的ISM颜段"
+    },
+    {
+        "head": "PAN",
+        "relation": "又名",
+        "tail": "PersonalAreaNetwork"
+    },
+    {
+        "head": "蓝牙系统",
+        "relation": "最早使用的WPAN",
+        "tail": "1994年爱立信公司推出的蓝牙(Bluetooth)系统"
+    },
+    {
+        "head": "IEEE802.15工作组",
+        "relation": "制定",
+        "tail": "WPAN的IEEE标准"
+    }
+]

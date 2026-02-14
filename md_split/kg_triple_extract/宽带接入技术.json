@@ -1,0 +1,913 @@
+[
+    [],
+    [
+        {
+            "head": "SDH/SONET",
+            "relation": "制定标准",
+            "tail": "北美、日本和欧、洲"
+        },
+        {
+            "head": "STM-1",
+            "relation": "统一速率",
+            "tail": "数字传输体制"
+        },
+        {
+            "head": "SDH/SONET",
+            "relation": "成为标准",
+            "tail": "新一代传输网体制"
+        },
+        {
+            "head": "SDH",
+            "relation": "适用于",
+            "tail": "微波和卫星传输"
+        },
+        {
+            "head": "用户",
+            "relation": "连接到ISP",
+            "tail": "获得IP地址"
+        },
+        {
+            "head": "电话用户线",
+            "relation": "接入方式",
+            "tail": "互联网"
+        },
+        {
+            "head": "调制解调器",
+            "relation": "连接设备",
+            "tail": "电话用户线"
+        },
+        {
+            "head": "上网速率",
+            "relation": "提高",
+            "tail": "宽带技术"
+        },
+        {
+            "head": "宽带接入技术",
+            "relation": "定义",
+            "tail": "互联网发展初期56kbit/s"
+        }
+    ],
+    [
+        {
+            "head": "ADSL",
+            "relation": "是",
+            "tail": "非对称数字用户线"
+        },
+        {
+            "head": "ADSL",
+            "relation": "用于改造",
+            "tail": "现有模拟电话的用户线"
+        },
+        {
+            "head": "ADSL",
+            "relation": "承载",
+            "tail": "宽带数字业务"
+        },
+        {
+            "head": "标准模拟电话信号频带",
+            "relation": "被限制在",
+            "tail": "300~3400Hz范围内"
+        },
+        {
+            "head": "用户线实际可通过的信号频率",
+            "relation": "超过",
+            "tail": "1MHz"
+        },
+        {
+            "head": "ADSL技术",
+            "relation": "把低端频谱留给",
+            "tail": "传统电话使用"
+        },
+        {
+            "head": "ADSL技术",
+            "relation": "把高端频谱留给",
+            "tail": "用户上网使用"
+        },
+        {
+            "head": "ADSL标准",
+            "relation": "是",
+            "tail": "ITU的标准G.992.1"
+        }
+    ],
+    [
+        {
+            "head": "ADSL",
+            "relation": "遵循标准",
+            "tail": "G.992.1"
+        },
+        {
+            "head": "ADSL",
+            "relation": "使用技术",
+            "tail": "DMT(DiscreteMulti-Tone)调制技术"
+        },
+        {
+            "head": "ADSL",
+            "relation": "下行带宽",
+            "tail": "远大于上行带宽"
+        },
+        {
+            "head": "ADSL",
+            "relation": "传输距离",
+            "tail": "取决于数据率和用户线的线径"
+        },
+        {
+            "head": "ADSL",
+            "relation": "最高数据传输速率",
+            "tail": "与实际的用户线上的信噪比密切相关"
+        },
+        {
+            "head": "ADSL调制解调器",
+            "relation": "安装位置",
+            "tail": "用户线两端"
+        }
+    ],
+    [
+        {
+            "head": "DMT调制技术",
+            "relation": "采用",
+            "tail": "频分复用方法"
+        },
+        {
+            "head": "ADSL",
+            "relation": "使用",
+            "tail": "自适应调制技术"
+        },
+        {
+            "head": "用户线",
+            "relation": "影响",
+            "tail": "数据率"
+        },
+        {
+            "head": "ADSL",
+            "relation": "测试",
+            "tail": "频率、子信道干扰情况及信号传输质量"
+        },
+        {
+            "head": "DMT技术",
+            "relation": "划分",
+            "tail": "40kHz以上至1.1MHz高端频谱为多个子信道"
+        }
+    ],
+    [
+        {
+            "head": "DMT技术",
+            "relation": "包含",
+            "tail": "频谱分布"
+        },
+        {
+            "head": "ADSL接入网",
+            "relation": "由组成",
+            "tail": "数字用户线接入复用器DSLAM、用户线和用户家中设施"
+        },
+        {
+            "head": "数字用户线接入复用器DSLAM",
+            "relation": "支持",
+            "tail": "500~1000个用户"
+        },
+        {
+            "head": "ADSL调制解调器",
+            "relation": "称为",
+            "tail": "接入端接单元ATU"
+        },
+        {
+            "head": "ADSL调制解调器",
+            "relation": "分为",
+            "tail": "ATU-C和ATU-R"
+        }
+    ],
+    [
+        {
+            "head": "DSLAM",
+            "relation": "支持用户数量",
+            "tail": "500~1000个"
+        },
+        {
+            "head": "DSLAM",
+            "relation": "提供转发能力",
+            "tail": "6Gbit/s"
+        },
+        {
+            "head": "ATU-C",
+            "relation": "使用技术",
+            "tail": "数字信号处理技术"
+        },
+        {
+            "head": "ADSL",
+            "relation": "利用现有资源",
+            "tail": "用户线（铜线）"
+        },
+        {
+            "head": "ADSL",
+            "relation": "优点",
+            "tail": "减少对原有建筑损坏"
+        },
+        {
+            "head": "ADSL",
+            "relation": "用户数量",
+            "tail": "超过1.5亿户"
+        },
+        {
+            "head": "ADSL调制解调器",
+            "relation": "安装位置",
+            "tail": "用户线两端"
+        },
+        {
+            "head": "ADSL调制解调器",
+            "relation": "功能",
+            "tail": "对数字信号进行调制"
+        }
+    ],
+    [
+        {
+            "head": "ADSL技术",
+            "relation": "发展为",
+            "tail": "G系列标准"
+        },
+        {
+            "head": "G.992.3和G.992.4",
+            "relation": "属于",
+            "tail": "ADSL2"
+        },
+        {
+            "head": "G.992.5",
+            "relation": "属于",
+            "tail": "ADSL2+"
+        },
+        {
+            "head": "ADSL2+",
+            "relation": "提供",
+            "tail": "16Mbit/s下行速率"
+        },
+        {
+            "head": "ADSL2+",
+            "relation": "提供",
+            "tail": "800kbit/s上行速率"
+        },
+        {
+            "head": "ADSL技术",
+            "relation": "改进为",
+            "tail": "第二代ADSL"
+        },
+        {
+            "head": "SRA",
+            "relation": "是",
+            "tail": "无缝速率自适应技术"
+        }
+    ],
+    [
+        {
+            "head": "ADSL",
+            "relation": "不适合",
+            "tail": "企业"
+        },
+        {
+            "head": "SDSL",
+            "relation": "是",
+            "tail": "对称DSL"
+        },
+        {
+            "head": "SDSL",
+            "relation": "适合",
+            "tail": "企业"
+        },
+        {
+            "head": "HDSL",
+            "relation": "是对称DSL",
+            "tail": "变型"
+        },
+        {
+            "head": "HDSL",
+            "relation": "取代",
+            "tail": "T1线路"
+        },
+        {
+            "head": "VDSL",
+            "relation": "是",
+            "tail": "甚高速数字用户线"
+        },
+        {
+            "head": "VDSL",
+            "relation": "用于",
+            "tail": "短距离传送"
+        },
+        {
+            "head": "VDSL2",
+            "relation": "颁布于",
+            "tail": "2011年"
+        }
+    ],
+    [
+        {
+            "head": "VDSL",
+            "relation": "提供速率",
+            "tail": "100Mbit/s"
+        },
+        {
+            "head": "VDSL2",
+            "relation": "提供速率",
+            "tail": "100Mbit/s"
+        },
+        {
+            "head": "xDSL",
+            "relation": "包含",
+            "tail": "VDSL, VDSL2"
+        },
+        {
+            "head": "G.fast",
+            "relation": "目标距离",
+            "tail": "100m"
+        },
+        {
+            "head": "G.fast",
+            "relation": "提供速率",
+            "tail": "900Mbit/s"
+        },
+        {
+            "head": "G.fast",
+            "relation": "目标距离",
+            "tail": "200m"
+        },
+        {
+            "head": "G.fast",
+            "relation": "提供速率",
+            "tail": "600Mbit/s"
+        },
+        {
+            "head": "G.fast",
+            "relation": "目标距离",
+            "tail": "300m"
+        },
+        {
+            "head": "G.fast",
+            "relation": "提供速率",
+            "tail": "300Mbit/s"
+        },
+        {
+            "head": "华为公司",
+            "relation": "参与标准制定",
+            "tail": "G.fast"
+        },
+        {
+            "head": "华为公司",
+            "relation": "研制成功样机时间",
+            "tail": "2012年"
+        },
+        {
+            "head": "TDD",
+            "relation": "技术名称",
+            "tail": "TimeDivisionDuplex"
+        },
+        {
+            "head": "OFDM",
+            "relation": "技术名称",
+            "tail": "Orthogonal Frequency Division Multiplexing"
+        },
+        {
+            "head": "G.mgfast",
+            "relation": "目标",
+            "tail": "Multi-Gigabit高速接入"
+        }
+    ],
+    [
+        {
+            "head": "Multi-Gigabit DSL",
+            "relation": "提供",
+            "tail": "高速接入"
+        },
+        {
+            "head": "HFC网",
+            "relation": "基于",
+            "tail": "有线电视网"
+        },
+        {
+            "head": "HFC网",
+            "relation": "支持",
+            "tail": "电话、数据和其他宽带交互型业务"
+        }
+    ],
+    [
+        {
+            "head": "有线电视网",
+            "relation": "是",
+            "tail": "树形拓扑结构的同轴电缆网络"
+        },
+        {
+            "head": "有线电视网",
+            "relation": "采用",
+            "tail": "模拟技术的频分复用"
+        },
+        {
+            "head": "有线电视网",
+            "relation": "改造为",
+            "tail": "光纤同轴混合网(HFC网)"
+        },
+        {
+            "head": "HFC网",
+            "relation": "把",
+            "tail": "原有线电视网中的同轴电缆主干部分改换为光纤"
+        },
+        {
+            "head": "光纤节点",
+            "relation": "连接到",
+            "tail": "头端"
+        },
+        {
+            "head": "光纤节点",
+            "relation": "转换信号为",
+            "tail": "电信号"
+        },
+        {
+            "head": "光纤节点",
+            "relation": "通过同轴电缆传送到",
+            "tail": "用户家庭"
+        },
+        {
+            "head": "HFC网",
+            "relation": "减少到仅",
+            "tail": "4~5个放大器"
+        },
+        {
+            "head": "连接到一个光纤节点的典型用户数",
+            "relation": "是",
+            "tail": "500左右，但不超过2000"
+        },
+        {
+            "head": "光纤节点与头端的典型距离",
+            "relation": "为",
+            "tail": "25km"
+        },
+        {
+            "head": "从光纤节点到其用户的距离",
+            "relation": "不超过",
+            "tail": "2~3km"
+        }
+    ],
+    [
+        {
+            "head": "HFC网",
+            "relation": "具有",
+            "tail": "双向传输功能"
+        },
+        {
+            "head": "我国的HFC网",
+            "relation": "频带划分",
+            "tail": "图2-24所示"
+        },
+        {
+            "head": "机顶盒",
+            "relation": "连接在",
+            "tail": "同轴电缆和用户的电视机之间"
+        },
+        {
+            "head": "电缆调制解调器",
+            "relation": "用于",
+            "tail": "使用户能够利用HFC网接入互联网"
+        },
+        {
+            "head": "DOCSIS",
+            "relation": "由",
+            "tail": "美国的有线电视实验室CableLabs制定"
+        }
+    ],
+    [
+        {
+            "head": "DOCSIS1.0",
+            "relation": "被批准为国际标准时间",
+            "tail": "1998年3月"
+        },
+        {
+            "head": "DOCSIS2.0",
+            "relation": "发布年份",
+            "tail": "2001年"
+        },
+        {
+            "head": "DOCSIS3.0",
+            "relation": "发布年份",
+            "tail": "2006年"
+        },
+        {
+            "head": "电缆调制解调器",
+            "relation": "不需要成对使用",
+            "tail": ""
+        },
+        {
+            "head": "电缆调制解调器",
+            "relation": "比ADSL复杂",
+            "tail": ""
+        },
+        {
+            "head": "HFC",
+            "relation": "使用同轴电缆",
+            "tail": ""
+        },
+        {
+            "head": "有线电视运营商",
+            "relation": "宣传数据率",
+            "tail": "10Mbit/s甚至30Mbit/s"
+        }
+    ],
+    [
+        {
+            "head": "FTTx",
+            "relation": "包含",
+            "tail": "光纤到户FTTH"
+        },
+        {
+            "head": "FTTx",
+            "relation": "包含",
+            "tail": "光纤到路边FTTC"
+        },
+        {
+            "head": "FTTx",
+            "relation": "包含",
+            "tail": "光纤到小区FTTZC"
+        },
+        {
+            "head": "FTTx",
+            "relation": "包含",
+            "tail": "光纤到大楼FTTBC"
+        },
+        {
+            "head": "FTTH",
+            "relation": "实现",
+            "tail": "最高上网速率"
+        },
+        {
+            "head": "ISP",
+            "relation": "任务",
+            "tail": "升级用户上网速率"
+        },
+        {
+            "head": "互联网",
+            "relation": "包含",
+            "tail": "视频信息资源"
+        },
+        {
+            "head": "宽带上网",
+            "relation": "增长",
+            "tail": "普及率"
+        }
+    ],
+    [
+        {
+            "head": "光纤接入",
+            "relation": "占优势",
+            "tail": "互联网宽带接入"
+        },
+        {
+            "head": "ADSL",
+            "relation": "使用光缆",
+            "tail": "远距离传输"
+        },
+        {
+            "head": "HFC",
+            "relation": "使用光缆",
+            "tail": "远距离传输"
+        },
+        {
+            "head": "光纤干线",
+            "relation": "通过ODN转换",
+            "tail": "用户共享资源"
+        },
+        {
+            "head": "无源光配线网",
+            "relation": "称为",
+            "tail": "无源光网络PON"
+        }
+    ],
+    [
+        {
+            "head": "无源光网络PON",
+            "relation": "是",
+            "tail": "无源光配线网ODN的组成部分"
+        },
+        {
+            "head": "光分路器",
+            "relation": "连接",
+            "tail": "光线路终端OLT和光网络单元ONU"
+        },
+        {
+            "head": "光网络单元ONU",
+            "relation": "接收",
+            "tail": "下行数据"
+        },
+        {
+            "head": "光网络单元ONU",
+            "relation": "发送",
+            "tail": "上行数据"
+        },
+        {
+            "head": "光线路终端OLT",
+            "relation": "分配",
+            "tail": "各ONU适当的光功率"
+        },
+        {
+            "head": "无源光配线网ODN",
+            "relation": "包含",
+            "tail": "局端和用户端"
+        }
+    ],
+    [
+        {
+            "head": "共享光纤主干",
+            "relation": "包含于",
+            "tail": "无源光网络PON"
+        },
+        {
+            "head": "波分复用",
+            "relation": "实现方式",
+            "tail": "上行和下行分别使用不同的波长"
+        },
+        {
+            "head": "以太网无源光网络EPON",
+            "relation": "标准",
+            "tail": "IEEE 802.3ah-2008"
+        },
+        {
+            "head": "以太网无源光网络EPON",
+            "relation": "优点",
+            "tail": "兼容性好"
+        },
+        {
+            "head": "以太网无源光网络EPON",
+            "relation": "优点",
+            "tail": "成本低"
+        },
+        {
+            "head": "以太网无源光网络EPON",
+            "relation": "优点",
+            "tail": "扩展性强"
+        },
+        {
+            "head": "以太网无源光网络EPON",
+            "relation": "优点",
+            "tail": "管理方便"
+        },
+        {
+            "head": "吉比特无源光网络GPON",
+            "relation": "标准",
+            "tail": "ITU-T G.984.7"
+        },
+        {
+            "head": "吉比特无源光网络GPON",
+            "relation": "封装方法",
+            "tail": "GEM(GenericEncapsulationMethod)"
+        },
+        {
+            "head": "吉比特无源光网络GPON",
+            "relation": "优点",
+            "tail": "服务质量保证"
+        },
+        {
+            "head": "吉比特无源光网络GPON",
+            "relation": "技术类型",
+            "tail": "宽带光纤接入技术"
+        }
+    ],
+    [
+        {
+            "head": "光纤接入",
+            "relation": "涉及",
+            "tail": "光网络单元ONU"
+        },
+        {
+            "head": "物理层",
+            "relation": "确定",
+            "tail": "传输媒体特性"
+        },
+        {
+            "head": "数据通信系统",
+            "relation": "划分为",
+            "tail": "三大部分"
+        },
+        {
+            "head": "源系统",
+            "relation": "包括",
+            "tail": "源点和发送器"
+        },
+        {
+            "head": "目的系统",
+            "relation": "包括",
+            "tail": "接收器和终点"
+        },
+        {
+            "head": "通信",
+            "relation": "目的是",
+            "tail": "传送消息"
+        },
+        {
+            "head": "模拟信号",
+            "relation": "与",
+            "tail": "连续信号"
+        },
+        {
+            "head": "数字信号",
+            "relation": "与",
+            "tail": "离散信号"
+        },
+        {
+            "head": "码元",
+            "relation": "代表",
+            "tail": "数字信号不同离散数值"
+        }
+    ],
+    [
+        {
+            "head": "数字信号",
+            "relation": "包含",
+            "tail": "码元"
+        },
+        {
+            "head": "通信方式",
+            "relation": "分为",
+            "tail": "单向通信"
+        },
+        {
+            "head": "通信方式",
+            "relation": "分为",
+            "tail": "双向交替通信"
+        },
+        {
+            "head": "通信方式",
+            "relation": "分为",
+            "tail": "双向同时通信"
+        },
+        {
+            "head": "信号来源",
+            "relation": "称为",
+            "tail": "基带信号"
+        },
+        {
+            "head": "调制类型",
+            "relation": "包括",
+            "tail": "基带调制"
+        },
+        {
+            "head": "调制类型",
+            "relation": "包括",
+            "tail": "带通调制"
+        },
+        {
+            "head": "基本带通调制方法",
+            "relation": "有",
+            "tail": "调幅"
+        },
+        {
+            "head": "基本带通调制方法",
+            "relation": "有",
+            "tail": "调频"
+        },
+        {
+            "head": "基本带通调制方法",
+            "relation": "有",
+            "tail": "调相"
+        },
+        {
+            "head": "复杂调制方法",
+            "relation": "包括",
+            "tail": "正交振幅调制"
+        },
+        {
+            "head": "提高传输速率方式",
+            "relation": "可以使用",
+            "tail": "更好的传输媒体"
+        },
+        {
+            "head": "提高传输速率方式",
+            "relation": "可以使用",
+            "tail": "先进的调制技术"
+        },
+        {
+            "head": "传输媒体分类",
+            "relation": "分为",
+            "tail": "导引型传输媒体"
+        },
+        {
+            "head": "传输媒体分类",
+            "relation": "分为",
+            "tail": "非导引型传输媒体"
+        },
+        {
+            "head": "导引型传输媒体",
+            "relation": "包括",
+            "tail": "双绞线"
+        },
+        {
+            "head": "导引型传输媒体",
+            "relation": "包括",
+            "tail": "同轴电缆"
+        },
+        {
+            "head": "导引型传输媒体",
+            "relation": "包括",
+            "tail": "光纤"
+        },
+        {
+            "head": "非导引型传输媒体",
+            "relation": "包括",
+            "tail": "无线"
+        },
+        {
+            "head": "非导引型传输媒体",
+            "relation": "包括",
+            "tail": "红外"
+        },
+        {
+            "head": "非导引型传输媒体",
+            "relation": "包括",
+            "tail": "大气激光"
+        },
+        {
+            "head": "信道复用技术",
+            "relation": "有",
+            "tail": "频分复用"
+        },
+        {
+            "head": "信道复用技术",
+            "relation": "有",
+            "tail": "时分复用"
+        },
+        {
+            "head": "信道复用技术",
+            "relation": "有",
+            "tail": "统计时分复用"
+        },
+        {
+            "head": "信道复用技术",
+            "relation": "有",
+            "tail": "码分复用"
+        },
+        {
+            "head": "信道复用技术",
+            "relation": "有",
+            "tail": "波分复用"
+        },
+        {
+            "head": "数字传输系统标准",
+            "relation": "最初使用",
+            "tail": "脉冲编码调制PCM"
+        },
+        {
+            "head": "高速数字传输系统标准",
+            "relation": "使用",
+            "tail": "同步光纤网SONET"
+        },
+        {
+            "head": "高速数字传输系统标准",
+            "relation": "使用",
+            "tail": "同步数字系列SDH"
+        },
+        {
+            "head": "宽带接入方法",
+            "relation": "有",
+            "tail": "非对称数字用户线ADSL"
+        }
+    ],
+    [
+        {
+            "head": "宽带接入",
+            "relation": "包含方法",
+            "tail": "非对称数字用户线ADSL"
+        },
+        {
+            "head": "宽带接入",
+            "relation": "包含方法",
+            "tail": "光纤同轴混合网HFC"
+        },
+        {
+            "head": "宽带接入",
+            "relation": "包含方法",
+            "tail": "FTTx"
+        },
+        {
+            "head": "无源光网络PON",
+            "relation": "用于",
+            "tail": "有效利用光纤资源"
+        },
+        {
+            "head": "无源光网络PON",
+            "relation": "特点",
+            "tail": "无需配备电源"
+        },
+        {
+            "head": "无源光网络PON",
+            "relation": "特点",
+            "tail": "长期运营成本低"
+        },
+        {
+            "head": "无源光网络PON",
+            "relation": "特点",
+            "tail": "管理成本低"
+        },
+        {
+            "head": "以太网无源光网络EPON",
+            "relation": "属于",
+            "tail": "无源光网络PON"
+        },
+        {
+            "head": "吉比特无源光网络GPON",
+            "relation": "属于",
+            "tail": "无源光网络PON"
+        }
+    ]
+]

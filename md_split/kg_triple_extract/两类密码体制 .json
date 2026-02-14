@@ -1,0 +1,295 @@
+[
+    [
+        {
+            "head": "加密密钥",
+            "relation": "用于",
+            "tail": "加密"
+        },
+        {
+            "head": "解密密钥",
+            "relation": "用于",
+            "tail": "解密"
+        },
+        {
+            "head": "安全信道",
+            "relation": "用于",
+            "tail": "传送密钥"
+        },
+        {
+            "head": "密码编码学",
+            "relation": "是",
+            "tail": "密码体制设计学"
+        },
+        {
+            "head": "密码分析学",
+            "relation": "是",
+            "tail": "从密文推演出明文或密钥的技术"
+        },
+        {
+            "head": "密码学",
+            "relation": "包括",
+            "tail": "密码编码学和密码分析学"
+        },
+        {
+            "head": "无条件安全",
+            "relation": "定义为",
+            "tail": "在密文中没有足够的信息来唯一确定对应的明文"
+        },
+        {
+            "head": "计算上是不可破的密码体制",
+            "relation": "关注点",
+            "tail": "不能在一定时间内被可以使用的计算资源破译"
+        },
+        {
+            "head": "通信保密思想和方法",
+            "relation": "起源时间",
+            "tail": "几千年前"
+        }
+    ],
+    [
+        {
+            "head": "密码学",
+            "relation": "面临危机",
+            "tail": "20世纪前"
+        },
+        {
+            "head": "密码学",
+            "relation": "发展",
+            "tail": "电子技术、计算技"
+        },
+        {
+            "head": "密码学",
+            "relation": "进入新阶段",
+            "tail": "20世纪60年代"
+        },
+        {
+            "head": "DES",
+            "relation": "属于",
+            "tail": "对称密钥密码体制"
+        },
+        {
+            "head": "DES",
+            "relation": "由IBM研制",
+            "tail": "1977年"
+        },
+        {
+            "head": "DES",
+            "relation": "被定为",
+            "tail": "联邦信息标准"
+        },
+        {
+            "head": "DES",
+            "relation": "成为",
+            "tail": "重要里程碑"
+        },
+        {
+            "head": "对称密钥密码体制",
+            "relation": "使用",
+            "tail": "相同密钥"
+        }
+    ],
+    [
+        {
+            "head": "DES",
+            "relation": "用于",
+            "tail": "加密"
+        },
+        {
+            "head": "三重DES",
+            "relation": "增强",
+            "tail": "安全性"
+        },
+        {
+            "head": "密钥长度",
+            "relation": "影响",
+            "tail": "算法安全性"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "使用",
+            "tail": "三重DES"
+        }
+    ],
+    [
+        {
+            "head": "三重DES",
+            "relation": "广泛用于",
+            "tail": "网络、金融、信用卡"
+        },
+        {
+            "head": "AES",
+            "relation": "由",
+            "tail": "Rijndael算法"
+        },
+        {
+            "head": "NIST",
+            "relation": "遴选",
+            "tail": "高级加密标准AES"
+        },
+        {
+            "head": "AES",
+            "relation": "分组长度为",
+            "tail": "128位"
+        },
+        {
+            "head": "AES",
+            "relation": "密钥长度有",
+            "tail": "128位、192位和256位"
+        },
+        {
+            "head": "AES",
+            "relation": "运算速度比",
+            "tail": "3DES快得多"
+        },
+        {
+            "head": "NIST",
+            "relation": "估计破译时间",
+            "tail": "1012年"
+        }
+    ],
+    [
+        {
+            "head": "公钥密码体制",
+            "relation": "提出时间",
+            "tail": "1976年"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "概念来源",
+            "tail": "斯坦福大学的研究人员Diffie与Hellman"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "特点",
+            "tail": "使用不同的加密密钥与解密密钥"
+        },
+        {
+            "头": "对称密钥密码体制",
+            "关系": "密钥使用方式",
+            "尾": "加解密双方使用相同的密钥"
+        },
+        {
+            "头": "公钥密码体制",
+            "关系": "产生原因",
+            "尾": "解决对称密钥密码体制的密钥分配问题和满足数字签名需求"
+        },
+        {
+            "头": "对称密钥密码体制",
+            "关系": "密钥管理问题",
+            "尾": "不便"
+        }
+    ],
+    [
+        {
+            "head": "数字签名",
+            "relation": "产生原因",
+            "tail": "公钥密码体制"
+        },
+        {
+            "head": "RSA体制",
+            "relation": "提出时间",
+            "tail": "1978年"
+        },
+        {
+            "head": "RSA体制",
+            "relation": "提出者",
+            "tail": "Rivest, Shamir和Adleman"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "加密密钥",
+            "tail": "PKB"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "解密密钥",
+            "tail": "SKB"
+        },
+        {
+            "head": "RSA体制",
+            "relation": "基于问题",
+            "tail": "大数分解问题"
+        }
+    ],
+    [
+        {
+            "head": "公钥密码体制",
+            "relation": "使用",
+            "tail": "加密"
+        },
+        {
+            "head": "发送者A",
+            "relation": "用",
+            "tail": "B的公钥PKB进行加密"
+        },
+        {
+            "head": "密文Y",
+            "relation": "由",
+            "tail": "EPKB(X)生成"
+        },
+        {
+            "head": "私钥SKB",
+            "relation": "用于",
+            "tail": "解密"
+        },
+        {
+            "head": "除B外其他人",
+            "relation": "无法",
+            "tail": "推导出SKB"
+        },
+        {
+            "head": "公钥PKB",
+            "relation": "不能",
+            "tail": "用来解密"
+        }
+    ],
+    [
+        {
+            "head": "公钥密码体制",
+            "relation": "用于实现",
+            "tail": "单向保密通信"
+        },
+        {
+            "head": "对称密钥",
+            "relation": "支持",
+            "tail": "双向保密通信"
+        },
+        {
+            "head": "私钥",
+            "relation": "解密",
+            "tail": "加密后的报文"
+        },
+        {
+            "head": "公钥密码体制",
+            "relation": "适用于",
+            "tail": "多对一的单向保密通信"
+        }
+    ],
+    [
+        {
+            "head": "加密方法",
+            "relation": "依赖于",
+            "tail": "密钥长度"
+        },
+        {
+            "head": "加密方法",
+            "relation": "依赖于",
+            "tail": "攻破密文所需的计算量"
+        },
+        {
+            "head": "加密体制",
+            "relation": "包括",
+            "tail": "公钥密码体制"
+        },
+        {
+            "head": "加密体制",
+            "relation": "包括",
+            "tail": "传统加密体制"
+        },
+        {
+            "head": "公钥加密算法",
+            "relation": "开销较大",
+            "tail": "在可见的将来不会被放弃"
+        }
+    ]
+]

@@ -1,0 +1,474 @@
+[
+    [
+        {
+            "head": "运输层",
+            "relation": "提供",
+            "tail": "逻辑通信"
+        },
+        {
+            "head": "端口",
+            "relation": "定义",
+            "tail": "进程之间的通信"
+        },
+        {
+            "head": "UDP协议",
+            "relation": "特点",
+            "tail": "无连接"
+        },
+        {
+            "head": "TCP协议",
+            "relation": "特点",
+            "tail": "面向连接"
+        },
+        {
+            "head": "可靠传输",
+            "relation": "实现于",
+            "tail": "不可靠网络上"
+        },
+        {
+            "head": "停止等待协议",
+            "relation": "属于",
+            "tail": "ARQ协议"
+        },
+        {
+            "head": "TCP报文段首部",
+            "relation": "包含",
+            "tail": "滑动窗口机制"
+        },
+        {
+            "head": "TCP协议",
+            "relation": "解决",
+            "tail": "流量控制问题"
+        },
+        {
+            "head": "TCP协议",
+            "relation": "解决",
+            "tail": "拥塞控制问题"
+        },
+        {
+            "head": "TCP协议",
+            "relation": "管理",
+            "tail": "连接"
+        }
+    ],
+    [
+        {
+            "head": "运输层",
+            "relation": "提供通信服务",
+            "tail": "应用层"
+        },
+        {
+            "head": "运输层",
+            "relation": "属于",
+            "tail": "面向通信部分最高层"
+        },
+        {
+            "head": "运输层",
+            "relation": "使用",
+            "tail": "协议栈中的运输层"
+        },
+        {
+            "head": "IP协议",
+            "relation": "将分组送交",
+            "tail": "目的主机B"
+        },
+        {
+            "head": "应用进程",
+            "relation": "进行通信",
+            "tail": "两台主机之间"
+        },
+        {
+            "head": "广域网WAN",
+            "relation": "连接",
+            "tail": "局域网LAN1和LAN2上的主机A、B"
+        }
+    ],
+    [
+        {
+            "head": "应用进程",
+            "relation": "进行",
+            "tail": "通信"
+        },
+        {
+            "head": "主机中的应用进程",
+            "relation": "交换数据",
+            "tail": "另一台主机中的应用进程"
+        },
+        {
+            "head": "IP协议",
+            "relation": "将分组送到",
+            "tail": "目的主机"
+        },
+        {
+            "head": "通信的两端",
+            "relation": "应当是",
+            "tail": "两个主机中的应用进程"
+        },
+        {
+            "head": "端到端的通信",
+            "relation": "是",
+            "tail": "应用进程之间的通信"
+        },
+        {
+            "head": "浏览器客户进程",
+            "relation": "运行在",
+            "tail": "主机的应用层"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "发送反馈意见",
+            "tail": "网站"
+        }
+    ],
+    [
+        {
+            "head": "运输层",
+            "relation": "包含",
+            "tail": "复用"
+        },
+        {
+            "head": "运输层",
+            "relation": "包含",
+            "tail": "分用"
+        },
+        {
+            "head": "运输层",
+            "relation": "服务于",
+            "tail": "应用进程"
+        },
+        {
+            "head": "运输层",
+            "relation": "实现",
+            "tail": "逻辑通信"
+        }
+    ],
+    [
+        {
+            "head": "协议栈",
+            "relation": "包含",
+            "tail": "应用进程"
+        },
+        {
+            "head": "协议栈",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "运输层",
+            "relation": "负责",
+            "tail": "逻辑通信"
+        },
+        {
+            "head": "网络层",
+            "relation": "处理",
+            "tail": "报文差错检测"
+        }
+    ],
+    [
+        {
+            "head": "运输层",
+            "relation": "包含协议",
+            "tail": "TCP"
+        },
+        {
+            "head": "运输层",
+            "relation": "包含协议",
+            "tail": "UDP"
+        },
+        {
+            "head": "TCP",
+            "relation": "提供服务",
+            "tail": "面向连接的通信"
+        },
+        {
+            "head": "UDP",
+            "relation": "提供服务",
+            "tail": "无连接的数据传输"
+        },
+        {
+            "head": "TCP",
+            "relation": "使用",
+            "tail": "逻辑通信信道"
+        },
+        {
+            "head": "UDP",
+            "relation": "使用",
+            "tail": "逻辑通信信道"
+        }
+    ],
+    [
+        {
+            "head": "用户数据报协议UDP",
+            "relation": "传输类型",
+            "tail": "无连接"
+        },
+        {
+            "head": "传输控制协议TCP",
+            "relation": "传输类型",
+            "tail": "面向连接"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "提供服务",
+            "tail": "面向连接的服务"
+        },
+        {
+            "head": "TCP",
+            "relation": "提供",
+            "tail": "可靠的, 面向连接的运输服务"
+        },
+        {
+            "head": "UDP",
+            "relation": "提供",
+            "tail": "不可靠的无连接传输服务"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "支持",
+            "tail": "广播服务"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "支持",
+            "tail": "多播服务"
+        }
+    ],
+    [
+        {
+            "head": "DNS",
+            "relation": "属于",
+            "tail": "应用层协议"
+        },
+        {
+            "head": "TFTP",
+            "relation": "属于",
+            "tail": "应用层协议"
+        },
+        {
+            "head": "RIP",
+            "relation": "属于",
+            "tail": "路由选择协议"
+        },
+        {
+            "head": "DHCP",
+            "relation": "用于",
+            "tail": "IP地址配置"
+        },
+        {
+            "head": "SNMP",
+            "relation": "用于",
+            "tail": "网络管理"
+        },
+        {
+            "head": "NFS",
+            "relation": "属于",
+            "tail": "专用协议"
+        },
+        {
+            "head": "IP电话",
+            "relation": "基于",
+            "tail": "流式多媒体通信"
+        },
+        {
+            "head": "SMTP",
+            "relation": "用于",
+            "tail": "多播电子邮件"
+        },
+        {
+            "head": "TELNET",
+            "relation": "用于",
+            "tail": "远程终端接入"
+        },
+        {
+            "head": "HTTP",
+            "relation": "属于",
+            "tail": "万维网"
+        },
+        {
+            "head": "FTP",
+            "relation": "用于",
+            "tail": "文件传送"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "运输层",
+            "relation": "实现",
+            "tail": "复用和分用"
+        },
+        {
+            "head": "应用层",
+            "relation": "位于",
+            "tail": "计算机网络最上层"
+        },
+        {
+            "head": "IP层",
+            "relation": "属于",
+            "tail": "TCP/IP体系"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "互网"
+        },
+        {
+            "head": "进程",
+            "relation": "运行于",
+            "tail": "运输层协议端口"
+        }
+    ],
+    [
+        {
+            "head": "协议栈",
+            "relation": "包含",
+            "tail": "运输实体"
+        },
+        {
+            "head": "运输实体",
+            "relation": "使用",
+            "tail": "UDP"
+        },
+        {
+            "head": "运输实体",
+            "relation": "使用",
+            "tail": "TCP"
+        },
+        {
+            "head": "端口",
+            "relation": "分为",
+            "tail": "硬件端口和软件端口"
+        },
+        {
+            "head": "端口",
+            "relation": "标识",
+            "tail": "16位端口号"
+        },
+        {
+            "head": "首部格式",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "首部格式",
+            "relation": "属于",
+            "tail": "应用层"
+        }
+    ],
+    [
+        {
+            "head": "计算机网络",
+            "relation": "包含",
+            "tail": "运输层"
+        },
+        {
+            "head": "运输层",
+            "relation": "使用",
+            "tail": "端口号"
+        },
+        {
+            "head": "运输层",
+            "relation": "处理",
+            "tail": "IP地址"
+        },
+        {
+            "head": "计算机网络",
+            "relation": "采用",
+            "tail": "客户－服务器方式"
+        }
+    ],
+    [
+        {
+            "head": "熟知端口号",
+            "relation": "属于",
+            "tail": "计算机网络"
+        },
+        {
+            "head": "熟知端口",
+            "relation": "包含",
+            "tail": "电话通信"
+        },
+        {
+            "head": "熟知端口",
+            "relation": "具体示例",
+            "tail": "报警电话(110)"
+        },
+        {
+            "head": "熟知端口",
+            "relation": "具体示例",
+            "tail": "急救电话(120)"
+        },
+        {
+            "head": "熟知端口号",
+            "relation": "范围",
+            "tail": "1-1023"
+        },
+        {
+            "head": "熟知端口号",
+            "relation": "定义",
+            "tail": "由IANA分配"
+        },
+        {
+            "head": "熟知端口",
+            "relation": "对应",
+            "tail": "应用程序"
+        },
+        {
+            "head": "熟知端口号",
+            "relation": "标准文档",
+            "tail": "RFC1700, STD2, RFC3232"
+        }
+    ],
+    [
+        {
+            "head": "熟知端口号",
+            "relation": "包含",
+            "tail": "TCP"
+        },
+        {
+            "head": "熟知端口号",
+            "relation": "包含",
+            "tail": "UDP"
+        },
+        {
+            "head": "登记端口号",
+            "relation": "用于",
+            "tail": "TCP"
+        },
+        {
+            "head": "短暂端口号",
+            "relation": "用于",
+            "tail": "TCP"
+        }
+    ],
+    [
+        {
+            "head": "用户数据报协议",
+            "relation": "包含功能",
+            "tail": "差错检测的功能"
+        },
+        {
+            "head": "用户数据报协议",
+            "relation": "具有特性",
+            "tail": "短暂端口"
+        },
+        {
+            "head": "用户数据报协议",
+            "relation": "具有特性",
+            "tail": "熟知端口"
+        },
+        {
+            "head": "用户数据报协议",
+            "relation": "实现",
+            "tail": "复用和分用的功能"
+        }
+    ]
+]

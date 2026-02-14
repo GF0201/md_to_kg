@@ -1,0 +1,572 @@
+[
+    {
+        "head": "比特差错",
+        "relation": "属于",
+        "tail": "基本的传输差错"
+    },
+    {
+        "head": "帧丢失",
+        "relation": "属于",
+        "tail": "传输差错"
+    },
+    {
+        "head": "帧重复",
+        "relation": "属于",
+        "tail": "传输差错"
+    },
+    {
+        "head": "帧失序",
+        "relation": "属于",
+        "tail": "传输差错"
+    },
+    {
+        "head": "CRC检验",
+        "relation": "实现",
+        "tail": "无比特差错的传输"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "提供",
+        "tail": "可靠传输"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "提供",
+        "tail": "可靠传输服务"
+    },
+    {
+        "head": "CRC检错",
+        "relation": "基础",
+        "tail": "帧编号、确认和重传机制"
+    },
+    {
+        "head": "通信线路质量",
+        "relation": "影响",
+        "tail": "差错概率"
+    },
+    {
+        "head": "有线传输链路",
+        "relation": "不使用",
+        "tail": "确认和重传机制"
+    },
+    {
+        "head": "无线传输链路",
+        "relation": "使用",
+        "tail": "确认和重传机制"
+    },
+    {
+        "head": "点对点协议PPP",
+        "relation": "适用于",
+        "tail": "通信质量较差的年代"
+    },
+    {
+        "head": "点对点协议PPP",
+        "relation": "是",
+        "tail": "数据链路层协议"
+    },
+    {
+        "head": "高级数据链路控制HDLC",
+        "relation": "是",
+        "tail": "当时流行的数据链路层协议"
+    },
+    {
+        "head": "点对点协议PPP",
+        "relation": "在1994年成为正式标准",
+        "tail": "RFC1661, STD51"
+    },
+    {
+        "head": "互联网用户",
+        "relation": "通常连接到",
+        "tail": "ISP"
+    },
+    {
+        "head": "网际协议",
+        "relation": "提供",
+        "tail": "不可靠的数据报服务"
+    },
+    {
+        "head": "数据链路层",
+        "relation": "不需要",
+        "tail": "纠错、序号和流量控制"
+    },
+    {
+        "head": "简单设计",
+        "relation": "提高",
+        "tail": "不同厂商协议实现的互操作性"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "规定",
+        "tail": "帧定界符"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "保证",
+        "tail": "数据传输透明性"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "支持",
+        "tail": "多种网络层协议"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "运行于",
+        "tail": "点对点链路"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "支持",
+        "tail": "局域网或路由器"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "适应",
+        "tail": "多种类型链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "串行链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "并行链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "同步链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "异步链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "低速链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "高速链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "电的或光的链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "交换的链路"
+    },
+    {
+        "head": "链路",
+        "relation": "包括",
+        "tail": "非交换的链路"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "封装在",
+        "tail": "以太网帧中"
+    },
+    {
+        "head": "PPPoE",
+        "relation": "是",
+        "tail": "PPPoverEthernet"
+    },
+    {
+        "head": "PPPoE",
+        "relation": "支持",
+        "tail": "宽带上网"
+    },
+    {
+        "head": "ADSL",
+        "relation": "接入",
+        "tail": "ISP的宽带链路"
+    },
+    {
+        "head": "以太网",
+        "relation": "运行",
+        "tail": "PPPoverEthernet"
+    },
+    {
+        "head": "PPPoE协议",
+        "relation": "用于",
+        "tail": "宽带上网"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "必须具备",
+        "tail": "差错检测功能"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "必须具备",
+        "tail": "连接状态检测机制"
+    },
+    {
+        "head": "MTU",
+        "relation": "定义为",
+        "tail": "数据链路层帧可以载荷的数据部分的最大长度"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "提供机制",
+        "tail": "网络层地址协商"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "支持",
+        "tail": "异步链路"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "支持",
+        "tail": "面向比特的同步链路"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "封装方法",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "仅支持",
+        "tail": "点对点链路通信"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "不支持",
+        "tail": "多点线路"
+    },
+    {
+        "head": "PPP",
+        "relation": "包含",
+        "tail": "LCP"
+    },
+    {
+        "head": "PPP",
+        "relation": "包含",
+        "tail": "NCP"
+    },
+    {
+        "head": "LCP",
+        "relation": "用于",
+        "tail": "建立数据链路连接"
+    },
+    {
+        "head": "NCP",
+        "relation": "支持",
+        "tail": "网络层协议"
+    },
+    {
+        "head": "PPP帧格式",
+        "relation": "包含",
+        "tail": "标志字段F"
+    },
+    {
+        "head": "MTU",
+        "relation": "默认值",
+        "tail": "1500字节"
+    },
+    {
+        "head": "TCP",
+        "relation": "早期版本也叫",
+        "tail": "NCP"
+    },
+    {
+        "head": "PPP帧",
+        "relation": "标志字段表示",
+        "tail": "帧的开始或结束"
+    },
+    {
+        "head": "PPP帧",
+        "relation": "定界符",
+        "tail": "标志字段"
+    },
+    {
+        "head": "PPP帧",
+        "tail": "地址字段值为",
+        "relation": "OxFF"
+    },
+    {
+        "head": "PPP帧",
+        "tail": "控制字段值为",
+        "relation": "0x03"
+    },
+    {
+        "head": "协议字段",
+        "tail": "IP数据报时",
+        "relation": "信息字段为"
+    },
+    {
+        "head": "协议字段",
+        "tail": "LCP数据时",
+        "relation": "信息字段为"
+    },
+    {
+        "head": "协议字段",
+        "tail": "网络层控制数据时",
+        "relation": "信息字段为"
+    },
+    {
+        "head": "信息字段",
+        "tail": "长度不超过",
+        "relation": "1500字节"
+    },
+    {
+        "head": "尾部",
+        "tail": "使用CRC的帧检验序列FCS",
+        "relation": "帧检验序列"
+    },
+    {
+        "head": "PPP",
+        "relation": "使用",
+        "tail": "字节填充"
+    },
+    {
+        "head": "字节填充",
+        "relation": "用于",
+        "tail": "避免标志字段冲突"
+    },
+    {
+        "head": "转义符",
+        "relation": "定义为",
+        "tail": "0x7D"
+    },
+    {
+        "head": "信息字段",
+        "relation": "填充规则之一",
+        "tail": "将Ox7E转换为(Ox7D,Ox5E)"
+    },
+    {
+        "head": "信息字段",
+        "relation": "填充规则之二",
+        "tail": "将Ox7D转换为(Ox7D,Ox5D)"
+    },
+    {
+        "head": "控制字符",
+        "relation": "需要字节填充",
+        "tail": "ASCII码小于0x20的字符"
+    },
+    {
+        "head": "发送端",
+        "relation": "进行",
+        "tail": "字节填充"
+    },
+    {
+        "head": "接收端",
+        "relation": "执行",
+        "tail": "反向变换"
+    },
+    {
+        "head": "零比特填充",
+        "relation": "用于实现",
+        "tail": "透明传输"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "使用",
+        "tail": "零比特填充方法"
+    },
+    {
+        "head": "SONET/SDH链路",
+        "relation": "采用",
+        "tail": "同步传输"
+    },
+    {
+        "head": "信息字段",
+        "relation": "包含",
+        "tail": "5个连续1后填0"
+    },
+    {
+        "head": "接收端",
+        "relation": "删除",
+        "tail": "5个连续1后的0"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "包含",
+        "tail": "LCP分组"
+    },
+    {
+        "head": "PPP链路",
+        "relation": "初始化",
+        "tail": "链路控制协议"
+    },
+    {
+        "head": "用户个人电脑",
+        "relation": "建立",
+        "tail": "物理连接"
+    },
+    {
+        "head": "NCP",
+        "relation": "分配",
+        "tail": "IP地址"
+    },
+    {
+        "head": "LCP",
+        "relation": "释放",
+        "tail": "数据链路层连接"
+    },
+    {
+        "head": "PPP链路",
+        "relation": "终止状态",
+        "tail": "链路静止"
+    },
+    {
+        "head": "链路故障",
+        "relation": "导致",
+        "tail": "LinkDead状态"
+    },
+    {
+        "head": "路由器",
+        "relation": "检测",
+        "tail": "载波信号"
+    },
+    {
+        "head": "物理层连接",
+        "relation": "建立后",
+        "tail": "进入链路建立状态"
+    },
+    {
+        "head": "LCP",
+        "relation": "协商配置选项",
+        "tail": "发送配置请求帧"
+    },
+    {
+        "head": "配置请求帧",
+        "relation": "包含",
+        "tail": "特定的配置请求"
+    },
+    {
+        "head": "响应",
+        "relation": "包括",
+        "tail": "配置确认帧、配置否认帧、配置拒绝帧"
+    },
+    {
+        "head": "PPP帧",
+        "relation": "具有",
+        "tail": "协议字段和信息字段"
+    },
+    {
+        "head": "配置拒绝帧",
+        "relation": "包含选项",
+        "tail": "无法识别或不能接受"
+    },
+    {
+        "head": "LCP配置选项",
+        "relation": "包括",
+        "tail": "链路上的最大帧长"
+    },
+    {
+        "head": "LCP配置选项",
+        "relation": "包括",
+        "tail": "鉴别协议的规约"
+    },
+    {
+        "head": "LCP配置选项",
+        "relation": "省略",
+        "tail": "PPP帧中的地址和控制字段"
+    },
+    {
+        "head": "协商结束",
+        "relation": "导致",
+        "tail": "建立LCP链路"
+    },
+    {
+        "head": "鉴别状态",
+        "relation": "允许传送",
+        "tail": "LCP协议的分组、鉴别协议的分组以及监测链路质量的分组"
+    },
+    {
+        "head": "使用PAP",
+        "relation": "需要发送",
+        "tail": "身份标识符和口令"
+    },
+    {
+        "head": "鉴别失败",
+        "relation": "转到",
+        "tail": "链路终止状态"
+    },
+    {
+        "head": "鉴别成功",
+        "relation": "进入",
+        "tail": "网络层协议状态"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "支持",
+        "tail": "多种网络层协议"
+    },
+    {
+        "head": "NCP",
+        "relation": "交换",
+        "tail": "网络控制分组"
+    },
+    {
+        "head": "IPCP",
+        "relation": "封装成",
+        "tail": "PPP帧"
+    },
+    {
+        "head": "LCP分组",
+        "relation": "类型",
+        "tail": "Echo-Request"
+    },
+    {
+        "head": "LCP分组",
+        "relation": "类型",
+        "tail": "Echo-Reply"
+    },
+    {
+        "head": "链路",
+        "relation": "发送",
+        "tail": "终止请求LCP分组"
+    },
+    {
+        "head": "链路",
+        "relation": "接收",
+        "tail": "终止确认LCP分组"
+    },
+    {
+        "head": "链路连接",
+        "relation": "由",
+        "tail": "一端发出终止请求"
+    },
+    {
+        "head": "链路状态",
+        "relation": "变化为",
+        "tail": "链路终止"
+    },
+    {
+        "head": "链路故障",
+        "relation": "导致",
+        "tail": "链路终止"
+    },
+    {
+        "head": "载波停止",
+        "relation": "使设备回到",
+        "tail": "链路静止状态"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "包含",
+        "tail": "物理层和网络层内容"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "建立",
+        "tail": "LCP链路"
+    },
+    {
+        "head": "PPP协议",
+        "relation": "建立",
+        "tail": "NCP链路"
+    }
+]

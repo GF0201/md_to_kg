@@ -1,0 +1,472 @@
+[
+    {
+        "head": "网络层",
+        "relation": "提供服务",
+        "tail": "面向连接"
+    },
+    {
+        "head": "网络层",
+        "relation": "提供服务",
+        "tail": "无连接"
+    },
+    {
+        "head": "可靠交付",
+        "relation": "由谁负责",
+        "tail": "端系统"
+    },
+    {
+        "head": "可靠交付",
+        "relation": "由谁负责",
+        "tail": "网络"
+    },
+    {
+        "head": "IP",
+        "relation": "提供协议",
+        "tail": "网际控制报文协议ICMP"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "工作原理",
+        "tail": "路由选择机制"
+    },
+    {
+        "head": "无分类域间路由选择CIDR",
+        "relation": "概念",
+        "tail": "传统分类的地址"
+    },
+    {
+        "head": "网络层",
+        "relation": "提供服务",
+        "tail": "两种服务、两个层面"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "模仿",
+        "tail": "传统电信网"
+    },
+    {
+        "head": "面向连接的通信方式",
+        "relation": "用于",
+        "tail": "可靠传输服务"
+    },
+    {
+        "head": "分组交换",
+        "relation": "建立",
+        "tail": "虚电路VC"
+    },
+    {
+        "head": "分组首部",
+        "relation": "包含",
+        "tail": "虚电路编号"
+    },
+    {
+        "head": "可靠传输的网络协议",
+        "relation": "确保",
+        "tail": "无差错按序到达终点"
+    },
+    {
+        "head": "通信结束",
+        "relation": "释放",
+        "tail": "虚电路"
+    },
+    {
+        "head": "互联网",
+        "relation": "采用",
+        "tail": "无连接的数据报服务"
+    },
+    {
+        "head": "数据报",
+        "relation": "即",
+        "tail": "IP数据报"
+    },
+    {
+        "head": "分组交换",
+        "relation": "使用",
+        "tail": "虚电路"
+    },
+    {
+        "head": "电信网",
+        "relation": "提供",
+        "tail": "端到端可靠传输服务"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "具有",
+        "tail": "智能和差错处理能力"
+    },
+    {
+        "head": "互联网设计思路",
+        "relation": "区别于",
+        "tail": "电信网"
+    },
+    {
+        "head": "IP数据报",
+        "relation": "是",
+        "tail": "IP分组"
+    },
+    {
+        "head": "网络层",
+        "relation": "不提供",
+        "tail": "服务质量承诺"
+    },
+    {
+        "head": "分组",
+        "relation": "可能经历",
+        "tail": "出错、丢失、重复和失序"
+    },
+    {
+        "head": "路由器",
+        "relation": "简化",
+        "tail": "由于传输网络不提供可靠传输服务"
+    },
+    {
+        "head": "主机",
+        "relation": "负责",
+        "tail": "运输层进行可靠的通信"
+    },
+    {
+        "head": "数据报服务",
+        "relation": "由网络提供",
+        "tail": "分组独立查找转发表逐跳传送"
+    },
+    {
+        "head": "虚电路服务",
+        "relation": "提供于",
+        "tail": "网络层"
+    },
+    {
+        "head": "数据报服务",
+        "relation": "提供于",
+        "tail": "网络层"
+    },
+    {
+        "head": "X.25建议书",
+        "relation": "标准",
+        "tail": "虚电路服务"
+    },
+    {
+        "head": "尽力而为交付",
+        "relation": "描述方式",
+        "tail": "数据报服务"
+    },
+    {
+        "head": "虚电路服务",
+        "relation": "提供",
+        "tail": "可靠通信"
+    },
+    {
+        "head": "数据报服务",
+        "relation": "提供",
+        "tail": "可靠通信"
+    },
+    {
+        "head": "虚电路服务",
+        "relation": "需要",
+        "tail": "网络保证"
+    },
+    {
+        "head": "数据报服务",
+        "relation": "需要",
+        "tail": "主机保证"
+    },
+    {
+        "head": "连接建立",
+        "relation": "必须有",
+        "tail": "终点地址"
+    },
+    {
+        "head": "分组转发",
+        "relation": "仅在",
+        "tail": "连接建立阶段使用"
+    },
+    {
+        "head": "分组转发",
+        "relation": "每个",
+        "tail": "短的虚电路号"
+    },
+    {
+        "head": "分组转发",
+        "relation": "每个",
+        "tail": "完整地址，即IP地址"
+    },
+    {
+        "head": "分组转发",
+        "relation": "按照",
+        "tail": "同一路由进行"
+    },
+    {
+        "head": "分组转发",
+        "relation": "独立",
+        "tail": "合找转发表进行"
+    },
+    {
+        "head": "节点出故障",
+        "relation": "导致",
+        "tail": "虚电路不能工作"
+    },
+    {
+        "head": "节点出故障",
+        "relation": "可能导致",
+        "tail": "分组丢失"
+    },
+    {
+        "head": "差错处理",
+        "relation": "可以由",
+        "tail": "网络负责"
+    },
+    {
+        "head": "差错处理",
+        "relation": "也可以由",
+        "tail": "用户主机负责"
+    },
+    {
+        "head": "流量控制",
+        "relation": "会发生变化和",
+        "tail": "由用户主机负责"
+    },
+    {
+        "head": "转发表",
+        "relation": "来源于",
+        "tail": "路由表"
+    },
+    {
+        "head": "路由表",
+        "relation": "通过交换",
+        "tail": "路由选择协议"
+    },
+    {
+        "head": "路由器之间传送的信息",
+        "relation": "包含",
+        "tail": "转发数据和路由信息"
+    },
+    {
+        "head": "路由信息",
+        "relation": "用于创建",
+        "tail": "路由表"
+    },
+    {
+        "head": "路由表",
+        "relation": "导出为",
+        "tail": "转发表"
+    },
+    {
+        "head": "网络层",
+        "relation": "划分为",
+        "tail": "数据层面和控制层面"
+    },
+    {
+        "head": "路由器",
+        "relation": "包含",
+        "tail": "转发图"
+    },
+    {
+        "head": "分组",
+        "relation": "通过",
+        "tail": "路由器"
+    },
+    {
+        "head": "数据层面",
+        "relation": "机制",
+        "tail": "简单"
+    },
+    {
+        "head": "控制层面",
+        "relation": "机制",
+        "tail": "复杂"
+    },
+    {
+        "head": "路由器",
+        "relation": "创建",
+        "tail": "路由表"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "定义",
+        "tail": "协同动作方式"
+    },
+    {
+        "head": "路由器",
+        "relation": "使用",
+        "tail": "硬件进行转发"
+    },
+    {
+        "head": "路由器",
+        "relation": "交换",
+        "tail": "路信息"
+    },
+    {
+        "head": "路由器",
+        "relation": "包含",
+        "tail": "路由选择和分组转发"
+    },
+    {
+        "head": "传统互联网",
+        "relation": "具有",
+        "tail": "转发表和路由选择软件"
+    },
+    {
+        "head": "SDN结构",
+        "relation": "简化了",
+        "tail": "路由器的功能"
+    },
+    {
+        "head": "SDN",
+        "relation": "改变了",
+        "tail": "控制层面和数据层面的结构"
+    },
+    {
+        "head": "路由选择软件",
+        "relation": "不存在了",
+        "tail": "路由器之间"
+    },
+    {
+        "head": "远程控制器",
+        "relation": "掌握状态",
+        "tail": "各主机和网络"
+    },
+    {
+        "head": "远程控制器",
+        "relation": "计算路由",
+        "tail": "分组"
+    },
+    {
+        "head": "路由器",
+        "relation": "查找转发表",
+        "tail": "转发分组"
+    },
+    {
+        "head": "SDN模式",
+        "relation": "提高效率",
+        "tail": "网络运行"
+    },
+    {
+        "head": "SDN模式",
+        "relation": "获得效益",
+        "tail": "经济效益"
+    },
+    {
+        "head": "SDN模式",
+        "relation": "适用于",
+        "tail": "大型专用数据中心之间的广域网"
+    },
+    {
+        "head": "软件定义的连网",
+        "relation": "等同于",
+        "tail": "软件定义网络"
+    },
+    {
+        "head": "路由选择协议",
+        "relation": "属于",
+        "tail": "控制层面"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "是",
+        "tail": "TCP/IP体系中最重要的协议之一"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "又称为",
+        "tail": "Kahn-Cerf协议"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "由",
+        "tail": "Robert Kahn和Vint Cerf共同研发"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "版本号",
+        "tail": "IPv4"
+    },
+    {
+        "head": "地址解析协议ARP",
+        "relation": "配套使用于",
+        "tail": "网际协议IP"
+    },
+    {
+        "head": "网际控制报文协议ICMP",
+        "relation": "属于",
+        "tail": "网际层"
+    },
+    {
+        "head": "网际组管理协议IGMP",
+        "relation": "属于",
+        "tail": "网际层"
+    },
+    {
+        "head": "逆地址解析协议RARP",
+        "relation": "已被淘汰",
+        "tail": ""
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "用于",
+        "tail": "使互连网络通信"
+    },
+    {
+        "head": "TCP/IP体系",
+        "relation": "包含",
+        "tail": "网际层"
+    },
+    {
+        "head": "应用层",
+        "relation": "位于",
+        "tail": "TCP/IP模型顶部"
+    },
+    {
+        "head": "HTTP",
+        "relation": "属于",
+        "tail": "应用层协议"
+    },
+    {
+        "head": "FTP",
+        "relation": "属于",
+        "尾部": "应用层协议"
+    },
+    {
+        "head": "SMTP",
+        "relation": "属于",
+        "tail": "应用层协议"
+    },
+    {
+        "head": "TCP/IP体系",
+        "relation": "包含",
+        "tail": "运输层"
+    },
+    {
+        "head": "UDP",
+        "relation": "属于",
+        "tail": "运输层协议"
+    },
+    {
+        "head": "网际协议IP",
+        "relation": "属于",
+        "tail": "互联网"
+    },
+    {
+        "head": "虚拟互连网络",
+        "relation": "解决",
+        "tail": "复杂通信问题"
+    },
+    {
+        "head": "ARP",
+        "relation": "位于",
+        "tail": "链路层和网络层之间"
+    },
+    {
+        "head": "IP地址转换",
+        "relation": "涉及",
+        "tail": "ARP工作原理"
+    },
+    {
+        "head": "ARP",
+        "relation": "位于",
+        "tail": "链路层和网络层之间"
+    },
+    {
+        "head": "教学法",
+        "relation": "建议",
+        "tail": "在网络层讲述ARP工作原理"
+    }
+]

@@ -1,0 +1,1441 @@
+[
+    [
+        {
+            "head": "X.509",
+            "relation": "提出",
+            "tail": "多级认证系统"
+        },
+        {
+            "head": "数字证书",
+            "relation": "包含",
+            "tail": "公钥和主体名"
+        },
+        {
+            "head": "信任链",
+            "relation": "表示",
+            "tail": "从根CA到用户E的所有链接"
+        },
+        {
+            "head": "认证中心",
+            "relation": "分为",
+            "tail": "根CA和中间CA"
+        }
+    ],
+    [
+        {
+            "head": "证书链",
+            "relation": "包含",
+            "tail": "根CA"
+        },
+        {
+            "head": "证书链",
+            "relation": "包含",
+            "tail": "中间CA2"
+        },
+        {
+            "head": "证书链",
+            "relation": "包含",
+            "tail": "用户证书"
+        },
+        {
+            "head": "根CA",
+            "relation": "签发给",
+            "tail": "中间CA2"
+        },
+        {
+            "head": "中间CA2",
+            "relation": "签发给",
+            "tail": "用户证书"
+        },
+        {
+            "head": "根CA",
+            "relation": "使用私钥签名",
+            "tail": "中间CA2的证书"
+        },
+        {
+            "head": "中间CA2",
+            "relation": "使用私钥签名",
+            "tail": "用户证书"
+        },
+        {
+            "head": "用户",
+            "relation": "用公钥验证",
+            "tail": "中间CA2的签名"
+        },
+        {
+            "head": "用户",
+            "relation": "用公钥验证",
+            "tail": "根CA的签名"
+        },
+        {
+            "head": "证书链",
+            "relation": "起点",
+            "tail": "根证书"
+        },
+        {
+            "head": "根证书",
+            "relation": "自签名",
+            "tail": "根CA"
+        },
+        {
+            "head": "中间CA2",
+            "relation": "验证",
+            "tail": "用户证书的签名"
+        },
+        {
+            "head": "用户",
+            "relation": "报告",
+            "tail": "上级CA，以撤销证书"
+        }
+    ],
+    [
+        {
+            "head": "IPsec协议族",
+            "relation": "提供",
+            "tail": "互联网通信安全"
+        },
+        {
+            "head": "IPsec协议族",
+            "relation": "包含",
+            "tail": "通用框架和加密算法"
+        },
+        {
+            "head": "IPsec协议族",
+            "relation": "允许选择",
+            "tail": "合适的算法和参数"
+        },
+        {
+            "head": "IPsec协议族",
+            "relation": "保证",
+            "tail": "互操作性"
+        },
+        {
+            "head": "IPsec协议族",
+            "relation": "提供",
+            "tail": "灵活性和可扩展性"
+        },
+        {
+            "head": "IPsec",
+            "relation": "是",
+            "tail": "IP安全的缩写"
+        }
+    ],
+    [
+        {
+            "head": "IP安全体系结构",
+            "relation": "描述于",
+            "tail": "RFC4301"
+        },
+        {
+            "head": "IPsec协议族",
+            "relation": "概述于",
+            "tail": "RFC6071"
+        },
+        {
+            "head": "AH协议",
+            "relation": "属于",
+            "tail": "鉴别首部"
+        },
+        {
+            "head": "ESP协议",
+            "relation": "提供",
+            "tail": "源点鉴别"
+        },
+        {
+            "head": "ESP协议",
+            "relation": "提供",
+            "tail": "数据完整性"
+        },
+        {
+            "head": "ESP协议",
+            "relation": "提供",
+            "tail": "保密"
+        },
+        {
+            "head": "IPsec",
+            "relation": "支持",
+            "tail": "IPv4"
+        },
+        {
+            "head": "IPsec",
+            "relation": "支持",
+            "tail": "IPv6"
+        },
+        {
+            "head": "AH协议",
+            "relation": "包含在",
+            "tail": "ESP协议中"
+        },
+        {
+            "head": "ESP协议",
+            "relation": "不使用",
+            "tail": "扩展首部"
+        }
+    ],
+    [
+        {
+            "head": "IP安全数据报",
+            "relation": "包含",
+            "tail": "ESP AH协议"
+        },
+        {
+            "head": "IP安全数据报",
+            "relation": "有两种工作方式",
+            "tail": "运输方式 隧道方式"
+        },
+        {
+            "head": "运输方式",
+            "relation": "在前后添加控制信息",
+            "tail": "构成IP安全数据报"
+        },
+        {
+            "head": "隧道方式",
+            "relation": "在前后添加控制信息",
+            "tail": "构成IP安全数据报"
+        },
+        {
+            "head": "IP安全数据报的IP首部",
+            "relation": "不加密",
+            "tail": "最后得出"
+        }
+    ],
+    [
+        {
+            "head": "IP安全数据报",
+            "relation": "包含",
+            "tail": "不加密的IP首部"
+        },
+        {
+            "head": "IP安全数据报",
+            "relation": "具有",
+            "tail": "经过加密的数据部分"
+        },
+        {
+            "head": "路由器",
+            "relation": "识别并转发",
+            "tail": "不加密的IP首部"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "创建于",
+            "tail": "源实体和目的实体之间"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "提供",
+            "tail": "单向的安全服务"
+        },
+        {
+            "head": "双向安全通信",
+            "relation": "需要建立",
+            "tail": "两个方向的安全关联SA"
+        }
+    ],
+    [
+        {
+            "head": "安全关联",
+            "relation": "建立于",
+            "tail": "路由器R1和R2之间"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "经过加密处理后成为",
+            "tail": "IP安全数据报"
+        },
+        {
+            "head": "公司总部主机H1",
+            "relation": "发送给",
+            "tail": "分公司主机H2"
+        },
+        {
+            "head": "路由器R1",
+            "relation": "负责收发",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "路由器R2",
+            "relation": "对IP安全数据报进行解密",
+            "tail": "还原出原始的数据报"
+        }
+    ],
+    [
+        {
+            "head": "隧道方式",
+            "relation": "用于实现",
+            "tail": "安全通信"
+        },
+        {
+            "head": "路由器R1",
+            "relation": "转发",
+            "tail": "IP数据报"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "建立于",
+            "tail": "公司总部与业务员的便携机H之间"
+        },
+        {
+            "head": "IPsec",
+            "relation": "用于",
+            "tail": "鉴别和解密"
+        },
+        {
+            "head": "安全隧道",
+            "relation": "构成于",
+            "tail": "路由器R2与便携机H之间"
+        }
+    ],
+    [
+        {
+            "head": "IPsec",
+            "relation": "用于",
+            "tail": "鉴别和解密IP安全数据报"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "包含",
+            "tail": "连接标识符SPI"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "包含",
+            "tail": "源点和终点的IP地址"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "包含",
+            "tail": "加密类型（例如，DES或AES)"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "包含",
+            "tail": "加密的密钥"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "包含",
+            "tail": "完整性检查类型（例如，使用报文摘要MD5或SHA-1的报文鉴别码MAC)"
+        },
+        {
+            "head": "安全关联SA",
+            "relation": "包含",
+            "tail": "鉴别使用的密钥"
+        },
+        {
+            "head": "路由器R",
+            "relation": "读取",
+            "tail": "安全关联SA的状态信息"
+        },
+        {
+            "head": "IP安全数据报",
+            "relation": "格式包括",
+            "tail": "隧道方式"
+        }
+    ],
+    [
+        {
+            "head": "尸芦协议",
+            "relation": "包含",
+            "tail": "IP安全数据报"
+        },
+        {
+            "head": "IP安全数据报",
+            "relation": "包含",
+            "tail": "有效载荷"
+        },
+        {
+            "head": "IP安全数据报",
+            "relation": "包含",
+            "tail": "ESP尾部"
+        },
+        {
+            "head": "ESP尾部",
+            "relation": "包含",
+            "tail": "填充字段"
+        },
+        {
+            "head": "ESP尾部",
+            "relation": "包含",
+            "tail": "填充长度"
+        },
+        {
+            "head": "ESP尾部",
+            "relation": "指示",
+            "tail": "处理协议"
+        }
+    ],
+    [
+        {
+            "head": "ESP",
+            "relation": "包含",
+            "tail": "有效载荷"
+        },
+        {
+            "head": "ESP首部",
+            "relation": "包含字段",
+            "tail": "安全参数索引SPI"
+        },
+        {
+            "head": "ESP首部",
+            "relation": "包含字段",
+            "tail": "序号"
+        },
+        {
+            "head": "加密算法和密钥",
+            "relation": "用于",
+            "tail": "对报文进行加密"
+        },
+        {
+            "head": "生成",
+            "relation": "创建",
+            "tail": "报文鉴别码MAC"
+        },
+        {
+            "head": "IP安全数据报",
+            "relation": "包含",
+            "tail": "新的IP首部"
+        },
+        {
+            "head": "序号",
+            "relation": "用于防止",
+            "tail": "重放攻击"
+        }
+    ],
+    [
+        {
+            "head": "IP首部",
+            "relation": "包含",
+            "tail": "20字节"
+        },
+        {
+            "head": "协议字段",
+            "relation": "标识",
+            "tail": "ESP协议"
+        },
+        {
+            "head": "目的地址",
+            "relation": "匹配",
+            "tail": "R2"
+        },
+        {
+            "head": "安全参数索引SPL",
+            "relation": "确定",
+            "tail": "安全关联SA"
+        },
+        {
+            "head": "报文鉴别码MAC",
+            "relation": "验证",
+            "tail": "接收端身份"
+        },
+        {
+            "head": "序号",
+            "relation": "检验",
+            "tail": "入侵者重放"
+        },
+        {
+            "head": "加密算法和密钥",
+            "relation": "解密",
+            "tail": "ESP有效载荷"
+        },
+        {
+            "head": "填充长度",
+            "relation": "去除",
+            "tail": "填充O"
+        },
+        {
+            "head": "ESP尾部",
+            "relation": "包含",
+            "tail": "原始IP数据报"
+        }
+    ],
+    [
+        {
+            "head": "IP首部",
+            "relation": "包含",
+            "tail": "源地址"
+        },
+        {
+            "head": "IP首部",
+            "relation": "包含",
+            "tail": "目的地址"
+        },
+        {
+            "head": "ESP尾部",
+            "relation": "指示",
+            "tail": "有效载荷处理方式"
+        },
+        {
+            "head": "IP数据报",
+            "relation": "传递给",
+            "tail": "主机H2"
+        },
+        {
+            "head": "路由器R1",
+            "relation": "作为",
+            "tail": "源地址"
+        },
+        {
+            "head": "路由器R2",
+            "relation": "作为",
+            "tail": "目的地址"
+        },
+        {
+            "head": "IP安全数据报",
+            "relation": "使用",
+            "tail": "新的IP首部"
+        },
+        {
+            "head": "截获者",
+            "relation": "无法理解",
+            "tail": "有效载荷中的数据含义"
+        }
+    ],
+    [
+        {
+            "head": "安全数据报",
+            "relation": "包含",
+            "tail": "鉴别功能"
+        },
+        {
+            "head": "安全数据报",
+            "relation": "保证",
+            "tail": "源地址真实性"
+        },
+        {
+            "head": "截获者",
+            "relation": "删除",
+            "tail": "安全数据报中的字节"
+        },
+        {
+            "head": "路由器",
+            "relation": "进行",
+            "tail": "完整性检验"
+        },
+        {
+            "head": "截获者",
+            "relation": "试图进行",
+            "tail": "重放攻击"
+        },
+        {
+            "head": "安全数据报",
+            "relation": "使用",
+            "tail": "有效序号"
+        },
+        {
+            "head": "发送IP安全数据报的实体",
+            "relation": "需要",
+            "tail": "多条安全关联SA"
+        },
+        {
+            "head": "SAD",
+            "relation": "称为",
+            "tail": "安全关联数据库"
+        },
+        {
+            "head": "SAD",
+            "relation": "存放于",
+            "tail": "所有需要运行IPsec的站点"
+        },
+        {
+            "head": "主机",
+            "relation": "在SAD中查找",
+            "tail": "相应的SA"
+        },
+        {
+            "head": "SA",
+            "relation": "用于",
+            "tail": "实施安全保护"
+        },
+        {
+            "head": "主机",
+            "relation": "在SAD中查找",
+            "tail": "相应SA"
+        },
+        {
+            "head": "分组",
+            "relation": "检查其安全性",
+            "tail": "使用SAD中的信息"
+        }
+    ],
+    [
+        {
+            "head": "主机",
+            "relation": "发送数据报",
+            "tail": "明文"
+        },
+        {
+            "head": "安全关联数据库SAD",
+            "relation": "存储",
+            "tail": "安全关联SA"
+        },
+        {
+            "head": "安全策略数据库SPD",
+            "relation": "指明",
+            "tail": "数据报处理方式"
+        },
+        {
+            "head": "IP数据报到达时",
+            "relation": "查询",
+            "tail": "SPD和SAD"
+        },
+        {
+            "head": "SA",
+            "relation": "由IKE创建",
+            "tail": "大型系统"
+        },
+        {
+            "head": "IKE",
+            "relation": "用途",
+            "tail": "创建安全关联SA"
+        }
+    ],
+    [
+        {
+            "head": "IP安全数据报",
+            "relation": "创建",
+            "tail": "安全关联SA"
+        },
+        {
+            "head": "IKEv2",
+            "relation": "成为",
+            "tail": "互联网正式标准"
+        },
+        {
+            "head": "IKEv2",
+            "relation": "基于",
+            "tail": "Oakley密钥生成协议"
+        },
+        {
+            "head": "IKEv2",
+            "relation": "基于",
+            "tail": "SKEME安全密钥交换机制"
+        },
+        {
+            "head": "IKEv2",
+            "relation": "基于",
+            "tail": "ISAKMP互联网安全关联和密钥管理协议"
+        },
+        {
+            "head": "TLS",
+            "relation": "提供",
+            "tail": "网上购物安全性"
+        }
+    ],
+    [
+        {
+            "head": "报文",
+            "relation": "确保",
+            "tail": "数据完整性"
+        },
+        {
+            "head": "通信内容",
+            "relation": "需要保证",
+            "tail": "数据完整性"
+        },
+        {
+            "head": "信用卡敏感信息",
+            "relation": "需要保护",
+            "tail": "机密性"
+        },
+        {
+            "head": "客户端与服务器通信",
+            "relation": "使用",
+            "tail": "安全运输层协议"
+        },
+        {
+            "head": "SSL",
+            "relation": "由Netscape公司开发",
+            "tail": "1994年"
+        },
+        {
+            "head": "SSL",
+            "relation": "应用于",
+            "tail": "基于万维网的各种网络应用"
+        },
+        {
+            "head": "SSL",
+            "relation": "作用在",
+            "tail": "端系统应用层的HTTP和运输层之间"
+        },
+        {
+            "head": "TLS",
+            "relation": "替代SSL",
+            "tail": "传输层安全协议"
+        },
+        {
+            "head": "Netscape公司",
+            "relation": "将SSL转交给IETF",
+            "tail": "1995年"
+        }
+    ],
+    [
+        {
+            "head": "IETF",
+            "relation": "标准化",
+            "tail": "SSL"
+        },
+        {
+            "head": "IETF",
+            "relation": "设计",
+            "tail": "TLS1.0"
+        },
+        {
+            "head": "TLS1.0",
+            "relation": "基于",
+            "tail": "SSL3.0"
+        },
+        {
+            "head": "IETF",
+            "relation": "升级",
+            "tail": "TLS版本"
+        },
+        {
+            "head": "TLS1.1",
+            "relation": "发布年份",
+            "tail": "2006年"
+        },
+        {
+            "head": "TLS1.2",
+            "relation": "发布年份",
+            "tail": "2008年"
+        },
+        {
+            "head": "IETF",
+            "relation": "发布",
+            "tail": "TLS1.3"
+        },
+        {
+            "head": "TLS1.3",
+            "relation": "版本号",
+            "tail": "1.3"
+        },
+        {
+            "head": "TLS1.3",
+            "relation": "发布时间",
+            "tail": "2018年8月"
+        },
+        {
+            "head": "TLS1.3",
+            "relation": "状态",
+            "tail": "建议标准"
+        },
+        {
+            "head": "TLS1.3",
+            "relation": "不向后兼容",
+            "tail": ""
+        },
+        {
+            "head": "TLS1.0/1.1",
+            "relation": "被废弃时间",
+            "tail": "2020年"
+        },
+        {
+            "head": "Chrome",
+            "relation": "使用协议",
+            "tail": "TLS1.3"
+        },
+        {
+            "head": "Firefox",
+            "relation": "使用协议",
+            "tail": "TLS1.3"
+        },
+        {
+            "head": "TLS1.2",
+            "relation": "安全性",
+            "tail": "潜在安全隐患"
+        }
+    ],
+    [
+        {
+            "head": "协议TLS",
+            "relation": "位于",
+            "tail": "运输层和应用层之间"
+        },
+        {
+            "head": "协议TLS",
+            "relation": "更新自",
+            "tail": "SSL"
+        },
+        {
+            "head": "协议TLS",
+            "relation": "当前版本",
+            "tail": "TLS1.2, TLS1.3"
+        },
+        {
+            "head": "协议TLS",
+            "relation": "使用场景",
+            "tail": "HTTP, IMAP"
+        },
+        {
+            "head": "协议TLS",
+            "relation": "基于",
+            "tail": "TCP加密"
+        }
+    ],
+    [
+        {
+            "head": "百度网站",
+            "relation": "使用协议",
+            "tail": "HTTPS"
+        },
+        {
+            "head": "浏览器地址栏",
+            "relation": "显示",
+            "tail": "URL"
+        },
+        {
+            "head": "URL",
+            "relation": "包含",
+            "tail": "https://"
+        },
+        {
+            "head": "HTTPS",
+            "relation": "提供",
+            "tail": "安全服务"
+        },
+        {
+            "head": "HTTPS",
+            "relation": "使用端口号",
+            "tail": "443"
+        },
+        {
+            "head": "HTTP",
+            "relation": "使用端口号",
+            "tail": "80"
+        },
+        {
+            "head": "浏览器",
+            "relation": "发出警告",
+            "tail": "不安全网站"
+        },
+        {
+            "head": "通信",
+            "relation": "依赖于",
+            "tail": "加密"
+        },
+        {
+            "head": "交互报文",
+            "relation": "在",
+            "tail": "浏览器和百度服务器之间"
+        }
+    ],
+    [
+        {
+            "head": "浏览器",
+            "relation": "访问",
+            "tail": "不安全网站"
+        },
+        {
+            "head": "Chrome浏览器",
+            "relation": "提示",
+            "tail": "不安全警告"
+        },
+        {
+            "head": "Firefox浏览器",
+            "relation": "提示",
+            "tail": "无安全锁"
+        },
+        {
+            "head": "TLS协议",
+            "relation": "具有",
+            "tail": "双向鉴别功能"
+        },
+        {
+            "head": "TLS协议",
+            "relation": "通常使用",
+            "tail": "单向鉴别"
+        },
+        {
+            "head": "服务器B",
+            "relation": "需要持有",
+            "tail": "有效CA证书"
+        },
+        {
+            "head": "认证中心CA",
+            "relation": "提供",
+            "tail": "根证书"
+        },
+        {
+            "head": "操作系统",
+            "relation": "内置",
+            "tail": "根证书"
+        },
+        {
+            "head": "根证书",
+            "relation": "包含",
+            "tail": "公钥PKCA"
+        }
+    ],
+    [
+        {
+            "head": "根证书",
+            "relation": "包含",
+            "tail": "操作系统"
+        },
+        {
+            "head": "根证书",
+            "relation": "具有",
+            "tail": "认证中心CA的公钥PKCA"
+        },
+        {
+            "head": "根证书",
+            "relation": "使用",
+            "tail": "CA的私钥SKcA进行自签名"
+        },
+        {
+            "head": "浏览器",
+            "relation": "用于验证",
+            "tail": "服务器B的证书真实性"
+        },
+        {
+            "head": "TLS协议",
+            "relation": "包含",
+            "tail": "握手阶段和会话阶段"
+        },
+        {
+            "head": "握手阶段",
+            "relation": "使用",
+            "tail": "握手协议"
+        },
+        {
+            "head": "会话阶段",
+            "relation": "使用",
+            "tail": "记录协议"
+        },
+        {
+            "head": "TLS协议",
+            "relation": "产生",
+            "tail": "主密钥MS"
+        },
+        {
+            "head": "服务器B的证书",
+            "relation": "由",
+            "tail": "中间CA签发"
+        },
+        {
+            "head": "会话密钥kSKB",
+            "relation": "生成方式",
+            "tail": "MS(MS)"
+        }
+    ],
+    [
+        {
+            "head": "TLS",
+            "relation": "包含",
+            "tail": "握手协议"
+        },
+        {
+            "head": "TLS",
+            "relation": "生成",
+            "tail": "主密钥"
+        },
+        {
+            "head": "TLS",
+            "relation": "生成",
+            "tail": "会话密钥"
+        },
+        {
+            "head": "TLS",
+            "relation": "验证",
+            "tail": "服务器身份"
+        },
+        {
+            "head": "TLS",
+            "relation": "使用",
+            "tail": "私钥解密"
+        },
+        {
+            "head": "TLS",
+            "relation": "保证",
+            "tail": "数据机密性"
+        },
+        {
+            "head": "TLS",
+            "relation": "保证",
+            "tail": "数据完整性"
+        },
+        {
+            "head": "TLS",
+            "relation": "协商",
+            "tail": "加密算法"
+        },
+        {
+            "head": "TLS",
+            "relation": "发送",
+            "tail": "数字证书"
+        }
+    ],
+    [
+        {
+            "head": "TLS1.3",
+            "relation": "取消",
+            "tail": "MD5, SHA-I, DES, 3DES"
+        },
+        {
+            "head": "协商过程",
+            "relation": "耗时",
+            "tail": "2-RTT"
+        },
+        {
+            "head": "TLS1.3",
+            "relation": "保留",
+            "tail": "几种最安全的算法"
+        },
+        {
+            "head": "客户A",
+            "relation": "发送",
+            "tail": "主密钥MS加密后的结果PK-MS"
+        },
+        {
+            "head": "服务器B",
+            "relation": "解密",
+            "tail": "SKs(PK-BS, MS)"
+        },
+        {
+            "head": "客户A",
+            "relation": "验证",
+            "tail": "数字证书中CA的公钥"
+        },
+        {
+            "head": "主密钥MS",
+            "relation": "共同拥有",
+            "tail": "客户A和服务器B"
+        }
+    ],
+    [
+        {
+            "head": "密钥",
+            "relation": "被分割成",
+            "tail": "4个不同的密钥"
+        },
+        {
+            "head": "会话密钥",
+            "relation": "用于",
+            "tail": "客户A发送数据时"
+        },
+        {
+            "head": "MAC密钥",
+            "relation": "用于",
+            "tail": "客户A和服务器B的数据完整性"
+        },
+        {
+            "head": "TLS",
+            "relation": "保证",
+            "tail": "传送数据的机密性和完整性"
+        },
+        {
+            "head": "记录",
+            "relation": "划分为较小的数据块",
+            "tail": "进行鉴别运算和加密运算"
+        }
+    ],
+    [
+        {
+            "head": "客户A",
+            "relation": "发送记录给",
+            "tail": "服务器B"
+        },
+        {
+            "head": "序号",
+            "relation": "赋予",
+            "tail": "每方发送的明文记录"
+        },
+        {
+            "head": "MAC密钥M",
+            "relation": "拼接",
+            "tail": "明文记录之后"
+        },
+        {
+            "head": "散列运算",
+            "relation": "得出",
+            "tail": "MAC"
+        },
+        {
+            "head": "加密后的MAC",
+            "relation": "发送给",
+            "tail": "服务器B"
+        },
+        {
+            "head": "会话密钥K",
+            "relation": "用于",
+            "tail": "解密"
+        },
+        {
+            "head": "分离出明文记录和MAC",
+            "relation": "由",
+            "tail": "服务器B完成"
+        },
+        {
+            "head": "再次散列运算",
+            "relation": "得出结果与前面的MAC值比较",
+            "tail": "鉴别收到的明文记录完整性"
+        },
+        {
+            "head": "AEAD",
+            "relation": "即",
+            "tail": "带关联数据的鉴别加密"
+        }
+    ],
+    [
+        {
+            "head": "TLS记录",
+            "relation": "包含",
+            "tail": "版本A"
+        },
+        {
+            "head": "TLS记录",
+            "relation": "包含",
+            "tail": "长度字段"
+        },
+        {
+            "head": "TLS记录",
+            "relation": "使用",
+            "tail": "K加密"
+        },
+        {
+            "head": "客户A",
+            "relation": "发送",
+            "tail": "不重数"
+        },
+        {
+            "head": "服务器B",
+            "relation": "验证",
+            "tail": "数字证书"
+        },
+        {
+            "head": "生成",
+            "relation": "预主密钥",
+            "tail": "PMS"
+        },
+        {
+            "head": "客户A",
+            "relation": "用公钥",
+            "tail": "加密PMS"
+        },
+        {
+            "head": "服务器B",
+            "relation": "解密",
+            "tail": "PK8(PMS)"
+        },
+        {
+            "head": "预主密钥PMS",
+            "relation": "生成",
+            "tail": "主密钥"
+        }
+    ],
+    [
+        {
+            "head": "预主密钥PMS",
+            "relation": "生成于",
+            "tail": "握手阶段"
+        },
+        {
+            "head": "主密钥MS",
+            "relation": "由",
+            "tail": "预主密钥PMS和不重数生成"
+        },
+        {
+            "head": "会话密钥",
+            "relation": "构成部分之一",
+            "tail": "主密钥MS划分结果"
+        },
+        {
+            "head": "MAC密钥",
+            "relation": "构成部分之一",
+            "tail": "主密钥MS划分结果"
+        },
+        {
+            "head": "握手阶段报文",
+            "relation": "计算MAC值",
+            "tail": "确保数据完整性"
+        },
+        {
+            "head": "不重数",
+            "relation": "用于防止",
+            "tail": "重放攻击"
+        }
+    ],
+    [
+        {
+            "head": "重放攻击",
+            "relation": "防范措施",
+            "tail": "不重数"
+        },
+        {
+            "head": "截断攻击",
+            "relation": "防范措施",
+            "tail": "关闭TLS记录"
+        },
+        {
+            "head": "ECC",
+            "relation": "使用于",
+            "tail": "TLS1.3"
+        }
+    ],
+    [
+        {
+            "head": "TLS1.3",
+            "relation": "提高",
+            "tail": "运算速度"
+        },
+        {
+            "head": "TLS1.3",
+            "relation": "添加",
+            "tail": "0-RTT功能"
+        },
+        {
+            "head": "0-RTT",
+            "relation": "减少",
+            "tail": "握手过程时间"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "缺乏",
+            "tail": "隐私保护"
+        },
+        {
+            "head": "路由器",
+            "relation": "可能修改",
+            "tail": "传输中的邮件内容"
+        },
+        {
+            "head": "发送方",
+            "relation": "建立",
+            "tail": "与接收方的会话"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "涉及",
+            "tail": "单向报文安全问题"
+        }
+    ],
+    [
+        {
+            "head": "电子邮件",
+            "relation": "包含",
+            "tail": "安全协议"
+        },
+        {
+            "head": "加密算法",
+            "relation": "定义",
+            "tail": "相应的算法"
+        },
+        {
+            "head": "A",
+            "relation": "使用",
+            "tail": "AES进行加密/解密"
+        },
+        {
+            "head": "B",
+            "relation": "知道",
+            "tail": "使用的算法标识"
+        },
+        {
+            "head": "报文摘要算法",
+            "relation": "选择",
+            "tail": "SHA-1"
+        },
+        {
+            "head": "密钥",
+            "relation": "使用",
+            "tail": "对称密钥算法进行加密和解密"
+        },
+        {
+            "head": "密钥",
+            "relation": "发送给",
+            "tail": "B"
+        },
+        {
+            "head": "公钥",
+            "relation": "保护",
+            "tail": "密钥不被截获"
+        }
+    ],
+    [
+        {
+            "head": "PGP",
+            "relation": "开发时间",
+            "tail": "1995年"
+        },
+        {
+            "head": "PGP",
+            "relation": "功能",
+            "tail": "加密、鉴别、电子签名和压缩"
+        },
+        {
+            "head": "PGP",
+            "关系": "包含技术",
+            "尾": "RSA公钥加密算法"
+        },
+        {
+            "头": "PGP",
+            "关系": "包含技术",
+            "尾": "MD5报文摘要算法"
+        }
+    ],
+    [
+        {
+            "head": "PGP",
+            "relation": "提供",
+            "tail": "电子邮件安全性"
+        },
+        {
+            "head": "PGP",
+            "relation": "提供",
+            "tail": "发送方鉴别"
+        },
+        {
+            "head": "PGP",
+            "relation": "提供",
+            "tail": "报文完整性"
+        },
+        {
+            "head": "PGP",
+            "relation": "使用",
+            "tail": "私钥SKA"
+        },
+        {
+            "head": "PGP",
+            "relation": "使用",
+            "tail": "公钥PKB"
+        },
+        {
+            "head": "PGP",
+            "relation": "生成",
+            "tail": "一次性密钥K"
+        },
+        {
+            "head": "OpenPGP",
+            "relation": "由",
+            "tail": "IETF制定"
+        },
+        {
+            "head": "RFC4880",
+            "relation": "是",
+            "tail": "OpenPGP的建议标准"
+        }
+    ],
+    [
+        {
+            "head": "一次性密钥",
+            "relation": "用于加密",
+            "tail": "已签名的邮件"
+        },
+        {
+            "head": "公钥",
+            "relation": "加密",
+            "tail": "次性密钥K"
+        },
+        {
+            "head": "私钥SKA",
+            "relation": "对签名报文进行加密",
+            "tail": "数字签名"
+        },
+        {
+            "head": "B的私钥SKB",
+            "relation": "解出",
+            "tail": "一次性密钥K"
+        },
+        {
+            "head": "报文摘要",
+            "relation": "保证",
+            "tail": "邮件完整性"
+        },
+        {
+            "head": "对称密钥",
+            "relation": "加密和解密",
+            "tail": "各使用一次"
+        }
+    ],
+    [
+        {
+            "head": "PGP",
+            "relation": "使用",
+            "tail": "数字签名"
+        },
+        {
+            "head": "PGP",
+            "relation": "包含",
+            "tail": "公钥加密"
+        },
+        {
+            "head": "PGP",
+            "relation": "验证",
+            "tail": "邮件完整性"
+        },
+        {
+            "head": "用户A",
+            "relation": "获得",
+            "tail": "B的公钥"
+        },
+        {
+            "head": "C",
+            "relation": "为",
+            "tail": "A和B的公钥进行担保"
+        },
+        {
+            "head": "PGP",
+            "relation": "允许",
+            "tail": "第三方签署方式"
+        },
+        {
+            "head": "用户发布",
+            "relation": "通过",
+            "tail": "个人网页或电子邮件"
+        }
+    ],
+    [
+        {
+            "head": "PGP",
+            "relation": "提供",
+            "tail": "足够安全性"
+        },
+        {
+            "head": "防火墙",
+            "relation": "减少",
+            "tail": "潜在入侵发生"
+        },
+        {
+            "head": "入侵检测系统IDS",
+            "relation": "发现",
+            "tail": "疑似入侵行为"
+        },
+        {
+            "head": "特洛伊木马",
+            "relation": "包含",
+            "tail": "秘密信息"
+        },
+        {
+            "head": "拒绝服务攻击",
+            "relation": "阻止",
+            "tail": "合法用户正常使用服务"
+        }
+    ],
+    [
+        {
+            "head": "防火墙",
+            "relation": "是",
+            "tail": "特殊编程的路由器"
+        },
+        {
+            "head": "防火墙",
+            "relation": "位于",
+            "tail": "互联网和内部网络之间"
+        },
+        {
+            "head": "可信的网络",
+            "relation": "在",
+            "tail": "防火墙里面"
+        },
+        {
+            "head": "不可信的网络",
+            "relation": "在",
+            "tail": "防火墙外面"
+        },
+        {
+            "head": "分组过滤路由器",
+            "relation": "属于",
+            "tail": "防火墙"
+        }
+    ]
+]

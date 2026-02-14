@@ -1,0 +1,612 @@
+[
+    {
+        "head": "路由器",
+        "relation": "类型",
+        "tail": "交换路由器"
+    },
+    {
+        "head": "思科公司12000系列交换路由器",
+        "relation": "互连网络速率",
+        "tail": "60Gbit/s"
+    },
+    {
+        "head": "IP多播",
+        "relation": "首次提出时间",
+        "tail": "1988年"
+    },
+    {
+        "head": "IP多播",
+        "relation": "首次试验时间",
+        "tail": "1992年3月"
+    },
+    {
+        "head": "IP多播",
+        "relation": "当前状态",
+        "tail": "互联网热门课题"
+    },
+    {
+        "head": "一对多通信",
+        "relation": "应用示例",
+        "tail": "实时信息交付"
+    },
+    {
+        "head": "一对多通信",
+        "relation": "应用示例",
+        "tail": "软件更新"
+    },
+    {
+        "head": "一对多通信",
+        "relation": "应用示例",
+        "tail": "交互式会议"
+    },
+    {
+        "head": "IP多播",
+        "relation": "与单播比较优势",
+        "tail": "节约网络资源"
+    },
+    {
+        "head": "视频服务器",
+        "relation": "使用传输方式",
+        "tail": "单播"
+    },
+    {
+        "head": "视频服务器",
+        "relation": "使用传输方式",
+        "tail": "多播"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发分组",
+        "tail": "复制分组"
+    },
+    {
+        "head": "局域网",
+        "relation": "具有功能",
+        "tail": "硬件多播"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "单播"
+    },
+    {
+        "head": "计算机网络",
+        "relation": "包含",
+        "tail": "多播"
+    },
+    {
+        "head": "路由器",
+        "relation": "支持",
+        "tail": "单播IP数据报"
+    },
+    {
+        "head": "路由器",
+        "relation": "支持",
+        "tail": "多播协议"
+    },
+    {
+        "head": "路由器",
+        "relation": "称为",
+        "tail": "多播路由器"
+    },
+    {
+        "head": "MBONE",
+        "relation": "是",
+        "tail": "多播主干网"
+    },
+    {
+        "head": "IP多播",
+        "relation": "使用",
+        "tail": "多播IP地址"
+    },
+    {
+        "head": "主机",
+        "relation": "具有",
+        "tail": "全球唯一的IP地址"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "目的地址包含",
+        "tail": "多播组的标识符"
+    },
+    {
+        "head": "D类地址",
+        "relation": "用于标志",
+        "tail": "多播组"
+    },
+    {
+        "head": "D类IP地址范围",
+        "relation": "是",
+        "tail": "224.0.0.0到239.255.255.255"
+    },
+    {
+        "head": "多播组的标识符",
+        "relation": "对应于",
+        "tail": "D类地址中的前四位1110"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "传输机制为",
+        "tail": "尽最大努力交付，不保证一定能够交付"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "使用",
+        "tail": "D类IP地址"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "使用",
+        "tail": "网际组管理协议IGMP"
+    },
+    {
+        "head": "多播地址",
+        "relation": "仅用于",
+        "tail": "目的地址"
+    },
+    {
+        "head": "多播地址",
+        "relation": "不用于",
+        "tail": "源地址"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "不会产生",
+        "tail": "ICMP差错报文"
+    },
+    {
+        "head": "IP多播",
+        "relation": "分为",
+        "tail": "两种类型"
+    },
+    {
+        "head": "硬件多播",
+        "relation": "在",
+        "tail": "局域网上进行"
+    },
+    {
+        "head": "互连网号码指派管理局IANA",
+        "relation": "拥有",
+        "tail": "以太网地址块的高24位为00-00-5E"
+    },
+    {
+        "head": "以太网地址",
+        "relation": "范围",
+        "tail": "00-00-5E-00-00-00 到 00-00-5E-FF-FF-FF"
+    },
+    {
+        "head": "多播地址",
+        "relation": "占总地址数比例",
+        "tail": "一半"
+    },
+    {
+        "head": "以太网MAC地址",
+        "relation": "最低位为1时",
+        "tail": "表示多播地址"
+    },
+    {
+        "head": "IANA分配的多播地址范围",
+        "relation": "具体地址",
+        "tail": "01-00-5E-00-00-00 到 01-00-5E-7F-FF-FF"
+    },
+    {
+        "head": "D类IP地址",
+        "relation": "可用位数",
+        "tail": "28位"
+    },
+    {
+        "head": "以太网多播地址",
+        "relation": "映射关系",
+        "tail": "28位中的后23位"
+    },
+    {
+        "head": "IP多播地址转换",
+        "relation": "映射到",
+        "tail": "01-00-5E-00-40-20"
+    },
+    {
+        "head": "以太网",
+        "relation": "包含",
+        "tail": "多播地址01-00-5E-00-40-20"
+    },
+    {
+        "head": "IP数据报首部",
+        "relation": "用于",
+        "tail": "过滤非本机多播数据报"
+    },
+    {
+        "head": "D类IP地址",
+        "relation": "映射到",
+        "tail": "以太网多播地址后23位"
+    },
+    {
+        "head": "IGMP",
+        "relation": "作用于",
+        "tail": "多播组成员信息"
+    },
+    {
+        "head": "路由器R1",
+        "relation": "不转发",
+        "tail": "与R4连接的局域网上多播数据报"
+    },
+    {
+        "head": "IGMP",
+        "relation": "管理",
+        "tail": "本地局域网多播组成员"
+    },
+    {
+        "head": "多播路由器",
+        "relation": "协同工作",
+        "tail": "其他多播路由器"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "传输给",
+        "tail": "所有组成员"
+    },
+    {
+        "head": "单播路由选择协议",
+        "relation": "对比于",
+        "tail": "多播路由选择协议"
+    },
+    {
+        "head": "多播路由选择协议",
+        "relation": "比",
+        "tail": "单播路由选择协议复杂"
+    },
+    {
+        "head": "路由器R",
+        "relation": "不应向网络N3转发",
+        "tail": "多播组M1的分组"
+    },
+    {
+        "head": "拥塞控制",
+        "relation": "防止",
+        "tail": "过多的数据注入到网络中"
+    },
+    {
+        "head": "拥塞控制",
+        "relation": "使路由器或链路不",
+        "tail": "不过载"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发",
+        "tail": "多播数据报"
+    },
+    {
+        "head": "路由器",
+        "relation": "根据",
+        "tail": "多播组成员变化动态适应"
+    },
+    {
+        "head": "主机",
+        "relation": "加入",
+        "tail": "多播组"
+    },
+    {
+        "head": "路由器",
+        "relation": "转发",
+        "tail": "单播数据报"
+    },
+    {
+        "head": "路由器",
+        "relation": "考虑",
+        "tail": "多播数据报来源和目的地"
+    },
+    {
+        "head": "网际组管理协议IGMP",
+        "relation": "成为标准协议",
+        "tail": "互联网标准协议(STD5)"
+    },
+    {
+        "head": "网际组管理协议IGMP",
+        "relation": "最新版本",
+        "tail": "RFC3376"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "可以由主机发出",
+        "tail": "没有加入多播组的主机"
+    },
+    {
+        "head": "IGMPv3",
+        "relation": "发布时间",
+        "tail": "2002年10月"
+    },
+    {
+        "head": "网际控制报文协议ICMP",
+        "relation": "与IGMP相似",
+        "tail": "使用IP数据报传递其报文"
+    },
+    {
+        "head": "多播路由选择协议",
+        "relation": "包含",
+        "tail": "组成员关系转发机制"
+    },
+    {
+        "head": "IGMP",
+        "relation": "设计目标",
+        "tail": "减少网络开销"
+    },
+    {
+        "head": "IGMP",
+        "relation": "使用",
+        "tail": "IP多播"
+    },
+    {
+        "head": "IGMP",
+        "relation": "传输方式",
+        "tail": "硬件多播"
+    },
+    {
+        "head": "多播路由器",
+        "relation": "执行",
+        "tail": "探询组成员关系"
+    },
+    {
+        "head": "询问报文",
+        "relation": "发送频率",
+        "tail": "每125秒一次"
+    },
+    {
+        "head": "IGMP",
+        "relation": "包含",
+        "tail": "询问报文"
+    },
+    {
+        "head": "询问报文",
+        "relation": "携带",
+        "tail": "数值N"
+    },
+    {
+        "head": "数值N",
+        "relation": "指示",
+        "tail": "最长响应时间"
+    },
+    {
+        "head": "主机",
+        "relation": "发送",
+        "tail": "随机选择的响应"
+    },
+    {
+        "head": "响应",
+        "relation": "基于",
+        "tail": "最小时延"
+    },
+    {
+        "head": "多播路由器",
+        "relation": "不需要保留",
+        "tail": "组成员关系记录"
+    },
+    {
+        "head": "数据报",
+        "relation": "使用",
+        "tail": "硬件多播"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "发送者和接收者不知道",
+        "tail": "多播组成员数量及主机"
+    },
+    {
+        "head": "路由器和主机",
+        "relation": "不知道",
+        "tail": "哪个应用进程向哪个组发送多播数据报"
+    },
+    {
+        "head": "IGMP",
+        "relation": "参考文档",
+        "tail": "RFC3376"
+    },
+    {
+        "head": "多播路由选择协议",
+        "relation": "尚未标准化",
+        "tail": "在TCP/IP中"
+    },
+    {
+        "head": "多播转发树",
+        "relation": "包含",
+        "tail": "路由器向叶节点方向转发数据报"
+    },
+    {
+        "head": "多播转发树",
+        "relation": "避免",
+        "tail": "重复的多播数据报"
+    },
+    {
+        "head": "多播组",
+        "relation": "对应",
+        "tail": "不同的多播转发树"
+    },
+    {
+        "head": "多播路由选择协议",
+        "relation": "使用方法",
+        "tail": "洪泛与剪除"
+    },
+    {
+        "head": "反向路径广播RPB",
+        "relation": "策略",
+        "tail": "检查数据报是否从源点经最短路径传送来"
+    },
+    {
+        "head": "路由器R1",
+        "relation": "接收并转发",
+        "tail": "多播数据报"
+    },
+    {
+        "head": "民",
+        "relation": "在最短路径上",
+        "tail": "向民和凡转发收到的数据报"
+    },
+    {
+        "head": "凡",
+        "relation": "不在最短路径上",
+        "tail": "丢弃数据报"
+    },
+    {
+        "head": "源点",
+        "relation": "发送多播数据报",
+        "tail": "路由器R1"
+    },
+    {
+        "head": "凡",
+        "relation": "具有多个最短路径",
+        "tail": "选择IP地址最小的相邻路由器转发"
+    },
+    {
+        "head": "多播转发树",
+        "relation": "用于转发",
+        "tail": "多播数据报"
+    },
+    {
+        "head": "路由器R7",
+        "relation": "仅转发",
+        "tail": "凡传过来的数据报"
+    },
+    {
+        "head": "路由器R7",
+        "relation": "丢弃",
+        "tail": "民传过来的数据报"
+    },
+    {
+        "head": "多播转发树",
+        "relation": "避免",
+        "tail": "多播数据报兜圈子"
+    },
+    {
+        "head": "路由器",
+        "relation": "剪除",
+        "tail": "下游树枝"
+    },
+    {
+        "head": "隧道技术",
+        "relation": "适用于",
+        "tail": "多播组位置分散的情况"
+    },
+    {
+        "head": "路由器",
+        "relation": "对多播数据报进行封装",
+        "tail": "单播(unicast)数据报"
+    },
+    {
+        "head": "单播(unicast)数据报",
+        "relation": "通过隧道(tunnel)",
+        "tail": "发送到R'和N沪中的N"
+    },
+    {
+        "head": "多播数据报",
+        "relation": "在到达路由器民后恢复成原来的",
+        "tail": "单播(unicast)数据报"
+    },
+    {
+        "head": "核心(core)路由器",
+        "relation": "创建转发树",
+        "tail": "对应于多播组G"
+    },
+    {
+        "head": "数据报",
+        "relation": "由路由器R1发送到核心路由器",
+        "tail": "经过每一个路由器检查其内容"
+    },
+    {
+        "head": "路由器",
+        "relation": "处理数据报",
+        "tail": "多播组G"
+    },
+    {
+        "head": "路由器凡",
+        "relation": "转发多播数据报",
+        "tail": "多播组G的成员"
+    },
+    {
+        "head": "请求加入多播组的数据报",
+        "relation": "被转发",
+        "tail": "R1"
+    },
+    {
+        "head": "DVMRP",
+        "relation": "使用于",
+        "tail": "互联网"
+    },
+    {
+        "head": "mrouted",
+        "relation": "实现协议",
+        "tail": "DVMRP"
+    },
+    {
+        "head": "RIP",
+        "relation": "实现程序",
+        "tail": "routed"
+    },
+    {
+        "head": "CBT",
+        "relation": "使用核心路由器",
+        "tail": "转发树"
+    },
+    {
+        "head": "开放最短通路优先OSPF",
+        "relation": "扩展为",
+        "tail": "MOSPF"
+    },
+    {
+        "head": "MOSPF",
+        "relation": "用于",
+        "tail": "机构内"
+    },
+    {
+        "head": "MOSPF",
+        "relation": "创建",
+        "tail": "基于源点的多播转发树"
+    },
+    {
+        "head": "协议无关多播－稀疏方式PIM-SM",
+        "relation": "成为",
+        "tail": "互联网标准"
+    },
+    {
+        "head": "PIM-SM",
+        "relation": "使用",
+        "tail": "单播数据报"
+    },
+    {
+        "head": "PIM-SM",
+        "relation": "构成",
+        "tail": "多播转发树"
+    },
+    {
+        "head": "PIM-SM",
+        "relation": "不依赖于",
+        "tail": "特定单播路由选择协议"
+    },
+    {
+        "head": "PIM-SM",
+        "relation": "适用于",
+        "tail": "组成员分布分散的情况"
+    },
+    {
+        "head": "PIM-DM",
+        "relation": "适用场景",
+        "tail": "组成员分布集中"
+    },
+    {
+        "head": "PIM-DM",
+        "relation": "工作方式",
+        "tail": "洪泛方式转发数据报"
+    },
+    {
+        "head": "VPN",
+        "relation": "原因",
+        "tail": "IP地址紧缺"
+    },
+    {
+        "head": "VPN",
+        "relation": "应用场景",
+        "tail": "机构内部主机通信"
+    },
+    {
+        "head": "NAT4.8.1",
+        "relation": "目的",
+        "tail": "节约IP地址"
+    }
+]

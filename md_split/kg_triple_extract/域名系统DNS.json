@@ -1,0 +1,1017 @@
+[
+    [
+        {
+            "head": "万维网",
+            "relation": "包含协议",
+            "tail": "HTTP"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "功能",
+            "tail": "转换机器名字为IP地址"
+        },
+        {
+            "head": "电子邮件",
+            "relation": "使用协议",
+            "tail": "SMTP"
+        },
+        {
+            "head": "动态主机配置协议DHCP",
+            "relation": "特点",
+            "tail": "自动分配网络参数"
+        },
+        {
+            "head": "SNMP",
+            "relation": "组成部分",
+            "tail": "网络管理"
+        },
+        {
+            "head": "IMAP协议",
+            "relation": "使用场合",
+            "tail": "电子邮件客户端"
+        },
+        {
+            "head": "P2P文件系统",
+            "relation": "特点",
+            "tail": "对等网络"
+        }
+    ],
+    [
+        {
+            "head": "域名系统DNS",
+            "relation": "用于",
+            "tail": "将互联网上的主机名字转换为IP地址"
+        },
+        {
+            "head": "hosts文件",
+            "relation": "包含",
+            "tail": "主机名字和相应的IP地址"
+        },
+        {
+            "head": "ARPANET时代",
+            "relation": "使用",
+            "tail": "一个叫作hosts的文件"
+        },
+        {
+            "head": "机器处理IP数据报时",
+            "relation": "使用",
+            "tail": "IP地址而不是域名"
+        },
+        {
+            "head": "互联网规模很大",
+            "relation": "使得",
+            "tail": "不能只使用一个域名服务器"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "采用",
+            "tail": "层次树状结构的命名方法"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "设计为",
+            "tail": "联机分布式数据库系统"
+        },
+        {
+            "head": "域名系统DNS",
+            "relation": "采用",
+            "tail": "客户服务器方式"
+        },
+        {
+            "head": "域名到IP地址解析",
+            "relation": "由",
+            "tail": "分布在互联网上的许多域名服务器程序共同完成"
+        },
+        {
+            "head": "运行域名服务器程序的机器",
+            "relation": "称为",
+            "tail": "域名服务器"
+        }
+    ],
+    [
+        {
+            "head": "域名解析",
+            "relation": "使用",
+            "tail": "解析程序 resolver"
+        },
+        {
+            "head": "DNS请求报文",
+            "relation": "包含",
+            "tail": "待解析的域名"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "响应",
+            "tail": "DNS请求报文"
+        },
+        {
+            "head": "IP地址",
+            "relation": "通过",
+            "tail": "应用进程获得"
+        },
+        {
+            "head": "UDP用户数据报方式",
+            "relation": "发送",
+            "tail": "本地域名服务器"
+        },
+        {
+            "head": "DNS客户",
+            "relation": "成为",
+            "tail": "本地域名服务器"
+        },
+        {
+            "head": "其他域名服务器",
+            "relation": "回答",
+            "tail": "查询请求"
+        },
+        {
+            "head": "互联网",
+            "relation": "采用",
+            "tail": "层次树状结构的命名方法"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "采用",
+            "tail": "层次树状结构的命名方法"
+        },
+        {
+            "head": "域名",
+            "relation": "由",
+            "tail": "标号序列组成"
+        },
+        {
+            "head": "顶级域",
+            "relation": "是",
+            "tail": "com"
+        },
+        {
+            "head": "二级域",
+            "relation": "是",
+            "tail": "cctv"
+        },
+        {
+            "head": "三级域",
+            "关系": "是",
+            "尾": "mail"
+        },
+        {
+            "头": "DNS",
+            "关系": "规定",
+            "尾": "域名中的标号不超过63个字符"
+        }
+    ],
+    [
+        {
+            "head": "DNS",
+            "relation": "管理",
+            "tail": "顶级域名"
+        },
+        {
+            "head": "ICANN",
+            "relation": "管理",
+            "tail": "顶级域名"
+        },
+        {
+            "head": "域名",
+            "relation": "由",
+            "tail": "标号组成"
+        },
+        {
+            "head": "标号",
+            "relation": "长度限制",
+            "tail": "63个字符"
+        },
+        {
+            "head": "域名",
+            "relation": "不区分",
+            "tail": "大小写字母"
+        },
+        {
+            "head": "域名",
+            "relation": "包含",
+            "tail": "连字符"
+        },
+        {
+            "head": "顶级域名",
+            "relation": "由",
+            "tail": "ICANN管理"
+        },
+        {
+            "head": "域名",
+            "relation": "唯一性保证",
+            "tail": "互联网范围内"
+        },
+        {
+            "head": "域名",
+            "relation": "逻辑概念",
+            "tail": "不代表物理地点"
+        },
+        {
+            "head": "IP地址",
+            "relation": "机器处理优势",
+            "tail": "定长32位二进制数字"
+        }
+    ],
+    [
+        {
+            "head": "顶级域名",
+            "relation": "分类为",
+            "tail": "TLD"
+        },
+        {
+            "head": "国家顶级域名",
+            "relation": "简称",
+            "tail": "ccTLD"
+        },
+        {
+            "head": "通用顶级域名",
+            "relation": "简称",
+            "tail": "gTLD"
+        },
+        {
+            "head": "顶级域名",
+            "relation": "数量",
+            "tail": "1584个（截至2020年6月）"
+        },
+        {
+            "head": "国家顶级域名",
+            "relation": "总数",
+            "tail": "316个（截至2020年6月）"
+        },
+        {
+            "head": "通用顶级域名",
+            "relation": "数量",
+            "tail": "20个（截至2006年12月）"
+        }
+    ],
+    [
+        {
+            "head": "通用顶级域名",
+            "relation": "包括",
+            "tail": "aero, asia, biz, cat, coop, info, jobs, mobi, museum, name, pro, tel, travel"
+        },
+        {
+            "head": "arpa",
+            "relation": "用于",
+            "tail": "反向域名解析"
+        },
+        {
+            "head": "新顶级域名",
+            "relation": "简称",
+            "tail": "newgTLD"
+        },
+        {
+            "head": "新顶级域名",
+            "relation": "被认为是",
+            "tail": "企业网络商标"
+        }
+    ],
+    [
+        {
+            "head": "顶级域名",
+            "relation": "包含",
+            "tail": "商城"
+        },
+        {
+            "head": "顶级域名",
+            "relation": "包含",
+            "tail": "公司"
+        },
+        {
+            "head": "顶级域名",
+            "关系": "包含",
+            "尾": "新闻"
+        },
+        {
+            "head": "国家顶级域名",
+            "relation": "确定",
+            "tail": "日本的ac和CO"
+        },
+        {
+            "head": "中国二级域名",
+            "relation": "划分为",
+            "tail": "类别域名"
+        },
+        {
+            "head": "类别域名",
+            "relation": "包含",
+            "tail": "科研机构(ac)"
+        },
+        {
+            "head": "类别域名",
+            "relation": "包含",
+            "tail": "工、商、金融等企业(com)"
+        },
+        {
+            "head": "类别域名",
+            "relation": "包含",
+            "tail": "中国的教育机构(edu)"
+        },
+        {
+            "head": "类别域名",
+            "relation": "包含",
+            "tail": "中国的政府机构(gov)"
+        },
+        {
+            "head": "类别域名",
+            "relation": "包含",
+            "tail": "中国的国防机构(mil)"
+        },
+        {
+            "head": "类别域名",
+            "relation": "包含",
+            "tail": "提供互联网服务的机构(net)"
+        },
+        {
+            "head": "类别域名",
+            "relation": "包含",
+            "tail": "非营利性组织(org)"
+        },
+        {
+            "head": "中国二级域名",
+            "relation": "划分为",
+            "tail": "行政区域名"
+        },
+        {
+            "head": "行政区域名",
+            "relation": "适用",
+            "tail": "我国的各省、自治区、直辖市"
+        },
+        {
+            "head": "北京市",
+            "relation": "属于",
+            "tail": "行政区域名(bj)"
+        },
+        {
+            "head": "江苏省",
+            "relation": "属于",
+            "tail": "行政区域名(js)"
+        },
+        {
+            "head": "CNNIC网址",
+            "relation": "提供",
+            "tail": "互联网发展现状和规定"
+        }
+    ],
+    [
+        {
+            "head": "互联网",
+            "relation": "包含",
+            "tail": "域名系统"
+        },
+        {
+            "head": "域名系统",
+            "relation": "表示为",
+            "tail": "域名树"
+        },
+        {
+            "head": "顶级域名",
+            "relation": "位于",
+            "tail": "根节点下方一级"
+        },
+        {
+            "head": "二级域名",
+            "relation": "属于",
+            "tail": "顶级域名下"
+        },
+        {
+            "head": "三级域名",
+            "relation": "属于",
+            "tail": "二级域名下"
+        },
+        {
+            "head": "中央电视台",
+            "relation": "获得",
+            "tail": "二级域名cctv"
+        },
+        {
+            "head": "IBM",
+            "relation": "获得",
+            "tail": "二级域名"
+        },
+        {
+            "head": "华为",
+            "relation": "获得",
+            "tail": "二级域名"
+        },
+        {
+            "head": "清华大学",
+            "relation": "获得",
+            "tail": "三级域名tsinghua"
+        },
+        {
+            "head": "北京大学",
+            "relation": "获得",
+            "tail": "三级域名pku"
+        }
+    ],
+    [
+        {
+            "head": "域名",
+            "relation": "属于",
+            "tail": "互联网"
+        },
+        {
+            "head": "tsinghua.edu.cn",
+            "relation": "是",
+            "tail": "清华大学的域名"
+        },
+        {
+            "head": "pku.edu.cn",
+            "relation": "是",
+            "tail": "北京大学的域名"
+        },
+        {
+            "head": "mail.cctv.com",
+            "relation": "属于",
+            "tail": "中央电视台"
+        },
+        {
+            "head": "mail.tsinghua.edu.cn",
+            "relation": "属于",
+            "tail": "清华大学"
+        },
+        {
+            "head": "www.tsinghua.edu.cn",
+            "relation": "是",
+            "tail": "清华大学的域名"
+        },
+        {
+            "head": "根顶级域名",
+            "relation": "划分",
+            "tail": "edu"
+        },
+        {
+            "head": "二级域名",
+            "relation": "包含",
+            "tail": "edu"
+        },
+        {
+            "head": "三级域名",
+            "relation": "进一步划分子域",
+            "tail": "mail, www"
+        },
+        {
+            "head": "IP地址",
+            "relation": "不直接关联",
+            "tail": "域名空间划分"
+        }
+    ],
+    [
+        {
+            "head": "域名体系",
+            "relation": "包含",
+            "tail": "抽象概念"
+        },
+        {
+            "head": "域名系统",
+            "relation": "具体实现",
+            "tail": "分布式域名服务器"
+        },
+        {
+            "head": "域名服务器树",
+            "relation": "结构形式",
+            "tail": "理论上可能的架构"
+        },
+        {
+            "head": "DNS",
+            "relation": "采用",
+            "tail": "划分区的方法"
+        },
+        {
+            "head": "区",
+            "relation": "定义为",
+            "tail": "域名服务器管辖范围"
+        },
+        {
+            "head": "权限域名服务器",
+            "relation": "保存",
+            "tail": "主机的域名到IP地址映射"
+        }
+    ],
+    [
+        {
+            "head": "服务器",
+            "relation": "管辖范围",
+            "tail": "区"
+        },
+        {
+            "head": "区",
+            "relation": "可能小于等于",
+            "tail": "域"
+        },
+        {
+            "head": "abc公司",
+            "relation": "划分成",
+            "tail": "两个区: abc.com 和 y.abc.com"
+        },
+        {
+            "head": "区",
+            "relation": "隶属于",
+            "tail": "域"
+        },
+        {
+            "head": "权限域名服务器",
+            "relation": "设置在",
+            "tail": "每个区"
+        }
+    ],
+    [
+        {
+            "head": "DNS",
+            "relation": "包含",
+            "tail": "域名服务器"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "是",
+            "tail": "最高层次的域名服务器"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "知道",
+            "tail": "顶级域名服务器的域名和IP地址"
+        },
+        {
+            "head": "域名服务器",
+            "relation": "分为",
+            "tail": "四种类型"
+        }
+    ],
+    [
+        {
+            "head": "域名服务器",
+            "relation": "是最重要的",
+            "tail": "解析互联网上的域名"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "由专门的公司或美国政府运营",
+            "tail": "提供DNS服务"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "使用13个不同IP地址",
+            "tail": "a.rootservers.net至m.rootservers.net"
+        },
+        {
+            "head": "互联网的根域名服务器",
+            "relation": "由13套装置构成",
+            "tail": "每套装置在多个地点安装镜像服务器"
+        }
+    ],
+    [
+        {
+            "head": "根域名服务器",
+            "relation": "包含",
+            "tail": "W-ROOT"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "分布在",
+            "tail": "全世界"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "数量",
+            "tail": "1375个（截至2021年3月24日）"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "在我国分布",
+            "tail": "北京(8个)、上海、杭州(2个)、武汉(2个)、贵阳、重庆、广州、西宁(3个)、郑州(2个)、香港(7个)、澳门(2个)、台北(7个)"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "使用技术",
+            "tail": "任播(anycast)技术"
+        },
+        {
+            "head": "DNS客户",
+            "relation": "查询IP地址",
+            "tail": "就近找到一个根域名服务器"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "增加",
+            "tail": "IPv6地址"
+        }
+    ],
+    [
+        {
+            "head": "根域名服务器",
+            "relation": "采用",
+            "tail": "任播技术"
+        },
+        {
+            "head": "DNS客户",
+            "relation": "向",
+            "tail": "根域名服务器"
+        },
+        {
+            "head": "路由器",
+            "relation": "找到",
+            "tail": "最近的根域名服务器"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "加快",
+            "tail": "DNS查询过程"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "合理利用",
+            "tail": "互联网资源"
+        },
+        {
+            "head": "根域名服务器分布",
+            "relation": "不均衡",
+            "tail": "全球"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "影响",
+            "tail": "上网速率"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "查询结果",
+            "tail": "顶级域名服务器"
+        },
+        {
+            "head": "顶级域名服务器",
+            "relation": "管理",
+            "tail": "二级域名"
+        },
+        {
+            "head": "顶级域名服务器",
+            "relation": "给出",
+            "tail": "DNS查询请求回答"
+        }
+    ],
+    [
+        {
+            "head": "域名服务器",
+            "relation": "是",
+            "tail": "下一步应当找的IP地址"
+        },
+        {
+            "head": "权限域名服务器",
+            "relation": "负责",
+            "tail": "一个区"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "属于",
+            "tail": "互连网服务提供者ISP或大学"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "离用户较近",
+            "tail": "不超过几个路由器的距离"
+        }
+    ],
+    [
+        {
+            "head": "IP数据报",
+            "relation": "交付给",
+            "tail": "本地域名服务器"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "查询",
+            "tail": "主机名的IP地址"
+        },
+        {
+            "head": "递归查询",
+            "relation": "由",
+            "tail": "本地域名服务器执行"
+        },
+        {
+            "head": "主域名服务器",
+            "relation": "是",
+            "tail": "数据源"
+        },
+        {
+            "head": "辅助域名服务器",
+            "relation": "保证",
+            "tail": "DNS查询工作连续性"
+        },
+        {
+            "head": "主域名服务器",
+            "relation": "定期复制数据到",
+            "tail": "辅助域名服务器"
+        },
+        {
+            "head": "更改数据",
+            "relation": "仅在",
+            "tail": "主域名服务器进行"
+        }
+    ],
+    [
+        {
+            "head": "递归查询",
+            "relation": "采用方式",
+            "tail": "本地域名服务器"
+        },
+        {
+            "head": "迭代查询",
+            "relation": "采用方式",
+            "tail": "根域名服务器"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "返回信息",
+            "tail": "顶级域名服务器的IP地址或指引下一步查询"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "进行迭代查询",
+            "tail": "向根域名服务器和顶级域名服务器"
+        }
+    ],
+    [
+        {
+            "head": "本地域名服务器",
+            "relation": "提供服务",
+            "tail": "递归查询"
+        },
+        {
+            "head": "权限域名服务",
+            "relation": "处理",
+            "tail": "递归查询"
+        }
+    ],
+    [
+        {
+            "head": "本地域名服务器",
+            "relation": "采用查询方式",
+            "tail": "迭代查询"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "告知下一级域名服务器",
+            "tail": "顶级域名服务器dns.com"
+        },
+        {
+            "head": "顶级域名服务器dns.com",
+            "relation": "告知下一级域名服务器",
+            "tail": "权限域名服务器dns.abc.com"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "查询",
+            "tail": "根域名服务器"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "查询",
+            "tail": "顶级域名服务器dns.com"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "查询",
+            "tail": "权限域名服务器dns.abc.com"
+        }
+    ],
+    [
+        {
+            "head": "本地域名服务器",
+            "relation": "向",
+            "tail": "权限域名服务器dns.abc.com进行查询"
+        },
+        {
+            "head": "权限域名服务器dns.abc.com",
+            "relation": "告诉",
+            "tail": "本地域名服务器，所查询的主机的IP地址"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "最后把查询结果告诉",
+            "tail": "主机m.xyz.com"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "经过三次迭代查询后",
+            "tail": "从权限域名服务器dns.abc.com得到了主机y.abc.com的IP地址"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "只需向根域名服务器查询一次",
+            "tail": "采用递归查询的情况"
+        },
+        {
+            "head": "根域名服务器",
+            "relation": "在步骤O，本地域名服务器从",
+            "tail": "得到了所需的IP地址"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "最后在步骤O把查询结果告诉",
+            "tail": "主机m.xyz.com"
+        },
+        {
+            "head": "整个的查询",
+            "relation": "使用",
+            "tail": "8个UDP报文"
+        },
+        {
+            "head": "为了提高DNS查询效率",
+            "relation": "并减轻根域名服务器的负荷和减少互联网上的DNS查询报文数量，在域名服务器中广泛地使用了高速缓存（有时也称为高速缓存域名服务器）"
+        }
+    ],
+    [
+        {
+            "head": "缓存",
+            "relation": "存放",
+            "tail": "最近查询过的域名及映射记录"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "向",
+            "tail": "根域名服务器查询IP地址"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "直接获取",
+            "tail": "顶级域名服务器的IP地址"
+        },
+        {
+            "head": "缓存",
+            "relation": "减轻",
+            "tail": "根域名服务器负荷"
+        },
+        {
+            "head": "缓存",
+            "relation": "减少",
+            "tail": "DNS查询请求和回答报文数量"
+        },
+        {
+            "head": "计时器",
+            "relation": "设置于",
+            "tail": "每项内容以保持正确性"
+        }
+    ],
+    [
+        {
+            "head": "域名服务器",
+            "relation": "获取绑定信息",
+            "tail": "名服务器"
+        },
+        {
+            "head": "权限域名服务器",
+            "relation": "回答查询请求",
+            "tail": "响应中指明绑定有效存在时间值"
+        },
+        {
+            "head": "本地域名服务器",
+            "relation": "维护高速缓存",
+            "tail": "最近使用的域名"
+        },
+        {
+            "head": "主机",
+            "relation": "启动时从本CD获取信息",
+            "tail": "本地域名服务器数据库"
+        },
+        {
+            "head": "域名服务器",
+            "relation": "定期检查以获取新映射信息",
+            "tail": "维护本地域名服务器数据库的主机"
+        },
+        {
+            "head": "主机",
+            "relation": "删除无效项",
+            "tail": "缓存中"
+        },
+        {
+            "head": "域名改动",
+            "relation": "不频繁",
+            "tail": "大多数网点"
+        },
+        {
+            "head": "文件传送协议",
+            "relation": "FTP概述",
+            "tail": "互网"
+        }
+    ],
+    [
+        {
+            "head": "FTP",
+            "relation": "是",
+            "tail": "文件传送协议"
+        },
+        {
+            "head": "FTP",
+            "relation": "使用",
+            "tail": "ASCII码"
+        },
+        {
+            "head": "FTP",
+            "relation": "屏蔽",
+            "tail": "计算机系统的细节"
+        },
+        {
+            "head": "FTP",
+            "relation": "适合",
+            "tail": "异构网络中文件传输"
+        },
+        {
+            "head": "FTP",
+            "relation": "在1995年之前",
+            "tail": "通信量占互联网的三分之一"
+        },
+        {
+            "head": "TFTP",
+            "relation": "是",
+            "tail": "简单文件传送协议"
+        },
+        {
+            "head": "TFTP",
+            "relation": "基于",
+            "tail": "UDP"
+        }
+    ],
+    [
+        {
+            "head": "文件共享协议",
+            "relation": "包括",
+            "tail": "on-line access"
+        },
+        {
+            "head": "on-line access",
+            "relation": "意味着",
+            "tail": "允许多个程序同时对一个文件进行存取"
+        },
+        {
+            "head": "操作系统",
+            "relation": "提供服务",
+            "tail": "远地共享文件的透明存取"
+        },
+        {
+            "head": "NFS",
+            "relation": "是",
+            "tail": "Network File System"
+        },
+        {
+            "head": "NFS",
+            "relation": "最初实现于",
+            "tail": "UNIX操作系统环境"
+        },
+        {
+            "head": "NFS",
+            "relation": "使本地计算机共享",
+            "tail": "远地的资源"
+        },
+        {
+            "head": "NFS",
+            "relation": "主要应用在",
+            "tail": "TCP/IP, NetWare等操作系统上运行"
+        }
+    ],
+    [
+        {
+            "head": "NFS",
+            "relation": "成为",
+            "tail": "互连网正式标准"
+        },
+        {
+            "head": "NFSv4",
+            "relation": "发布日期",
+            "tail": "2015年3月"
+        },
+        {
+            "head": "FTP",
+            "relation": "基本工作原理",
+            "tail": "文件复制"
+        },
+        {
+            "head": "计算机",
+            "relation": "存储数据格式",
+            "tail": "不同"
+        },
+        {
+            "head": "文件系统",
+            "relation": "种类",
+            "tail": "数百种"
+        },
+        {
+            "head": "目录结构",
+            "relation": "规定",
+            "tail": "不同"
+        },
+        {
+            "head": "文件命名",
+            "relation": "规定",
+            "tail": "不同"
+        },
+        {
+            "head": "操作系统命令",
+            "relation": "对相同文件存取",
+            "tail": "不同"
+        }
+    ]
+]
