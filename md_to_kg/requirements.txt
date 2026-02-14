@@ -1,0 +1,22 @@
+# PDF到三元组流水线依赖
+# pip install -r requirements.txt
+
+# PDF处理
+PyPDF2>=3.0.0
+
+# Markdown转换 (微软开源工具)
+markitdown>=0.0.1
+
+# 文本分块
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# OpenAI兼容API客户端
+openai>=1.0.0
+
+# Excel读取
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Neo4j图数据库
+py2neo>=2021.1.0
